@@ -89,6 +89,10 @@ HelloWorld::HelloWorld()
     label->setColor(ccc3(0,0,255));
     label->setPosition(ccp( s.width/2, s.height-50));
     
+    mLevelHelperLoader = new LevelHelperLoader("TestLevel.plhs");
+    mLevelHelperLoader->addObjectsToWorld(world, this);
+    mLevelHelperLoader->createPhysicBoundaries(world);
+    
     scheduleUpdate();
 }
 
@@ -96,6 +100,9 @@ HelloWorld::~HelloWorld()
 {
     delete world;
     world = NULL;
+    
+    delete mLevelHelperLoader;
+    mLevelHelperLoader = NULL;
     
     //delete m_debugDraw;
 }
@@ -234,7 +241,8 @@ void HelloWorld::update(float dt)
         if (b->GetUserData() != NULL) {
             //Synchronize the AtlasSprites position and rotation with the corresponding body
             CCSprite* myActor = (CCSprite*)b->GetUserData();
-            myActor->setPosition( CCPointMake( b->GetPosition().x * PTM_RATIO, b->GetPosition().y * PTM_RATIO) );
+            myActor->setPosition(LevelHelperLoader::metersToPoints(b->GetPosition()));
+            //myActor->setPosition( CCPointMake( b->GetPosition().x * PTM_RATIO, b->GetPosition().y * PTM_RATIO) );
             myActor->setRotation( -1 * CC_RADIANS_TO_DEGREES(b->GetAngle()) );
         }    
     }

@@ -297,6 +297,39 @@
 		233867CB17B9E7BE0075F59C /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 233867CA17B9E7BE0075F59C /* AppDelegate.cpp */; };
 		233867CE17B9E7BE0075F59C /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 233867CD17B9E7BE0075F59C /* HelloWorldScene.cpp */; };
 		233867D017B9E7BE0075F59C /* blocks.png in Resources */ = {isa = PBXBuildFile; fileRef = 233867CF17B9E7BE0075F59C /* blocks.png */; };
+		2338680C17BA16260075F59C /* TemporaryDummyClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 233867DA17BA16260075F59C /* TemporaryDummyClass.cpp */; };
+		2338680D17BA16260075F59C /* LevelHelperLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 233867DC17BA16260075F59C /* LevelHelperLoader.cpp */; };
+		2338680E17BA16260075F59C /* LICENSE_LevelHelper.txt in Resources */ = {isa = PBXBuildFile; fileRef = 233867DF17BA16260075F59C /* LICENSE_LevelHelper.txt */; };
+		2338680F17BA16260075F59C /* LHAnimationNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 233867E117BA16260075F59C /* LHAnimationNode.cpp */; };
+		2338681017BA16270075F59C /* LHBatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 233867E317BA16260075F59C /* LHBatch.cpp */; };
+		2338681117BA16270075F59C /* LHBezier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 233867E517BA16260075F59C /* LHBezier.cpp */; };
+		2338681217BA16270075F59C /* LHContactInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 233867E717BA16260075F59C /* LHContactInfo.cpp */; };
+		2338681317BA16270075F59C /* LHContactListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 233867E917BA16260075F59C /* LHContactListener.cpp */; };
+		2338681417BA16270075F59C /* LHContactNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 233867EB17BA16260075F59C /* LHContactNode.cpp */; };
+		2338681517BA16270075F59C /* LHCustomSpriteMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 233867ED17BA16260075F59C /* LHCustomSpriteMgr.cpp */; };
+		2338681617BA16270075F59C /* LHCuttingEngineMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 233867EF17BA16260075F59C /* LHCuttingEngineMgr.cpp */; };
+		2338681717BA16270075F59C /* LHFixture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 233867F117BA16260075F59C /* LHFixture.cpp */; };
+		2338681817BA16270075F59C /* LHJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 233867F317BA16260075F59C /* LHJoint.cpp */; };
+		2338681917BA16270075F59C /* LHLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 233867F517BA16260075F59C /* LHLayer.cpp */; };
+		2338681A17BA16270075F59C /* LHNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 233867F717BA16260075F59C /* LHNode.cpp */; };
+		2338681B17BA16270075F59C /* LHParallaxNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 233867F917BA16260075F59C /* LHParallaxNode.cpp */; };
+		2338681C17BA16270075F59C /* LHPathNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 233867FB17BA16260075F59C /* LHPathNode.cpp */; };
+		2338681D17BA16270075F59C /* LHSettings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 233867FD17BA16260075F59C /* LHSettings.cpp */; };
+		2338681E17BA16270075F59C /* LHSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 233867FF17BA16260075F59C /* LHSprite.cpp */; };
+		2338681F17BA16270075F59C /* LHTouchMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2338680117BA16260075F59C /* LHTouchMgr.cpp */; };
+		2338682017BA16270075F59C /* SHDocumentLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2338680317BA16260075F59C /* SHDocumentLoader.cpp */; };
+		2338682117BA16270075F59C /* LHArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2338680617BA16260075F59C /* LHArray.cpp */; };
+		2338682217BA16270075F59C /* LHDictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2338680817BA16260075F59C /* LHDictionary.cpp */; };
+		2338682317BA16270075F59C /* LHObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2338680A17BA16260075F59C /* LHObject.cpp */; };
+		233868EB17BA1BFF0075F59C /* TestData_Miu_base.png in Resources */ = {isa = PBXBuildFile; fileRef = 2338682717BA1BFF0075F59C /* TestData_Miu_base.png */; };
+		233868EC17BA1BFF0075F59C /* TestData_Miu_UntitledSheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 2338682817BA1BFF0075F59C /* TestData_Miu_UntitledSheet.png */; };
+		233868ED17BA1BFF0075F59C /* TestData_Miu_base.png in Resources */ = {isa = PBXBuildFile; fileRef = 2338682A17BA1BFF0075F59C /* TestData_Miu_base.png */; };
+		233868EE17BA1BFF0075F59C /* TestData_Miu_UntitledSheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 2338682B17BA1BFF0075F59C /* TestData_Miu_UntitledSheet.png */; };
+		233868EF17BA1BFF0075F59C /* MultiCharacterRush.lhproject in Resources */ = {isa = PBXBuildFile; fileRef = 2338682C17BA1BFF0075F59C /* MultiCharacterRush.lhproject */; };
+		233868F017BA1BFF0075F59C /* TestData_Miu_base.png in Resources */ = {isa = PBXBuildFile; fileRef = 2338682E17BA1BFF0075F59C /* TestData_Miu_base.png */; };
+		233868F117BA1BFF0075F59C /* TestData_Miu_UntitledSheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 2338682F17BA1BFF0075F59C /* TestData_Miu_UntitledSheet.png */; };
+		233868F217BA1BFF0075F59C /* TestData_Miu.pshs in Resources */ = {isa = PBXBuildFile; fileRef = 2338683017BA1BFF0075F59C /* TestData_Miu.pshs */; };
+		233868F317BA1BFF0075F59C /* TestLevel.plhs in Resources */ = {isa = PBXBuildFile; fileRef = 2338683117BA1BFF0075F59C /* TestLevel.plhs */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -923,6 +956,65 @@
 		233867CC17B9E7BE0075F59C /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
 		233867CD17B9E7BE0075F59C /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
 		233867CF17B9E7BE0075F59C /* blocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blocks.png; path = Resources/blocks.png; sourceTree = "<group>"; };
+		233867D817BA16260075F59C /* LHAbstractClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHAbstractClass.h; sourceTree = "<group>"; };
+		233867D917BA16260075F59C /* LHCustomClasses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHCustomClasses.h; sourceTree = "<group>"; };
+		233867DA17BA16260075F59C /* TemporaryDummyClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TemporaryDummyClass.cpp; sourceTree = "<group>"; };
+		233867DB17BA16260075F59C /* TemporaryDummyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemporaryDummyClass.h; sourceTree = "<group>"; };
+		233867DC17BA16260075F59C /* LevelHelperLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LevelHelperLoader.cpp; sourceTree = "<group>"; };
+		233867DD17BA16260075F59C /* LevelHelperLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelHelperLoader.h; sourceTree = "<group>"; };
+		233867DE17BA16260075F59C /* lhConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lhConfig.h; sourceTree = "<group>"; };
+		233867DF17BA16260075F59C /* LICENSE_LevelHelper.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE_LevelHelper.txt; sourceTree = "<group>"; };
+		233867E117BA16260075F59C /* LHAnimationNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LHAnimationNode.cpp; sourceTree = "<group>"; };
+		233867E217BA16260075F59C /* LHAnimationNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHAnimationNode.h; sourceTree = "<group>"; };
+		233867E317BA16260075F59C /* LHBatch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LHBatch.cpp; sourceTree = "<group>"; };
+		233867E417BA16260075F59C /* LHBatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHBatch.h; sourceTree = "<group>"; };
+		233867E517BA16260075F59C /* LHBezier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LHBezier.cpp; sourceTree = "<group>"; };
+		233867E617BA16260075F59C /* LHBezier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHBezier.h; sourceTree = "<group>"; };
+		233867E717BA16260075F59C /* LHContactInfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LHContactInfo.cpp; sourceTree = "<group>"; };
+		233867E817BA16260075F59C /* LHContactInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHContactInfo.h; sourceTree = "<group>"; };
+		233867E917BA16260075F59C /* LHContactListener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LHContactListener.cpp; sourceTree = "<group>"; };
+		233867EA17BA16260075F59C /* LHContactListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHContactListener.h; sourceTree = "<group>"; };
+		233867EB17BA16260075F59C /* LHContactNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LHContactNode.cpp; sourceTree = "<group>"; };
+		233867EC17BA16260075F59C /* LHContactNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHContactNode.h; sourceTree = "<group>"; };
+		233867ED17BA16260075F59C /* LHCustomSpriteMgr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LHCustomSpriteMgr.cpp; sourceTree = "<group>"; };
+		233867EE17BA16260075F59C /* LHCustomSpriteMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHCustomSpriteMgr.h; sourceTree = "<group>"; };
+		233867EF17BA16260075F59C /* LHCuttingEngineMgr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LHCuttingEngineMgr.cpp; sourceTree = "<group>"; };
+		233867F017BA16260075F59C /* LHCuttingEngineMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHCuttingEngineMgr.h; sourceTree = "<group>"; };
+		233867F117BA16260075F59C /* LHFixture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LHFixture.cpp; sourceTree = "<group>"; };
+		233867F217BA16260075F59C /* LHFixture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHFixture.h; sourceTree = "<group>"; };
+		233867F317BA16260075F59C /* LHJoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LHJoint.cpp; sourceTree = "<group>"; };
+		233867F417BA16260075F59C /* LHJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHJoint.h; sourceTree = "<group>"; };
+		233867F517BA16260075F59C /* LHLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LHLayer.cpp; sourceTree = "<group>"; };
+		233867F617BA16260075F59C /* LHLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHLayer.h; sourceTree = "<group>"; };
+		233867F717BA16260075F59C /* LHNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LHNode.cpp; sourceTree = "<group>"; };
+		233867F817BA16260075F59C /* LHNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHNode.h; sourceTree = "<group>"; };
+		233867F917BA16260075F59C /* LHParallaxNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LHParallaxNode.cpp; sourceTree = "<group>"; };
+		233867FA17BA16260075F59C /* LHParallaxNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHParallaxNode.h; sourceTree = "<group>"; };
+		233867FB17BA16260075F59C /* LHPathNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LHPathNode.cpp; sourceTree = "<group>"; };
+		233867FC17BA16260075F59C /* LHPathNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHPathNode.h; sourceTree = "<group>"; };
+		233867FD17BA16260075F59C /* LHSettings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LHSettings.cpp; sourceTree = "<group>"; };
+		233867FE17BA16260075F59C /* LHSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHSettings.h; sourceTree = "<group>"; };
+		233867FF17BA16260075F59C /* LHSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LHSprite.cpp; sourceTree = "<group>"; };
+		2338680017BA16260075F59C /* LHSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHSprite.h; sourceTree = "<group>"; };
+		2338680117BA16260075F59C /* LHTouchMgr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LHTouchMgr.cpp; sourceTree = "<group>"; };
+		2338680217BA16260075F59C /* LHTouchMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHTouchMgr.h; sourceTree = "<group>"; };
+		2338680317BA16260075F59C /* SHDocumentLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SHDocumentLoader.cpp; sourceTree = "<group>"; };
+		2338680417BA16260075F59C /* SHDocumentLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHDocumentLoader.h; sourceTree = "<group>"; };
+		2338680617BA16260075F59C /* LHArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LHArray.cpp; sourceTree = "<group>"; };
+		2338680717BA16260075F59C /* LHArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHArray.h; sourceTree = "<group>"; };
+		2338680817BA16260075F59C /* LHDictionary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LHDictionary.cpp; sourceTree = "<group>"; };
+		2338680917BA16260075F59C /* LHDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHDictionary.h; sourceTree = "<group>"; };
+		2338680A17BA16260075F59C /* LHObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LHObject.cpp; sourceTree = "<group>"; };
+		2338680B17BA16260075F59C /* LHObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHObject.h; sourceTree = "<group>"; };
+		2338682717BA1BFF0075F59C /* TestData_Miu_base.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TestData_Miu_base.png; sourceTree = "<group>"; };
+		2338682817BA1BFF0075F59C /* TestData_Miu_UntitledSheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TestData_Miu_UntitledSheet.png; sourceTree = "<group>"; };
+		2338682A17BA1BFF0075F59C /* TestData_Miu_base.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TestData_Miu_base.png; sourceTree = "<group>"; };
+		2338682B17BA1BFF0075F59C /* TestData_Miu_UntitledSheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TestData_Miu_UntitledSheet.png; sourceTree = "<group>"; };
+		2338682C17BA1BFF0075F59C /* MultiCharacterRush.lhproject */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = MultiCharacterRush.lhproject; sourceTree = "<group>"; };
+		2338682E17BA1BFF0075F59C /* TestData_Miu_base.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TestData_Miu_base.png; sourceTree = "<group>"; };
+		2338682F17BA1BFF0075F59C /* TestData_Miu_UntitledSheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TestData_Miu_UntitledSheet.png; sourceTree = "<group>"; };
+		2338683017BA1BFF0075F59C /* TestData_Miu.pshs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TestData_Miu.pshs; sourceTree = "<group>"; };
+		2338683117BA1BFF0075F59C /* TestLevel.plhs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TestLevel.plhs; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -994,6 +1086,7 @@
 		2338640617B9E7B70075F59C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2338682417BA1BFF0075F59C /* GameData */,
 				2338640717B9E7B70075F59C /* CloseNormal.png */,
 				2338640917B9E7B70075F59C /* CloseSelected.png */,
 				2338640B17B9E7B70075F59C /* Default.png */,
@@ -1026,6 +1119,7 @@
 		2338642717B9E7B80075F59C /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				233867D617BA16260075F59C /* LevelHelper */,
 				2338642817B9E7B80075F59C /* cocos2dx */,
 				2338661817B9E7BB0075F59C /* CocosDenshion */,
 				2338663017B9E7BB0075F59C /* extensions */,
@@ -2200,6 +2294,137 @@
 			name = Classes;
 			sourceTree = "<group>";
 		};
+		233867D617BA16260075F59C /* LevelHelper */ = {
+			isa = PBXGroup;
+			children = (
+				233867D717BA16260075F59C /* CustomClasses */,
+				233867DC17BA16260075F59C /* LevelHelperLoader.cpp */,
+				233867DD17BA16260075F59C /* LevelHelperLoader.h */,
+				233867DE17BA16260075F59C /* lhConfig.h */,
+				233867DF17BA16260075F59C /* LICENSE_LevelHelper.txt */,
+				233867E017BA16260075F59C /* Nodes */,
+				2338680517BA16260075F59C /* Utilities */,
+			);
+			name = LevelHelper;
+			path = libs/LevelHelper;
+			sourceTree = "<group>";
+		};
+		233867D717BA16260075F59C /* CustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+				233867D817BA16260075F59C /* LHAbstractClass.h */,
+				233867D917BA16260075F59C /* LHCustomClasses.h */,
+				233867DA17BA16260075F59C /* TemporaryDummyClass.cpp */,
+				233867DB17BA16260075F59C /* TemporaryDummyClass.h */,
+			);
+			path = CustomClasses;
+			sourceTree = "<group>";
+		};
+		233867E017BA16260075F59C /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				233867E117BA16260075F59C /* LHAnimationNode.cpp */,
+				233867E217BA16260075F59C /* LHAnimationNode.h */,
+				233867E317BA16260075F59C /* LHBatch.cpp */,
+				233867E417BA16260075F59C /* LHBatch.h */,
+				233867E517BA16260075F59C /* LHBezier.cpp */,
+				233867E617BA16260075F59C /* LHBezier.h */,
+				233867E717BA16260075F59C /* LHContactInfo.cpp */,
+				233867E817BA16260075F59C /* LHContactInfo.h */,
+				233867E917BA16260075F59C /* LHContactListener.cpp */,
+				233867EA17BA16260075F59C /* LHContactListener.h */,
+				233867EB17BA16260075F59C /* LHContactNode.cpp */,
+				233867EC17BA16260075F59C /* LHContactNode.h */,
+				233867ED17BA16260075F59C /* LHCustomSpriteMgr.cpp */,
+				233867EE17BA16260075F59C /* LHCustomSpriteMgr.h */,
+				233867EF17BA16260075F59C /* LHCuttingEngineMgr.cpp */,
+				233867F017BA16260075F59C /* LHCuttingEngineMgr.h */,
+				233867F117BA16260075F59C /* LHFixture.cpp */,
+				233867F217BA16260075F59C /* LHFixture.h */,
+				233867F317BA16260075F59C /* LHJoint.cpp */,
+				233867F417BA16260075F59C /* LHJoint.h */,
+				233867F517BA16260075F59C /* LHLayer.cpp */,
+				233867F617BA16260075F59C /* LHLayer.h */,
+				233867F717BA16260075F59C /* LHNode.cpp */,
+				233867F817BA16260075F59C /* LHNode.h */,
+				233867F917BA16260075F59C /* LHParallaxNode.cpp */,
+				233867FA17BA16260075F59C /* LHParallaxNode.h */,
+				233867FB17BA16260075F59C /* LHPathNode.cpp */,
+				233867FC17BA16260075F59C /* LHPathNode.h */,
+				233867FD17BA16260075F59C /* LHSettings.cpp */,
+				233867FE17BA16260075F59C /* LHSettings.h */,
+				233867FF17BA16260075F59C /* LHSprite.cpp */,
+				2338680017BA16260075F59C /* LHSprite.h */,
+				2338680117BA16260075F59C /* LHTouchMgr.cpp */,
+				2338680217BA16260075F59C /* LHTouchMgr.h */,
+				2338680317BA16260075F59C /* SHDocumentLoader.cpp */,
+				2338680417BA16260075F59C /* SHDocumentLoader.h */,
+			);
+			path = Nodes;
+			sourceTree = "<group>";
+		};
+		2338680517BA16260075F59C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				2338680617BA16260075F59C /* LHArray.cpp */,
+				2338680717BA16260075F59C /* LHArray.h */,
+				2338680817BA16260075F59C /* LHDictionary.cpp */,
+				2338680917BA16260075F59C /* LHDictionary.h */,
+				2338680A17BA16260075F59C /* LHObject.cpp */,
+				2338680B17BA16260075F59C /* LHObject.h */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		2338682417BA1BFF0075F59C /* GameData */ = {
+			isa = PBXGroup;
+			children = (
+				2338682517BA1BFF0075F59C /* Cooked */,
+			);
+			name = GameData;
+			path = Resources/GameData;
+			sourceTree = "<group>";
+		};
+		2338682517BA1BFF0075F59C /* Cooked */ = {
+			isa = PBXGroup;
+			children = (
+				2338682617BA1BFF0075F59C /* hd */,
+				2338682917BA1BFF0075F59C /* ipadhd */,
+				2338682C17BA1BFF0075F59C /* MultiCharacterRush.lhproject */,
+				2338682D17BA1BFF0075F59C /* sd */,
+				2338683017BA1BFF0075F59C /* TestData_Miu.pshs */,
+				2338683117BA1BFF0075F59C /* TestLevel.plhs */,
+			);
+			path = Cooked;
+			sourceTree = "<group>";
+		};
+		2338682617BA1BFF0075F59C /* hd */ = {
+			isa = PBXGroup;
+			children = (
+				2338682717BA1BFF0075F59C /* TestData_Miu_base.png */,
+				2338682817BA1BFF0075F59C /* TestData_Miu_UntitledSheet.png */,
+			);
+			path = hd;
+			sourceTree = "<group>";
+		};
+		2338682917BA1BFF0075F59C /* ipadhd */ = {
+			isa = PBXGroup;
+			children = (
+				2338682A17BA1BFF0075F59C /* TestData_Miu_base.png */,
+				2338682B17BA1BFF0075F59C /* TestData_Miu_UntitledSheet.png */,
+			);
+			path = ipadhd;
+			sourceTree = "<group>";
+		};
+		2338682D17BA1BFF0075F59C /* sd */ = {
+			isa = PBXGroup;
+			children = (
+				2338682E17BA1BFF0075F59C /* TestData_Miu_base.png */,
+				2338682F17BA1BFF0075F59C /* TestData_Miu_UntitledSheet.png */,
+			);
+			path = sd;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2264,6 +2489,16 @@
 				233864BB17B9E7B80075F59C /* ChangeLog in Resources */,
 				2338662F17B9E7BB0075F59C /* project.pbxproj in Resources */,
 				233867D017B9E7BE0075F59C /* blocks.png in Resources */,
+				2338680E17BA16260075F59C /* LICENSE_LevelHelper.txt in Resources */,
+				233868EB17BA1BFF0075F59C /* TestData_Miu_base.png in Resources */,
+				233868EC17BA1BFF0075F59C /* TestData_Miu_UntitledSheet.png in Resources */,
+				233868ED17BA1BFF0075F59C /* TestData_Miu_base.png in Resources */,
+				233868EE17BA1BFF0075F59C /* TestData_Miu_UntitledSheet.png in Resources */,
+				233868EF17BA1BFF0075F59C /* MultiCharacterRush.lhproject in Resources */,
+				233868F017BA1BFF0075F59C /* TestData_Miu_base.png in Resources */,
+				233868F117BA1BFF0075F59C /* TestData_Miu_UntitledSheet.png in Resources */,
+				233868F217BA1BFF0075F59C /* TestData_Miu.pshs in Resources */,
+				233868F317BA1BFF0075F59C /* TestLevel.plhs in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2539,6 +2774,29 @@
 				233867BD17B9E7BE0075F59C /* b2Rope.cpp in Sources */,
 				233867CB17B9E7BE0075F59C /* AppDelegate.cpp in Sources */,
 				233867CE17B9E7BE0075F59C /* HelloWorldScene.cpp in Sources */,
+				2338680C17BA16260075F59C /* TemporaryDummyClass.cpp in Sources */,
+				2338680D17BA16260075F59C /* LevelHelperLoader.cpp in Sources */,
+				2338680F17BA16260075F59C /* LHAnimationNode.cpp in Sources */,
+				2338681017BA16270075F59C /* LHBatch.cpp in Sources */,
+				2338681117BA16270075F59C /* LHBezier.cpp in Sources */,
+				2338681217BA16270075F59C /* LHContactInfo.cpp in Sources */,
+				2338681317BA16270075F59C /* LHContactListener.cpp in Sources */,
+				2338681417BA16270075F59C /* LHContactNode.cpp in Sources */,
+				2338681517BA16270075F59C /* LHCustomSpriteMgr.cpp in Sources */,
+				2338681617BA16270075F59C /* LHCuttingEngineMgr.cpp in Sources */,
+				2338681717BA16270075F59C /* LHFixture.cpp in Sources */,
+				2338681817BA16270075F59C /* LHJoint.cpp in Sources */,
+				2338681917BA16270075F59C /* LHLayer.cpp in Sources */,
+				2338681A17BA16270075F59C /* LHNode.cpp in Sources */,
+				2338681B17BA16270075F59C /* LHParallaxNode.cpp in Sources */,
+				2338681C17BA16270075F59C /* LHPathNode.cpp in Sources */,
+				2338681D17BA16270075F59C /* LHSettings.cpp in Sources */,
+				2338681E17BA16270075F59C /* LHSprite.cpp in Sources */,
+				2338681F17BA16270075F59C /* LHTouchMgr.cpp in Sources */,
+				2338682017BA16270075F59C /* SHDocumentLoader.cpp in Sources */,
+				2338682117BA16270075F59C /* LHArray.cpp in Sources */,
+				2338682217BA16270075F59C /* LHDictionary.cpp in Sources */,
+				2338682317BA16270075F59C /* LHObject.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2633,6 +2891,7 @@
 					"-websockets",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "\"MultiCharacterRush/libs\"";
 				WRAPPER_EXTENSION = app;
 			};
@@ -2659,6 +2918,7 @@
 					"-websockets",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "\"MultiCharacterRush/libs\"";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;

@@ -11,6 +11,7 @@
 // When you import this file, you import all the cocos2d classes
 #include "cocos2d.h"
 #include "Box2D.h"
+#include "LevelHelperLoader.h"
 
 class PhysicsSprite : public cocos2d::CCSprite
 {
@@ -38,6 +39,8 @@ public:
     virtual void draw();
     virtual void ccTouchesEnded(cocos2d::CCSet* touches, cocos2d::CCEvent* event);
     void update(float dt);
+    
+    LevelHelperLoader* mLevelHelperLoader;
     
 private:
     b2World* world;
