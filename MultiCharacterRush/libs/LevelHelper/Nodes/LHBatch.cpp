@@ -88,6 +88,7 @@ bool LHBatch::initWithDictionary(LHDictionary* dictionary,  LHLayer* layer){
     if(!initWithFile(imgPath.c_str(), 29))
         return false;
     
+    CCLog(imgPath.c_str());
     
     uniqueName = dictionary->stringForKey("UniqueName");
 

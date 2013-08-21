@@ -7,6 +7,7 @@
 //
 #include "HelloWorldScene.h"
 #include "SimpleAudioEngine.h"
+#include "GLES-Render.h"
 
 using namespace cocos2d;
 using namespace CocosDenshion;
@@ -81,17 +82,32 @@ HelloWorld::HelloWorld()
 
     addChild(parent, 0, kTagParentNode);
 
-
     addNewSpriteAtPosition(ccp(s.width/2, s.height/2));
 
-    CCLabelTTF *label = CCLabelTTF::create("Tap screen", "Marker Felt", 32);
-    addChild(label, 0);
-    label->setColor(ccc3(0,0,255));
-    label->setPosition(ccp( s.width/2, s.height-50));
+//    CCLabelTTF *label = CCLabelTTF::create("Tap screen", "Marker Felt", 32);
+//    addChild(label, 0);
     
-    mLevelHelperLoader = new LevelHelperLoader("TestLevel.plhs");
+//    label->setColor(ccc3(0,0,255));
+//    label->setPosition(ccp( s.width/2, s.height-50));
+    
+    mLevelHelperLoader = new LevelHelperLoader("./GameData/Cooked/TestLevel.plhs");
     mLevelHelperLoader->addObjectsToWorld(world, this);
     mLevelHelperLoader->createPhysicBoundaries(world);
+    
+//    cs::ArmatureDataManager::sharedArmatureDataManager()->addArmatureFileInfo("Armature/Dragon.png", "Armature/Dragon.plist", "Armature/Dragon.xml");
+//    
+//    cs::Armature *armature = cs::Armature::create("Dragon");
+//	armature->getAnimation()->playByIndex(1);
+//	armature->getAnimation()->setAnimationScale(0.1f);
+//	armature->setPosition(s.width/2,0);
+//	addChild(armature);
+    
+    CCArray* grounds = mLevelHelperLoader->spritesWithTag(ENV_GROUND);
+    for (int i=0; i<grounds->count(); ++i)
+    {
+        LHSprite* sprite = (LHSprite*)grounds->objectAtIndex(i);
+        sprite->getBody()->SetLinearVelocity(b2Vec2(-2,0));
+    }
     
     scheduleUpdate();
 }
@@ -104,7 +120,7 @@ HelloWorld::~HelloWorld()
     delete mLevelHelperLoader;
     mLevelHelperLoader = NULL;
     
-    //delete m_debugDraw;
+    delete m_debugDraw;
 }
 
 void HelloWorld::initPhysics()
@@ -121,16 +137,16 @@ void HelloWorld::initPhysics()
 
     world->SetContinuousPhysics(true);
 
-//     m_debugDraw = new GLESDebugDraw( PTM_RATIO );
-//     world->SetDebugDraw(m_debugDraw);
+    m_debugDraw = new GLESDebugDraw( LevelHelperLoader::pointsToMeterRatio() );
+    world->SetDebugDraw(m_debugDraw);
 
     uint32 flags = 0;
     flags += b2Draw::e_shapeBit;
-    //        flags += b2Draw::e_jointBit;
-    //        flags += b2Draw::e_aabbBit;
-    //        flags += b2Draw::e_pairBit;
-    //        flags += b2Draw::e_centerOfMassBit;
-    //m_debugDraw->SetFlags(flags);
+    flags += b2Draw::e_jointBit;
+    flags += b2Draw::e_aabbBit;
+    flags += b2Draw::e_pairBit;
+    flags += b2Draw::e_centerOfMassBit;
+    m_debugDraw->SetFlags(flags);
 
 
     // Define the ground body.
@@ -231,6 +247,7 @@ void HelloWorld::update(float dt)
     int velocityIterations = 8;
     int positionIterations = 1;
     
+    
     // Instruct the world to perform a single step of simulation. It is
     // generally best to keep the time step and iterations fixed.
     world->Step(dt, velocityIterations, positionIterations);
@@ -246,6 +263,12 @@ void HelloWorld::update(float dt)
             myActor->setRotation( -1 * CC_RADIANS_TO_DEGREES(b->GetAngle()) );
         }    
     }
+}
+
+void HelloWorld::ccTouchesBegan(cocos2d::CCSet *pTouches, cocos2d::CCEvent *pEvent)
+{
+    LHSprite* sprite = mLevelHelperLoader->spriteWithUniqueName("player");
+    sprite->getBody()->SetLinearVelocity(b2Vec2(0,5));
 }
 
 void HelloWorld::ccTouchesEnded(CCSet* touches, CCEvent* event)

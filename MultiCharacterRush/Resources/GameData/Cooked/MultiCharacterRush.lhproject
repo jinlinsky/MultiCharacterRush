@@ -81,6 +81,9 @@
 	AIDwAABUAgAAAAAAAA==
 	</data>
 	<key>Tags</key>
-	<array/>
+	<array>
+		<string>DEFAULT</string>
+		<string>ENV_GROUND</string>
+	</array>
 </dict>
 </plist>

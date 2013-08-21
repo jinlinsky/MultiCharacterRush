@@ -12,6 +12,8 @@
 #include "cocos2d.h"
 #include "Box2D.h"
 #include "LevelHelperLoader.h"
+#include "CSArmature.h"
+#include "CSArmatureDataManager.h"
 
 class PhysicsSprite : public cocos2d::CCSprite
 {
@@ -37,6 +39,7 @@ public:
     void addNewSpriteAtPosition(cocos2d::CCPoint p);
 
     virtual void draw();
+    virtual void ccTouchesBegan(cocos2d::CCSet *pTouches, cocos2d::CCEvent *pEvent);
     virtual void ccTouchesEnded(cocos2d::CCSet* touches, cocos2d::CCEvent* event);
     void update(float dt);
     
@@ -45,6 +48,7 @@ public:
 private:
     b2World* world;
     cocos2d::CCTexture2D* m_pSpriteTexture; // weak ref
+    b2Draw* m_debugDraw;
 };
 
 #endif // __HELLO_WORLD_H__

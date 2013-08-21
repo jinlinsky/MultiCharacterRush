@@ -66,7 +66,8 @@ using namespace cocos2d;
 enum LevelHelper_TAG 
 { 
 	DEFAULT_TAG 	= 0,
-	NUMBER_OF_TAGS 	= 1
+	ENV_GROUND 			= 1,
+	NUMBER_OF_TAGS 	= 2
 };
 
 std::string stringFromInt(const int& i);
