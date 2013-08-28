@@ -83,7 +83,11 @@
 	<key>Tags</key>
 	<array>
 		<string>DEFAULT</string>
-		<string>ENV_GROUND</string>
+		<string>TAG_ENV_GROUND</string>
+		<string>TAG_PLAYER_01</string>
+		<string>TAG_PLAYER_02</string>
+		<string>TAG_CAMERA</string>
+		<string>TAG_MAP_MARKER</string>
 	</array>
 </dict>
 </plist>

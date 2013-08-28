@@ -15,6 +15,13 @@
 #include "CSArmature.h"
 #include "CSArmatureDataManager.h"
 
+enum PlayerState
+{
+    PS_RUN = 0,
+    PS_JUMP = 1,
+    PS_LAND = 2,
+};
+
 class PhysicsSprite : public cocos2d::CCSprite
 {
 public:
@@ -35,15 +42,42 @@ public:
     static cocos2d::CCScene* scene();
     
     void initPhysics();
-    // adds a new sprite at a given coordinate
-    void addNewSpriteAtPosition(cocos2d::CCPoint p);
 
     virtual void draw();
-    virtual void ccTouchesBegan(cocos2d::CCSet *pTouches, cocos2d::CCEvent *pEvent);
-    virtual void ccTouchesEnded(cocos2d::CCSet* touches, cocos2d::CCEvent* event);
     void update(float dt);
     
+    virtual void ccTouchesBegan(cocos2d::CCSet *pTouches, cocos2d::CCEvent *pEvent);
+    virtual void ccTouchesEnded(cocos2d::CCSet* touches, cocos2d::CCEvent* event);
+    
+    void beginOrEndCollisionBetweenMarioAndCoin(LHContactInfo* contact);
+    void beginOrEndCollisionBetweenCameraAndMarke(LHContactInfo* contact);
+    
+    void AnimationEndedNotification(LHSprite* sprite);
+    
+    void updateCamera(CCCamera* camera);
+    //void updateBG();
+    void requestNextScreenMap(float startX);
+    void generateNextScreenMap(float startX);
+    
+    void player01Run();
+    void player01Jump();
+    void player01Land();
+    
+    void player02Run();
+    void player02Jump();
+    
     LevelHelperLoader* mLevelHelperLoader;
+    
+    // player01
+    int mPlayer01State;
+    b2Vec2 mOriginalPosition;
+    
+    // camera
+    LHSprite* mSpriteCamera;
+    
+    // map
+    bool mIsRequestNextScreenMap;
+    float mNextScreenMapStartX;
     
 private:
     b2World* world;

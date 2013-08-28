@@ -66,8 +66,12 @@ using namespace cocos2d;
 enum LevelHelper_TAG 
 { 
 	DEFAULT_TAG 	= 0,
-	ENV_GROUND 			= 1,
-	NUMBER_OF_TAGS 	= 2
+	TAG_ENV_GROUND 			= 1,
+	TAG_PLAYER_01 			= 2,
+	TAG_PLAYER_02 			= 3,
+	TAG_CAMERA 			= 4,
+	TAG_MAP_MARKER 			= 5,
+	NUMBER_OF_TAGS 	= 6
 };
 
 std::string stringFromInt(const int& i);

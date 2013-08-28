@@ -8,11 +8,24 @@
 #include "HelloWorldScene.h"
 #include "SimpleAudioEngine.h"
 #include "GLES-Render.h"
+#include "CCNotificationCenter.h"
 
 using namespace cocos2d;
 using namespace CocosDenshion;
 
 #define PTM_RATIO 32
+
+#define JUMP_VELOCITY 10
+#define RUN_VELOCITY 5
+
+#define WIN_SIZE_W \
+CCDirector::sharedDirector()->getWinSize().width
+
+#define WIN_SIZE_H \
+CCDirector::sharedDirector()->getWinSize().height
+
+#define WIN_SIZE \ 
+CCDirector::sharedDirector()->getWinSize()
 
 enum {
     kTagParentNode = 1,
@@ -81,18 +94,34 @@ HelloWorld::HelloWorld()
     m_pSpriteTexture = parent->getTexture();
 
     addChild(parent, 0, kTagParentNode);
-
-    addNewSpriteAtPosition(ccp(s.width/2, s.height/2));
-
-//    CCLabelTTF *label = CCLabelTTF::create("Tap screen", "Marker Felt", 32);
-//    addChild(label, 0);
     
-//    label->setColor(ccc3(0,0,255));
-//    label->setPosition(ccp( s.width/2, s.height-50));
-    
-    mLevelHelperLoader = new LevelHelperLoader("./GameData/Cooked/TestLevel.plhs");
+    mLevelHelperLoader = new LevelHelperLoader("TestLevel.plhs");
     mLevelHelperLoader->addObjectsToWorld(world, this);
     mLevelHelperLoader->createPhysicBoundaries(world);
+    mLevelHelperLoader->useLevelHelperCollisionHandling();
+    
+    mSpriteCamera = mLevelHelperLoader->spriteWithUniqueName("camera");
+    
+    player01Run();
+    
+    mOriginalPosition = mLevelHelperLoader->spriteWithUniqueName("player")->getBody()->GetPosition();
+    
+    ::CCNotificationCenter::sharedNotificationCenter()->addObserver(this,
+                                                           callfuncO_selector(HelloWorld::AnimationEndedNotification),
+                                                           LHAnimationHasEndedNotification,
+                                                           NULL);
+    
+    
+    mLevelHelperLoader->registerBeginOrEndCollisionCallbackBetweenTagA(TAG_PLAYER_01, TAG_ENV_GROUND, this, callfuncO_selector(HelloWorld::beginOrEndCollisionBetweenMarioAndCoin));
+    mLevelHelperLoader->registerBeginOrEndCollisionCallbackBetweenTagA(TAG_CAMERA, TAG_MAP_MARKER, this, callfuncO_selector(HelloWorld::beginOrEndCollisionBetweenCameraAndMarke));
+    
+//    CCArray* grounds = mLevelHelperLoader->spritesWithTag(TAG_ENV_GROUND);
+//    for (int i=0; i<grounds->count(); ++i)
+//    {
+//        LHSprite* sprite = (LHSprite*)grounds->objectAtIndex(i);
+//        sprite->getBody()->SetLinearVelocity(b2Vec2(-2,0));
+//    }
+
     
 //    cs::ArmatureDataManager::sharedArmatureDataManager()->addArmatureFileInfo("Armature/Dragon.png", "Armature/Dragon.plist", "Armature/Dragon.xml");
 //    
@@ -102,18 +131,16 @@ HelloWorld::HelloWorld()
 //	armature->setPosition(s.width/2,0);
 //	addChild(armature);
     
-    CCArray* grounds = mLevelHelperLoader->spritesWithTag(ENV_GROUND);
-    for (int i=0; i<grounds->count(); ++i)
-    {
-        LHSprite* sprite = (LHSprite*)grounds->objectAtIndex(i);
-        sprite->getBody()->SetLinearVelocity(b2Vec2(-2,0));
-    }
+    generateNextScreenMap(0);
     
     scheduleUpdate();
 }
 
 HelloWorld::~HelloWorld()
 {
+    mLevelHelperLoader->cancelBeginOrEndCollisionCallbackBetweenTagA(TAG_PLAYER_01, TAG_ENV_GROUND);
+    mLevelHelperLoader->cancelBeginOrEndCollisionCallbackBetweenTagA(TAG_CAMERA, TAG_MAP_MARKER);
+    
     delete world;
     world = NULL;
     
@@ -125,11 +152,10 @@ HelloWorld::~HelloWorld()
 
 void HelloWorld::initPhysics()
 {
-
     CCSize s = CCDirector::sharedDirector()->getWinSize();
 
     b2Vec2 gravity;
-    gravity.Set(0.0f, -10.0f);
+    gravity.Set(0.0f, -15.0f);
     world = new b2World(gravity);
 
     // Do we want to let bodies sleep?
@@ -147,36 +173,6 @@ void HelloWorld::initPhysics()
     flags += b2Draw::e_pairBit;
     flags += b2Draw::e_centerOfMassBit;
     m_debugDraw->SetFlags(flags);
-
-
-    // Define the ground body.
-    b2BodyDef groundBodyDef;
-    groundBodyDef.position.Set(0, 0); // bottom-left corner
-
-    // Call the body factory which allocates memory for the ground body
-    // from a pool and creates the ground box shape (also from a pool).
-    // The body is also added to the world.
-    b2Body* groundBody = world->CreateBody(&groundBodyDef);
-
-    // Define the ground box shape.
-    b2EdgeShape groundBox;
-
-    // bottom
-
-    groundBox.Set(b2Vec2(0,0), b2Vec2(s.width/PTM_RATIO,0));
-    groundBody->CreateFixture(&groundBox,0);
-
-    // top
-    groundBox.Set(b2Vec2(0,s.height/PTM_RATIO), b2Vec2(s.width/PTM_RATIO,s.height/PTM_RATIO));
-    groundBody->CreateFixture(&groundBox,0);
-
-    // left
-    groundBox.Set(b2Vec2(0,s.height/PTM_RATIO), b2Vec2(0,0));
-    groundBody->CreateFixture(&groundBox,0);
-
-    // right
-    groundBox.Set(b2Vec2(s.width/PTM_RATIO,s.height/PTM_RATIO), b2Vec2(s.width/PTM_RATIO,0));
-    groundBody->CreateFixture(&groundBox,0);
 }
 
 void HelloWorld::draw()
@@ -197,46 +193,6 @@ void HelloWorld::draw()
     kmGLPopMatrix();
 }
 
-void HelloWorld::addNewSpriteAtPosition(CCPoint p)
-{
-    CCLOG("Add sprite %0.2f x %02.f",p.x,p.y);
-    CCNode* parent = getChildByTag(kTagParentNode);
-    
-    //We have a 64x64 sprite sheet with 4 different 32x32 images.  The following code is
-    //just randomly picking one of the images
-    int idx = (CCRANDOM_0_1() > .5 ? 0:1);
-    int idy = (CCRANDOM_0_1() > .5 ? 0:1);
-    PhysicsSprite *sprite = new PhysicsSprite();
-    sprite->initWithTexture(m_pSpriteTexture, CCRectMake(32 * idx,32 * idy,32,32));
-    sprite->autorelease();
-    
-    parent->addChild(sprite);
-    
-    sprite->setPosition( CCPointMake( p.x, p.y) );
-    
-    // Define the dynamic body.
-    //Set up a 1m squared box in the physics world
-    b2BodyDef bodyDef;
-    bodyDef.type = b2_dynamicBody;
-    bodyDef.position.Set(p.x/PTM_RATIO, p.y/PTM_RATIO);
-    
-    b2Body *body = world->CreateBody(&bodyDef);
-    
-    // Define another box shape for our dynamic body.
-    b2PolygonShape dynamicBox;
-    dynamicBox.SetAsBox(.5f, .5f);//These are mid points for our 1m box
-    
-    // Define the dynamic body fixture.
-    b2FixtureDef fixtureDef;
-    fixtureDef.shape = &dynamicBox;    
-    fixtureDef.density = 1.0f;
-    fixtureDef.friction = 0.3f;
-    body->CreateFixture(&fixtureDef);
-    
-    sprite->setPhysicsBody(body);
-}
-
-
 void HelloWorld::update(float dt)
 {
     //It is recommended that a fixed time step is used with Box2D for stability
@@ -247,9 +203,6 @@ void HelloWorld::update(float dt)
     int velocityIterations = 8;
     int positionIterations = 1;
     
-    
-    // Instruct the world to perform a single step of simulation. It is
-    // generally best to keep the time step and iterations fixed.
     world->Step(dt, velocityIterations, positionIterations);
     
     //Iterate over the bodies in the physics world
@@ -259,37 +212,48 @@ void HelloWorld::update(float dt)
             //Synchronize the AtlasSprites position and rotation with the corresponding body
             CCSprite* myActor = (CCSprite*)b->GetUserData();
             myActor->setPosition(LevelHelperLoader::metersToPoints(b->GetPosition()));
-            //myActor->setPosition( CCPointMake( b->GetPosition().x * PTM_RATIO, b->GetPosition().y * PTM_RATIO) );
             myActor->setRotation( -1 * CC_RADIANS_TO_DEGREES(b->GetAngle()) );
         }    
+    }
+    
+    //--------------------------------------------------------------
+    // player update
+    //--------------------------------------------------------------
+    LHSprite* player01 = mLevelHelperLoader->spriteWithUniqueName("player");
+    
+    b2Vec2 desireVelocity = b2Vec2(RUN_VELOCITY,0);
+    b2Vec2 currentVelocity = player01->getBody()->GetLinearVelocity();
+    
+    b2Vec2 deltaVelocity = desireVelocity - currentVelocity;
+    b2Vec2 acceleration = dt * deltaVelocity;
+    
+    player01->getBody()->SetLinearVelocity(currentVelocity+acceleration);
+    
+    //--------------------------------------------------------------
+    // camera update
+    //--------------------------------------------------------------
+    updateCamera(this->getCamera());
+    
+    //--------------------------------------------------------------
+    // map update
+    //--------------------------------------------------------------
+    if (mIsRequestNextScreenMap)
+    {
+        generateNextScreenMap(mNextScreenMapStartX);
+        mIsRequestNextScreenMap = false;
     }
 }
 
 void HelloWorld::ccTouchesBegan(cocos2d::CCSet *pTouches, cocos2d::CCEvent *pEvent)
 {
-    LHSprite* sprite = mLevelHelperLoader->spriteWithUniqueName("player");
-    sprite->getBody()->SetLinearVelocity(b2Vec2(0,5));
+    if (mPlayer01State == PS_RUN)
+    {
+        player01Jump();
+    }
 }
 
 void HelloWorld::ccTouchesEnded(CCSet* touches, CCEvent* event)
 {
-    //Add a new body/atlas sprite at the touched location
-    CCSetIterator it;
-    CCTouch* touch;
-    
-    for( it = touches->begin(); it != touches->end(); it++) 
-    {
-        touch = (CCTouch*)(*it);
-        
-        if(!touch)
-            break;
-        
-        CCPoint location = touch->getLocationInView();
-        
-        location = CCDirector::sharedDirector()->convertToGL(location);
-        
-        addNewSpriteAtPosition( location );
-    }
 }
 
 CCScene* HelloWorld::scene()
@@ -303,4 +267,137 @@ CCScene* HelloWorld::scene()
     layer->release();
     
     return scene;
+}
+
+void HelloWorld::beginOrEndCollisionBetweenMarioAndCoin(LHContactInfo* contact)
+{
+    //CCLog("BEGIN OR END Mario ... Coin");
+    
+    if (contact->contactType == LH_BEGIN_CONTACT)
+    {
+        if (mPlayer01State == PS_JUMP)
+        {
+            player01Land();
+        }
+    }
+}
+
+void HelloWorld::beginOrEndCollisionBetweenCameraAndMarke(LHContactInfo* contact)
+{
+    if (contact->contactType == LH_BEGIN_CONTACT)
+    {
+        LHSprite* markeSprite = contact->spriteA()->getTag() == TAG_MAP_MARKER ? contact->spriteA() : contact->spriteB();
+        
+        float startX = markeSprite->getPosition().x;
+        requestNextScreenMap(startX);
+    }
+}
+
+void HelloWorld::AnimationEndedNotification(LHSprite* sprite)
+{
+//    CCLog("Animation has ended");
+//    CCLog("Sprite Name %s", sprite->getUniqueName().c_str());
+//    CCLog("Animation Name %s", sprite->animationName().c_str());
+//    CCLog("..............................................................");
+    
+    if (mPlayer01State == PS_LAND && sprite->animationName() == "char01_land")
+    {
+        player01Run();
+    }
+}
+
+void HelloWorld::updateCamera(CCCamera* camera)
+{
+    CCSize winSize = CCDirector::sharedDirector()->getWinSize();
+    
+    LHSprite* player01 = mLevelHelperLoader->spriteWithUniqueName("player");
+    
+    float offsetXToWinCenter = player01->getPosition().x - winSize.width/2;
+    
+    if (offsetXToWinCenter < 0)
+        return;
+    
+    CCPoint cameraSpritePoint;
+    cameraSpritePoint.x = WIN_SIZE_W/2 + offsetXToWinCenter;
+    cameraSpritePoint.y = WIN_SIZE_H/2;
+    
+    mSpriteCamera->setUsesOverloadedTransformations(true);
+    mSpriteCamera->setPosition(cameraSpritePoint);
+    
+    float realCameraX = -WIN_SIZE_W/2+mSpriteCamera->getPosition().x;
+    float realCameraY = -WIN_SIZE_H/2+mSpriteCamera->getPosition().y;
+    
+    camera->setCenterXYZ(realCameraX, realCameraY, 0);
+    camera->setEyeXYZ(realCameraX, realCameraY, 1);
+}
+
+void HelloWorld::requestNextScreenMap(float startX)
+{
+    mNextScreenMapStartX = startX;
+    mIsRequestNextScreenMap = true;
+}
+
+void HelloWorld::generateNextScreenMap(float startX)
+{
+    for (int i=0; i<4; ++i)
+    {
+        char name[32];
+        sprintf(name, "land01_0%d", i%2+1);
+        
+        LHSprite* newSprite = mLevelHelperLoader->createSpriteWithName(name, "scene01", "TestData_Miu.pshs");
+        newSprite->setTag(TAG_ENV_GROUND);
+        
+        CCPoint newSpritePoint;
+        newSpritePoint.x = startX + newSprite->getContentSize().width*i + (i>=2 ? WIN_SIZE_W/15*2 : 0);
+        newSpritePoint.y = newSprite->getContentSize().height/2;
+        
+        newSprite->transformPosition(newSpritePoint);
+    }
+    
+    LHSprite* newSpriteMarker = mLevelHelperLoader->createSpriteWithName("marker", "common", "TestData_Miu.pshs");
+    newSpriteMarker->setTag(TAG_MAP_MARKER);
+    newSpriteMarker->transformPosition(CCPoint(startX+WIN_SIZE_W, WIN_SIZE_H/2));
+    newSpriteMarker->setVisible(false);
+}
+
+void HelloWorld::player01Run()
+{
+    mPlayer01State = PS_RUN;
+    
+    LHSprite* sprite = mLevelHelperLoader->spriteWithUniqueName("player");
+    
+    sprite->prepareAnimationNamed("char01_run", "TestData_Miu.pshs");
+    sprite->playAnimation();
+}
+
+void HelloWorld::player01Jump()
+{
+    mPlayer01State = PS_JUMP;
+    
+    LHSprite* player01 = mLevelHelperLoader->spriteWithUniqueName("player");
+    
+    player01->getBody()->ApplyLinearImpulse(b2Vec2(0,JUMP_VELOCITY), player01->getBody()->GetWorldCenter());
+    
+    player01->prepareAnimationNamed("char01_jump", "TestData_Miu.pshs");
+    player01->playAnimation();
+}
+
+void HelloWorld::player01Land()
+{
+    mPlayer01State = PS_LAND;
+    
+    LHSprite* sprite = mLevelHelperLoader->spriteWithUniqueName("player");
+    
+    sprite->prepareAnimationNamed("char01_land", "TestData_Miu.pshs");
+    sprite->playAnimation();
+}
+
+void HelloWorld::player02Run()
+{
+    
+}
+
+void HelloWorld::player02Jump()
+{
+    
 }

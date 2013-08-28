@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		230BCEED17C74E830018DF2D /* MultiCharacterRush.lhproject in Resources */ = {isa = PBXBuildFile; fileRef = 230BCEDE17C74E830018DF2D /* MultiCharacterRush.lhproject */; };
+		230BCEEE17C74E830018DF2D /* TestData_Miu.pshs in Resources */ = {isa = PBXBuildFile; fileRef = 230BCEDF17C74E830018DF2D /* TestData_Miu.pshs */; };
+		230BCEEF17C74E830018DF2D /* TestData_Miu_bg01-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 230BCEE017C74E830018DF2D /* TestData_Miu_bg01-hd.png */; };
+		230BCEF017C74E830018DF2D /* TestData_Miu_bg01-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = 230BCEE117C74E830018DF2D /* TestData_Miu_bg01-ipadhd.png */; };
+		230BCEF117C74E830018DF2D /* TestData_Miu_bg01.png in Resources */ = {isa = PBXBuildFile; fileRef = 230BCEE217C74E830018DF2D /* TestData_Miu_bg01.png */; };
+		230BCEF217C74E830018DF2D /* TestData_Miu_char01-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 230BCEE317C74E830018DF2D /* TestData_Miu_char01-hd.png */; };
+		230BCEF317C74E830018DF2D /* TestData_Miu_char01-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = 230BCEE417C74E830018DF2D /* TestData_Miu_char01-ipadhd.png */; };
+		230BCEF417C74E830018DF2D /* TestData_Miu_char01.png in Resources */ = {isa = PBXBuildFile; fileRef = 230BCEE517C74E830018DF2D /* TestData_Miu_char01.png */; };
+		230BCEF517C74E830018DF2D /* TestData_Miu_char02-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 230BCEE617C74E830018DF2D /* TestData_Miu_char02-hd.png */; };
+		230BCEF617C74E830018DF2D /* TestData_Miu_char02-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = 230BCEE717C74E830018DF2D /* TestData_Miu_char02-ipadhd.png */; };
+		230BCEF717C74E830018DF2D /* TestData_Miu_char02.png in Resources */ = {isa = PBXBuildFile; fileRef = 230BCEE817C74E830018DF2D /* TestData_Miu_char02.png */; };
+		230BCEF817C74E830018DF2D /* TestData_Miu_scene01-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 230BCEE917C74E830018DF2D /* TestData_Miu_scene01-hd.png */; };
+		230BCEF917C74E830018DF2D /* TestData_Miu_scene01-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = 230BCEEA17C74E830018DF2D /* TestData_Miu_scene01-ipadhd.png */; };
+		230BCEFA17C74E830018DF2D /* TestData_Miu_scene01.png in Resources */ = {isa = PBXBuildFile; fileRef = 230BCEEB17C74E830018DF2D /* TestData_Miu_scene01.png */; };
+		230BCEFB17C74E830018DF2D /* TestLevel.plhs in Resources */ = {isa = PBXBuildFile; fileRef = 230BCEEC17C74E830018DF2D /* TestLevel.plhs */; };
 		233863F617B9E7B70075F59C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 233863F517B9E7B70075F59C /* QuartzCore.framework */; };
 		233863F817B9E7B70075F59C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 233863F717B9E7B70075F59C /* OpenGLES.framework */; };
 		233863FA17B9E7B70075F59C /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 233863F917B9E7B70075F59C /* OpenAL.framework */; };
@@ -361,10 +376,27 @@
 		236E948917BCDA3F005D8A57 /* CSTransformHelp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 236E946417BCDA3F005D8A57 /* CSTransformHelp.cpp */; };
 		236E948A17BCDA3F005D8A57 /* CSTweenFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 236E946617BCDA3F005D8A57 /* CSTweenFunction.cpp */; };
 		236E948B17BCDA3F005D8A57 /* CSUtilMath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 236E946817BCDA3F005D8A57 /* CSUtilMath.cpp */; };
-		23FE30AD17C45F7300CA87D5 /* GameData in Resources */ = {isa = PBXBuildFile; fileRef = 23FE30AC17C45F7300CA87D5 /* GameData */; };
+		23E77DB817CDD35400ABCC7B /* TestData_Miu_common-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E77DB517CDD35400ABCC7B /* TestData_Miu_common-hd.png */; };
+		23E77DB917CDD35400ABCC7B /* TestData_Miu_common-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E77DB617CDD35400ABCC7B /* TestData_Miu_common-ipadhd.png */; };
+		23E77DBA17CDD35400ABCC7B /* TestData_Miu_common.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E77DB717CDD35400ABCC7B /* TestData_Miu_common.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		230BCEDE17C74E830018DF2D /* MultiCharacterRush.lhproject */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = MultiCharacterRush.lhproject; sourceTree = "<group>"; };
+		230BCEDF17C74E830018DF2D /* TestData_Miu.pshs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TestData_Miu.pshs; sourceTree = "<group>"; };
+		230BCEE017C74E830018DF2D /* TestData_Miu_bg01-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TestData_Miu_bg01-hd.png"; sourceTree = "<group>"; };
+		230BCEE117C74E830018DF2D /* TestData_Miu_bg01-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TestData_Miu_bg01-ipadhd.png"; sourceTree = "<group>"; };
+		230BCEE217C74E830018DF2D /* TestData_Miu_bg01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TestData_Miu_bg01.png; sourceTree = "<group>"; };
+		230BCEE317C74E830018DF2D /* TestData_Miu_char01-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TestData_Miu_char01-hd.png"; sourceTree = "<group>"; };
+		230BCEE417C74E830018DF2D /* TestData_Miu_char01-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TestData_Miu_char01-ipadhd.png"; sourceTree = "<group>"; };
+		230BCEE517C74E830018DF2D /* TestData_Miu_char01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TestData_Miu_char01.png; sourceTree = "<group>"; };
+		230BCEE617C74E830018DF2D /* TestData_Miu_char02-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TestData_Miu_char02-hd.png"; sourceTree = "<group>"; };
+		230BCEE717C74E830018DF2D /* TestData_Miu_char02-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TestData_Miu_char02-ipadhd.png"; sourceTree = "<group>"; };
+		230BCEE817C74E830018DF2D /* TestData_Miu_char02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TestData_Miu_char02.png; sourceTree = "<group>"; };
+		230BCEE917C74E830018DF2D /* TestData_Miu_scene01-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TestData_Miu_scene01-hd.png"; sourceTree = "<group>"; };
+		230BCEEA17C74E830018DF2D /* TestData_Miu_scene01-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TestData_Miu_scene01-ipadhd.png"; sourceTree = "<group>"; };
+		230BCEEB17C74E830018DF2D /* TestData_Miu_scene01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TestData_Miu_scene01.png; sourceTree = "<group>"; };
+		230BCEEC17C74E830018DF2D /* TestLevel.plhs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TestLevel.plhs; sourceTree = "<group>"; };
 		233863F217B9E7B70075F59C /* MultiCharacterRush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiCharacterRush.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		233863F517B9E7B70075F59C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		233863F717B9E7B70075F59C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -1122,7 +1154,9 @@
 		236E946717BCDA3F005D8A57 /* CSTweenFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSTweenFunction.h; sourceTree = "<group>"; };
 		236E946817BCDA3F005D8A57 /* CSUtilMath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CSUtilMath.cpp; sourceTree = "<group>"; };
 		236E946917BCDA3F005D8A57 /* CSUtilMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSUtilMath.h; sourceTree = "<group>"; };
-		23FE30AC17C45F7300CA87D5 /* GameData */ = {isa = PBXFileReference; lastKnownFileType = folder; name = GameData; path = Resources/GameData; sourceTree = "<group>"; };
+		23E77DB517CDD35400ABCC7B /* TestData_Miu_common-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TestData_Miu_common-hd.png"; sourceTree = "<group>"; };
+		23E77DB617CDD35400ABCC7B /* TestData_Miu_common-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TestData_Miu_common-ipadhd.png"; sourceTree = "<group>"; };
+		23E77DB717CDD35400ABCC7B /* TestData_Miu_common.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TestData_Miu_common.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1147,6 +1181,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		230BCEDD17C74E830018DF2D /* Cooked */ = {
+			isa = PBXGroup;
+			children = (
+				230BCEDE17C74E830018DF2D /* MultiCharacterRush.lhproject */,
+				230BCEDF17C74E830018DF2D /* TestData_Miu.pshs */,
+				23E77DB517CDD35400ABCC7B /* TestData_Miu_common-hd.png */,
+				23E77DB617CDD35400ABCC7B /* TestData_Miu_common-ipadhd.png */,
+				23E77DB717CDD35400ABCC7B /* TestData_Miu_common.png */,
+				230BCEE017C74E830018DF2D /* TestData_Miu_bg01-hd.png */,
+				230BCEE117C74E830018DF2D /* TestData_Miu_bg01-ipadhd.png */,
+				230BCEE217C74E830018DF2D /* TestData_Miu_bg01.png */,
+				230BCEE317C74E830018DF2D /* TestData_Miu_char01-hd.png */,
+				230BCEE417C74E830018DF2D /* TestData_Miu_char01-ipadhd.png */,
+				230BCEE517C74E830018DF2D /* TestData_Miu_char01.png */,
+				230BCEE617C74E830018DF2D /* TestData_Miu_char02-hd.png */,
+				230BCEE717C74E830018DF2D /* TestData_Miu_char02-ipadhd.png */,
+				230BCEE817C74E830018DF2D /* TestData_Miu_char02.png */,
+				230BCEE917C74E830018DF2D /* TestData_Miu_scene01-hd.png */,
+				230BCEEA17C74E830018DF2D /* TestData_Miu_scene01-ipadhd.png */,
+				230BCEEB17C74E830018DF2D /* TestData_Miu_scene01.png */,
+				230BCEEC17C74E830018DF2D /* TestLevel.plhs */,
+			);
+			path = Cooked;
+			sourceTree = "<group>";
+		};
 		233863E917B9E7B70075F59C = {
 			isa = PBXGroup;
 			children = (
@@ -1194,7 +1253,7 @@
 		2338640617B9E7B70075F59C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				23FE30AC17C45F7300CA87D5 /* GameData */,
+				23BABB0B17C5FEC60028AEA1 /* GameData */,
 				23562BC717BE15A5006A9639 /* Armature */,
 				2338640717B9E7B70075F59C /* CloseNormal.png */,
 				2338640917B9E7B70075F59C /* CloseSelected.png */,
@@ -2706,6 +2765,15 @@
 			path = utils;
 			sourceTree = "<group>";
 		};
+		23BABB0B17C5FEC60028AEA1 /* GameData */ = {
+			isa = PBXGroup;
+			children = (
+				230BCEDD17C74E830018DF2D /* Cooked */,
+			);
+			name = GameData;
+			path = Resources/GameData;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2776,7 +2844,24 @@
 				236E947D17BCDA3F005D8A57 /* json_valueiterator.inl in Resources */,
 				236E947F17BCDA3F005D8A57 /* sconscript in Resources */,
 				23562BC817BE15A5006A9639 /* Armature in Resources */,
-				23FE30AD17C45F7300CA87D5 /* GameData in Resources */,
+				230BCEED17C74E830018DF2D /* MultiCharacterRush.lhproject in Resources */,
+				230BCEEE17C74E830018DF2D /* TestData_Miu.pshs in Resources */,
+				230BCEEF17C74E830018DF2D /* TestData_Miu_bg01-hd.png in Resources */,
+				230BCEF017C74E830018DF2D /* TestData_Miu_bg01-ipadhd.png in Resources */,
+				230BCEF117C74E830018DF2D /* TestData_Miu_bg01.png in Resources */,
+				230BCEF217C74E830018DF2D /* TestData_Miu_char01-hd.png in Resources */,
+				230BCEF317C74E830018DF2D /* TestData_Miu_char01-ipadhd.png in Resources */,
+				230BCEF417C74E830018DF2D /* TestData_Miu_char01.png in Resources */,
+				230BCEF517C74E830018DF2D /* TestData_Miu_char02-hd.png in Resources */,
+				230BCEF617C74E830018DF2D /* TestData_Miu_char02-ipadhd.png in Resources */,
+				230BCEF717C74E830018DF2D /* TestData_Miu_char02.png in Resources */,
+				230BCEF817C74E830018DF2D /* TestData_Miu_scene01-hd.png in Resources */,
+				230BCEF917C74E830018DF2D /* TestData_Miu_scene01-ipadhd.png in Resources */,
+				230BCEFA17C74E830018DF2D /* TestData_Miu_scene01.png in Resources */,
+				230BCEFB17C74E830018DF2D /* TestLevel.plhs in Resources */,
+				23E77DB817CDD35400ABCC7B /* TestData_Miu_common-hd.png in Resources */,
+				23E77DB917CDD35400ABCC7B /* TestData_Miu_common-ipadhd.png in Resources */,
+				23E77DBA17CDD35400ABCC7B /* TestData_Miu_common.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
