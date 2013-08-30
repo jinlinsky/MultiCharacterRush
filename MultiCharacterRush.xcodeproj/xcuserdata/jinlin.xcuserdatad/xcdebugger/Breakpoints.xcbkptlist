@@ -4,81 +4,16 @@
    version = "1.0">
    <FileBreakpoints>
       <FileBreakpoint
-         shouldBeEnabled = "Yes"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "MultiCharacterRush/libs/cocos2dx/base_nodes/CCAtlasNode.cpp"
-         timestampString = "398593348.773886"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "67"
-         endingLineNumber = "67"
-         landmarkName = "CCAtlasNode::create(const char *tile, unsigned int tileWidth, unsigned int tileHeight, unsigned int itemsToRender)"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "Yes"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "MultiCharacterRush/libs/cocos2dx/textures/CCTextureAtlas.cpp"
-         timestampString = "398597078.891138"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "568"
-         endingLineNumber = "568"
-         landmarkName = "CCTextureAtlas::fillWithEmptyQuadsFromIndex(unsigned int index, unsigned int amount)"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "Yes"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "MultiCharacterRush/libs/cocos2dx/textures/CCTextureAtlas.cpp"
-         timestampString = "398597126.987624"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "102"
-         endingLineNumber = "102"
-         landmarkName = "CCTextureAtlas::setQuads(ccV3F_C4B_T2F_Quad *var)"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
          shouldBeEnabled = "No"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
-         filePath = "MultiCharacterRush/libs/cocos2dx/textures/CCTextureAtlas.cpp"
-         timestampString = "398597257.333164"
+         filePath = "MultiCharacterRush/libs/cocos2dx/sprite_nodes/CCSprite.cpp"
+         timestampString = "399451534.460388"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "324"
-         endingLineNumber = "324"
-         landmarkName = "CCTextureAtlas::insertQuad(ccV3F_C4B_T2F_Quad *quad, unsigned int index)"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "Yes"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "MultiCharacterRush/libs/cocos2dx/textures/CCTextureAtlas.cpp"
-         timestampString = "398597261.8757"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "347"
-         endingLineNumber = "347"
-         landmarkName = "CCTextureAtlas::insertQuads(ccV3F_C4B_T2F_Quad* quads, unsigned int index, unsigned int amount)"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "Yes"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "MultiCharacterRush/libs/cocos2dx/textures/CCTextureAtlas.cpp"
-         timestampString = "398597268.913462"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "377"
-         endingLineNumber = "377"
-         landmarkName = "CCTextureAtlas::insertQuadFromIndex(unsigned int oldIndex, unsigned int newIndex)"
+         startingLineNumber = "366"
+         endingLineNumber = "366"
+         landmarkName = "CCSprite::setTextureCoords(CCRect rect)"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

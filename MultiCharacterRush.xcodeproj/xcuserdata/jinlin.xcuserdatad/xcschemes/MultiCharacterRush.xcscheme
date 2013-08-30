@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "233863F117B9E7B70075F59C"
+               BlueprintIdentifier = "23F259F117CEFCE6006F6C17"
                BuildableName = "MultiCharacterRush.app"
                BlueprintName = "MultiCharacterRush"
                ReferencedContainer = "container:MultiCharacterRush.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "233863F117B9E7B70075F59C"
+            BlueprintIdentifier = "23F259F117CEFCE6006F6C17"
             BuildableName = "MultiCharacterRush.app"
             BlueprintName = "MultiCharacterRush"
             ReferencedContainer = "container:MultiCharacterRush.xcodeproj">
@@ -51,7 +51,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "233863F117B9E7B70075F59C"
+            BlueprintIdentifier = "23F259F117CEFCE6006F6C17"
             BuildableName = "MultiCharacterRush.app"
             BlueprintName = "MultiCharacterRush"
             ReferencedContainer = "container:MultiCharacterRush.xcodeproj">
@@ -69,7 +69,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "233863F117B9E7B70075F59C"
+            BlueprintIdentifier = "23F259F117CEFCE6006F6C17"
             BuildableName = "MultiCharacterRush.app"
             BlueprintName = "MultiCharacterRush"
             ReferencedContainer = "container:MultiCharacterRush.xcodeproj">
