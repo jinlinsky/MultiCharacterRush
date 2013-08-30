@@ -48,7 +48,7 @@
 	<key>HDSuffix</key>
 	<string>-hd</string>
 	<key>LastLevelLoaded</key>
-	<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Cooked/TestLevel.plhs</string>
+	<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush.git/MultiCharacterRush/Resources/GameData/Cooked/FirstPlayable.plhs</string>
 	<key>Orientation</key>
 	<integer>1</integer>
 	<key>ProjectName</key>
@@ -88,6 +88,7 @@
 		<string>TAG_PLAYER_02</string>
 		<string>TAG_CAMERA</string>
 		<string>TAG_MAP_MARKER</string>
+		<string>TAG_GHOST_ZONE</string>
 	</array>
 </dict>
 </plist>

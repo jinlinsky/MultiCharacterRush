@@ -15,8 +15,8 @@ using namespace CocosDenshion;
 
 #define PTM_RATIO 32
 
-#define JUMP_VELOCITY 10
-#define RUN_VELOCITY 5
+#define JUMP_VELOCITY 20
+#define RUN_VELOCITY 12
 
 #define WIN_SIZE_W \
 CCDirector::sharedDirector()->getWinSize().width
@@ -24,7 +24,7 @@ CCDirector::sharedDirector()->getWinSize().width
 #define WIN_SIZE_H \
 CCDirector::sharedDirector()->getWinSize().height
 
-#define WIN_SIZE \ 
+#define WIN_SIZE \
 CCDirector::sharedDirector()->getWinSize()
 
 enum {
@@ -82,38 +82,34 @@ CCAffineTransform PhysicsSprite::nodeToParentTransform(void)
 }
 
 HelloWorld::HelloWorld()
+: mLevelHelperLoader(NULL)
 {
     setTouchEnabled( true );
     setAccelerometerEnabled( true );
-
-    CCSize s = CCDirector::sharedDirector()->getWinSize();
+    
     // init physics
     this->initPhysics();
-
-    CCSpriteBatchNode *parent = CCSpriteBatchNode::create("blocks.png", 100);
-    m_pSpriteTexture = parent->getTexture();
-
-    addChild(parent, 0, kTagParentNode);
     
-    mLevelHelperLoader = new LevelHelperLoader("TestLevel.plhs");
-    mLevelHelperLoader->addObjectsToWorld(world, this);
-    mLevelHelperLoader->createPhysicBoundaries(world);
-    mLevelHelperLoader->useLevelHelperCollisionHandling();
+    if(WIN_SIZE_W == 480 || WIN_SIZE_H == 480)
+    {
+        mMapBlockSize = 32;
+    }
+    else if(WIN_SIZE_W == 640 || WIN_SIZE_H == 640)
+    {
+        mMapBlockSize = 64;
+    }
+    else if(WIN_SIZE_W == 1024 || WIN_SIZE_H == 1024)
+    {
+        mMapBlockSize = 64;
+    }
+    else if(WIN_SIZE_W == 2048 || WIN_SIZE_H == 2048)
+    {
+        mMapBlockSize = 128;
+    }
     
-    mSpriteCamera = mLevelHelperLoader->spriteWithUniqueName("camera");
+    LevelHelperLoader::dontStretchArt();
     
-    player01Run();
-    
-    mOriginalPosition = mLevelHelperLoader->spriteWithUniqueName("player")->getBody()->GetPosition();
-    
-    ::CCNotificationCenter::sharedNotificationCenter()->addObserver(this,
-                                                           callfuncO_selector(HelloWorld::AnimationEndedNotification),
-                                                           LHAnimationHasEndedNotification,
-                                                           NULL);
-    
-    
-    mLevelHelperLoader->registerBeginOrEndCollisionCallbackBetweenTagA(TAG_PLAYER_01, TAG_ENV_GROUND, this, callfuncO_selector(HelloWorld::beginOrEndCollisionBetweenMarioAndCoin));
-    mLevelHelperLoader->registerBeginOrEndCollisionCallbackBetweenTagA(TAG_CAMERA, TAG_MAP_MARKER, this, callfuncO_selector(HelloWorld::beginOrEndCollisionBetweenCameraAndMarke));
+    mRequestLoadLevel = true;
     
 //    CCArray* grounds = mLevelHelperLoader->spritesWithTag(TAG_ENV_GROUND);
 //    for (int i=0; i<grounds->count(); ++i)
@@ -130,8 +126,6 @@ HelloWorld::HelloWorld()
 //	armature->getAnimation()->setAnimationScale(0.1f);
 //	armature->setPosition(s.width/2,0);
 //	addChild(armature);
-    
-    generateNextScreenMap(0);
     
     scheduleUpdate();
 }
@@ -152,10 +146,8 @@ HelloWorld::~HelloWorld()
 
 void HelloWorld::initPhysics()
 {
-    CCSize s = CCDirector::sharedDirector()->getWinSize();
-
     b2Vec2 gravity;
-    gravity.Set(0.0f, -15.0f);
+    gravity.Set(0.0f, -35.0f);
     world = new b2World(gravity);
 
     // Do we want to let bodies sleep?
@@ -177,20 +169,48 @@ void HelloWorld::initPhysics()
 
 void HelloWorld::draw()
 {
-    //
-    // IMPORTANT:
-    // This is only for debug purposes
-    // It is recommend to disable it
-    //
-    CCLayer::draw();
+//    CCLayer::draw();
+//
+//    ccGLEnableVertexAttribs( kCCVertexAttribFlag_Position );
+//
+//    kmGLPushMatrix();
+//
+//    world->DrawDebugData();
+//
+//    kmGLPopMatrix();
+}
 
-    ccGLEnableVertexAttribs( kCCVertexAttribFlag_Position );
 
-    kmGLPushMatrix();
-
-    world->DrawDebugData();
-
-    kmGLPopMatrix();
+void HelloWorld::LoadLevel()
+{
+    if (mLevelHelperLoader != NULL)
+    {
+        delete mLevelHelperLoader;
+        mLevelHelperLoader = NULL;
+    }
+    
+    mLevelHelperLoader = new LevelHelperLoader("./GameData/Cooked/FirstPlayable.plhs");
+    mLevelHelperLoader->addObjectsToWorld(world, this);
+    mLevelHelperLoader->createPhysicBoundaries(world);
+    mLevelHelperLoader->useLevelHelperCollisionHandling();
+    
+    mSpriteCamera = mLevelHelperLoader->spriteWithUniqueName("camera");
+    
+    player01Run();
+    
+    mOriginalPosition = mLevelHelperLoader->spriteWithUniqueName("player01")->getBody()->GetPosition();
+    
+    ::CCNotificationCenter::sharedNotificationCenter()->addObserver(this,
+                                                                    callfuncO_selector(HelloWorld::AnimationEndedNotification),
+                                                                    LHAnimationHasEndedNotification,
+                                                                    NULL);
+    
+    
+    mLevelHelperLoader->registerBeginOrEndCollisionCallbackBetweenTagA(TAG_PLAYER_01, TAG_ENV_GROUND, this, callfuncO_selector(HelloWorld::beginOrEndCollisionBetweenMarioAndCoin));
+    mLevelHelperLoader->registerBeginOrEndCollisionCallbackBetweenTagA(TAG_PLAYER_01, TAG_GHOST_ZONE, this, callfuncO_selector(HelloWorld::beginOrEndCollisionBetweenPlayer01AndGhostZone));
+    mLevelHelperLoader->registerBeginOrEndCollisionCallbackBetweenTagA(TAG_CAMERA, TAG_MAP_MARKER, this, callfuncO_selector(HelloWorld::beginOrEndCollisionBetweenCameraAndMarke));
+    
+    generateNextScreenMap(0);
 }
 
 void HelloWorld::update(float dt)
@@ -216,10 +236,17 @@ void HelloWorld::update(float dt)
         }    
     }
     
+    if (mRequestLoadLevel)
+    {
+        LoadLevel();
+        
+        mRequestLoadLevel = false;
+    }
+    
     //--------------------------------------------------------------
     // player update
     //--------------------------------------------------------------
-    LHSprite* player01 = mLevelHelperLoader->spriteWithUniqueName("player");
+    LHSprite* player01 = mLevelHelperLoader->spriteWithUniqueName("player01");
     
     b2Vec2 desireVelocity = b2Vec2(RUN_VELOCITY,0);
     b2Vec2 currentVelocity = player01->getBody()->GetLinearVelocity();
@@ -227,7 +254,7 @@ void HelloWorld::update(float dt)
     b2Vec2 deltaVelocity = desireVelocity - currentVelocity;
     b2Vec2 acceleration = dt * deltaVelocity;
     
-    player01->getBody()->SetLinearVelocity(currentVelocity+acceleration);
+    player01->getBody()->SetLinearVelocity(currentVelocity+2.0*acceleration);
     
     //--------------------------------------------------------------
     // camera update
@@ -246,7 +273,7 @@ void HelloWorld::update(float dt)
 
 void HelloWorld::ccTouchesBegan(cocos2d::CCSet *pTouches, cocos2d::CCEvent *pEvent)
 {
-    if (mPlayer01State == PS_RUN)
+    if (mPlayer01State == PS_RUN || mPlayer01State == PS_LAND)
     {
         player01Jump();
     }
@@ -282,6 +309,14 @@ void HelloWorld::beginOrEndCollisionBetweenMarioAndCoin(LHContactInfo* contact)
     }
 }
 
+void HelloWorld::beginOrEndCollisionBetweenPlayer01AndGhostZone(LHContactInfo* contact)
+{
+    if (contact->contactType == LH_BEGIN_CONTACT)
+    {
+        mRequestLoadLevel = true;
+    }
+}
+
 void HelloWorld::beginOrEndCollisionBetweenCameraAndMarke(LHContactInfo* contact)
 {
     if (contact->contactType == LH_BEGIN_CONTACT)
@@ -308,11 +343,12 @@ void HelloWorld::AnimationEndedNotification(LHSprite* sprite)
 
 void HelloWorld::updateCamera(CCCamera* camera)
 {
-    CCSize winSize = CCDirector::sharedDirector()->getWinSize();
+    camera->setCenterXYZ(0, 0, 0);
+    camera->setEyeXYZ(0, 0, 1);
     
-    LHSprite* player01 = mLevelHelperLoader->spriteWithUniqueName("player");
+    LHSprite* player01 = mLevelHelperLoader->spriteWithUniqueName("player01");
     
-    float offsetXToWinCenter = player01->getPosition().x - winSize.width/2;
+    float offsetXToWinCenter = player01->getPosition().x - WIN_SIZE_W/2;
     
     if (offsetXToWinCenter < 0)
         return;
@@ -336,59 +372,92 @@ void HelloWorld::requestNextScreenMap(float startX)
     mNextScreenMapStartX = startX;
     mIsRequestNextScreenMap = true;
 }
-
+#include "LHSettings.h"
 void HelloWorld::generateNextScreenMap(float startX)
 {
+    cleanOutofScreenMap();
+    
+    CCLOG("win w=%f, h%f", WIN_SIZE_W, WIN_SIZE_H);
+    
     for (int i=0; i<4; ++i)
     {
         char name[32];
         sprintf(name, "land01_0%d", i%2+1);
         
-        LHSprite* newSprite = mLevelHelperLoader->createSpriteWithName(name, "scene01", "TestData_Miu.pshs");
+        LHSprite* newSprite = mLevelHelperLoader->createSpriteWithName(name, "scene01", "GameData.pshs");
         newSprite->setTag(TAG_ENV_GROUND);
         
+        CCLOG("content w=%f h=%f", newSprite->getContentSize().width, newSprite->getContentSize().height);
+        
+        CCLOG("ptm radio=%f", LHSettings::sharedInstance()->lhPtmRatio());
+        
         CCPoint newSpritePoint;
-        newSpritePoint.x = startX + newSprite->getContentSize().width*i + (i>=2 ? WIN_SIZE_W/15*2 : 0);
-        newSpritePoint.y = newSprite->getContentSize().height/2;
+        newSpritePoint.x = startX + WIN_SIZE_W/2 - mMapBlockSize*6 + mMapBlockSize*3*i;// + (i >=2 ? mMapBlockSize*2 : 0);
+        newSpritePoint.y = WIN_SIZE_H/2 - mMapBlockSize*3;
         
         newSprite->transformPosition(newSpritePoint);
     }
     
-    LHSprite* newSpriteMarker = mLevelHelperLoader->createSpriteWithName("marker", "common", "TestData_Miu.pshs");
+    LHSprite* newSpriteMarker = mLevelHelperLoader->createSpriteWithName("marker", "common", "GameData.pshs");
     newSpriteMarker->setTag(TAG_MAP_MARKER);
     newSpriteMarker->transformPosition(CCPoint(startX+WIN_SIZE_W, WIN_SIZE_H/2));
-    newSpriteMarker->setVisible(false);
+    newSpriteMarker->setVisible(true);
+    
+    LHSprite* newSpriteGhost = mLevelHelperLoader->createSpriteWithName("ghost", "common", "GameData.pshs");
+    newSpriteGhost->setTag(TAG_GHOST_ZONE);
+    newSpriteGhost->transformPosition(CCPoint(startX+WIN_SIZE_W/2, WIN_SIZE_H/2 - mMapBlockSize*4));
+    newSpriteGhost->transformScaleY(10);
+    newSpriteGhost->transformScaleX(200);
+    newSpriteGhost->setVisible(false);
+}
+
+void HelloWorld::cleanOutofScreenMap()
+{
+    CCArray* sprites = mLevelHelperLoader->spritesWithTag(TAG_ENV_GROUND);
+    for (int i=0; i<sprites->count(); ++i)
+    {
+        LHSprite* sprite = (LHSprite*)sprites->objectAtIndex(i);
+        
+        if (sprite->getPosition().x < mSpriteCamera->getPosition().x - WIN_SIZE_W/2)
+        {
+            sprite->removeSelf();
+        }
+    }
 }
 
 void HelloWorld::player01Run()
 {
     mPlayer01State = PS_RUN;
     
-    LHSprite* sprite = mLevelHelperLoader->spriteWithUniqueName("player");
+    LHSprite* sprite = mLevelHelperLoader->spriteWithUniqueName("player01");
     
-    sprite->prepareAnimationNamed("char01_run", "TestData_Miu.pshs");
+    sprite->prepareAnimationNamed("char01_run", "GameData.pshs");
     sprite->playAnimation();
+    
+    CCLOG("RUN~~~~~~~~~~~");
 }
 
 void HelloWorld::player01Jump()
 {
     mPlayer01State = PS_JUMP;
     
-    LHSprite* player01 = mLevelHelperLoader->spriteWithUniqueName("player");
+    LHSprite* player01 = mLevelHelperLoader->spriteWithUniqueName("player01");
     
     player01->getBody()->ApplyLinearImpulse(b2Vec2(0,JUMP_VELOCITY), player01->getBody()->GetWorldCenter());
     
-    player01->prepareAnimationNamed("char01_jump", "TestData_Miu.pshs");
+    player01->prepareAnimationNamed("char01_jump", "GameData.pshs");
     player01->playAnimation();
+    
+    CCLOG("JUMP!!!!!!!!!!!!");
 }
 
 void HelloWorld::player01Land()
 {
     mPlayer01State = PS_LAND;
     
-    LHSprite* sprite = mLevelHelperLoader->spriteWithUniqueName("player");
+    LHSprite* sprite = mLevelHelperLoader->spriteWithUniqueName("player01");
     
-    sprite->prepareAnimationNamed("char01_land", "TestData_Miu.pshs");
+    sprite->prepareAnimationNamed("char01_land", "GameData.pshs");
     sprite->playAnimation();
 }
 

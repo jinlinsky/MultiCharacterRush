@@ -71,7 +71,8 @@ enum LevelHelper_TAG
 	TAG_PLAYER_02 			= 3,
 	TAG_CAMERA 			= 4,
 	TAG_MAP_MARKER 			= 5,
-	NUMBER_OF_TAGS 	= 6
+	TAG_GHOST_ZONE 			= 6,
+	NUMBER_OF_TAGS 	= 7
 };
 
 std::string stringFromInt(const int& i);

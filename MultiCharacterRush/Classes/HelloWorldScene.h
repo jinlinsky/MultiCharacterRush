@@ -50,6 +50,7 @@ public:
     virtual void ccTouchesEnded(cocos2d::CCSet* touches, cocos2d::CCEvent* event);
     
     void beginOrEndCollisionBetweenMarioAndCoin(LHContactInfo* contact);
+    void beginOrEndCollisionBetweenPlayer01AndGhostZone(LHContactInfo* contact);
     void beginOrEndCollisionBetweenCameraAndMarke(LHContactInfo* contact);
     
     void AnimationEndedNotification(LHSprite* sprite);
@@ -58,6 +59,7 @@ public:
     //void updateBG();
     void requestNextScreenMap(float startX);
     void generateNextScreenMap(float startX);
+    void cleanOutofScreenMap();
     
     void player01Run();
     void player01Jump();
@@ -78,6 +80,13 @@ public:
     // map
     bool mIsRequestNextScreenMap;
     float mNextScreenMapStartX;
+    
+    float mMapBlockSize;
+    
+    // level
+    bool mRequestLoadLevel;
+    
+    void LoadLevel();
     
 private:
     b2World* world;
