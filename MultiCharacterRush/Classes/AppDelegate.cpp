@@ -39,6 +39,8 @@ bool AppDelegate::applicationDidFinishLaunching()
     float scrWidth = CCEGLView::sharedOpenGLView()->getFrameSize().width;
     float scrHeight= CCEGLView::sharedOpenGLView()->getFrameSize().height;
     
+    CCEGLView::sharedOpenGLView()->setDesignResolutionSize(480, 320, kResolutionExactFit);
+    
     std::vector<std::string> res;
     res.push_back("./GameData/Cooked");
     
@@ -61,7 +63,7 @@ bool AppDelegate::applicationDidFinishLaunching()
         CCFileUtils::sharedFileUtils()->setSearchPaths(res);
         // on ipad the rect (textture coordinate) * 2 already, to check the following function
         // CCRect LHSettings::transformedTextureRect(CCRect rect, const std::string& image)
-        CCDirector::sharedDirector()->setContentScaleFactor(1.0f); 
+        CCDirector::sharedDirector()->setContentScaleFactor(2.0f);
     }
     else if(scrWidth == 2048 || scrHeight == 2048){
         
@@ -70,7 +72,7 @@ bool AppDelegate::applicationDidFinishLaunching()
         CCFileUtils::sharedFileUtils()->setSearchPaths(res);
         // on ipad the rect (textture coordinate) * 2 already, to check the following function
         // CCRect LHSettings::transformedTextureRect(CCRect rect, const std::string& image)
-        CCDirector::sharedDirector()->setContentScaleFactor(2.0f);
+        CCDirector::sharedDirector()->setContentScaleFactor(4.0f);
     }
 
     // create a scene. it's an autorelease object

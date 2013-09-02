@@ -56,10 +56,14 @@ public:
     void AnimationEndedNotification(LHSprite* sprite);
     
     void updateCamera(CCCamera* camera);
-    //void updateBG();
+    void updateBG();
+    
     void requestNextScreenMap(float startX);
     void generateNextScreenMap(float startX);
     void cleanOutofScreenMap();
+    
+    CCPoint getBG01StartPoint();
+    CCPoint getBG02StartPoint();
     
     void player01Run();
     void player01Jump();
@@ -73,15 +77,22 @@ public:
     // player01
     int mPlayer01State;
     b2Vec2 mOriginalPosition;
+    b2Vec2 mPlayer01Velocity;
     
     // camera
     LHSprite* mSpriteCamera;
+    bool mIsCameraMoving;
     
     // map
     bool mIsRequestNextScreenMap;
     float mNextScreenMapStartX;
     
     float mMapBlockSize;
+    
+    int mScreenCount;
+    
+    int mBG01Count;
+    int mBG02Count;
     
     // level
     bool mRequestLoadLevel;

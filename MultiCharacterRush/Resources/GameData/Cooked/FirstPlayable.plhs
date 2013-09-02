@@ -274,7 +274,7 @@
 		<key>ProjectName</key>
 		<string>MultiCharacterRush</string>
 		<key>ProjectPath</key>
-		<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush.git/MultiCharacterRush/Resources/GameData/Cooked</string>
+		<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Cooked</string>
 		<key>SafeFrame</key>
 		<string>{480, 320}</string>
 		<key>Tags</key>
@@ -286,6 +286,8 @@
 			<string>TAG_CAMERA</string>
 			<string>TAG_MAP_MARKER</string>
 			<string>TAG_GHOST_ZONE</string>
+			<string>TAG_BG_01</string>
+			<string>TAG_BG_02</string>
 		</array>
 		<key>ZoomValue</key>
 		<real>0.0</real>

@@ -72,7 +72,9 @@ enum LevelHelper_TAG
 	TAG_CAMERA 			= 4,
 	TAG_MAP_MARKER 			= 5,
 	TAG_GHOST_ZONE 			= 6,
-	NUMBER_OF_TAGS 	= 7
+	TAG_BG_01 			= 7,
+	TAG_BG_02 			= 8,
+	NUMBER_OF_TAGS 	= 9
 };
 
 std::string stringFromInt(const int& i);

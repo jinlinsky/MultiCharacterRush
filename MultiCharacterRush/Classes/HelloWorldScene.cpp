@@ -27,6 +27,12 @@ CCDirector::sharedDirector()->getWinSize().height
 #define WIN_SIZE \
 CCDirector::sharedDirector()->getWinSize()
 
+#define BG01_CONTENT_WIDTH 413.75
+#define BG01_CONTENT_HEIGHT 155.25
+
+#define BG02_CONTENT_WIDTH 331.25
+#define BG02_CONTENT_HEIGHT 266.75
+
 enum {
     kTagParentNode = 1,
 };
@@ -83,6 +89,10 @@ CCAffineTransform PhysicsSprite::nodeToParentTransform(void)
 
 HelloWorld::HelloWorld()
 : mLevelHelperLoader(NULL)
+, mScreenCount(0)
+, mBG01Count(0)
+, mBG02Count(0)
+, mIsCameraMoving(false)
 {
     setTouchEnabled( true );
     setAccelerometerEnabled( true );
@@ -189,6 +199,12 @@ void HelloWorld::LoadLevel()
         mLevelHelperLoader = NULL;
     }
     
+    // init
+    mScreenCount = 0;
+    mBG01Count = 0;
+    mBG02Count = 0;
+    mIsCameraMoving = false;
+    
     mLevelHelperLoader = new LevelHelperLoader("./GameData/Cooked/FirstPlayable.plhs");
     mLevelHelperLoader->addObjectsToWorld(world, this);
     mLevelHelperLoader->createPhysicBoundaries(world);
@@ -254,12 +270,19 @@ void HelloWorld::update(float dt)
     b2Vec2 deltaVelocity = desireVelocity - currentVelocity;
     b2Vec2 acceleration = dt * deltaVelocity;
     
-    player01->getBody()->SetLinearVelocity(currentVelocity+2.0*acceleration);
+    mPlayer01Velocity = currentVelocity+2.0*acceleration;
+    
+    player01->getBody()->SetLinearVelocity(mPlayer01Velocity);
     
     //--------------------------------------------------------------
     // camera update
     //--------------------------------------------------------------
     updateCamera(this->getCamera());
+    
+    //--------------------------------------------------------------
+    // BG update
+    //--------------------------------------------------------------
+    updateBG();
     
     //--------------------------------------------------------------
     // map update
@@ -341,6 +364,26 @@ void HelloWorld::AnimationEndedNotification(LHSprite* sprite)
     }
 }
 
+void HelloWorld::updateBG()
+{
+    if (!mIsCameraMoving)
+        return;
+    
+    b2Vec2 BGVelocity = mPlayer01Velocity;
+    BGVelocity.y = 0;
+    
+    CCArray* sprites = mLevelHelperLoader->spritesWithTag(TAG_BG_01);
+    for (int i=0; i<sprites->count(); ++i)
+    {
+        ((LHSprite*)sprites->objectAtIndex(i))->getBody()->SetLinearVelocity(0.75*BGVelocity);
+    }
+    sprites = mLevelHelperLoader->spritesWithTag(TAG_BG_02);
+    for (int i=0; i<sprites->count(); ++i)
+    {
+        ((LHSprite*)sprites->objectAtIndex(i))->getBody()->SetLinearVelocity(0.9*BGVelocity);
+    }
+}
+
 void HelloWorld::updateCamera(CCCamera* camera)
 {
     camera->setCenterXYZ(0, 0, 0);
@@ -353,12 +396,14 @@ void HelloWorld::updateCamera(CCCamera* camera)
     if (offsetXToWinCenter < 0)
         return;
     
+    if (!mIsCameraMoving)
+        mIsCameraMoving = true;
+    
     CCPoint cameraSpritePoint;
     cameraSpritePoint.x = WIN_SIZE_W/2 + offsetXToWinCenter;
     cameraSpritePoint.y = WIN_SIZE_H/2;
     
-    mSpriteCamera->setUsesOverloadedTransformations(true);
-    mSpriteCamera->setPosition(cameraSpritePoint);
+    mSpriteCamera->transformPosition(cameraSpritePoint);
     
     float realCameraX = -WIN_SIZE_W/2+mSpriteCamera->getPosition().x;
     float realCameraY = -WIN_SIZE_H/2+mSpriteCamera->getPosition().y;
@@ -372,12 +417,15 @@ void HelloWorld::requestNextScreenMap(float startX)
     mNextScreenMapStartX = startX;
     mIsRequestNextScreenMap = true;
 }
+
 #include "LHSettings.h"
 void HelloWorld::generateNextScreenMap(float startX)
 {
     cleanOutofScreenMap();
     
     CCLOG("win w=%f, h%f", WIN_SIZE_W, WIN_SIZE_H);
+    
+    mScreenCount++;
     
     for (int i=0; i<4; ++i)
     {
@@ -387,12 +435,8 @@ void HelloWorld::generateNextScreenMap(float startX)
         LHSprite* newSprite = mLevelHelperLoader->createSpriteWithName(name, "scene01", "GameData.pshs");
         newSprite->setTag(TAG_ENV_GROUND);
         
-        CCLOG("content w=%f h=%f", newSprite->getContentSize().width, newSprite->getContentSize().height);
-        
-        CCLOG("ptm radio=%f", LHSettings::sharedInstance()->lhPtmRatio());
-        
         CCPoint newSpritePoint;
-        newSpritePoint.x = startX + WIN_SIZE_W/2 - mMapBlockSize*6 + mMapBlockSize*3*i;// + (i >=2 ? mMapBlockSize*2 : 0);
+        newSpritePoint.x = startX + WIN_SIZE_W/2 - mMapBlockSize*6 + mMapBlockSize*3*i;
         newSpritePoint.y = WIN_SIZE_H/2 - mMapBlockSize*3;
         
         newSprite->transformPosition(newSpritePoint);
@@ -409,20 +453,112 @@ void HelloWorld::generateNextScreenMap(float startX)
     newSpriteGhost->transformScaleY(10);
     newSpriteGhost->transformScaleX(200);
     newSpriteGhost->setVisible(false);
+    
+    int index = 0;
+    while (true)
+    {        
+        LHSprite* newSpriteBG02 = mLevelHelperLoader->createSpriteWithName("bg02", "bg01", "GameData.pshs");
+        
+        int totalScreenWidth = (int)(WIN_SIZE_W*mScreenCount);
+        
+        float bgX = getBG02StartPoint().x;
+        float bgY = getBG02StartPoint().y;
+        
+        newSpriteBG02->transformPosition(CCPoint(bgX,bgY));
+        newSpriteBG02->setTag(TAG_BG_02);
+        newSpriteBG02->setZOrder(-2);
+        
+        ++mBG02Count;
+        
+        if (newSpriteBG02->getPosition().x+WIN_SIZE_W/2 > totalScreenWidth)
+        {
+            break;
+        }else
+        {
+            ++index;
+        }
+    }
+    
+    index = 0;
+    while (true)
+    {
+        LHSprite* newSpriteBG01 = mLevelHelperLoader->createSpriteWithName("bg01", "bg01", "GameData.pshs");
+        
+        int totalScreenWidth = (int)(WIN_SIZE_W*mScreenCount);
+        
+        float bgX = getBG01StartPoint().x;
+        float bgY = getBG01StartPoint().y;
+        
+        newSpriteBG01->transformPosition(CCPoint(bgX,bgY));
+        newSpriteBG01->setTag(TAG_BG_01);
+        newSpriteBG01->setZOrder(-1);
+        
+        ++mBG01Count;
+        
+        if (newSpriteBG01->getPosition().x+WIN_SIZE_W/2  > totalScreenWidth)
+        {
+            break;
+        }else
+        {
+            ++index;
+        }
+    }
 }
 
 void HelloWorld::cleanOutofScreenMap()
 {
-    CCArray* sprites = mLevelHelperLoader->spritesWithTag(TAG_ENV_GROUND);
+    CCArray* sprites = mLevelHelperLoader->allSprites();
     for (int i=0; i<sprites->count(); ++i)
     {
         LHSprite* sprite = (LHSprite*)sprites->objectAtIndex(i);
         
-        if (sprite->getPosition().x < mSpriteCamera->getPosition().x - WIN_SIZE_W/2)
+        if (sprite->getPosition().x < mSpriteCamera->getPosition().x - WIN_SIZE_W*2)
         {
             sprite->removeSelf();
         }
     }
+}
+
+CCPoint HelloWorld::getBG01StartPoint()
+{
+    CCPoint result;
+    result.x = -WIN_SIZE_W;
+    result.y = WIN_SIZE_H - BG01_CONTENT_HEIGHT - (BG02_CONTENT_HEIGHT-BG01_CONTENT_HEIGHT)/2;
+    
+    CCArray* sprites = mLevelHelperLoader->spritesWithTag(TAG_BG_01);
+    for (int i=0; i<sprites->count(); ++i)
+    {
+        CCPoint point = ((LHSprite*)sprites->objectAtIndex(i))->getPosition();
+        if (point.x >= result.x)
+        {
+            result = point;
+        }
+    }
+    
+    result.x += BG01_CONTENT_WIDTH;
+    
+    return result;
+}
+
+CCPoint HelloWorld::getBG02StartPoint()
+{
+    CCPoint result;
+    result.x = -WIN_SIZE_W;
+    result.y = WIN_SIZE_H - BG02_CONTENT_HEIGHT/2;
+    
+    CCArray* sprites = mLevelHelperLoader->spritesWithTag(TAG_BG_02);
+    for (int i=0; i<sprites->count(); ++i)
+    {
+        CCPoint point = ((LHSprite*)sprites->objectAtIndex(i))->getPosition();
+        if (point.x >= result.x)
+        {
+            result = point;
+        }
+    }
+    
+    result.x += BG02_CONTENT_WIDTH;
+    
+    return result;
 }
 
 void HelloWorld::player01Run()

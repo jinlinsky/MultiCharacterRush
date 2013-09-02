@@ -16,5 +16,31 @@
          landmarkName = "CCSprite::setTextureCoords(CCRect rect)"
          landmarkType = "5">
       </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "MultiCharacterRush/libs/Box2D/Dynamics/b2World.cpp"
+         timestampString = "399546089.303131"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "1137"
+         endingLineNumber = "1137"
+         landmarkName = "b2World::DrawDebugData()"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "MultiCharacterRush/libs/cocos2dx/platform/CCEGLViewProtocol.cpp"
+         timestampString = "399551135.47153"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "118"
+         endingLineNumber = "118"
+         landmarkName = "CCEGLViewProtocol::setFrameSize(float width, float height)"
+         landmarkType = "5">
+      </FileBreakpoint>
    </FileBreakpoints>
 </Bucket>
