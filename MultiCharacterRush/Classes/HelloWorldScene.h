@@ -58,10 +58,6 @@ public:
     void updateCamera(CCCamera* camera);
     void updateBG();
     
-    void requestNextScreenMap(float startX);
-    void generateNextScreenMap(float startX);
-    void cleanOutofScreenMap();
-    
     CCPoint getBG01StartPoint();
     CCPoint getBG02StartPoint();
     
@@ -84,18 +80,28 @@ public:
     bool mIsCameraMoving;
     
     // map
-    bool mIsRequestNextScreenMap;
+    bool  mIsRequestNextScreenMap;
+    
     float mNextScreenMapStartX;
     
-    float mMapBlockSize;
+    int   mMapBlockSize;
     
-    int mScreenCount;
+    int   mScreenCount;
     
-    int mBG01Count;
-    int mBG02Count;
+    int   mBG01Count;
+    int   mBG02Count;
+    
+    void generateNextScreenMap(float startX);
+    void gnerateTriggers(float startX);
+    void generateBG(float startX);
+    void generateFootsetp(float startX);
+    
+    void requestNextScreenMap(float startX);
+    void cleanOutofScreenMap();
     
     // level
     bool mRequestLoadLevel;
+    int  mLevelDifficulty;
     
     void LoadLevel();
     

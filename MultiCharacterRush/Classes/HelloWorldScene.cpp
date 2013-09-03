@@ -9,9 +9,18 @@
 #include "SimpleAudioEngine.h"
 #include "GLES-Render.h"
 #include "CCNotificationCenter.h"
+#include "LHSettings.h"
 
 using namespace cocos2d;
 using namespace CocosDenshion;
+
+int FootstepLength[] =
+{
+    3, // diff level 0
+    2, // diff level 1
+    1, // diff level 2
+    0, // diff level 3
+};
 
 #define PTM_RATIO 32
 
@@ -32,6 +41,8 @@ CCDirector::sharedDirector()->getWinSize()
 
 #define BG02_CONTENT_WIDTH 331.25
 #define BG02_CONTENT_HEIGHT 266.75
+
+#define FOOTSTEP_CONTENT_WIDTH 32.0f
 
 enum {
     kTagParentNode = 1,
@@ -92,6 +103,7 @@ HelloWorld::HelloWorld()
 , mScreenCount(0)
 , mBG01Count(0)
 , mBG02Count(0)
+, mLevelDifficulty(0)
 , mIsCameraMoving(false)
 {
     setTouchEnabled( true );
@@ -204,6 +216,7 @@ void HelloWorld::LoadLevel()
     mBG01Count = 0;
     mBG02Count = 0;
     mIsCameraMoving = false;
+    mLevelDifficulty = 0;
     
     mLevelHelperLoader = new LevelHelperLoader("./GameData/Cooked/FirstPlayable.plhs");
     mLevelHelperLoader->addObjectsToWorld(world, this);
@@ -418,30 +431,8 @@ void HelloWorld::requestNextScreenMap(float startX)
     mIsRequestNextScreenMap = true;
 }
 
-#include "LHSettings.h"
-void HelloWorld::generateNextScreenMap(float startX)
+void HelloWorld::gnerateTriggers(float startX)
 {
-    cleanOutofScreenMap();
-    
-    CCLOG("win w=%f, h%f", WIN_SIZE_W, WIN_SIZE_H);
-    
-    mScreenCount++;
-    
-    for (int i=0; i<4; ++i)
-    {
-        char name[32];
-        sprintf(name, "land01_0%d", i%2+1);
-        
-        LHSprite* newSprite = mLevelHelperLoader->createSpriteWithName(name, "scene01", "GameData.pshs");
-        newSprite->setTag(TAG_ENV_GROUND);
-        
-        CCPoint newSpritePoint;
-        newSpritePoint.x = startX + WIN_SIZE_W/2 - mMapBlockSize*6 + mMapBlockSize*3*i;
-        newSpritePoint.y = WIN_SIZE_H/2 - mMapBlockSize*3;
-        
-        newSprite->transformPosition(newSpritePoint);
-    }
-    
     LHSprite* newSpriteMarker = mLevelHelperLoader->createSpriteWithName("marker", "common", "GameData.pshs");
     newSpriteMarker->setTag(TAG_MAP_MARKER);
     newSpriteMarker->transformPosition(CCPoint(startX+WIN_SIZE_W, WIN_SIZE_H/2));
@@ -453,10 +444,13 @@ void HelloWorld::generateNextScreenMap(float startX)
     newSpriteGhost->transformScaleY(10);
     newSpriteGhost->transformScaleX(200);
     newSpriteGhost->setVisible(false);
-    
+}
+
+void HelloWorld::generateBG(float startX)
+{
     int index = 0;
     while (true)
-    {        
+    {
         LHSprite* newSpriteBG02 = mLevelHelperLoader->createSpriteWithName("bg02", "bg01", "GameData.pshs");
         
         int totalScreenWidth = (int)(WIN_SIZE_W*mScreenCount);
@@ -503,6 +497,71 @@ void HelloWorld::generateNextScreenMap(float startX)
             ++index;
         }
     }
+}
+
+void HelloWorld::generateFootsetp(float startX)
+{
+    int randNumber = -mMapBlockSize + (arc4random()%(mMapBlockSize*2));
+    
+    float height = WIN_SIZE_H/2;
+    
+    CCPoint spriteHeadPos;
+    spriteHeadPos.x = (startX+WIN_SIZE_W/2) + randNumber;
+    spriteHeadPos.y = height;
+    
+    LHSprite* spriteHead = mLevelHelperLoader->createSpriteWithName("land03_01", "scene01", "GameData.pshs");
+    spriteHead->setTag(TAG_ENV_GROUND);
+    spriteHead->transformPosition(spriteHeadPos);
+    
+    for (int i=0; i<FootstepLength[mLevelDifficulty]; ++i)
+    {
+        CCPoint spriteBodyPos;
+        spriteBodyPos.x = spriteHeadPos.x+FOOTSTEP_CONTENT_WIDTH+FOOTSTEP_CONTENT_WIDTH*i;
+        spriteBodyPos.y = height;
+        
+        LHSprite* spriteBody = mLevelHelperLoader->createSpriteWithName("land03_02", "scene01", "GameData.pshs");
+        spriteBody->setTag(TAG_ENV_GROUND);
+        spriteBody->transformPosition(spriteBodyPos);
+    }
+    
+    
+    CCPoint spriteEndPos;
+    spriteEndPos.x = spriteHeadPos.x+FOOTSTEP_CONTENT_WIDTH*(FootstepLength[mLevelDifficulty]+1);
+    spriteEndPos.y = height;
+    
+    LHSprite* spriteEnd = mLevelHelperLoader->createSpriteWithName("land03_03", "scene01", "GameData.pshs");
+    spriteEnd->setTag(TAG_ENV_GROUND);
+    spriteEnd->transformPosition(spriteEndPos);
+}
+
+void HelloWorld::generateNextScreenMap(float startX)
+{
+    cleanOutofScreenMap();
+    
+    CCLOG("win w=%f, h%f", WIN_SIZE_W, WIN_SIZE_H);
+    
+    mScreenCount++;
+    
+    for (int i=0; i<4; ++i)
+    {
+        char name[32];
+        sprintf(name, "land01_0%d", i%2+1);
+        
+        LHSprite* newSprite = mLevelHelperLoader->createSpriteWithName(name, "scene01", "GameData.pshs");
+        newSprite->setTag(TAG_ENV_GROUND);
+        
+        CCPoint newSpritePoint;
+        newSpritePoint.x = startX + WIN_SIZE_W/2 - mMapBlockSize*6 + mMapBlockSize*3*i;
+        newSpritePoint.y = WIN_SIZE_H/2 - mMapBlockSize*3;
+        
+        newSprite->transformPosition(newSpritePoint);
+    }
+    
+    gnerateTriggers(startX);
+    
+    generateBG(startX);
+    
+    generateFootsetp(startX);
 }
 
 void HelloWorld::cleanOutofScreenMap()
