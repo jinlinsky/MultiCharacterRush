@@ -76,21 +76,21 @@
 								<key>Opacity</key>
 								<real>1</real>
 								<key>Position</key>
-								<string>{27.374170256776949, 150.1846705698805}</string>
+								<string>{56.374170256776949, 179.03802687166501}</string>
 								<key>Scale</key>
 								<string>{1, 1}</string>
 								<key>SpriteSize</key>
-								<string>{73, 87.5}</string>
+								<string>{44.25, 51.25}</string>
 								<key>Tag</key>
-								<integer>2</integer>
+								<integer>3</integer>
 								<key>TagName</key>
 								<string>TAG_PLAYER_01</string>
 								<key>TextureOffset</key>
-								<string>{12.125, -9.875}</string>
+								<string>{0, 0}</string>
 								<key>UniqueName</key>
 								<string>player01</string>
 								<key>ZOrder</key>
-								<integer>0</integer>
+								<integer>10</integer>
 							</dict>
 							<key>UniqueName</key>
 							<string>player01</string>
@@ -187,11 +187,11 @@
 								<key>SpriteSize</key>
 								<string>{6, 4.5}</string>
 								<key>Tag</key>
-								<integer>4</integer>
+								<integer>5</integer>
 								<key>TagName</key>
 								<string>TAG_CAMERA</string>
 								<key>TextureOffset</key>
-								<string>{0, -0}</string>
+								<string>{0, 0}</string>
 								<key>UniqueName</key>
 								<string>camera</string>
 								<key>ZOrder</key>
@@ -256,7 +256,7 @@
 		<key>2HDSuffix</key>
 		<string>-ipadhd</string>
 		<key>BackgroundColor</key>
-		<string>{{1, 0.97354120016098022}, {0.99240392446517944, 0}}</string>
+		<string>{{0, 0}, {0, 2.1945743426363144e-314}}</string>
 		<key>BundleIdentifier</key>
 		<string></string>
 		<key>CustomClasses</key>
@@ -281,6 +281,7 @@
 		<array>
 			<string>DEFAULT</string>
 			<string>TAG_ENV_GROUND</string>
+			<string>TAG_ENV_FOOTSTEP</string>
 			<string>TAG_PLAYER_01</string>
 			<string>TAG_PLAYER_02</string>
 			<string>TAG_CAMERA</string>

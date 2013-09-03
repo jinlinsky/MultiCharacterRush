@@ -39,7 +39,8 @@ bool AppDelegate::applicationDidFinishLaunching()
     float scrWidth = CCEGLView::sharedOpenGLView()->getFrameSize().width;
     float scrHeight= CCEGLView::sharedOpenGLView()->getFrameSize().height;
     
-    CCEGLView::sharedOpenGLView()->setDesignResolutionSize(480, 320, kResolutionExactFit);
+    // 480*320 is iphone3 resolution, but here we need the ipad scale height design resolution
+    CCEGLView::sharedOpenGLView()->setDesignResolutionSize(480, 320, kResolutionFixedWidth);
     
     std::vector<std::string> res;
     res.push_back("./GameData/Cooked");

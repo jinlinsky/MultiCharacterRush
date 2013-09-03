@@ -84,6 +84,7 @@
 	<array>
 		<string>DEFAULT</string>
 		<string>TAG_ENV_GROUND</string>
+		<string>TAG_ENV_FOOTSTEP</string>
 		<string>TAG_PLAYER_01</string>
 		<string>TAG_PLAYER_02</string>
 		<string>TAG_CAMERA</string>

@@ -18,8 +18,11 @@
 enum PlayerState
 {
     PS_RUN = 0,
-    PS_JUMP = 1,
-    PS_LAND = 2,
+    PS_JUMP01 = 1,
+    PS_JUMP02 = 2,
+    PS_FALLING = 3,
+    PS_HOLDING = 4,
+    PS_LAND = 5,
 };
 
 class PhysicsSprite : public cocos2d::CCSprite
@@ -33,10 +36,12 @@ private:
     b2Body* m_pBody;    // strong ref
 };
 
-class HelloWorld : public cocos2d::CCLayer {
+class HelloWorld : public cocos2d::CCLayerColor {
 public:
     ~HelloWorld();
     HelloWorld();
+    
+    virtual bool init();
     
     // returns a Scene that contains the HelloWorld as the only child
     static cocos2d::CCScene* scene();
@@ -47,6 +52,7 @@ public:
     void update(float dt);
     
     virtual void ccTouchesBegan(cocos2d::CCSet *pTouches, cocos2d::CCEvent *pEvent);
+    virtual void ccTouchesMoved(cocos2d::CCSet *pTouches, cocos2d::CCEvent *pEvent);
     virtual void ccTouchesEnded(cocos2d::CCSet* touches, cocos2d::CCEvent* event);
     
     void beginOrEndCollisionBetweenMarioAndCoin(LHContactInfo* contact);
@@ -55,15 +61,25 @@ public:
     
     void AnimationEndedNotification(LHSprite* sprite);
     
+    void EnableCollision(LHSprite* sprite);
+    void DisableCollision(LHSprite* sprite);
+    
+    void updatePlayer01(float dt);
+    void updateFootstep();
     void updateCamera(CCCamera* camera);
     void updateBG();
     
     CCPoint getBG01StartPoint();
     CCPoint getBG02StartPoint();
     
+    CCPoint getLastEnvGroundPoint();
+    
     void player01Run();
-    void player01Jump();
+    void player01Jump01();
+    void player01Jump02();
+    void player01Falling();
     void player01Land();
+    void player01Holding();
     
     void player02Run();
     void player02Jump();
@@ -74,6 +90,7 @@ public:
     int mPlayer01State;
     b2Vec2 mOriginalPosition;
     b2Vec2 mPlayer01Velocity;
+    int mPlayer01Jump02Count;
     
     // camera
     LHSprite* mSpriteCamera;
@@ -95,6 +112,7 @@ public:
     void gnerateTriggers(float startX);
     void generateBG(float startX);
     void generateFootsetp(float startX);
+    void generateGround(float startX);
     
     void requestNextScreenMap(float startX);
     void cleanOutofScreenMap();

@@ -67,14 +67,15 @@ enum LevelHelper_TAG
 { 
 	DEFAULT_TAG 	= 0,
 	TAG_ENV_GROUND 			= 1,
-	TAG_PLAYER_01 			= 2,
-	TAG_PLAYER_02 			= 3,
-	TAG_CAMERA 			= 4,
-	TAG_MAP_MARKER 			= 5,
-	TAG_GHOST_ZONE 			= 6,
-	TAG_BG_01 			= 7,
-	TAG_BG_02 			= 8,
-	NUMBER_OF_TAGS 	= 9
+	TAG_ENV_FOOTSTEP 			= 2,
+	TAG_PLAYER_01 			= 3,
+	TAG_PLAYER_02 			= 4,
+	TAG_CAMERA 			= 5,
+	TAG_MAP_MARKER 			= 6,
+	TAG_GHOST_ZONE 			= 7,
+	TAG_BG_01 			= 8,
+	TAG_BG_02 			= 9,
+	NUMBER_OF_TAGS 	= 10
 };
 
 std::string stringFromInt(const int& i);
