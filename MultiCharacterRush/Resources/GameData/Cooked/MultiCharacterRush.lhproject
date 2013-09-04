@@ -92,6 +92,7 @@
 		<string>TAG_GHOST_ZONE</string>
 		<string>TAG_BG_01</string>
 		<string>TAG_BG_02</string>
+		<string>TAG_</string>
 	</array>
 </dict>
 </plist>

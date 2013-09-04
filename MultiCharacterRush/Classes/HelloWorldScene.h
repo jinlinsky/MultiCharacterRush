@@ -55,8 +55,12 @@ public:
     virtual void ccTouchesMoved(cocos2d::CCSet *pTouches, cocos2d::CCEvent *pEvent);
     virtual void ccTouchesEnded(cocos2d::CCSet* touches, cocos2d::CCEvent* event);
     
-    void beginOrEndCollisionBetweenMarioAndCoin(LHContactInfo* contact);
+    void beginOrEndCollisionBetweenPlayer01AndGround(LHContactInfo* contact);
     void beginOrEndCollisionBetweenPlayer01AndGhostZone(LHContactInfo* contact);
+    
+    void beginOrEndCollisionBetweenPlayer02AndGround(LHContactInfo* contact);
+    void beginOrEndCollisionBetweenPlayer02AndGhostZone(LHContactInfo* contact);
+    
     void beginOrEndCollisionBetweenCameraAndMarke(LHContactInfo* contact);
     
     void AnimationEndedNotification(LHSprite* sprite);
@@ -65,6 +69,8 @@ public:
     void DisableCollision(LHSprite* sprite);
     
     void updatePlayer01(float dt);
+    void updatePlayer02(float dt);
+
     void updateFootstep();
     void updateCamera(CCCamera* camera);
     void updateBG();
@@ -82,14 +88,25 @@ public:
     void player01Holding();
     
     void player02Run();
-    void player02Jump();
+    void player02Jump01();
+    void player02Jump02();
+    void player02Falling();
+    void player02Land();
+    void player02Holding();
     
     LevelHelperLoader* mLevelHelperLoader;
     
+    void playerAnimation(LHSprite* sprite, const char* animName, const char* sceneName);
+    
     // player01
     int mPlayer01State;
-    b2Vec2 mOriginalPosition;
+    b2Vec2 mPlayer01OriginalPosition;
     int mPlayer01Jump02Count;
+    
+    // player02
+    int mPlayer02State;
+    b2Vec2 mPlayer02OriginalPosition;
+    int mPlayer02Jump02Count;
     
     // camera
     LHSprite* mSpriteCamera;

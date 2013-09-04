@@ -5811,7 +5811,7 @@
 			<key>AllowRotation</key>
 			<true/>
 			<key>Crop</key>
-			<false/>
+			<true/>
 			<key>DropSprites</key>
 			<false/>
 			<key>HDSuffix</key>
@@ -5821,7 +5821,7 @@
 			<key>MaxSheetSize</key>
 			<integer>1024</integer>
 			<key>NpotSize</key>
-			<string>{972, 1004}</string>
+			<string>{644, 944}</string>
 			<key>Padding</key>
 			<integer>8</integer>
 			<key>PixelFormat</key>
@@ -5836,57 +5836,1436 @@
 			<string></string>
 			<key>Sheet_Sprites_Info</key>
 			<dict>
-				<key>zhanshi0001</key>
+				<key>zhanshi_jump0001</key>
 				<dict>
 					<key>DocumentSecurityImageBookmark</key>
 					<data>
-					Ym9va+wEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
-					AAAAAAAAAAAAAAAAAAAAAAAAAAAA0AMAAAUA
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
 					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
 					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
 					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
 					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
-					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQYAAAAB
-					AQAAQ29va2VkAAAGAAAAAQEAAGlwYWRoZAAA
-					EwAAAAEBAABHYW1lRGF0YV9jaGFyMDIucG5n
-					ACwAAAABBgAABAAAABQAAAAkAAAANAAAAEgA
-					AABIAAAAZAAAAHgAAACIAAAAmAAAAKgAAAAI
-					AAAABAMAAGVYBwAAAAAACAAAAAQDAABoWAcA
-					AAAAAAgAAAAEAwAAilgHAAAAAAAIAAAABAMA
-					AIxYBwAAAAAACAAAAAQDAACWyE4AAAAAAAgA
-					AAAEAwAA28hOAAAAAAAIAAAABAMAAOLITgAA
-					AAAACAAAAAQDAAADyU4AAAAAAAgAAAAEAwAA
-					BMlOAAAAAAAIAAAABAMAAA7JTgAAAAAACAAA
-					AAQDAAARyU4AAAAAACwAAAABBgAA+AAAAAgB
-					AAAYAQAAKAEAADgBAABIAQAAWAEAAGgBAAB4
-					AQAAiAEAAJgBAAAYAAAAAQIAAAEAAAAAAAAA
-					DwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAA
-					AAMDAAABAAAABAAAAAMDAAACAAAACAAAAAQD
-					AAAJAAAAAAAAAAQAAAADAwAA9gEAAAIAAAAB
-					AQAAb3MAAAgAAAAEAwAAAMA/XHQAAAAIAAAA
-					AAQAAEG3J4nSAAAAJAAAAAEBAAAyRTRDQThD
-					Ri1FMzIwLTNDREItQkMyRi1DNDY5NUYzMjUz
-					NjAYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAA
-					AAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAA
-					AAEAAAABAAABAgAAYzBiMTlhMDI2M2NmN2Nj
-					ZWRlMzk5MGQwMzkzMjVmM2Q5MTk4NThjODsw
-					MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2Nv
-					bS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
-					aXRlOzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAw
-					MDAwMDA0ZWM5MTE7L3VzZXJzL2ppbmxpbi9f
-					ZGV2Xy9fcHJvamVjdF8vbXVsdGljaGFyYWN0
-					ZXJydXNoL211bHRpY2hhcmFjdGVycnVzaC9y
-					ZXNvdXJjZXMvZ2FtZWRhdGEvY29va2VkL2lw
-					YWRoZC9nYW1lZGF0YV9jaGFyMDIucG5nAOQA
-					AAD+////AQAAAAAAAAASAAAABBAAAMQAAAAA
-					AAAABRAAAKgBAAAAAAAAEBAAANwBAAAAAAAA
-					VBAAAAQCAAAAAAAAVRAAABACAAAAAAAAVhAA
-					APwBAAAAAAAAAiAAALACAAAAAAAAECAAADgC
-					AAAAAAAAESAAAGQCAAAAAAAAEiAAAEQCAAAA
-					AAAAEyAAAFQCAAAAAAAAICAAAJACAAAAAAAA
-					MCAAAPwBAAAAAAAAAcAAABwCAAAAAAAAEcAA
-					ABQAAAAAAAAAEsAAACwCAAAAAAAAENAAALwC
-					AAAAAAAAgPAAAMgCAAAAAAAA
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CgAAAAEBAABjaHIwMl9qdW1wAAAUAAAAAQEA
+					AHpoYW5zaGlfanVtcDAwMDEucG5nMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAAzyU4AAAAAAAgAAAAEAwAAf4lQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAADAEAAAEC
+					AAA0NTY1ZDM2YzQ1NzVjZDkyOTU3NTEzZDE5
+					NTFmNGNjZDZiODRhZjdmOzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwODk3
+					ZjsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAy
+					X2p1bXAvemhhbnNoaV9qdW1wMDAwMS5wbmcA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array/>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>char02</string>
+					<key>SHSpriteName</key>
+					<string>zhanshi_jump0001</string>
+					<key>SheetImage</key>
+					<string>GameData_char02.png</string>
+					<key>SheetImage-HD</key>
+					<string>GameData_char02.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<false/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{51, 62}, {44, 52.75}}</string>
+						<key>Frame-HD</key>
+						<string>{{204, 248}, {176, 211}}</string>
+						<key>Image</key>
+						<string>GameData_char02.png</string>
+						<key>Image-HD</key>
+						<string>GameData_char02.png</string>
+						<key>IsCropped</key>
+						<true/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<false/>
+						<key>Name</key>
+						<string>zhanshi_jump0001</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr02_jump/zhanshi_jump0001.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../Raw/Character/chr02_jump/zhanshi_jump0001.png/</string>
+						<key>OriginalRect</key>
+						<string>{{8, 43}, {176, 211}}</string>
+						<key>OriginalSize</key>
+						<string>{176, 211}</string>
+						<key>Position</key>
+						<string>{204, 248}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{44, 52.75}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, 0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>zhanshi_jump0002</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
+					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
+					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
+					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
+					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CgAAAAEBAABjaHIwMl9qdW1wAAAUAAAAAQEA
+					AHpoYW5zaGlfanVtcDAwMDIucG5nMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAAzyU4AAAAAAAgAAAAEAwAAgIlQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAADAEAAAEC
+					AABjNWU0ZjM3MDgxNWRjOGJhYzcyM2ZmMGQx
+					ODQ3ZGU2OTg5ZmE4NTYzOzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwODk4
+					MDsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAy
+					X2p1bXAvemhhbnNoaV9qdW1wMDAwMi5wbmcA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array/>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>char02</string>
+					<key>SHSpriteName</key>
+					<string>zhanshi_jump0002</string>
+					<key>SheetImage</key>
+					<string>GameData_char02.png</string>
+					<key>SheetImage-HD</key>
+					<string>GameData_char02.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<false/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{52, 179}, {40.75, 52}}</string>
+						<key>Frame-HD</key>
+						<string>{{208, 716}, {163, 208}}</string>
+						<key>Image</key>
+						<string>GameData_char02.png</string>
+						<key>Image-HD</key>
+						<string>GameData_char02.png</string>
+						<key>IsCropped</key>
+						<true/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<false/>
+						<key>Name</key>
+						<string>zhanshi_jump0002</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr02_jump/zhanshi_jump0002.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../Raw/Character/chr02_jump/zhanshi_jump0002.png/</string>
+						<key>OriginalRect</key>
+						<string>{{44, 30}, {163, 208}}</string>
+						<key>OriginalSize</key>
+						<string>{163, 208}</string>
+						<key>Position</key>
+						<string>{208, 716}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{40.75, 52}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, 0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>zhanshi_jump0003</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
+					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
+					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
+					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
+					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CgAAAAEBAABjaHIwMl9qdW1wAAAUAAAAAQEA
+					AHpoYW5zaGlfanVtcDAwMDMucG5nMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAAzyU4AAAAAAAgAAAAEAwAAgYlQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAADAEAAAEC
+					AABlMDBiZjIwOWUzNjQ2ZmMzODQyNjBhYWY0
+					ZjJjOTI3ZmMwNjliMWIyOzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwODk4
+					MTsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAy
+					X2p1bXAvemhhbnNoaV9qdW1wMDAwMy5wbmcA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array/>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>char02</string>
+					<key>SHSpriteName</key>
+					<string>zhanshi_jump0003</string>
+					<key>SheetImage</key>
+					<string>GameData_char02.png</string>
+					<key>SheetImage-HD</key>
+					<string>GameData_char02.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<false/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{50, 124}, {45, 53}}</string>
+						<key>Frame-HD</key>
+						<string>{{200, 496}, {180, 212}}</string>
+						<key>Image</key>
+						<string>GameData_char02.png</string>
+						<key>Image-HD</key>
+						<string>GameData_char02.png</string>
+						<key>IsCropped</key>
+						<true/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<false/>
+						<key>Name</key>
+						<string>zhanshi_jump0003</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr02_jump/zhanshi_jump0003.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../Raw/Character/chr02_jump/zhanshi_jump0003.png/</string>
+						<key>OriginalRect</key>
+						<string>{{27, 26}, {180, 212}}</string>
+						<key>OriginalSize</key>
+						<string>{180, 212}</string>
+						<key>Position</key>
+						<string>{200, 496}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{45, 53}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, 0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>zhanshi_jump0004</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
+					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
+					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
+					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
+					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CgAAAAEBAABjaHIwMl9qdW1wAAAUAAAAAQEA
+					AHpoYW5zaGlfanVtcDAwMDQucG5nMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAAzyU4AAAAAAAgAAAAEAwAAgolQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAADAEAAAEC
+					AABkYzI3ZmZjZmY0ODc1Y2U0NjQwNGY4MzE5
+					MDVmODJjN2E5ZTU2YWVlOzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwODk4
+					MjsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAy
+					X2p1bXAvemhhbnNoaV9qdW1wMDAwNC5wbmcA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array/>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>char02</string>
+					<key>SHSpriteName</key>
+					<string>zhanshi_jump0004</string>
+					<key>SheetImage</key>
+					<string>GameData_char02.png</string>
+					<key>SheetImage-HD</key>
+					<string>GameData_char02.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<false/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{2, 184}, {47.75, 52}}</string>
+						<key>Frame-HD</key>
+						<string>{{8, 736}, {189, 208}}</string>
+						<key>Image</key>
+						<string>GameData_char02.png</string>
+						<key>Image-HD</key>
+						<string>GameData_char02.png</string>
+						<key>IsCropped</key>
+						<true/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<false/>
+						<key>Name</key>
+						<string>zhanshi_jump0004</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr02_jump/zhanshi_jump0004.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../Raw/Character/chr02_jump/zhanshi_jump0004.png/</string>
+						<key>OriginalRect</key>
+						<string>{{12, 30}, {189, 208}}</string>
+						<key>OriginalSize</key>
+						<string>{189, 208}</string>
+						<key>Position</key>
+						<string>{8, 736}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{47.25, 52}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, 0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>zhanshi_jump0005</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
+					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
+					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
+					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
+					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CgAAAAEBAABjaHIwMl9qdW1wAAAUAAAAAQEA
+					AHpoYW5zaGlfanVtcDAwMDUucG5nMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAAzyU4AAAAAAAgAAAAEAwAAg4lQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAADAEAAAEC
+					AABjMjM1MjNkYzA0ZThjZGVkYTJkMjYzMWE5
+					MGYyMGI4NDkzMGEzNDIwOzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwODk4
+					MzsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAy
+					X2p1bXAvemhhbnNoaV9qdW1wMDAwNS5wbmcA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array/>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>char02</string>
+					<key>SHSpriteName</key>
+					<string>zhanshi_jump0005</string>
+					<key>SheetImage</key>
+					<string>GameData_char02.png</string>
+					<key>SheetImage-HD</key>
+					<string>GameData_char02.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<false/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{97, 62}, {36.5, 59.5}}</string>
+						<key>Frame-HD</key>
+						<string>{{388, 248}, {146, 238}}</string>
+						<key>Image</key>
+						<string>GameData_char02.png</string>
+						<key>Image-HD</key>
+						<string>GameData_char02.png</string>
+						<key>IsCropped</key>
+						<true/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<false/>
+						<key>Name</key>
+						<string>zhanshi_jump0005</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr02_jump/zhanshi_jump0005.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../Raw/Character/chr02_jump/zhanshi_jump0005.png/</string>
+						<key>OriginalRect</key>
+						<string>{{41, 1}, {146, 238}}</string>
+						<key>OriginalSize</key>
+						<string>{146, 238}</string>
+						<key>Position</key>
+						<string>{388, 248}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{36.5, 59.5}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, 0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>zhanshi_jump0006</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
+					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
+					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
+					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
+					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CgAAAAEBAABjaHIwMl9qdW1wAAAUAAAAAQEA
+					AHpoYW5zaGlfanVtcDAwMDYucG5nMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAAzyU4AAAAAAAgAAAAEAwAAhIlQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAADAEAAAEC
+					AABhNDAzNWIyZWY1MGJjZTM4ZTNjYjk2ZmJk
+					MTk4NjlkMzZiOTNkYTM3OzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwODk4
+					NDsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAy
+					X2p1bXAvemhhbnNoaV9qdW1wMDAwNi5wbmcA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array/>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>char02</string>
+					<key>SHSpriteName</key>
+					<string>zhanshi_jump0006</string>
+					<key>SheetImage</key>
+					<string>GameData_char02.png</string>
+					<key>SheetImage-HD</key>
+					<string>GameData_char02.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<false/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{99, 2}, {36.5, 59.5}}</string>
+						<key>Frame-HD</key>
+						<string>{{396, 8}, {146, 238}}</string>
+						<key>Image</key>
+						<string>GameData_char02.png</string>
+						<key>Image-HD</key>
+						<string>GameData_char02.png</string>
+						<key>IsCropped</key>
+						<true/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<true/>
+						<key>IsTrimmed</key>
+						<false/>
+						<key>Name</key>
+						<string>zhanshi_jump0006</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr02_jump/zhanshi_jump0006.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../Raw/Character/chr02_jump/zhanshi_jump0006.png/</string>
+						<key>OriginalRect</key>
+						<string>{{42, 3}, {146, 238}}</string>
+						<key>OriginalSize</key>
+						<string>{146, 238}</string>
+						<key>Position</key>
+						<string>{396, 8}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{36.5, 59.5}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, 0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>zhanshi_jump0007</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
+					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
+					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
+					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
+					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CgAAAAEBAABjaHIwMl9qdW1wAAAUAAAAAQEA
+					AHpoYW5zaGlfanVtcDAwMDcucG5nMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAAzyU4AAAAAAAgAAAAEAwAAhYlQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAADAEAAAEC
+					AABiN2MzZWNkYzk2MjAzZGUwYzdkZTg2YzNk
+					NmJiY2E1MWViYzc2ZWM3OzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwODk4
+					NTsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAy
+					X2p1bXAvemhhbnNoaV9qdW1wMDAwNy5wbmcA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array/>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>char02</string>
+					<key>SHSpriteName</key>
+					<string>zhanshi_jump0007</string>
+					<key>SheetImage</key>
+					<string>GameData_char02.png</string>
+					<key>SheetImage-HD</key>
+					<string>GameData_char02.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<false/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{94, 179}, {37.75, 52}}</string>
+						<key>Frame-HD</key>
+						<string>{{376, 716}, {151, 208}}</string>
+						<key>Image</key>
+						<string>GameData_char02.png</string>
+						<key>Image-HD</key>
+						<string>GameData_char02.png</string>
+						<key>IsCropped</key>
+						<true/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<false/>
+						<key>Name</key>
+						<string>zhanshi_jump0007</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr02_jump/zhanshi_jump0007.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../Raw/Character/chr02_jump/zhanshi_jump0007.png/</string>
+						<key>OriginalRect</key>
+						<string>{{51, 41}, {151, 208}}</string>
+						<key>OriginalSize</key>
+						<string>{151, 208}</string>
+						<key>Position</key>
+						<string>{376, 716}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{37.75, 52}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, 0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>zhanshi_jump0008</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
+					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
+					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
+					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
+					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CgAAAAEBAABjaHIwMl9qdW1wAAAUAAAAAQEA
+					AHpoYW5zaGlfanVtcDAwMDgucG5nMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAAzyU4AAAAAAAgAAAAEAwAAholQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAADAEAAAEC
+					AABhNDI2MzkxMGUwMjJlOTY3NGQ3MTIwZjcz
+					NmQ3ZmE3ZmIxNDMxYzc2OzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwODk4
+					NjsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAy
+					X2p1bXAvemhhbnNoaV9qdW1wMDAwOC5wbmcA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array/>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>char02</string>
+					<key>SHSpriteName</key>
+					<string>zhanshi_jump0008</string>
+					<key>SheetImage</key>
+					<string>GameData_char02.png</string>
+					<key>SheetImage-HD</key>
+					<string>GameData_char02.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<false/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{97, 124}, {37.75, 52}}</string>
+						<key>Frame-HD</key>
+						<string>{{388, 496}, {151, 208}}</string>
+						<key>Image</key>
+						<string>GameData_char02.png</string>
+						<key>Image-HD</key>
+						<string>GameData_char02.png</string>
+						<key>IsCropped</key>
+						<true/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<false/>
+						<key>Name</key>
+						<string>zhanshi_jump0008</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr02_jump/zhanshi_jump0008.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../Raw/Character/chr02_jump/zhanshi_jump0008.png/</string>
+						<key>OriginalRect</key>
+						<string>{{51, 41}, {151, 208}}</string>
+						<key>OriginalSize</key>
+						<string>{151, 208}</string>
+						<key>Position</key>
+						<string>{388, 496}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{37.75, 52}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, 0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>zhanshi_jump0009</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
+					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
+					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
+					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
+					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CgAAAAEBAABjaHIwMl9qdW1wAAAUAAAAAQEA
+					AHpoYW5zaGlfanVtcDAwMDkucG5nMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAAzyU4AAAAAAAgAAAAEAwAAh4lQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAADAEAAAEC
+					AAAzOTk1YTQwZmQwMmUxMGE5Zjc0MzdmNmQw
+					Y2NhNTc2ZTRjOTc2MGNhOzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwODk4
+					NzsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAy
+					X2p1bXAvemhhbnNoaV9qdW1wMDAwOS5wbmcA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array/>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>char02</string>
+					<key>SHSpriteName</key>
+					<string>zhanshi_jump0009</string>
+					<key>SheetImage</key>
+					<string>GameData_char02.png</string>
+					<key>SheetImage-HD</key>
+					<string>GameData_char02.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<false/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{134, 178}, {27, 53}}</string>
+						<key>Frame-HD</key>
+						<string>{{536, 712}, {108, 212}}</string>
+						<key>Image</key>
+						<string>GameData_char02.png</string>
+						<key>Image-HD</key>
+						<string>GameData_char02.png</string>
+						<key>IsCropped</key>
+						<true/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<false/>
+						<key>Name</key>
+						<string>zhanshi_jump0009</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr02_jump/zhanshi_jump0009.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../Raw/Character/chr02_jump/zhanshi_jump0009.png/</string>
+						<key>OriginalRect</key>
+						<string>{{61, 36}, {108, 212}}</string>
+						<key>OriginalSize</key>
+						<string>{108, 212}</string>
+						<key>Position</key>
+						<string>{536, 712}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{27, 53}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, 0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>zhanshi_run0001</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
+					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
+					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
+					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
+					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CQAAAAEBAABjaHIwMl9ydW4AAAATAAAAAQEA
+					AHpoYW5zaGlfcnVuMDAwMS5wbmcAMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAA+yU4AAAAAAAgAAAAEAwAAUolQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAACgEAAAEC
+					AABmYjE4MDljYzhhOWNjNjI2ODg4YzdmMTA5
+					NWVhZjQwYjEwZTM0MTQ0OzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwODk1
+					MjsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAy
+					X3J1bi96aGFuc2hpX3J1bjAwMDEucG5nAAAA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
 					</data>
 					<key>IsSHSprite</key>
 					<true/>
@@ -5918,36 +7297,36 @@
 								<key>Category</key>
 								<integer>1</integer>
 								<key>Density</key>
-								<real>0.20000000298023224</real>
+								<real>1.5</real>
 								<key>Fixture</key>
 								<array>
 									<array>
-										<string>{-21.125, -22.371862133074217}</string>
-										<string>{21.550791931623849, -22.371862133074217}</string>
-										<string>{21.550791931623849, 25.25}</string>
-										<string>{-21.125, 25.25}</string>
+										<string>{-11.010586076947405, -26.324989000532895}</string>
+										<string>{14.754840829283566, -16.964710243645811}</string>
+										<string>{14.785499690696057, 26.129628962492745}</string>
+										<string>{-10.505381640690061, 26.365568794659509}</string>
 									</array>
 								</array>
 								<key>Friction</key>
-								<real>0.0</real>
+								<real>0.20000000298023224</real>
 								<key>Group</key>
 								<integer>0</integer>
 								<key>Height</key>
-								<real>202</real>
+								<real>0.0</real>
 								<key>HolesPoints</key>
 								<array/>
 								<key>IsCircle</key>
 								<false/>
 								<key>IsRectangle</key>
-								<true/>
+								<false/>
 								<key>IsSensor</key>
 								<false/>
 								<key>LHHeight</key>
-								<real>50.5</real>
+								<real>0.0</real>
 								<key>LHShapePositionOffset</key>
-								<string>{-21.125, -25.25}</string>
+								<string>{-23.25, -28.75}</string>
 								<key>LHWidth</key>
-								<real>42.25</real>
+								<real>0.0</real>
 								<key>Mask</key>
 								<integer>65535</integer>
 								<key>Name</key>
@@ -5956,17 +7335,17 @@
 								<real>0.20000000298023224</real>
 								<key>ShapePoints</key>
 								<array>
-									<string>{0, 0}</string>
-									<string>{170.70316772649539, 0}</string>
-									<string>{170.70316772649539, 190.48744853229687}</string>
-									<string>{0, 190.48744853229687}</string>
+									<string>{50.978473437239757, 9.5377248213619623}</string>
+									<string>{152.14199876278423, 10.481484150029019}</string>
+									<string>{152.01936331713426, 182.85884097458325}</string>
+									<string>{48.95765569221038, 220.29995600213158}</string>
 								</array>
 								<key>ShapePositionOffset</key>
 								<string>{0, 0}</string>
 								<key>Tag</key>
 								<integer>0</integer>
 								<key>Width</key>
-								<real>169</real>
+								<real>0.0</real>
 							</dict>
 						</array>
 						<key>Type</key>
@@ -5975,7 +7354,7 @@
 					<key>SHSheetName</key>
 					<string>char02</string>
 					<key>SHSpriteName</key>
-					<string>zhanshi0001</string>
+					<string>zhanshi_run0001</string>
 					<key>SheetImage</key>
 					<string>GameData_char02.png</string>
 					<key>SheetImage-HD</key>
@@ -5991,7 +7370,7 @@
 						<key>Color</key>
 						<string>{{1, 1}, {1, 1}}</string>
 						<key>ConvertedFromOldFormat</key>
-						<true/>
+						<false/>
 						<key>CustomClassName</key>
 						<string></string>
 						<key>FlipX</key>
@@ -5999,102 +7378,104 @@
 						<key>FlipY</key>
 						<false/>
 						<key>Frame</key>
-						<string>{{2, 173}, {42.75, 50.5}}</string>
+						<string>{{2, 65}, {46.5, 57.5}}</string>
 						<key>Frame-HD</key>
-						<string>{{8, 692}, {169, 202}}</string>
+						<string>{{8, 260}, {186, 230}}</string>
 						<key>Image</key>
 						<string>GameData_char02.png</string>
 						<key>Image-HD</key>
 						<string>GameData_char02.png</string>
 						<key>IsCropped</key>
-						<false/>
+						<true/>
 						<key>IsDrawable</key>
 						<true/>
 						<key>IsRotated</key>
 						<false/>
 						<key>IsTrimmed</key>
-						<true/>
+						<false/>
 						<key>Name</key>
-						<string>zhanshi0001</string>
+						<string>zhanshi_run0001</string>
 						<key>Opacity</key>
 						<real>1</real>
 						<key>OriginalImage</key>
-						<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Cooked/ipadhd/GameData_char02.png</string>
+						<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr02_run/zhanshi_run0001.png</string>
 						<key>OriginalImage_RelativePath</key>
-						<string>ipadhd/GameData_char02.png/</string>
+						<string>../Raw/Character/chr02_run/zhanshi_run0001.png/</string>
 						<key>OriginalRect</key>
-						<string>{{8, 692}, {169, 202}}</string>
+						<string>{{1, 21}, {186, 230}}</string>
 						<key>OriginalSize</key>
-						<string>{169, 202}</string>
+						<string>{186, 230}</string>
 						<key>Position</key>
-						<string>{8, 692}</string>
+						<string>{8, 260}</string>
 						<key>Scale</key>
 						<string>{1, 1}</string>
 						<key>SpriteSize</key>
-						<string>{42.25, 50.5}</string>
+						<string>{46.5, 57.5}</string>
 						<key>SpriteWasBreaked</key>
 						<false/>
 						<key>Tag</key>
 						<integer>0</integer>
 						<key>TextureOffset</key>
-						<string>{-104.625, -70.25}</string>
+						<string>{0, 0}</string>
 						<key>UsesBatchRendering</key>
 						<true/>
 						<key>ZOrder</key>
 						<integer>0</integer>
 					</dict>
 				</dict>
-				<key>zhanshi0001_1</key>
+				<key>zhanshi_run0002</key>
 				<dict>
 					<key>DocumentSecurityImageBookmark</key>
 					<data>
-					Ym9va+wEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
-					AAAAAAAAAAAAAAAAAAAAAAAAAAAA0AMAAAUA
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
 					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
 					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
 					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
 					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
-					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQYAAAAB
-					AQAAQ29va2VkAAAGAAAAAQEAAGlwYWRoZAAA
-					EwAAAAEBAABHYW1lRGF0YV9jaGFyMDIucG5n
-					ACwAAAABBgAABAAAABQAAAAkAAAANAAAAEgA
-					AABIAAAAZAAAAHgAAACIAAAAmAAAAKgAAAAI
-					AAAABAMAAGVYBwAAAAAACAAAAAQDAABoWAcA
-					AAAAAAgAAAAEAwAAilgHAAAAAAAIAAAABAMA
-					AIxYBwAAAAAACAAAAAQDAACWyE4AAAAAAAgA
-					AAAEAwAA28hOAAAAAAAIAAAABAMAAOLITgAA
-					AAAACAAAAAQDAAADyU4AAAAAAAgAAAAEAwAA
-					BMlOAAAAAAAIAAAABAMAAA7JTgAAAAAACAAA
-					AAQDAAARyU4AAAAAACwAAAABBgAA+AAAAAgB
-					AAAYAQAAKAEAADgBAABIAQAAWAEAAGgBAAB4
-					AQAAiAEAAJgBAAAYAAAAAQIAAAEAAAAAAAAA
-					DwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAA
-					AAMDAAABAAAABAAAAAMDAAACAAAACAAAAAQD
-					AAAJAAAAAAAAAAQAAAADAwAA9gEAAAIAAAAB
-					AQAAb3MAAAgAAAAEAwAAAMA/XHQAAAAIAAAA
-					AAQAAEG3J4nSAAAAJAAAAAEBAAAyRTRDQThD
-					Ri1FMzIwLTNDREItQkMyRi1DNDY5NUYzMjUz
-					NjAYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAA
-					AAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAA
-					AAEAAAABAAABAgAAYzBiMTlhMDI2M2NmN2Nj
-					ZWRlMzk5MGQwMzkzMjVmM2Q5MTk4NThjODsw
-					MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2Nv
-					bS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
-					aXRlOzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAw
-					MDAwMDA0ZWM5MTE7L3VzZXJzL2ppbmxpbi9f
-					ZGV2Xy9fcHJvamVjdF8vbXVsdGljaGFyYWN0
-					ZXJydXNoL211bHRpY2hhcmFjdGVycnVzaC9y
-					ZXNvdXJjZXMvZ2FtZWRhdGEvY29va2VkL2lw
-					YWRoZC9nYW1lZGF0YV9jaGFyMDIucG5nAOQA
-					AAD+////AQAAAAAAAAASAAAABBAAAMQAAAAA
-					AAAABRAAAKgBAAAAAAAAEBAAANwBAAAAAAAA
-					VBAAAAQCAAAAAAAAVRAAABACAAAAAAAAVhAA
-					APwBAAAAAAAAAiAAALACAAAAAAAAECAAADgC
-					AAAAAAAAESAAAGQCAAAAAAAAEiAAAEQCAAAA
-					AAAAEyAAAFQCAAAAAAAAICAAAJACAAAAAAAA
-					MCAAAPwBAAAAAAAAAcAAABwCAAAAAAAAEcAA
-					ABQAAAAAAAAAEsAAACwCAAAAAAAAENAAALwC
-					AAAAAAAAgPAAAMgCAAAAAAAA
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CQAAAAEBAABjaHIwMl9ydW4AAAATAAAAAQEA
+					AHpoYW5zaGlfcnVuMDAwMi5wbmcAMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAA+yU4AAAAAAAgAAAAEAwAAU4lQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAACgEAAAEC
+					AAA1ZGU1MTdmNDM4YmYxYjQ0YjlhZmU3Mzgw
+					NWJkNTI0NzE2YTYwYTc4OzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwODk1
+					MzsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAy
+					X3J1bi96aGFuc2hpX3J1bjAwMDIucG5nAAAA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
 					</data>
 					<key>IsSHSprite</key>
 					<true/>
@@ -6126,7 +7507,7 @@
 					<key>SHSheetName</key>
 					<string>char02</string>
 					<key>SHSpriteName</key>
-					<string>zhanshi0001_1</string>
+					<string>zhanshi_run0002</string>
 					<key>SheetImage</key>
 					<string>GameData_char02.png</string>
 					<key>SheetImage-HD</key>
@@ -6142,7 +7523,7 @@
 						<key>Color</key>
 						<string>{{1, 1}, {1, 1}}</string>
 						<key>ConvertedFromOldFormat</key>
-						<true/>
+						<false/>
 						<key>CustomClassName</key>
 						<string></string>
 						<key>FlipX</key>
@@ -6150,102 +7531,104 @@
 						<key>FlipY</key>
 						<false/>
 						<key>Frame</key>
-						<string>{{48, 2}, {44.5, 55.75}}</string>
+						<string>{{51, 2}, {46.75, 57.75}}</string>
 						<key>Frame-HD</key>
-						<string>{{192, 8}, {178, 221}}</string>
+						<string>{{204, 8}, {185, 231}}</string>
 						<key>Image</key>
 						<string>GameData_char02.png</string>
 						<key>Image-HD</key>
 						<string>GameData_char02.png</string>
 						<key>IsCropped</key>
-						<false/>
+						<true/>
 						<key>IsDrawable</key>
 						<true/>
 						<key>IsRotated</key>
 						<false/>
 						<key>IsTrimmed</key>
-						<true/>
+						<false/>
 						<key>Name</key>
-						<string>zhanshi0001_1</string>
+						<string>zhanshi_run0002</string>
 						<key>Opacity</key>
 						<real>1</real>
 						<key>OriginalImage</key>
-						<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Cooked/ipadhd/GameData_char02.png</string>
+						<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr02_run/zhanshi_run0002.png</string>
 						<key>OriginalImage_RelativePath</key>
-						<string>ipadhd/GameData_char02.png/</string>
+						<string>../Raw/Character/chr02_run/zhanshi_run0002.png/</string>
 						<key>OriginalRect</key>
-						<string>{{192, 8}, {178, 221}}</string>
+						<string>{{2, 22}, {185, 231}}</string>
 						<key>OriginalSize</key>
-						<string>{178, 221}</string>
+						<string>{185, 231}</string>
 						<key>Position</key>
-						<string>{192, 8}</string>
+						<string>{204, 8}</string>
 						<key>Scale</key>
 						<string>{1, 1}</string>
 						<key>SpriteSize</key>
-						<string>{44.5, 55.25}</string>
+						<string>{46.25, 57.75}</string>
 						<key>SpriteWasBreaked</key>
 						<false/>
 						<key>Tag</key>
 						<integer>0</integer>
 						<key>TextureOffset</key>
-						<string>{-57.75, 98.125}</string>
+						<string>{0, 0}</string>
 						<key>UsesBatchRendering</key>
 						<true/>
 						<key>ZOrder</key>
 						<integer>0</integer>
 					</dict>
 				</dict>
-				<key>zhanshi0002</key>
+				<key>zhanshi_run0003</key>
 				<dict>
 					<key>DocumentSecurityImageBookmark</key>
 					<data>
-					Ym9va+wEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
-					AAAAAAAAAAAAAAAAAAAAAAAAAAAA0AMAAAUA
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
 					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
 					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
 					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
 					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
-					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQYAAAAB
-					AQAAQ29va2VkAAAGAAAAAQEAAGlwYWRoZAAA
-					EwAAAAEBAABHYW1lRGF0YV9jaGFyMDIucG5n
-					ACwAAAABBgAABAAAABQAAAAkAAAANAAAAEgA
-					AABIAAAAZAAAAHgAAACIAAAAmAAAAKgAAAAI
-					AAAABAMAAGVYBwAAAAAACAAAAAQDAABoWAcA
-					AAAAAAgAAAAEAwAAilgHAAAAAAAIAAAABAMA
-					AIxYBwAAAAAACAAAAAQDAACWyE4AAAAAAAgA
-					AAAEAwAA28hOAAAAAAAIAAAABAMAAOLITgAA
-					AAAACAAAAAQDAAADyU4AAAAAAAgAAAAEAwAA
-					BMlOAAAAAAAIAAAABAMAAA7JTgAAAAAACAAA
-					AAQDAAARyU4AAAAAACwAAAABBgAA+AAAAAgB
-					AAAYAQAAKAEAADgBAABIAQAAWAEAAGgBAAB4
-					AQAAiAEAAJgBAAAYAAAAAQIAAAEAAAAAAAAA
-					DwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAA
-					AAMDAAABAAAABAAAAAMDAAACAAAACAAAAAQD
-					AAAJAAAAAAAAAAQAAAADAwAA9gEAAAIAAAAB
-					AQAAb3MAAAgAAAAEAwAAAMA/XHQAAAAIAAAA
-					AAQAAEG3J4nSAAAAJAAAAAEBAAAyRTRDQThD
-					Ri1FMzIwLTNDREItQkMyRi1DNDY5NUYzMjUz
-					NjAYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAA
-					AAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAA
-					AAEAAAABAAABAgAAYzBiMTlhMDI2M2NmN2Nj
-					ZWRlMzk5MGQwMzkzMjVmM2Q5MTk4NThjODsw
-					MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2Nv
-					bS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
-					aXRlOzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAw
-					MDAwMDA0ZWM5MTE7L3VzZXJzL2ppbmxpbi9f
-					ZGV2Xy9fcHJvamVjdF8vbXVsdGljaGFyYWN0
-					ZXJydXNoL211bHRpY2hhcmFjdGVycnVzaC9y
-					ZXNvdXJjZXMvZ2FtZWRhdGEvY29va2VkL2lw
-					YWRoZC9nYW1lZGF0YV9jaGFyMDIucG5nAOQA
-					AAD+////AQAAAAAAAAASAAAABBAAAMQAAAAA
-					AAAABRAAAKgBAAAAAAAAEBAAANwBAAAAAAAA
-					VBAAAAQCAAAAAAAAVRAAABACAAAAAAAAVhAA
-					APwBAAAAAAAAAiAAALACAAAAAAAAECAAADgC
-					AAAAAAAAESAAAGQCAAAAAAAAEiAAAEQCAAAA
-					AAAAEyAAAFQCAAAAAAAAICAAAJACAAAAAAAA
-					MCAAAPwBAAAAAAAAAcAAABwCAAAAAAAAEcAA
-					ABQAAAAAAAAAEsAAACwCAAAAAAAAENAAALwC
-					AAAAAAAAgPAAAMgCAAAAAAAA
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CQAAAAEBAABjaHIwMl9ydW4AAAATAAAAAQEA
+					AHpoYW5zaGlfcnVuMDAwMy5wbmcAMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAA+yU4AAAAAAAgAAAAEAwAAVIlQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAACgEAAAEC
+					AABhNzY5NjgyMzM0NjcxMzQyMDJkYjA0Yzgz
+					NzExNzRiNWZjYWViZjUzOzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwODk1
+					NDsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAy
+					X3J1bi96aGFuc2hpX3J1bjAwMDMucG5nAAAA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
 					</data>
 					<key>IsSHSprite</key>
 					<true/>
@@ -6277,7 +7660,7 @@
 					<key>SHSheetName</key>
 					<string>char02</string>
 					<key>SHSpriteName</key>
-					<string>zhanshi0002</string>
+					<string>zhanshi_run0003</string>
 					<key>SheetImage</key>
 					<string>GameData_char02.png</string>
 					<key>SheetImage-HD</key>
@@ -6293,7 +7676,7 @@
 						<key>Color</key>
 						<string>{{1, 1}, {1, 1}}</string>
 						<key>ConvertedFromOldFormat</key>
-						<true/>
+						<false/>
 						<key>CustomClassName</key>
 						<string></string>
 						<key>FlipX</key>
@@ -6301,555 +7684,104 @@
 						<key>FlipY</key>
 						<false/>
 						<key>Frame</key>
-						<string>{{142, 2}, {39, 50}}</string>
+						<string>{{2, 2}, {46.75, 60.75}}</string>
 						<key>Frame-HD</key>
-						<string>{{568, 8}, {156, 200}}</string>
+						<string>{{8, 8}, {185, 241}}</string>
 						<key>Image</key>
 						<string>GameData_char02.png</string>
 						<key>Image-HD</key>
 						<string>GameData_char02.png</string>
 						<key>IsCropped</key>
-						<false/>
+						<true/>
 						<key>IsDrawable</key>
 						<true/>
 						<key>IsRotated</key>
 						<false/>
 						<key>IsTrimmed</key>
-						<true/>
+						<false/>
 						<key>Name</key>
-						<string>zhanshi0002</string>
+						<string>zhanshi_run0003</string>
 						<key>Opacity</key>
 						<real>1</real>
 						<key>OriginalImage</key>
-						<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Cooked/ipadhd/GameData_char02.png</string>
+						<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr02_run/zhanshi_run0003.png</string>
 						<key>OriginalImage_RelativePath</key>
-						<string>ipadhd/GameData_char02.png/</string>
+						<string>../Raw/Character/chr02_run/zhanshi_run0003.png/</string>
 						<key>OriginalRect</key>
-						<string>{{568, 8}, {156, 200}}</string>
+						<string>{{2, 18}, {185, 241}}</string>
 						<key>OriginalSize</key>
-						<string>{156, 200}</string>
-						<key>Position</key>
-						<string>{568, 8}</string>
-						<key>Scale</key>
-						<string>{1, 1}</string>
-						<key>SpriteSize</key>
-						<string>{39, 50}</string>
-						<key>SpriteWasBreaked</key>
-						<false/>
-						<key>Tag</key>
-						<integer>0</integer>
-						<key>TextureOffset</key>
-						<string>{33.5, 101}</string>
-						<key>UsesBatchRendering</key>
-						<true/>
-						<key>ZOrder</key>
-						<integer>0</integer>
-					</dict>
-				</dict>
-				<key>zhanshi0002_1</key>
-				<dict>
-					<key>DocumentSecurityImageBookmark</key>
-					<data>
-					Ym9va+wEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
-					AAAAAAAAAAAAAAAAAAAAAAAAAAAA0AMAAAUA
-					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
-					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
-					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
-					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
-					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQYAAAAB
-					AQAAQ29va2VkAAAGAAAAAQEAAGlwYWRoZAAA
-					EwAAAAEBAABHYW1lRGF0YV9jaGFyMDIucG5n
-					ACwAAAABBgAABAAAABQAAAAkAAAANAAAAEgA
-					AABIAAAAZAAAAHgAAACIAAAAmAAAAKgAAAAI
-					AAAABAMAAGVYBwAAAAAACAAAAAQDAABoWAcA
-					AAAAAAgAAAAEAwAAilgHAAAAAAAIAAAABAMA
-					AIxYBwAAAAAACAAAAAQDAACWyE4AAAAAAAgA
-					AAAEAwAA28hOAAAAAAAIAAAABAMAAOLITgAA
-					AAAACAAAAAQDAAADyU4AAAAAAAgAAAAEAwAA
-					BMlOAAAAAAAIAAAABAMAAA7JTgAAAAAACAAA
-					AAQDAAARyU4AAAAAACwAAAABBgAA+AAAAAgB
-					AAAYAQAAKAEAADgBAABIAQAAWAEAAGgBAAB4
-					AQAAiAEAAJgBAAAYAAAAAQIAAAEAAAAAAAAA
-					DwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAA
-					AAMDAAABAAAABAAAAAMDAAACAAAACAAAAAQD
-					AAAJAAAAAAAAAAQAAAADAwAA9gEAAAIAAAAB
-					AQAAb3MAAAgAAAAEAwAAAMA/XHQAAAAIAAAA
-					AAQAAEG3J4nSAAAAJAAAAAEBAAAyRTRDQThD
-					Ri1FMzIwLTNDREItQkMyRi1DNDY5NUYzMjUz
-					NjAYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAA
-					AAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAA
-					AAEAAAABAAABAgAAYzBiMTlhMDI2M2NmN2Nj
-					ZWRlMzk5MGQwMzkzMjVmM2Q5MTk4NThjODsw
-					MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2Nv
-					bS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
-					aXRlOzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAw
-					MDAwMDA0ZWM5MTE7L3VzZXJzL2ppbmxpbi9f
-					ZGV2Xy9fcHJvamVjdF8vbXVsdGljaGFyYWN0
-					ZXJydXNoL211bHRpY2hhcmFjdGVycnVzaC9y
-					ZXNvdXJjZXMvZ2FtZWRhdGEvY29va2VkL2lw
-					YWRoZC9nYW1lZGF0YV9jaGFyMDIucG5nAOQA
-					AAD+////AQAAAAAAAAASAAAABBAAAMQAAAAA
-					AAAABRAAAKgBAAAAAAAAEBAAANwBAAAAAAAA
-					VBAAAAQCAAAAAAAAVRAAABACAAAAAAAAVhAA
-					APwBAAAAAAAAAiAAALACAAAAAAAAECAAADgC
-					AAAAAAAAESAAAGQCAAAAAAAAEiAAAEQCAAAA
-					AAAAEyAAAFQCAAAAAAAAICAAAJACAAAAAAAA
-					MCAAAPwBAAAAAAAAAcAAABwCAAAAAAAAEcAA
-					ABQAAAAAAAAAEsAAACwCAAAAAAAAENAAALwC
-					AAAAAAAAgPAAAMgCAAAAAAAA
-					</data>
-					<key>IsSHSprite</key>
-					<true/>
-					<key>PhysicProperties</key>
-					<dict>
-						<key>AngularDamping</key>
-						<real>0.0</real>
-						<key>AngularVelocity</key>
-						<real>0.0</real>
-						<key>CanSleep</key>
-						<true/>
-						<key>FixedRot</key>
-						<false/>
-						<key>GravityScale</key>
-						<real>1</real>
-						<key>HandledBySH</key>
-						<true/>
-						<key>IsBullet</key>
-						<false/>
-						<key>LinearDamping</key>
-						<real>0.0</real>
-						<key>LinearVelocity</key>
-						<string>{0, 0}</string>
-						<key>SH_ComplexShapes</key>
-						<array/>
-						<key>Type</key>
-						<integer>3</integer>
-					</dict>
-					<key>SHSheetName</key>
-					<string>char02</string>
-					<key>SHSpriteName</key>
-					<string>zhanshi0002_1</string>
-					<key>SheetImage</key>
-					<string>GameData_char02.png</string>
-					<key>SheetImage-HD</key>
-					<string>GameData_char02.png</string>
-					<key>TextureProperties</key>
-					<dict>
-						<key>Angle</key>
-						<integer>0</integer>
-						<key>Border</key>
-						<integer>0</integer>
-						<key>CanBeTrimmed</key>
-						<true/>
-						<key>Color</key>
-						<string>{{1, 1}, {1, 1}}</string>
-						<key>ConvertedFromOldFormat</key>
-						<true/>
-						<key>CustomClassName</key>
-						<string></string>
-						<key>FlipX</key>
-						<false/>
-						<key>FlipY</key>
-						<false/>
-						<key>Frame</key>
-						<string>{{2, 62}, {44, 55.5}}</string>
-						<key>Frame-HD</key>
-						<string>{{8, 248}, {176, 222}}</string>
-						<key>Image</key>
-						<string>GameData_char02.png</string>
-						<key>Image-HD</key>
-						<string>GameData_char02.png</string>
-						<key>IsCropped</key>
-						<false/>
-						<key>IsDrawable</key>
-						<true/>
-						<key>IsRotated</key>
-						<false/>
-						<key>IsTrimmed</key>
-						<true/>
-						<key>Name</key>
-						<string>zhanshi0002_1</string>
-						<key>Opacity</key>
-						<real>1</real>
-						<key>OriginalImage</key>
-						<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Cooked/ipadhd/GameData_char02.png</string>
-						<key>OriginalImage_RelativePath</key>
-						<string>ipadhd/GameData_char02.png/</string>
-						<key>OriginalRect</key>
-						<string>{{8, 248}, {176, 222}}</string>
-						<key>OriginalSize</key>
-						<string>{176, 222}</string>
-						<key>Position</key>
-						<string>{8, 248}</string>
-						<key>Scale</key>
-						<string>{1, 1}</string>
-						<key>SpriteSize</key>
-						<string>{44, 55.5}</string>
-						<key>SpriteWasBreaked</key>
-						<false/>
-						<key>Tag</key>
-						<integer>0</integer>
-						<key>TextureOffset</key>
-						<string>{-104, 38.25}</string>
-						<key>UsesBatchRendering</key>
-						<true/>
-						<key>ZOrder</key>
-						<integer>0</integer>
-					</dict>
-				</dict>
-				<key>zhanshi0003</key>
-				<dict>
-					<key>DocumentSecurityImageBookmark</key>
-					<data>
-					Ym9va+wEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
-					AAAAAAAAAAAAAAAAAAAAAAAAAAAA0AMAAAUA
-					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
-					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
-					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
-					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
-					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQYAAAAB
-					AQAAQ29va2VkAAAGAAAAAQEAAGlwYWRoZAAA
-					EwAAAAEBAABHYW1lRGF0YV9jaGFyMDIucG5n
-					ACwAAAABBgAABAAAABQAAAAkAAAANAAAAEgA
-					AABIAAAAZAAAAHgAAACIAAAAmAAAAKgAAAAI
-					AAAABAMAAGVYBwAAAAAACAAAAAQDAABoWAcA
-					AAAAAAgAAAAEAwAAilgHAAAAAAAIAAAABAMA
-					AIxYBwAAAAAACAAAAAQDAACWyE4AAAAAAAgA
-					AAAEAwAA28hOAAAAAAAIAAAABAMAAOLITgAA
-					AAAACAAAAAQDAAADyU4AAAAAAAgAAAAEAwAA
-					BMlOAAAAAAAIAAAABAMAAA7JTgAAAAAACAAA
-					AAQDAAARyU4AAAAAACwAAAABBgAA+AAAAAgB
-					AAAYAQAAKAEAADgBAABIAQAAWAEAAGgBAAB4
-					AQAAiAEAAJgBAAAYAAAAAQIAAAEAAAAAAAAA
-					DwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAA
-					AAMDAAABAAAABAAAAAMDAAACAAAACAAAAAQD
-					AAAJAAAAAAAAAAQAAAADAwAA9gEAAAIAAAAB
-					AQAAb3MAAAgAAAAEAwAAAMA/XHQAAAAIAAAA
-					AAQAAEG3J4nSAAAAJAAAAAEBAAAyRTRDQThD
-					Ri1FMzIwLTNDREItQkMyRi1DNDY5NUYzMjUz
-					NjAYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAA
-					AAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAA
-					AAEAAAABAAABAgAAYzBiMTlhMDI2M2NmN2Nj
-					ZWRlMzk5MGQwMzkzMjVmM2Q5MTk4NThjODsw
-					MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2Nv
-					bS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
-					aXRlOzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAw
-					MDAwMDA0ZWM5MTE7L3VzZXJzL2ppbmxpbi9f
-					ZGV2Xy9fcHJvamVjdF8vbXVsdGljaGFyYWN0
-					ZXJydXNoL211bHRpY2hhcmFjdGVycnVzaC9y
-					ZXNvdXJjZXMvZ2FtZWRhdGEvY29va2VkL2lw
-					YWRoZC9nYW1lZGF0YV9jaGFyMDIucG5nAOQA
-					AAD+////AQAAAAAAAAASAAAABBAAAMQAAAAA
-					AAAABRAAAKgBAAAAAAAAEBAAANwBAAAAAAAA
-					VBAAAAQCAAAAAAAAVRAAABACAAAAAAAAVhAA
-					APwBAAAAAAAAAiAAALACAAAAAAAAECAAADgC
-					AAAAAAAAESAAAGQCAAAAAAAAEiAAAEQCAAAA
-					AAAAEyAAAFQCAAAAAAAAICAAAJACAAAAAAAA
-					MCAAAPwBAAAAAAAAAcAAABwCAAAAAAAAEcAA
-					ABQAAAAAAAAAEsAAACwCAAAAAAAAENAAALwC
-					AAAAAAAAgPAAAMgCAAAAAAAA
-					</data>
-					<key>IsSHSprite</key>
-					<true/>
-					<key>PhysicProperties</key>
-					<dict>
-						<key>AngularDamping</key>
-						<real>0.0</real>
-						<key>AngularVelocity</key>
-						<real>0.0</real>
-						<key>CanSleep</key>
-						<true/>
-						<key>FixedRot</key>
-						<false/>
-						<key>GravityScale</key>
-						<real>1</real>
-						<key>HandledBySH</key>
-						<true/>
-						<key>IsBullet</key>
-						<false/>
-						<key>LinearDamping</key>
-						<real>0.0</real>
-						<key>LinearVelocity</key>
-						<string>{0, 0}</string>
-						<key>SH_ComplexShapes</key>
-						<array/>
-						<key>Type</key>
-						<integer>3</integer>
-					</dict>
-					<key>SHSheetName</key>
-					<string>char02</string>
-					<key>SHSpriteName</key>
-					<string>zhanshi0003</string>
-					<key>SheetImage</key>
-					<string>GameData_char02.png</string>
-					<key>SheetImage-HD</key>
-					<string>GameData_char02.png</string>
-					<key>TextureProperties</key>
-					<dict>
-						<key>Angle</key>
-						<integer>0</integer>
-						<key>Border</key>
-						<integer>0</integer>
-						<key>CanBeTrimmed</key>
-						<true/>
-						<key>Color</key>
-						<string>{{1, 1}, {1, 1}}</string>
-						<key>ConvertedFromOldFormat</key>
-						<true/>
-						<key>CustomClassName</key>
-						<string></string>
-						<key>FlipX</key>
-						<false/>
-						<key>FlipY</key>
-						<false/>
-						<key>Frame</key>
-						<string>{{183, 2}, {39, 50}}</string>
-						<key>Frame-HD</key>
-						<string>{{732, 8}, {156, 200}}</string>
-						<key>Image</key>
-						<string>GameData_char02.png</string>
-						<key>Image-HD</key>
-						<string>GameData_char02.png</string>
-						<key>IsCropped</key>
-						<false/>
-						<key>IsDrawable</key>
-						<true/>
-						<key>IsRotated</key>
-						<false/>
-						<key>IsTrimmed</key>
-						<true/>
-						<key>Name</key>
-						<string>zhanshi0003</string>
-						<key>Opacity</key>
-						<real>1</real>
-						<key>OriginalImage</key>
-						<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Cooked/ipadhd/GameData_char02.png</string>
-						<key>OriginalImage_RelativePath</key>
-						<string>ipadhd/GameData_char02.png/</string>
-						<key>OriginalRect</key>
-						<string>{{732, 8}, {156, 200}}</string>
-						<key>OriginalSize</key>
-						<string>{156, 200}</string>
-						<key>Position</key>
-						<string>{732, 8}</string>
-						<key>Scale</key>
-						<string>{1, 1}</string>
-						<key>SpriteSize</key>
-						<string>{39, 50}</string>
-						<key>SpriteWasBreaked</key>
-						<false/>
-						<key>Tag</key>
-						<integer>0</integer>
-						<key>TextureOffset</key>
-						<string>{74.5, 101}</string>
-						<key>UsesBatchRendering</key>
-						<true/>
-						<key>ZOrder</key>
-						<integer>0</integer>
-					</dict>
-				</dict>
-				<key>zhanshi0003_1</key>
-				<dict>
-					<key>DocumentSecurityImageBookmark</key>
-					<data>
-					Ym9va+wEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
-					AAAAAAAAAAAAAAAAAAAAAAAAAAAA0AMAAAUA
-					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
-					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
-					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
-					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
-					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQYAAAAB
-					AQAAQ29va2VkAAAGAAAAAQEAAGlwYWRoZAAA
-					EwAAAAEBAABHYW1lRGF0YV9jaGFyMDIucG5n
-					ACwAAAABBgAABAAAABQAAAAkAAAANAAAAEgA
-					AABIAAAAZAAAAHgAAACIAAAAmAAAAKgAAAAI
-					AAAABAMAAGVYBwAAAAAACAAAAAQDAABoWAcA
-					AAAAAAgAAAAEAwAAilgHAAAAAAAIAAAABAMA
-					AIxYBwAAAAAACAAAAAQDAACWyE4AAAAAAAgA
-					AAAEAwAA28hOAAAAAAAIAAAABAMAAOLITgAA
-					AAAACAAAAAQDAAADyU4AAAAAAAgAAAAEAwAA
-					BMlOAAAAAAAIAAAABAMAAA7JTgAAAAAACAAA
-					AAQDAAARyU4AAAAAACwAAAABBgAA+AAAAAgB
-					AAAYAQAAKAEAADgBAABIAQAAWAEAAGgBAAB4
-					AQAAiAEAAJgBAAAYAAAAAQIAAAEAAAAAAAAA
-					DwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAA
-					AAMDAAABAAAABAAAAAMDAAACAAAACAAAAAQD
-					AAAJAAAAAAAAAAQAAAADAwAA9gEAAAIAAAAB
-					AQAAb3MAAAgAAAAEAwAAAMA/XHQAAAAIAAAA
-					AAQAAEG3J4nSAAAAJAAAAAEBAAAyRTRDQThD
-					Ri1FMzIwLTNDREItQkMyRi1DNDY5NUYzMjUz
-					NjAYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAA
-					AAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAA
-					AAEAAAABAAABAgAAYzBiMTlhMDI2M2NmN2Nj
-					ZWRlMzk5MGQwMzkzMjVmM2Q5MTk4NThjODsw
-					MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2Nv
-					bS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
-					aXRlOzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAw
-					MDAwMDA0ZWM5MTE7L3VzZXJzL2ppbmxpbi9f
-					ZGV2Xy9fcHJvamVjdF8vbXVsdGljaGFyYWN0
-					ZXJydXNoL211bHRpY2hhcmFjdGVycnVzaC9y
-					ZXNvdXJjZXMvZ2FtZWRhdGEvY29va2VkL2lw
-					YWRoZC9nYW1lZGF0YV9jaGFyMDIucG5nAOQA
-					AAD+////AQAAAAAAAAASAAAABBAAAMQAAAAA
-					AAAABRAAAKgBAAAAAAAAEBAAANwBAAAAAAAA
-					VBAAAAQCAAAAAAAAVRAAABACAAAAAAAAVhAA
-					APwBAAAAAAAAAiAAALACAAAAAAAAECAAADgC
-					AAAAAAAAESAAAGQCAAAAAAAAEiAAAEQCAAAA
-					AAAAEyAAAFQCAAAAAAAAICAAAJACAAAAAAAA
-					MCAAAPwBAAAAAAAAAcAAABwCAAAAAAAAEcAA
-					ABQAAAAAAAAAEsAAACwCAAAAAAAAENAAALwC
-					AAAAAAAAgPAAAMgCAAAAAAAA
-					</data>
-					<key>IsSHSprite</key>
-					<true/>
-					<key>PhysicProperties</key>
-					<dict>
-						<key>AngularDamping</key>
-						<real>0.0</real>
-						<key>AngularVelocity</key>
-						<real>0.0</real>
-						<key>CanSleep</key>
-						<true/>
-						<key>FixedRot</key>
-						<false/>
-						<key>GravityScale</key>
-						<real>1</real>
-						<key>HandledBySH</key>
-						<true/>
-						<key>IsBullet</key>
-						<false/>
-						<key>LinearDamping</key>
-						<real>0.0</real>
-						<key>LinearVelocity</key>
-						<string>{0, 0}</string>
-						<key>SH_ComplexShapes</key>
-						<array/>
-						<key>Type</key>
-						<integer>3</integer>
-					</dict>
-					<key>SHSheetName</key>
-					<string>char02</string>
-					<key>SHSpriteName</key>
-					<string>zhanshi0003_1</string>
-					<key>SheetImage</key>
-					<string>GameData_char02.png</string>
-					<key>SheetImage-HD</key>
-					<string>GameData_char02.png</string>
-					<key>TextureProperties</key>
-					<dict>
-						<key>Angle</key>
-						<integer>0</integer>
-						<key>Border</key>
-						<integer>0</integer>
-						<key>CanBeTrimmed</key>
-						<true/>
-						<key>Color</key>
-						<string>{{1, 1}, {1, 1}}</string>
-						<key>ConvertedFromOldFormat</key>
-						<true/>
-						<key>CustomClassName</key>
-						<string></string>
-						<key>FlipX</key>
-						<false/>
-						<key>FlipY</key>
-						<false/>
-						<key>Frame</key>
-						<string>{{2, 2}, {44, 57.75}}</string>
-						<key>Frame-HD</key>
-						<string>{{8, 8}, {176, 231}}</string>
-						<key>Image</key>
-						<string>GameData_char02.png</string>
-						<key>Image-HD</key>
-						<string>GameData_char02.png</string>
-						<key>IsCropped</key>
-						<false/>
-						<key>IsDrawable</key>
-						<true/>
-						<key>IsRotated</key>
-						<false/>
-						<key>IsTrimmed</key>
-						<true/>
-						<key>Name</key>
-						<string>zhanshi0003_1</string>
-						<key>Opacity</key>
-						<real>1</real>
-						<key>OriginalImage</key>
-						<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Cooked/ipadhd/GameData_char02.png</string>
-						<key>OriginalImage_RelativePath</key>
-						<string>ipadhd/GameData_char02.png/</string>
-						<key>OriginalRect</key>
-						<string>{{8, 8}, {176, 231}}</string>
-						<key>OriginalSize</key>
-						<string>{176, 231}</string>
+						<string>{185, 241}</string>
 						<key>Position</key>
 						<string>{8, 8}</string>
 						<key>Scale</key>
 						<string>{1, 1}</string>
 						<key>SpriteSize</key>
-						<string>{44, 57.75}</string>
+						<string>{46.25, 60.25}</string>
 						<key>SpriteWasBreaked</key>
 						<false/>
 						<key>Tag</key>
 						<integer>0</integer>
 						<key>TextureOffset</key>
-						<string>{-104, 97.125}</string>
+						<string>{0, 0}</string>
 						<key>UsesBatchRendering</key>
 						<true/>
 						<key>ZOrder</key>
 						<integer>0</integer>
 					</dict>
 				</dict>
-				<key>zhanshi0004</key>
+				<key>zhanshi_run0004</key>
 				<dict>
 					<key>DocumentSecurityImageBookmark</key>
 					<data>
-					Ym9va+wEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
-					AAAAAAAAAAAAAAAAAAAAAAAAAAAA0AMAAAUA
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
 					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
 					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
 					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
 					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
-					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQYAAAAB
-					AQAAQ29va2VkAAAGAAAAAQEAAGlwYWRoZAAA
-					EwAAAAEBAABHYW1lRGF0YV9jaGFyMDIucG5n
-					ACwAAAABBgAABAAAABQAAAAkAAAANAAAAEgA
-					AABIAAAAZAAAAHgAAACIAAAAmAAAAKgAAAAI
-					AAAABAMAAGVYBwAAAAAACAAAAAQDAABoWAcA
-					AAAAAAgAAAAEAwAAilgHAAAAAAAIAAAABAMA
-					AIxYBwAAAAAACAAAAAQDAACWyE4AAAAAAAgA
-					AAAEAwAA28hOAAAAAAAIAAAABAMAAOLITgAA
-					AAAACAAAAAQDAAADyU4AAAAAAAgAAAAEAwAA
-					BMlOAAAAAAAIAAAABAMAAA7JTgAAAAAACAAA
-					AAQDAAARyU4AAAAAACwAAAABBgAA+AAAAAgB
-					AAAYAQAAKAEAADgBAABIAQAAWAEAAGgBAAB4
-					AQAAiAEAAJgBAAAYAAAAAQIAAAEAAAAAAAAA
-					DwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAA
-					AAMDAAABAAAABAAAAAMDAAACAAAACAAAAAQD
-					AAAJAAAAAAAAAAQAAAADAwAA9gEAAAIAAAAB
-					AQAAb3MAAAgAAAAEAwAAAMA/XHQAAAAIAAAA
-					AAQAAEG3J4nSAAAAJAAAAAEBAAAyRTRDQThD
-					Ri1FMzIwLTNDREItQkMyRi1DNDY5NUYzMjUz
-					NjAYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAA
-					AAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAA
-					AAEAAAABAAABAgAAYzBiMTlhMDI2M2NmN2Nj
-					ZWRlMzk5MGQwMzkzMjVmM2Q5MTk4NThjODsw
-					MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2Nv
-					bS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
-					aXRlOzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAw
-					MDAwMDA0ZWM5MTE7L3VzZXJzL2ppbmxpbi9f
-					ZGV2Xy9fcHJvamVjdF8vbXVsdGljaGFyYWN0
-					ZXJydXNoL211bHRpY2hhcmFjdGVycnVzaC9y
-					ZXNvdXJjZXMvZ2FtZWRhdGEvY29va2VkL2lw
-					YWRoZC9nYW1lZGF0YV9jaGFyMDIucG5nAOQA
-					AAD+////AQAAAAAAAAASAAAABBAAAMQAAAAA
-					AAAABRAAAKgBAAAAAAAAEBAAANwBAAAAAAAA
-					VBAAAAQCAAAAAAAAVRAAABACAAAAAAAAVhAA
-					APwBAAAAAAAAAiAAALACAAAAAAAAECAAADgC
-					AAAAAAAAESAAAGQCAAAAAAAAEiAAAEQCAAAA
-					AAAAEyAAAFQCAAAAAAAAICAAAJACAAAAAAAA
-					MCAAAPwBAAAAAAAAAcAAABwCAAAAAAAAEcAA
-					ABQAAAAAAAAAEsAAACwCAAAAAAAAENAAALwC
-					AAAAAAAAgPAAAMgCAAAAAAAA
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CQAAAAEBAABjaHIwMl9ydW4AAAATAAAAAQEA
+					AHpoYW5zaGlfcnVuMDAwNC5wbmcAMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAA+yU4AAAAAAAgAAAAEAwAAVYlQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAACgEAAAEC
+					AAAzMjc2ZGMzMDIwNjJmNjNjOGVmM2I0MTYy
+					MGM4ODEzNjU2NmZlMzVjOzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwODk1
+					NTsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAy
+					X3J1bi96aGFuc2hpX3J1bjAwMDQucG5nAAAA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
 					</data>
 					<key>IsSHSprite</key>
 					<true/>
@@ -6881,7 +7813,7 @@
 					<key>SHSheetName</key>
 					<string>char02</string>
 					<key>SHSpriteName</key>
-					<string>zhanshi0004</string>
+					<string>zhanshi_run0004</string>
 					<key>SheetImage</key>
 					<string>GameData_char02.png</string>
 					<key>SheetImage-HD</key>
@@ -6897,7 +7829,7 @@
 						<key>Color</key>
 						<string>{{1, 1}, {1, 1}}</string>
 						<key>ConvertedFromOldFormat</key>
-						<true/>
+						<false/>
 						<key>CustomClassName</key>
 						<string></string>
 						<key>FlipX</key>
@@ -6905,1102 +7837,45 @@
 						<key>FlipY</key>
 						<false/>
 						<key>Frame</key>
-						<string>{{2, 120}, {43, 51}}</string>
+						<string>{{2, 124}, {46, 57.75}}</string>
 						<key>Frame-HD</key>
-						<string>{{8, 480}, {172, 204}}</string>
+						<string>{{8, 496}, {184, 231}}</string>
 						<key>Image</key>
 						<string>GameData_char02.png</string>
 						<key>Image-HD</key>
 						<string>GameData_char02.png</string>
 						<key>IsCropped</key>
-						<false/>
+						<true/>
 						<key>IsDrawable</key>
 						<true/>
 						<key>IsRotated</key>
 						<false/>
 						<key>IsTrimmed</key>
-						<true/>
+						<false/>
 						<key>Name</key>
-						<string>zhanshi0004</string>
+						<string>zhanshi_run0004</string>
 						<key>Opacity</key>
 						<real>1</real>
 						<key>OriginalImage</key>
-						<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Cooked/ipadhd/GameData_char02.png</string>
+						<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr02_run/zhanshi_run0004.png</string>
 						<key>OriginalImage_RelativePath</key>
-						<string>ipadhd/GameData_char02.png/</string>
+						<string>../Raw/Character/chr02_run/zhanshi_run0004.png/</string>
 						<key>OriginalRect</key>
-						<string>{{8, 480}, {172, 204}}</string>
+						<string>{{3, 14}, {184, 231}}</string>
 						<key>OriginalSize</key>
-						<string>{172, 204}</string>
+						<string>{184, 231}</string>
 						<key>Position</key>
-						<string>{8, 480}</string>
+						<string>{8, 496}</string>
 						<key>Scale</key>
 						<string>{1, 1}</string>
 						<key>SpriteSize</key>
-						<string>{43, 51}</string>
+						<string>{46, 57.75}</string>
 						<key>SpriteWasBreaked</key>
 						<false/>
 						<key>Tag</key>
 						<integer>0</integer>
 						<key>TextureOffset</key>
-						<string>{-104.5, -17.5}</string>
-						<key>UsesBatchRendering</key>
-						<true/>
-						<key>ZOrder</key>
-						<integer>0</integer>
-					</dict>
-				</dict>
-				<key>zhanshi0004_1</key>
-				<dict>
-					<key>DocumentSecurityImageBookmark</key>
-					<data>
-					Ym9va+wEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
-					AAAAAAAAAAAAAAAAAAAAAAAAAAAA0AMAAAUA
-					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
-					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
-					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
-					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
-					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQYAAAAB
-					AQAAQ29va2VkAAAGAAAAAQEAAGlwYWRoZAAA
-					EwAAAAEBAABHYW1lRGF0YV9jaGFyMDIucG5n
-					ACwAAAABBgAABAAAABQAAAAkAAAANAAAAEgA
-					AABIAAAAZAAAAHgAAACIAAAAmAAAAKgAAAAI
-					AAAABAMAAGVYBwAAAAAACAAAAAQDAABoWAcA
-					AAAAAAgAAAAEAwAAilgHAAAAAAAIAAAABAMA
-					AIxYBwAAAAAACAAAAAQDAACWyE4AAAAAAAgA
-					AAAEAwAA28hOAAAAAAAIAAAABAMAAOLITgAA
-					AAAACAAAAAQDAAADyU4AAAAAAAgAAAAEAwAA
-					BMlOAAAAAAAIAAAABAMAAA7JTgAAAAAACAAA
-					AAQDAAARyU4AAAAAACwAAAABBgAA+AAAAAgB
-					AAAYAQAAKAEAADgBAABIAQAAWAEAAGgBAAB4
-					AQAAiAEAAJgBAAAYAAAAAQIAAAEAAAAAAAAA
-					DwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAA
-					AAMDAAABAAAABAAAAAMDAAACAAAACAAAAAQD
-					AAAJAAAAAAAAAAQAAAADAwAA9gEAAAIAAAAB
-					AQAAb3MAAAgAAAAEAwAAAMA/XHQAAAAIAAAA
-					AAQAAEG3J4nSAAAAJAAAAAEBAAAyRTRDQThD
-					Ri1FMzIwLTNDREItQkMyRi1DNDY5NUYzMjUz
-					NjAYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAA
-					AAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAA
-					AAEAAAABAAABAgAAYzBiMTlhMDI2M2NmN2Nj
-					ZWRlMzk5MGQwMzkzMjVmM2Q5MTk4NThjODsw
-					MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2Nv
-					bS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
-					aXRlOzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAw
-					MDAwMDA0ZWM5MTE7L3VzZXJzL2ppbmxpbi9f
-					ZGV2Xy9fcHJvamVjdF8vbXVsdGljaGFyYWN0
-					ZXJydXNoL211bHRpY2hhcmFjdGVycnVzaC9y
-					ZXNvdXJjZXMvZ2FtZWRhdGEvY29va2VkL2lw
-					YWRoZC9nYW1lZGF0YV9jaGFyMDIucG5nAOQA
-					AAD+////AQAAAAAAAAASAAAABBAAAMQAAAAA
-					AAAABRAAAKgBAAAAAAAAEBAAANwBAAAAAAAA
-					VBAAAAQCAAAAAAAAVRAAABACAAAAAAAAVhAA
-					APwBAAAAAAAAAiAAALACAAAAAAAAECAAADgC
-					AAAAAAAAESAAAGQCAAAAAAAAEiAAAEQCAAAA
-					AAAAEyAAAFQCAAAAAAAAICAAAJACAAAAAAAA
-					MCAAAPwBAAAAAAAAAcAAABwCAAAAAAAAEcAA
-					ABQAAAAAAAAAEsAAACwCAAAAAAAAENAAALwC
-					AAAAAAAAgPAAAMgCAAAAAAAA
-					</data>
-					<key>IsSHSprite</key>
-					<true/>
-					<key>PhysicProperties</key>
-					<dict>
-						<key>AngularDamping</key>
-						<real>0.0</real>
-						<key>AngularVelocity</key>
-						<real>0.0</real>
-						<key>CanSleep</key>
-						<true/>
-						<key>FixedRot</key>
-						<false/>
-						<key>GravityScale</key>
-						<real>1</real>
-						<key>HandledBySH</key>
-						<true/>
-						<key>IsBullet</key>
-						<false/>
-						<key>LinearDamping</key>
-						<real>0.0</real>
-						<key>LinearVelocity</key>
 						<string>{0, 0}</string>
-						<key>SH_ComplexShapes</key>
-						<array/>
-						<key>Type</key>
-						<integer>3</integer>
-					</dict>
-					<key>SHSheetName</key>
-					<string>char02</string>
-					<key>SHSpriteName</key>
-					<string>zhanshi0004_1</string>
-					<key>SheetImage</key>
-					<string>GameData_char02.png</string>
-					<key>SheetImage-HD</key>
-					<string>GameData_char02.png</string>
-					<key>TextureProperties</key>
-					<dict>
-						<key>Angle</key>
-						<integer>0</integer>
-						<key>Border</key>
-						<integer>0</integer>
-						<key>CanBeTrimmed</key>
-						<true/>
-						<key>Color</key>
-						<string>{{1, 1}, {1, 1}}</string>
-						<key>ConvertedFromOldFormat</key>
-						<true/>
-						<key>CustomClassName</key>
-						<string></string>
-						<key>FlipX</key>
-						<false/>
-						<key>FlipY</key>
-						<false/>
-						<key>Frame</key>
-						<string>{{48, 60}, {44, 55.5}}</string>
-						<key>Frame-HD</key>
-						<string>{{192, 240}, {176, 222}}</string>
-						<key>Image</key>
-						<string>GameData_char02.png</string>
-						<key>Image-HD</key>
-						<string>GameData_char02.png</string>
-						<key>IsCropped</key>
-						<false/>
-						<key>IsDrawable</key>
-						<true/>
-						<key>IsRotated</key>
-						<false/>
-						<key>IsTrimmed</key>
-						<true/>
-						<key>Name</key>
-						<string>zhanshi0004_1</string>
-						<key>Opacity</key>
-						<real>1</real>
-						<key>OriginalImage</key>
-						<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Cooked/ipadhd/GameData_char02.png</string>
-						<key>OriginalImage_RelativePath</key>
-						<string>ipadhd/GameData_char02.png/</string>
-						<key>OriginalRect</key>
-						<string>{{192, 240}, {176, 222}}</string>
-						<key>OriginalSize</key>
-						<string>{176, 222}</string>
-						<key>Position</key>
-						<string>{192, 240}</string>
-						<key>Scale</key>
-						<string>{1, 1}</string>
-						<key>SpriteSize</key>
-						<string>{44, 55.5}</string>
-						<key>SpriteWasBreaked</key>
-						<false/>
-						<key>Tag</key>
-						<integer>0</integer>
-						<key>TextureOffset</key>
-						<string>{-58, 40.25}</string>
-						<key>UsesBatchRendering</key>
-						<true/>
-						<key>ZOrder</key>
-						<integer>0</integer>
-					</dict>
-				</dict>
-				<key>zhanshi0005</key>
-				<dict>
-					<key>DocumentSecurityImageBookmark</key>
-					<data>
-					Ym9va+wEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
-					AAAAAAAAAAAAAAAAAAAAAAAAAAAA0AMAAAUA
-					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
-					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
-					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
-					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
-					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQYAAAAB
-					AQAAQ29va2VkAAAGAAAAAQEAAGlwYWRoZAAA
-					EwAAAAEBAABHYW1lRGF0YV9jaGFyMDIucG5n
-					ACwAAAABBgAABAAAABQAAAAkAAAANAAAAEgA
-					AABIAAAAZAAAAHgAAACIAAAAmAAAAKgAAAAI
-					AAAABAMAAGVYBwAAAAAACAAAAAQDAABoWAcA
-					AAAAAAgAAAAEAwAAilgHAAAAAAAIAAAABAMA
-					AIxYBwAAAAAACAAAAAQDAACWyE4AAAAAAAgA
-					AAAEAwAA28hOAAAAAAAIAAAABAMAAOLITgAA
-					AAAACAAAAAQDAAADyU4AAAAAAAgAAAAEAwAA
-					BMlOAAAAAAAIAAAABAMAAA7JTgAAAAAACAAA
-					AAQDAAARyU4AAAAAACwAAAABBgAA+AAAAAgB
-					AAAYAQAAKAEAADgBAABIAQAAWAEAAGgBAAB4
-					AQAAiAEAAJgBAAAYAAAAAQIAAAEAAAAAAAAA
-					DwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAA
-					AAMDAAABAAAABAAAAAMDAAACAAAACAAAAAQD
-					AAAJAAAAAAAAAAQAAAADAwAA9gEAAAIAAAAB
-					AQAAb3MAAAgAAAAEAwAAAMA/XHQAAAAIAAAA
-					AAQAAEG3J4nSAAAAJAAAAAEBAAAyRTRDQThD
-					Ri1FMzIwLTNDREItQkMyRi1DNDY5NUYzMjUz
-					NjAYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAA
-					AAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAA
-					AAEAAAABAAABAgAAYzBiMTlhMDI2M2NmN2Nj
-					ZWRlMzk5MGQwMzkzMjVmM2Q5MTk4NThjODsw
-					MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2Nv
-					bS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
-					aXRlOzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAw
-					MDAwMDA0ZWM5MTE7L3VzZXJzL2ppbmxpbi9f
-					ZGV2Xy9fcHJvamVjdF8vbXVsdGljaGFyYWN0
-					ZXJydXNoL211bHRpY2hhcmFjdGVycnVzaC9y
-					ZXNvdXJjZXMvZ2FtZWRhdGEvY29va2VkL2lw
-					YWRoZC9nYW1lZGF0YV9jaGFyMDIucG5nAOQA
-					AAD+////AQAAAAAAAAASAAAABBAAAMQAAAAA
-					AAAABRAAAKgBAAAAAAAAEBAAANwBAAAAAAAA
-					VBAAAAQCAAAAAAAAVRAAABACAAAAAAAAVhAA
-					APwBAAAAAAAAAiAAALACAAAAAAAAECAAADgC
-					AAAAAAAAESAAAGQCAAAAAAAAEiAAAEQCAAAA
-					AAAAEyAAAFQCAAAAAAAAICAAAJACAAAAAAAA
-					MCAAAPwBAAAAAAAAAcAAABwCAAAAAAAAEcAA
-					ABQAAAAAAAAAEsAAACwCAAAAAAAAENAAALwC
-					AAAAAAAAgPAAAMgCAAAAAAAA
-					</data>
-					<key>IsSHSprite</key>
-					<true/>
-					<key>PhysicProperties</key>
-					<dict>
-						<key>AngularDamping</key>
-						<real>0.0</real>
-						<key>AngularVelocity</key>
-						<real>0.0</real>
-						<key>CanSleep</key>
-						<true/>
-						<key>FixedRot</key>
-						<false/>
-						<key>GravityScale</key>
-						<real>1</real>
-						<key>HandledBySH</key>
-						<true/>
-						<key>IsBullet</key>
-						<false/>
-						<key>LinearDamping</key>
-						<real>0.0</real>
-						<key>LinearVelocity</key>
-						<string>{0, 0}</string>
-						<key>SH_ComplexShapes</key>
-						<array/>
-						<key>Type</key>
-						<integer>3</integer>
-					</dict>
-					<key>SHSheetName</key>
-					<string>char02</string>
-					<key>SHSpriteName</key>
-					<string>zhanshi0005</string>
-					<key>SheetImage</key>
-					<string>GameData_char02.png</string>
-					<key>SheetImage-HD</key>
-					<string>GameData_char02.png</string>
-					<key>TextureProperties</key>
-					<dict>
-						<key>Angle</key>
-						<integer>0</integer>
-						<key>Border</key>
-						<integer>0</integer>
-						<key>CanBeTrimmed</key>
-						<true/>
-						<key>Color</key>
-						<string>{{1, 1}, {1, 1}}</string>
-						<key>ConvertedFromOldFormat</key>
-						<true/>
-						<key>CustomClassName</key>
-						<string></string>
-						<key>FlipX</key>
-						<false/>
-						<key>FlipY</key>
-						<false/>
-						<key>Frame</key>
-						<string>{{95, 2}, {45.75, 50}}</string>
-						<key>Frame-HD</key>
-						<string>{{380, 8}, {181, 200}}</string>
-						<key>Image</key>
-						<string>GameData_char02.png</string>
-						<key>Image-HD</key>
-						<string>GameData_char02.png</string>
-						<key>IsCropped</key>
-						<false/>
-						<key>IsDrawable</key>
-						<true/>
-						<key>IsRotated</key>
-						<false/>
-						<key>IsTrimmed</key>
-						<true/>
-						<key>Name</key>
-						<string>zhanshi0005</string>
-						<key>Opacity</key>
-						<real>1</real>
-						<key>OriginalImage</key>
-						<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Cooked/ipadhd/GameData_char02.png</string>
-						<key>OriginalImage_RelativePath</key>
-						<string>ipadhd/GameData_char02.png/</string>
-						<key>OriginalRect</key>
-						<string>{{380, 8}, {181, 200}}</string>
-						<key>OriginalSize</key>
-						<string>{181, 200}</string>
-						<key>Position</key>
-						<string>{380, 8}</string>
-						<key>Scale</key>
-						<string>{1, 1}</string>
-						<key>SpriteSize</key>
-						<string>{45.25, 50}</string>
-						<key>SpriteWasBreaked</key>
-						<false/>
-						<key>Tag</key>
-						<integer>0</integer>
-						<key>TextureOffset</key>
-						<string>{-10.125, 101}</string>
-						<key>UsesBatchRendering</key>
-						<true/>
-						<key>ZOrder</key>
-						<integer>0</integer>
-					</dict>
-				</dict>
-				<key>zhanshi0006</key>
-				<dict>
-					<key>DocumentSecurityImageBookmark</key>
-					<data>
-					Ym9va+wEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
-					AAAAAAAAAAAAAAAAAAAAAAAAAAAA0AMAAAUA
-					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
-					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
-					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
-					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
-					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQYAAAAB
-					AQAAQ29va2VkAAAGAAAAAQEAAGlwYWRoZAAA
-					EwAAAAEBAABHYW1lRGF0YV9jaGFyMDIucG5n
-					ACwAAAABBgAABAAAABQAAAAkAAAANAAAAEgA
-					AABIAAAAZAAAAHgAAACIAAAAmAAAAKgAAAAI
-					AAAABAMAAGVYBwAAAAAACAAAAAQDAABoWAcA
-					AAAAAAgAAAAEAwAAilgHAAAAAAAIAAAABAMA
-					AIxYBwAAAAAACAAAAAQDAACWyE4AAAAAAAgA
-					AAAEAwAA28hOAAAAAAAIAAAABAMAAOLITgAA
-					AAAACAAAAAQDAAADyU4AAAAAAAgAAAAEAwAA
-					BMlOAAAAAAAIAAAABAMAAA7JTgAAAAAACAAA
-					AAQDAAARyU4AAAAAACwAAAABBgAA+AAAAAgB
-					AAAYAQAAKAEAADgBAABIAQAAWAEAAGgBAAB4
-					AQAAiAEAAJgBAAAYAAAAAQIAAAEAAAAAAAAA
-					DwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAA
-					AAMDAAABAAAABAAAAAMDAAACAAAACAAAAAQD
-					AAAJAAAAAAAAAAQAAAADAwAA9gEAAAIAAAAB
-					AQAAb3MAAAgAAAAEAwAAAMA/XHQAAAAIAAAA
-					AAQAAEG3J4nSAAAAJAAAAAEBAAAyRTRDQThD
-					Ri1FMzIwLTNDREItQkMyRi1DNDY5NUYzMjUz
-					NjAYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAA
-					AAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAA
-					AAEAAAABAAABAgAAYzBiMTlhMDI2M2NmN2Nj
-					ZWRlMzk5MGQwMzkzMjVmM2Q5MTk4NThjODsw
-					MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2Nv
-					bS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
-					aXRlOzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAw
-					MDAwMDA0ZWM5MTE7L3VzZXJzL2ppbmxpbi9f
-					ZGV2Xy9fcHJvamVjdF8vbXVsdGljaGFyYWN0
-					ZXJydXNoL211bHRpY2hhcmFjdGVycnVzaC9y
-					ZXNvdXJjZXMvZ2FtZWRhdGEvY29va2VkL2lw
-					YWRoZC9nYW1lZGF0YV9jaGFyMDIucG5nAOQA
-					AAD+////AQAAAAAAAAASAAAABBAAAMQAAAAA
-					AAAABRAAAKgBAAAAAAAAEBAAANwBAAAAAAAA
-					VBAAAAQCAAAAAAAAVRAAABACAAAAAAAAVhAA
-					APwBAAAAAAAAAiAAALACAAAAAAAAECAAADgC
-					AAAAAAAAESAAAGQCAAAAAAAAEiAAAEQCAAAA
-					AAAAEyAAAFQCAAAAAAAAICAAAJACAAAAAAAA
-					MCAAAPwBAAAAAAAAAcAAABwCAAAAAAAAEcAA
-					ABQAAAAAAAAAEsAAACwCAAAAAAAAENAAALwC
-					AAAAAAAAgPAAAMgCAAAAAAAA
-					</data>
-					<key>IsSHSprite</key>
-					<true/>
-					<key>PhysicProperties</key>
-					<dict>
-						<key>AngularDamping</key>
-						<real>0.0</real>
-						<key>AngularVelocity</key>
-						<real>0.0</real>
-						<key>CanSleep</key>
-						<true/>
-						<key>FixedRot</key>
-						<false/>
-						<key>GravityScale</key>
-						<real>1</real>
-						<key>HandledBySH</key>
-						<true/>
-						<key>IsBullet</key>
-						<false/>
-						<key>LinearDamping</key>
-						<real>0.0</real>
-						<key>LinearVelocity</key>
-						<string>{0, 0}</string>
-						<key>SH_ComplexShapes</key>
-						<array/>
-						<key>Type</key>
-						<integer>3</integer>
-					</dict>
-					<key>SHSheetName</key>
-					<string>char02</string>
-					<key>SHSpriteName</key>
-					<string>zhanshi0006</string>
-					<key>SheetImage</key>
-					<string>GameData_char02.png</string>
-					<key>SheetImage-HD</key>
-					<string>GameData_char02.png</string>
-					<key>TextureProperties</key>
-					<dict>
-						<key>Angle</key>
-						<integer>0</integer>
-						<key>Border</key>
-						<integer>0</integer>
-						<key>CanBeTrimmed</key>
-						<true/>
-						<key>Color</key>
-						<string>{{1, 1}, {1, 1}}</string>
-						<key>ConvertedFromOldFormat</key>
-						<true/>
-						<key>CustomClassName</key>
-						<string></string>
-						<key>FlipX</key>
-						<false/>
-						<key>FlipY</key>
-						<false/>
-						<key>Frame</key>
-						<string>{{94, 60}, {34.75, 57}}</string>
-						<key>Frame-HD</key>
-						<string>{{376, 240}, {139, 228}}</string>
-						<key>Image</key>
-						<string>GameData_char02.png</string>
-						<key>Image-HD</key>
-						<string>GameData_char02.png</string>
-						<key>IsCropped</key>
-						<false/>
-						<key>IsDrawable</key>
-						<true/>
-						<key>IsRotated</key>
-						<false/>
-						<key>IsTrimmed</key>
-						<true/>
-						<key>Name</key>
-						<string>zhanshi0006</string>
-						<key>Opacity</key>
-						<real>1</real>
-						<key>OriginalImage</key>
-						<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Cooked/ipadhd/GameData_char02.png</string>
-						<key>OriginalImage_RelativePath</key>
-						<string>ipadhd/GameData_char02.png/</string>
-						<key>OriginalRect</key>
-						<string>{{376, 240}, {139, 228}}</string>
-						<key>OriginalSize</key>
-						<string>{139, 228}</string>
-						<key>Position</key>
-						<string>{376, 240}</string>
-						<key>Scale</key>
-						<string>{1, 1}</string>
-						<key>SpriteSize</key>
-						<string>{34.75, 57}</string>
-						<key>SpriteWasBreaked</key>
-						<false/>
-						<key>Tag</key>
-						<integer>0</integer>
-						<key>TextureOffset</key>
-						<string>{-16.625, 39.5}</string>
-						<key>UsesBatchRendering</key>
-						<true/>
-						<key>ZOrder</key>
-						<integer>0</integer>
-					</dict>
-				</dict>
-				<key>zhanshi0007</key>
-				<dict>
-					<key>DocumentSecurityImageBookmark</key>
-					<data>
-					Ym9va+wEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
-					AAAAAAAAAAAAAAAAAAAAAAAAAAAA0AMAAAUA
-					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
-					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
-					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
-					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
-					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQYAAAAB
-					AQAAQ29va2VkAAAGAAAAAQEAAGlwYWRoZAAA
-					EwAAAAEBAABHYW1lRGF0YV9jaGFyMDIucG5n
-					ACwAAAABBgAABAAAABQAAAAkAAAANAAAAEgA
-					AABIAAAAZAAAAHgAAACIAAAAmAAAAKgAAAAI
-					AAAABAMAAGVYBwAAAAAACAAAAAQDAABoWAcA
-					AAAAAAgAAAAEAwAAilgHAAAAAAAIAAAABAMA
-					AIxYBwAAAAAACAAAAAQDAACWyE4AAAAAAAgA
-					AAAEAwAA28hOAAAAAAAIAAAABAMAAOLITgAA
-					AAAACAAAAAQDAAADyU4AAAAAAAgAAAAEAwAA
-					BMlOAAAAAAAIAAAABAMAAA7JTgAAAAAACAAA
-					AAQDAAARyU4AAAAAACwAAAABBgAA+AAAAAgB
-					AAAYAQAAKAEAADgBAABIAQAAWAEAAGgBAAB4
-					AQAAiAEAAJgBAAAYAAAAAQIAAAEAAAAAAAAA
-					DwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAA
-					AAMDAAABAAAABAAAAAMDAAACAAAACAAAAAQD
-					AAAJAAAAAAAAAAQAAAADAwAA9gEAAAIAAAAB
-					AQAAb3MAAAgAAAAEAwAAAMA/XHQAAAAIAAAA
-					AAQAAEG3J4nSAAAAJAAAAAEBAAAyRTRDQThD
-					Ri1FMzIwLTNDREItQkMyRi1DNDY5NUYzMjUz
-					NjAYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAA
-					AAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAA
-					AAEAAAABAAABAgAAYzBiMTlhMDI2M2NmN2Nj
-					ZWRlMzk5MGQwMzkzMjVmM2Q5MTk4NThjODsw
-					MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2Nv
-					bS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
-					aXRlOzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAw
-					MDAwMDA0ZWM5MTE7L3VzZXJzL2ppbmxpbi9f
-					ZGV2Xy9fcHJvamVjdF8vbXVsdGljaGFyYWN0
-					ZXJydXNoL211bHRpY2hhcmFjdGVycnVzaC9y
-					ZXNvdXJjZXMvZ2FtZWRhdGEvY29va2VkL2lw
-					YWRoZC9nYW1lZGF0YV9jaGFyMDIucG5nAOQA
-					AAD+////AQAAAAAAAAASAAAABBAAAMQAAAAA
-					AAAABRAAAKgBAAAAAAAAEBAAANwBAAAAAAAA
-					VBAAAAQCAAAAAAAAVRAAABACAAAAAAAAVhAA
-					APwBAAAAAAAAAiAAALACAAAAAAAAECAAADgC
-					AAAAAAAAESAAAGQCAAAAAAAAEiAAAEQCAAAA
-					AAAAEyAAAFQCAAAAAAAAICAAAJACAAAAAAAA
-					MCAAAPwBAAAAAAAAAcAAABwCAAAAAAAAEcAA
-					ABQAAAAAAAAAEsAAACwCAAAAAAAAENAAALwC
-					AAAAAAAAgPAAAMgCAAAAAAAA
-					</data>
-					<key>IsSHSprite</key>
-					<true/>
-					<key>PhysicProperties</key>
-					<dict>
-						<key>AngularDamping</key>
-						<real>0.0</real>
-						<key>AngularVelocity</key>
-						<real>0.0</real>
-						<key>CanSleep</key>
-						<true/>
-						<key>FixedRot</key>
-						<false/>
-						<key>GravityScale</key>
-						<real>1</real>
-						<key>HandledBySH</key>
-						<true/>
-						<key>IsBullet</key>
-						<false/>
-						<key>LinearDamping</key>
-						<real>0.0</real>
-						<key>LinearVelocity</key>
-						<string>{0, 0}</string>
-						<key>SH_ComplexShapes</key>
-						<array/>
-						<key>Type</key>
-						<integer>3</integer>
-					</dict>
-					<key>SHSheetName</key>
-					<string>char02</string>
-					<key>SHSpriteName</key>
-					<string>zhanshi0007</string>
-					<key>SheetImage</key>
-					<string>GameData_char02.png</string>
-					<key>SheetImage-HD</key>
-					<string>GameData_char02.png</string>
-					<key>TextureProperties</key>
-					<dict>
-						<key>Angle</key>
-						<integer>0</integer>
-						<key>Border</key>
-						<integer>0</integer>
-						<key>CanBeTrimmed</key>
-						<true/>
-						<key>Color</key>
-						<string>{{1, 1}, {1, 1}}</string>
-						<key>ConvertedFromOldFormat</key>
-						<true/>
-						<key>CustomClassName</key>
-						<string></string>
-						<key>FlipX</key>
-						<false/>
-						<key>FlipY</key>
-						<false/>
-						<key>Frame</key>
-						<string>{{131, 54}, {34.75, 57}}</string>
-						<key>Frame-HD</key>
-						<string>{{524, 216}, {139, 228}}</string>
-						<key>Image</key>
-						<string>GameData_char02.png</string>
-						<key>Image-HD</key>
-						<string>GameData_char02.png</string>
-						<key>IsCropped</key>
-						<false/>
-						<key>IsDrawable</key>
-						<true/>
-						<key>IsRotated</key>
-						<false/>
-						<key>IsTrimmed</key>
-						<true/>
-						<key>Name</key>
-						<string>zhanshi0007</string>
-						<key>Opacity</key>
-						<real>1</real>
-						<key>OriginalImage</key>
-						<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Cooked/ipadhd/GameData_char02.png</string>
-						<key>OriginalImage_RelativePath</key>
-						<string>ipadhd/GameData_char02.png/</string>
-						<key>OriginalRect</key>
-						<string>{{524, 216}, {139, 228}}</string>
-						<key>OriginalSize</key>
-						<string>{139, 228}</string>
-						<key>Position</key>
-						<string>{524, 216}</string>
-						<key>Scale</key>
-						<string>{1, 1}</string>
-						<key>SpriteSize</key>
-						<string>{34.75, 57}</string>
-						<key>SpriteWasBreaked</key>
-						<false/>
-						<key>Tag</key>
-						<integer>0</integer>
-						<key>TextureOffset</key>
-						<string>{20.375, 45.5}</string>
-						<key>UsesBatchRendering</key>
-						<true/>
-						<key>ZOrder</key>
-						<integer>0</integer>
-					</dict>
-				</dict>
-				<key>zhanshi0008</key>
-				<dict>
-					<key>DocumentSecurityImageBookmark</key>
-					<data>
-					Ym9va+wEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
-					AAAAAAAAAAAAAAAAAAAAAAAAAAAA0AMAAAUA
-					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
-					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
-					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
-					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
-					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQYAAAAB
-					AQAAQ29va2VkAAAGAAAAAQEAAGlwYWRoZAAA
-					EwAAAAEBAABHYW1lRGF0YV9jaGFyMDIucG5n
-					ACwAAAABBgAABAAAABQAAAAkAAAANAAAAEgA
-					AABIAAAAZAAAAHgAAACIAAAAmAAAAKgAAAAI
-					AAAABAMAAGVYBwAAAAAACAAAAAQDAABoWAcA
-					AAAAAAgAAAAEAwAAilgHAAAAAAAIAAAABAMA
-					AIxYBwAAAAAACAAAAAQDAACWyE4AAAAAAAgA
-					AAAEAwAA28hOAAAAAAAIAAAABAMAAOLITgAA
-					AAAACAAAAAQDAAADyU4AAAAAAAgAAAAEAwAA
-					BMlOAAAAAAAIAAAABAMAAA7JTgAAAAAACAAA
-					AAQDAAARyU4AAAAAACwAAAABBgAA+AAAAAgB
-					AAAYAQAAKAEAADgBAABIAQAAWAEAAGgBAAB4
-					AQAAiAEAAJgBAAAYAAAAAQIAAAEAAAAAAAAA
-					DwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAA
-					AAMDAAABAAAABAAAAAMDAAACAAAACAAAAAQD
-					AAAJAAAAAAAAAAQAAAADAwAA9gEAAAIAAAAB
-					AQAAb3MAAAgAAAAEAwAAAMA/XHQAAAAIAAAA
-					AAQAAEG3J4nSAAAAJAAAAAEBAAAyRTRDQThD
-					Ri1FMzIwLTNDREItQkMyRi1DNDY5NUYzMjUz
-					NjAYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAA
-					AAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAA
-					AAEAAAABAAABAgAAYzBiMTlhMDI2M2NmN2Nj
-					ZWRlMzk5MGQwMzkzMjVmM2Q5MTk4NThjODsw
-					MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2Nv
-					bS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
-					aXRlOzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAw
-					MDAwMDA0ZWM5MTE7L3VzZXJzL2ppbmxpbi9f
-					ZGV2Xy9fcHJvamVjdF8vbXVsdGljaGFyYWN0
-					ZXJydXNoL211bHRpY2hhcmFjdGVycnVzaC9y
-					ZXNvdXJjZXMvZ2FtZWRhdGEvY29va2VkL2lw
-					YWRoZC9nYW1lZGF0YV9jaGFyMDIucG5nAOQA
-					AAD+////AQAAAAAAAAASAAAABBAAAMQAAAAA
-					AAAABRAAAKgBAAAAAAAAEBAAANwBAAAAAAAA
-					VBAAAAQCAAAAAAAAVRAAABACAAAAAAAAVhAA
-					APwBAAAAAAAAAiAAALACAAAAAAAAECAAADgC
-					AAAAAAAAESAAAGQCAAAAAAAAEiAAAEQCAAAA
-					AAAAEyAAAFQCAAAAAAAAICAAAJACAAAAAAAA
-					MCAAAPwBAAAAAAAAAcAAABwCAAAAAAAAEcAA
-					ABQAAAAAAAAAEsAAACwCAAAAAAAAENAAALwC
-					AAAAAAAAgPAAAMgCAAAAAAAA
-					</data>
-					<key>IsSHSprite</key>
-					<true/>
-					<key>PhysicProperties</key>
-					<dict>
-						<key>AngularDamping</key>
-						<real>0.0</real>
-						<key>AngularVelocity</key>
-						<real>0.0</real>
-						<key>CanSleep</key>
-						<true/>
-						<key>FixedRot</key>
-						<false/>
-						<key>GravityScale</key>
-						<real>1</real>
-						<key>HandledBySH</key>
-						<true/>
-						<key>IsBullet</key>
-						<false/>
-						<key>LinearDamping</key>
-						<real>0.0</real>
-						<key>LinearVelocity</key>
-						<string>{0, 0}</string>
-						<key>SH_ComplexShapes</key>
-						<array/>
-						<key>Type</key>
-						<integer>3</integer>
-					</dict>
-					<key>SHSheetName</key>
-					<string>char02</string>
-					<key>SHSpriteName</key>
-					<string>zhanshi0008</string>
-					<key>SheetImage</key>
-					<string>GameData_char02.png</string>
-					<key>SheetImage-HD</key>
-					<string>GameData_char02.png</string>
-					<key>TextureProperties</key>
-					<dict>
-						<key>Angle</key>
-						<integer>0</integer>
-						<key>Border</key>
-						<integer>0</integer>
-						<key>CanBeTrimmed</key>
-						<true/>
-						<key>Color</key>
-						<string>{{1, 1}, {1, 1}}</string>
-						<key>ConvertedFromOldFormat</key>
-						<true/>
-						<key>CustomClassName</key>
-						<string></string>
-						<key>FlipX</key>
-						<false/>
-						<key>FlipY</key>
-						<false/>
-						<key>Frame</key>
-						<string>{{168, 54}, {36.75, 49.75}}</string>
-						<key>Frame-HD</key>
-						<string>{{672, 216}, {145, 199}}</string>
-						<key>Image</key>
-						<string>GameData_char02.png</string>
-						<key>Image-HD</key>
-						<string>GameData_char02.png</string>
-						<key>IsCropped</key>
-						<false/>
-						<key>IsDrawable</key>
-						<true/>
-						<key>IsRotated</key>
-						<false/>
-						<key>IsTrimmed</key>
-						<true/>
-						<key>Name</key>
-						<string>zhanshi0008</string>
-						<key>Opacity</key>
-						<real>1</real>
-						<key>OriginalImage</key>
-						<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Cooked/ipadhd/GameData_char02.png</string>
-						<key>OriginalImage_RelativePath</key>
-						<string>ipadhd/GameData_char02.png/</string>
-						<key>OriginalRect</key>
-						<string>{{672, 216}, {145, 199}}</string>
-						<key>OriginalSize</key>
-						<string>{145, 199}</string>
-						<key>Position</key>
-						<string>{672, 216}</string>
-						<key>Scale</key>
-						<string>{1, 1}</string>
-						<key>SpriteSize</key>
-						<string>{36.25, 49.75}</string>
-						<key>SpriteWasBreaked</key>
-						<false/>
-						<key>Tag</key>
-						<integer>0</integer>
-						<key>TextureOffset</key>
-						<string>{58.375, 49.125}</string>
-						<key>UsesBatchRendering</key>
-						<true/>
-						<key>ZOrder</key>
-						<integer>0</integer>
-					</dict>
-				</dict>
-				<key>zhanshi0009</key>
-				<dict>
-					<key>DocumentSecurityImageBookmark</key>
-					<data>
-					Ym9va+wEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
-					AAAAAAAAAAAAAAAAAAAAAAAAAAAA0AMAAAUA
-					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
-					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
-					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
-					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
-					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQYAAAAB
-					AQAAQ29va2VkAAAGAAAAAQEAAGlwYWRoZAAA
-					EwAAAAEBAABHYW1lRGF0YV9jaGFyMDIucG5n
-					ACwAAAABBgAABAAAABQAAAAkAAAANAAAAEgA
-					AABIAAAAZAAAAHgAAACIAAAAmAAAAKgAAAAI
-					AAAABAMAAGVYBwAAAAAACAAAAAQDAABoWAcA
-					AAAAAAgAAAAEAwAAilgHAAAAAAAIAAAABAMA
-					AIxYBwAAAAAACAAAAAQDAACWyE4AAAAAAAgA
-					AAAEAwAA28hOAAAAAAAIAAAABAMAAOLITgAA
-					AAAACAAAAAQDAAADyU4AAAAAAAgAAAAEAwAA
-					BMlOAAAAAAAIAAAABAMAAA7JTgAAAAAACAAA
-					AAQDAAARyU4AAAAAACwAAAABBgAA+AAAAAgB
-					AAAYAQAAKAEAADgBAABIAQAAWAEAAGgBAAB4
-					AQAAiAEAAJgBAAAYAAAAAQIAAAEAAAAAAAAA
-					DwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAA
-					AAMDAAABAAAABAAAAAMDAAACAAAACAAAAAQD
-					AAAJAAAAAAAAAAQAAAADAwAA9gEAAAIAAAAB
-					AQAAb3MAAAgAAAAEAwAAAMA/XHQAAAAIAAAA
-					AAQAAEG3J4nSAAAAJAAAAAEBAAAyRTRDQThD
-					Ri1FMzIwLTNDREItQkMyRi1DNDY5NUYzMjUz
-					NjAYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAA
-					AAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAA
-					AAEAAAABAAABAgAAYzBiMTlhMDI2M2NmN2Nj
-					ZWRlMzk5MGQwMzkzMjVmM2Q5MTk4NThjODsw
-					MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2Nv
-					bS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
-					aXRlOzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAw
-					MDAwMDA0ZWM5MTE7L3VzZXJzL2ppbmxpbi9f
-					ZGV2Xy9fcHJvamVjdF8vbXVsdGljaGFyYWN0
-					ZXJydXNoL211bHRpY2hhcmFjdGVycnVzaC9y
-					ZXNvdXJjZXMvZ2FtZWRhdGEvY29va2VkL2lw
-					YWRoZC9nYW1lZGF0YV9jaGFyMDIucG5nAOQA
-					AAD+////AQAAAAAAAAASAAAABBAAAMQAAAAA
-					AAAABRAAAKgBAAAAAAAAEBAAANwBAAAAAAAA
-					VBAAAAQCAAAAAAAAVRAAABACAAAAAAAAVhAA
-					APwBAAAAAAAAAiAAALACAAAAAAAAECAAADgC
-					AAAAAAAAESAAAGQCAAAAAAAAEiAAAEQCAAAA
-					AAAAEyAAAFQCAAAAAAAAICAAAJACAAAAAAAA
-					MCAAAPwBAAAAAAAAAcAAABwCAAAAAAAAEcAA
-					ABQAAAAAAAAAEsAAACwCAAAAAAAAENAAALwC
-					AAAAAAAAgPAAAMgCAAAAAAAA
-					</data>
-					<key>IsSHSprite</key>
-					<true/>
-					<key>PhysicProperties</key>
-					<dict>
-						<key>AngularDamping</key>
-						<real>0.0</real>
-						<key>AngularVelocity</key>
-						<real>0.0</real>
-						<key>CanSleep</key>
-						<true/>
-						<key>FixedRot</key>
-						<false/>
-						<key>GravityScale</key>
-						<real>1</real>
-						<key>HandledBySH</key>
-						<true/>
-						<key>IsBullet</key>
-						<false/>
-						<key>LinearDamping</key>
-						<real>0.0</real>
-						<key>LinearVelocity</key>
-						<string>{0, 0}</string>
-						<key>SH_ComplexShapes</key>
-						<array/>
-						<key>Type</key>
-						<integer>3</integer>
-					</dict>
-					<key>SHSheetName</key>
-					<string>char02</string>
-					<key>SHSpriteName</key>
-					<string>zhanshi0009</string>
-					<key>SheetImage</key>
-					<string>GameData_char02.png</string>
-					<key>SheetImage-HD</key>
-					<string>GameData_char02.png</string>
-					<key>TextureProperties</key>
-					<dict>
-						<key>Angle</key>
-						<integer>0</integer>
-						<key>Border</key>
-						<integer>0</integer>
-						<key>CanBeTrimmed</key>
-						<true/>
-						<key>Color</key>
-						<string>{{1, 1}, {1, 1}}</string>
-						<key>ConvertedFromOldFormat</key>
-						<true/>
-						<key>CustomClassName</key>
-						<string></string>
-						<key>FlipX</key>
-						<false/>
-						<key>FlipY</key>
-						<false/>
-						<key>Frame</key>
-						<string>{{206, 54}, {36.75, 49.75}}</string>
-						<key>Frame-HD</key>
-						<string>{{824, 216}, {145, 199}}</string>
-						<key>Image</key>
-						<string>GameData_char02.png</string>
-						<key>Image-HD</key>
-						<string>GameData_char02.png</string>
-						<key>IsCropped</key>
-						<false/>
-						<key>IsDrawable</key>
-						<true/>
-						<key>IsRotated</key>
-						<false/>
-						<key>IsTrimmed</key>
-						<true/>
-						<key>Name</key>
-						<string>zhanshi0009</string>
-						<key>Opacity</key>
-						<real>1</real>
-						<key>OriginalImage</key>
-						<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Cooked/ipadhd/GameData_char02.png</string>
-						<key>OriginalImage_RelativePath</key>
-						<string>ipadhd/GameData_char02.png/</string>
-						<key>OriginalRect</key>
-						<string>{{824, 216}, {145, 199}}</string>
-						<key>OriginalSize</key>
-						<string>{145, 199}</string>
-						<key>Position</key>
-						<string>{824, 216}</string>
-						<key>Scale</key>
-						<string>{1, 1}</string>
-						<key>SpriteSize</key>
-						<string>{36.25, 49.75}</string>
-						<key>SpriteWasBreaked</key>
-						<false/>
-						<key>Tag</key>
-						<integer>0</integer>
-						<key>TextureOffset</key>
-						<string>{96.375, 49.125}</string>
-						<key>UsesBatchRendering</key>
-						<true/>
-						<key>ZOrder</key>
-						<integer>0</integer>
-					</dict>
-				</dict>
-				<key>zhanshi0010</key>
-				<dict>
-					<key>DocumentSecurityImageBookmark</key>
-					<data>
-					Ym9va+wEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
-					AAAAAAAAAAAAAAAAAAAAAAAAAAAA0AMAAAUA
-					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
-					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
-					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
-					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
-					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQYAAAAB
-					AQAAQ29va2VkAAAGAAAAAQEAAGlwYWRoZAAA
-					EwAAAAEBAABHYW1lRGF0YV9jaGFyMDIucG5n
-					ACwAAAABBgAABAAAABQAAAAkAAAANAAAAEgA
-					AABIAAAAZAAAAHgAAACIAAAAmAAAAKgAAAAI
-					AAAABAMAAGVYBwAAAAAACAAAAAQDAABoWAcA
-					AAAAAAgAAAAEAwAAilgHAAAAAAAIAAAABAMA
-					AIxYBwAAAAAACAAAAAQDAACWyE4AAAAAAAgA
-					AAAEAwAA28hOAAAAAAAIAAAABAMAAOLITgAA
-					AAAACAAAAAQDAAADyU4AAAAAAAgAAAAEAwAA
-					BMlOAAAAAAAIAAAABAMAAA7JTgAAAAAACAAA
-					AAQDAAARyU4AAAAAACwAAAABBgAA+AAAAAgB
-					AAAYAQAAKAEAADgBAABIAQAAWAEAAGgBAAB4
-					AQAAiAEAAJgBAAAYAAAAAQIAAAEAAAAAAAAA
-					DwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAA
-					AAMDAAABAAAABAAAAAMDAAACAAAACAAAAAQD
-					AAAJAAAAAAAAAAQAAAADAwAA9gEAAAIAAAAB
-					AQAAb3MAAAgAAAAEAwAAAMA/XHQAAAAIAAAA
-					AAQAAEG3J4nSAAAAJAAAAAEBAAAyRTRDQThD
-					Ri1FMzIwLTNDREItQkMyRi1DNDY5NUYzMjUz
-					NjAYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAA
-					AAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAA
-					AAEAAAABAAABAgAAYzBiMTlhMDI2M2NmN2Nj
-					ZWRlMzk5MGQwMzkzMjVmM2Q5MTk4NThjODsw
-					MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2Nv
-					bS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
-					aXRlOzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAw
-					MDAwMDA0ZWM5MTE7L3VzZXJzL2ppbmxpbi9f
-					ZGV2Xy9fcHJvamVjdF8vbXVsdGljaGFyYWN0
-					ZXJydXNoL211bHRpY2hhcmFjdGVycnVzaC9y
-					ZXNvdXJjZXMvZ2FtZWRhdGEvY29va2VkL2lw
-					YWRoZC9nYW1lZGF0YV9jaGFyMDIucG5nAOQA
-					AAD+////AQAAAAAAAAASAAAABBAAAMQAAAAA
-					AAAABRAAAKgBAAAAAAAAEBAAANwBAAAAAAAA
-					VBAAAAQCAAAAAAAAVRAAABACAAAAAAAAVhAA
-					APwBAAAAAAAAAiAAALACAAAAAAAAECAAADgC
-					AAAAAAAAESAAAGQCAAAAAAAAEiAAAEQCAAAA
-					AAAAEyAAAFQCAAAAAAAAICAAAJACAAAAAAAA
-					MCAAAPwBAAAAAAAAAcAAABwCAAAAAAAAEcAA
-					ABQAAAAAAAAAEsAAACwCAAAAAAAAENAAALwC
-					AAAAAAAAgPAAAMgCAAAAAAAA
-					</data>
-					<key>IsSHSprite</key>
-					<true/>
-					<key>PhysicProperties</key>
-					<dict>
-						<key>AngularDamping</key>
-						<real>0.0</real>
-						<key>AngularVelocity</key>
-						<real>0.0</real>
-						<key>CanSleep</key>
-						<true/>
-						<key>FixedRot</key>
-						<false/>
-						<key>GravityScale</key>
-						<real>1</real>
-						<key>HandledBySH</key>
-						<true/>
-						<key>IsBullet</key>
-						<false/>
-						<key>LinearDamping</key>
-						<real>0.0</real>
-						<key>LinearVelocity</key>
-						<string>{0, 0}</string>
-						<key>SH_ComplexShapes</key>
-						<array/>
-						<key>Type</key>
-						<integer>3</integer>
-					</dict>
-					<key>SHSheetName</key>
-					<string>char02</string>
-					<key>SHSpriteName</key>
-					<string>zhanshi0010</string>
-					<key>SheetImage</key>
-					<string>GameData_char02.png</string>
-					<key>SheetImage-HD</key>
-					<string>GameData_char02.png</string>
-					<key>TextureProperties</key>
-					<dict>
-						<key>Angle</key>
-						<integer>0</integer>
-						<key>Border</key>
-						<integer>0</integer>
-						<key>CanBeTrimmed</key>
-						<true/>
-						<key>Color</key>
-						<string>{{1, 1}, {1, 1}}</string>
-						<key>ConvertedFromOldFormat</key>
-						<true/>
-						<key>CustomClassName</key>
-						<string></string>
-						<key>FlipX</key>
-						<false/>
-						<key>FlipY</key>
-						<false/>
-						<key>Frame</key>
-						<string>{{2, 225}, {51, 25.75}}</string>
-						<key>Frame-HD</key>
-						<string>{{8, 900}, {204, 103}}</string>
-						<key>Image</key>
-						<string>GameData_char02.png</string>
-						<key>Image-HD</key>
-						<string>GameData_char02.png</string>
-						<key>IsCropped</key>
-						<false/>
-						<key>IsDrawable</key>
-						<true/>
-						<key>IsRotated</key>
-						<false/>
-						<key>IsTrimmed</key>
-						<true/>
-						<key>Name</key>
-						<string>zhanshi0010</string>
-						<key>Opacity</key>
-						<real>1</real>
-						<key>OriginalImage</key>
-						<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Cooked/ipadhd/GameData_char02.png</string>
-						<key>OriginalImage_RelativePath</key>
-						<string>ipadhd/GameData_char02.png/</string>
-						<key>OriginalRect</key>
-						<string>{{8, 900}, {204, 103}}</string>
-						<key>OriginalSize</key>
-						<string>{204, 103}</string>
-						<key>Position</key>
-						<string>{8, 900}</string>
-						<key>Scale</key>
-						<string>{1, 1}</string>
-						<key>SpriteSize</key>
-						<string>{51, 25.75}</string>
-						<key>SpriteWasBreaked</key>
-						<false/>
-						<key>Tag</key>
-						<integer>0</integer>
-						<key>TextureOffset</key>
-						<string>{-100.5, -109.875}</string>
 						<key>UsesBatchRendering</key>
 						<true/>
 						<key>ZOrder</key>
@@ -8011,7 +7886,7 @@
 			<key>Size</key>
 			<string>{1024, 1024}</string>
 			<key>Trim</key>
-			<true/>
+			<false/>
 			<key>ZOrder</key>
 			<integer>0</integer>
 		</dict>
@@ -10870,6 +10745,1829 @@
 			<true/>
 			<key>UniqueName</key>
 			<string>char01_holding</string>
+		</dict>
+		<dict>
+			<key>DelayPerUnit</key>
+			<real>0.40000000596046448</real>
+			<key>Frames</key>
+			<array>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
+					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
+					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
+					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
+					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CQAAAAEBAABjaHIwMl9ydW4AAAATAAAAAQEA
+					AHpoYW5zaGlfcnVuMDAwMS5wbmcAMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAA+yU4AAAAAAAgAAAAEAwAAUolQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAACgEAAAEC
+					AABmYjE4MDljYzhhOWNjNjI2ODg4YzdmMTA5
+					NWVhZjQwYjEwZTM0MTQ0OzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwODk1
+					MjsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAy
+					X3J1bi96aGFuc2hpX3J1bjAwMDEucG5nAAAA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
+					</data>
+					<key>Frame</key>
+					<string>{{2, 65}, {46.5, 57.5}}</string>
+					<key>Frame-HD</key>
+					<string>{{8, 260}, {186, 230}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>OriginalImage</key>
+					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr02_run/zhanshi_run0001.png</string>
+					<key>SpriteSize</key>
+					<string>{46.5, 57.5}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.30000001192092896</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>zhanshi_run0001</string>
+				</dict>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
+					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
+					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
+					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
+					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CQAAAAEBAABjaHIwMl9ydW4AAAATAAAAAQEA
+					AHpoYW5zaGlfcnVuMDAwMi5wbmcAMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAA+yU4AAAAAAAgAAAAEAwAAU4lQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAACgEAAAEC
+					AAA1ZGU1MTdmNDM4YmYxYjQ0YjlhZmU3Mzgw
+					NWJkNTI0NzE2YTYwYTc4OzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwODk1
+					MzsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAy
+					X3J1bi96aGFuc2hpX3J1bjAwMDIucG5nAAAA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
+					</data>
+					<key>Frame</key>
+					<string>{{51, 2}, {46.75, 57.75}}</string>
+					<key>Frame-HD</key>
+					<string>{{204, 8}, {185, 231}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>OriginalImage</key>
+					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr02_run/zhanshi_run0002.png</string>
+					<key>SpriteSize</key>
+					<string>{46.75, 57.75}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.30000001192092896</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>zhanshi_run0002</string>
+				</dict>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
+					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
+					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
+					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
+					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CQAAAAEBAABjaHIwMl9ydW4AAAATAAAAAQEA
+					AHpoYW5zaGlfcnVuMDAwMy5wbmcAMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAA+yU4AAAAAAAgAAAAEAwAAVIlQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAACgEAAAEC
+					AABhNzY5NjgyMzM0NjcxMzQyMDJkYjA0Yzgz
+					NzExNzRiNWZjYWViZjUzOzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwODk1
+					NDsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAy
+					X3J1bi96aGFuc2hpX3J1bjAwMDMucG5nAAAA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
+					</data>
+					<key>Frame</key>
+					<string>{{2, 2}, {46.75, 60.75}}</string>
+					<key>Frame-HD</key>
+					<string>{{8, 8}, {185, 241}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>OriginalImage</key>
+					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr02_run/zhanshi_run0003.png</string>
+					<key>SpriteSize</key>
+					<string>{46.75, 60.75}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.30000001192092896</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>zhanshi_run0003</string>
+				</dict>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
+					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
+					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
+					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
+					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CQAAAAEBAABjaHIwMl9ydW4AAAATAAAAAQEA
+					AHpoYW5zaGlfcnVuMDAwNC5wbmcAMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAA+yU4AAAAAAAgAAAAEAwAAVYlQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAACgEAAAEC
+					AAAzMjc2ZGMzMDIwNjJmNjNjOGVmM2I0MTYy
+					MGM4ODEzNjU2NmZlMzVjOzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwODk1
+					NTsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAy
+					X3J1bi96aGFuc2hpX3J1bjAwMDQucG5nAAAA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
+					</data>
+					<key>Frame</key>
+					<string>{{2, 124}, {46, 57.75}}</string>
+					<key>Frame-HD</key>
+					<string>{{8, 496}, {184, 231}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>OriginalImage</key>
+					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr02_run/zhanshi_run0004.png</string>
+					<key>SpriteSize</key>
+					<string>{46, 57.75}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.30000001192092896</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>zhanshi_run0004</string>
+				</dict>
+			</array>
+			<key>Loop</key>
+			<true/>
+			<key>Repetitions</key>
+			<integer>1</integer>
+			<key>RestoreOriginalFrame</key>
+			<false/>
+			<key>SheetImage</key>
+			<string>GameData_char02.png</string>
+			<key>SheetName</key>
+			<string>char02</string>
+			<key>StartAtLaunch</key>
+			<true/>
+			<key>UniqueName</key>
+			<string>char02_run</string>
+		</dict>
+		<dict>
+			<key>DelayPerUnit</key>
+			<real>0.40000000596046448</real>
+			<key>Frames</key>
+			<array>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
+					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
+					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
+					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
+					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CgAAAAEBAABjaHIwMl9qdW1wAAAUAAAAAQEA
+					AHpoYW5zaGlfanVtcDAwMDEucG5nMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAAzyU4AAAAAAAgAAAAEAwAAf4lQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAADAEAAAEC
+					AAA0NTY1ZDM2YzQ1NzVjZDkyOTU3NTEzZDE5
+					NTFmNGNjZDZiODRhZjdmOzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwODk3
+					ZjsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAy
+					X2p1bXAvemhhbnNoaV9qdW1wMDAwMS5wbmcA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
+					</data>
+					<key>Frame</key>
+					<string>{{51, 62}, {44, 52.75}}</string>
+					<key>Frame-HD</key>
+					<string>{{204, 248}, {176, 211}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>OriginalImage</key>
+					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr02_jump/zhanshi_jump0001.png</string>
+					<key>SpriteSize</key>
+					<string>{44, 52.75}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.15000000596046448</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>zhanshi_jump0001</string>
+				</dict>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
+					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
+					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
+					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
+					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CgAAAAEBAABjaHIwMl9qdW1wAAAUAAAAAQEA
+					AHpoYW5zaGlfanVtcDAwMDIucG5nMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAAzyU4AAAAAAAgAAAAEAwAAgIlQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAADAEAAAEC
+					AABjNWU0ZjM3MDgxNWRjOGJhYzcyM2ZmMGQx
+					ODQ3ZGU2OTg5ZmE4NTYzOzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwODk4
+					MDsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAy
+					X2p1bXAvemhhbnNoaV9qdW1wMDAwMi5wbmcA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
+					</data>
+					<key>Frame</key>
+					<string>{{52, 179}, {40.75, 52}}</string>
+					<key>Frame-HD</key>
+					<string>{{208, 716}, {163, 208}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>OriginalImage</key>
+					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr02_jump/zhanshi_jump0002.png</string>
+					<key>SpriteSize</key>
+					<string>{40.75, 52}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.15000000596046448</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>zhanshi_jump0002</string>
+				</dict>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
+					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
+					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
+					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
+					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CgAAAAEBAABjaHIwMl9qdW1wAAAUAAAAAQEA
+					AHpoYW5zaGlfanVtcDAwMDMucG5nMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAAzyU4AAAAAAAgAAAAEAwAAgYlQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAADAEAAAEC
+					AABlMDBiZjIwOWUzNjQ2ZmMzODQyNjBhYWY0
+					ZjJjOTI3ZmMwNjliMWIyOzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwODk4
+					MTsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAy
+					X2p1bXAvemhhbnNoaV9qdW1wMDAwMy5wbmcA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
+					</data>
+					<key>Frame</key>
+					<string>{{50, 124}, {45, 53}}</string>
+					<key>Frame-HD</key>
+					<string>{{200, 496}, {180, 212}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>OriginalImage</key>
+					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr02_jump/zhanshi_jump0003.png</string>
+					<key>SpriteSize</key>
+					<string>{45, 53}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.15000000596046448</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>zhanshi_jump0003</string>
+				</dict>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
+					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
+					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
+					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
+					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CgAAAAEBAABjaHIwMl9qdW1wAAAUAAAAAQEA
+					AHpoYW5zaGlfanVtcDAwMDQucG5nMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAAzyU4AAAAAAAgAAAAEAwAAgolQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAADAEAAAEC
+					AABkYzI3ZmZjZmY0ODc1Y2U0NjQwNGY4MzE5
+					MDVmODJjN2E5ZTU2YWVlOzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwODk4
+					MjsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAy
+					X2p1bXAvemhhbnNoaV9qdW1wMDAwNC5wbmcA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
+					</data>
+					<key>Frame</key>
+					<string>{{2, 184}, {47.75, 52}}</string>
+					<key>Frame-HD</key>
+					<string>{{8, 736}, {189, 208}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>OriginalImage</key>
+					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr02_jump/zhanshi_jump0004.png</string>
+					<key>SpriteSize</key>
+					<string>{47.75, 52}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.15000000596046448</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>zhanshi_jump0004</string>
+				</dict>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
+					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
+					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
+					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
+					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CgAAAAEBAABjaHIwMl9qdW1wAAAUAAAAAQEA
+					AHpoYW5zaGlfanVtcDAwMDUucG5nMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAAzyU4AAAAAAAgAAAAEAwAAg4lQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAADAEAAAEC
+					AABjMjM1MjNkYzA0ZThjZGVkYTJkMjYzMWE5
+					MGYyMGI4NDkzMGEzNDIwOzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwODk4
+					MzsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAy
+					X2p1bXAvemhhbnNoaV9qdW1wMDAwNS5wbmcA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
+					</data>
+					<key>Frame</key>
+					<string>{{97, 62}, {36.5, 59.5}}</string>
+					<key>Frame-HD</key>
+					<string>{{388, 248}, {146, 238}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>OriginalImage</key>
+					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr02_jump/zhanshi_jump0005.png</string>
+					<key>SpriteSize</key>
+					<string>{36.5, 59.5}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.15000000596046448</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>zhanshi_jump0005</string>
+				</dict>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
+					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
+					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
+					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
+					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CgAAAAEBAABjaHIwMl9qdW1wAAAUAAAAAQEA
+					AHpoYW5zaGlfanVtcDAwMDYucG5nMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAAzyU4AAAAAAAgAAAAEAwAAhIlQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAADAEAAAEC
+					AABhNDAzNWIyZWY1MGJjZTM4ZTNjYjk2ZmJk
+					MTk4NjlkMzZiOTNkYTM3OzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwODk4
+					NDsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAy
+					X2p1bXAvemhhbnNoaV9qdW1wMDAwNi5wbmcA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
+					</data>
+					<key>Frame</key>
+					<string>{{99, 2}, {36.5, 59.5}}</string>
+					<key>Frame-HD</key>
+					<string>{{396, 8}, {146, 238}}</string>
+					<key>IsRotated</key>
+					<true/>
+					<key>OriginalImage</key>
+					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr02_jump/zhanshi_jump0006.png</string>
+					<key>SpriteSize</key>
+					<string>{36.5, 59.5}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.15000000596046448</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>zhanshi_jump0006</string>
+				</dict>
+			</array>
+			<key>Loop</key>
+			<false/>
+			<key>Repetitions</key>
+			<integer>1</integer>
+			<key>RestoreOriginalFrame</key>
+			<false/>
+			<key>SheetImage</key>
+			<string>GameData_char02.png</string>
+			<key>SheetName</key>
+			<string>char02</string>
+			<key>StartAtLaunch</key>
+			<true/>
+			<key>UniqueName</key>
+			<string>char02_jump01</string>
+		</dict>
+		<dict>
+			<key>DelayPerUnit</key>
+			<real>0.40000000596046448</real>
+			<key>Frames</key>
+			<array>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
+					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
+					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
+					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
+					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CgAAAAEBAABjaHIwMl9qdW1wAAAUAAAAAQEA
+					AHpoYW5zaGlfanVtcDAwMDQucG5nMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAAzyU4AAAAAAAgAAAAEAwAAgolQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAADAEAAAEC
+					AABkYzI3ZmZjZmY0ODc1Y2U0NjQwNGY4MzE5
+					MDVmODJjN2E5ZTU2YWVlOzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwODk4
+					MjsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAy
+					X2p1bXAvemhhbnNoaV9qdW1wMDAwNC5wbmcA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
+					</data>
+					<key>Frame</key>
+					<string>{{2, 184}, {47.75, 52}}</string>
+					<key>Frame-HD</key>
+					<string>{{8, 736}, {189, 208}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>OriginalImage</key>
+					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr02_jump/zhanshi_jump0004.png</string>
+					<key>SpriteSize</key>
+					<string>{47.75, 52}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.15000000596046448</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>zhanshi_jump0004</string>
+				</dict>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
+					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
+					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
+					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
+					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CgAAAAEBAABjaHIwMl9qdW1wAAAUAAAAAQEA
+					AHpoYW5zaGlfanVtcDAwMDMucG5nMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAAzyU4AAAAAAAgAAAAEAwAAgYlQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAADAEAAAEC
+					AABlMDBiZjIwOWUzNjQ2ZmMzODQyNjBhYWY0
+					ZjJjOTI3ZmMwNjliMWIyOzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwODk4
+					MTsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAy
+					X2p1bXAvemhhbnNoaV9qdW1wMDAwMy5wbmcA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
+					</data>
+					<key>Frame</key>
+					<string>{{50, 124}, {45, 53}}</string>
+					<key>Frame-HD</key>
+					<string>{{200, 496}, {180, 212}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>OriginalImage</key>
+					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr02_jump/zhanshi_jump0003.png</string>
+					<key>SpriteSize</key>
+					<string>{45, 53}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.15000000596046448</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>zhanshi_jump0003</string>
+				</dict>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
+					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
+					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
+					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
+					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CgAAAAEBAABjaHIwMl9qdW1wAAAUAAAAAQEA
+					AHpoYW5zaGlfanVtcDAwMDIucG5nMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAAzyU4AAAAAAAgAAAAEAwAAgIlQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAADAEAAAEC
+					AABjNWU0ZjM3MDgxNWRjOGJhYzcyM2ZmMGQx
+					ODQ3ZGU2OTg5ZmE4NTYzOzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwODk4
+					MDsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAy
+					X2p1bXAvemhhbnNoaV9qdW1wMDAwMi5wbmcA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
+					</data>
+					<key>Frame</key>
+					<string>{{52, 179}, {40.75, 52}}</string>
+					<key>Frame-HD</key>
+					<string>{{208, 716}, {163, 208}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>OriginalImage</key>
+					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr02_jump/zhanshi_jump0002.png</string>
+					<key>SpriteSize</key>
+					<string>{40.75, 52}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.15000000596046448</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>zhanshi_jump0002</string>
+				</dict>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
+					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
+					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
+					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
+					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CgAAAAEBAABjaHIwMl9qdW1wAAAUAAAAAQEA
+					AHpoYW5zaGlfanVtcDAwMDIucG5nMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAAzyU4AAAAAAAgAAAAEAwAAgIlQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAADAEAAAEC
+					AABjNWU0ZjM3MDgxNWRjOGJhYzcyM2ZmMGQx
+					ODQ3ZGU2OTg5ZmE4NTYzOzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwODk4
+					MDsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAy
+					X2p1bXAvemhhbnNoaV9qdW1wMDAwMi5wbmcA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
+					</data>
+					<key>Frame</key>
+					<string>{{52, 179}, {40.75, 52}}</string>
+					<key>Frame-HD</key>
+					<string>{{208, 716}, {163, 208}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>OriginalImage</key>
+					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr02_jump/zhanshi_jump0002.png</string>
+					<key>SpriteSize</key>
+					<string>{40.75, 52}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.15000000596046448</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>zhanshi_jump0002</string>
+				</dict>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
+					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
+					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
+					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
+					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CgAAAAEBAABjaHIwMl9qdW1wAAAUAAAAAQEA
+					AHpoYW5zaGlfanVtcDAwMDMucG5nMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAAzyU4AAAAAAAgAAAAEAwAAgYlQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAADAEAAAEC
+					AABlMDBiZjIwOWUzNjQ2ZmMzODQyNjBhYWY0
+					ZjJjOTI3ZmMwNjliMWIyOzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwODk4
+					MTsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAy
+					X2p1bXAvemhhbnNoaV9qdW1wMDAwMy5wbmcA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
+					</data>
+					<key>Frame</key>
+					<string>{{50, 124}, {45, 53}}</string>
+					<key>Frame-HD</key>
+					<string>{{200, 496}, {180, 212}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>OriginalImage</key>
+					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr02_jump/zhanshi_jump0003.png</string>
+					<key>SpriteSize</key>
+					<string>{45, 53}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.15000000596046448</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>zhanshi_jump0003</string>
+				</dict>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
+					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
+					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
+					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
+					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CgAAAAEBAABjaHIwMl9qdW1wAAAUAAAAAQEA
+					AHpoYW5zaGlfanVtcDAwMDQucG5nMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAAzyU4AAAAAAAgAAAAEAwAAgolQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAADAEAAAEC
+					AABkYzI3ZmZjZmY0ODc1Y2U0NjQwNGY4MzE5
+					MDVmODJjN2E5ZTU2YWVlOzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwODk4
+					MjsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAy
+					X2p1bXAvemhhbnNoaV9qdW1wMDAwNC5wbmcA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
+					</data>
+					<key>Frame</key>
+					<string>{{2, 184}, {47.75, 52}}</string>
+					<key>Frame-HD</key>
+					<string>{{8, 736}, {189, 208}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>OriginalImage</key>
+					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr02_jump/zhanshi_jump0004.png</string>
+					<key>SpriteSize</key>
+					<string>{47.75, 52}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.15000000596046448</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>zhanshi_jump0004</string>
+				</dict>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
+					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
+					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
+					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
+					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CgAAAAEBAABjaHIwMl9qdW1wAAAUAAAAAQEA
+					AHpoYW5zaGlfanVtcDAwMDUucG5nMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAAzyU4AAAAAAAgAAAAEAwAAg4lQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAADAEAAAEC
+					AABjMjM1MjNkYzA0ZThjZGVkYTJkMjYzMWE5
+					MGYyMGI4NDkzMGEzNDIwOzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwODk4
+					MzsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAy
+					X2p1bXAvemhhbnNoaV9qdW1wMDAwNS5wbmcA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
+					</data>
+					<key>Frame</key>
+					<string>{{97, 62}, {36.5, 59.5}}</string>
+					<key>Frame-HD</key>
+					<string>{{388, 248}, {146, 238}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>OriginalImage</key>
+					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr02_jump/zhanshi_jump0005.png</string>
+					<key>SpriteSize</key>
+					<string>{36.5, 59.5}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.15000000596046448</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>zhanshi_jump0005</string>
+				</dict>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
+					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
+					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
+					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
+					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CgAAAAEBAABjaHIwMl9qdW1wAAAUAAAAAQEA
+					AHpoYW5zaGlfanVtcDAwMDYucG5nMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAAzyU4AAAAAAAgAAAAEAwAAhIlQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAADAEAAAEC
+					AABhNDAzNWIyZWY1MGJjZTM4ZTNjYjk2ZmJk
+					MTk4NjlkMzZiOTNkYTM3OzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwODk4
+					NDsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAy
+					X2p1bXAvemhhbnNoaV9qdW1wMDAwNi5wbmcA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
+					</data>
+					<key>Frame</key>
+					<string>{{99, 2}, {36.5, 59.5}}</string>
+					<key>Frame-HD</key>
+					<string>{{396, 8}, {146, 238}}</string>
+					<key>IsRotated</key>
+					<true/>
+					<key>OriginalImage</key>
+					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr02_jump/zhanshi_jump0006.png</string>
+					<key>SpriteSize</key>
+					<string>{36.5, 59.5}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.15000000596046448</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>zhanshi_jump0006</string>
+				</dict>
+			</array>
+			<key>Loop</key>
+			<true/>
+			<key>Repetitions</key>
+			<integer>1</integer>
+			<key>RestoreOriginalFrame</key>
+			<false/>
+			<key>SheetImage</key>
+			<string>GameData_char02.png</string>
+			<key>SheetName</key>
+			<string>char02</string>
+			<key>StartAtLaunch</key>
+			<true/>
+			<key>UniqueName</key>
+			<string>char02_jump02</string>
+		</dict>
+		<dict>
+			<key>DelayPerUnit</key>
+			<real>0.40000000596046448</real>
+			<key>Frames</key>
+			<array/>
+			<key>Loop</key>
+			<false/>
+			<key>Repetitions</key>
+			<integer>1</integer>
+			<key>RestoreOriginalFrame</key>
+			<false/>
+			<key>StartAtLaunch</key>
+			<true/>
+			<key>UniqueName</key>
+			<string>char02_fall</string>
+		</dict>
+		<dict>
+			<key>DelayPerUnit</key>
+			<real>0.40000000596046448</real>
+			<key>Frames</key>
+			<array>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
+					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
+					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
+					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
+					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CgAAAAEBAABjaHIwMl9qdW1wAAAUAAAAAQEA
+					AHpoYW5zaGlfanVtcDAwMDcucG5nMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAAzyU4AAAAAAAgAAAAEAwAAhYlQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAADAEAAAEC
+					AABiN2MzZWNkYzk2MjAzZGUwYzdkZTg2YzNk
+					NmJiY2E1MWViYzc2ZWM3OzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwODk4
+					NTsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAy
+					X2p1bXAvemhhbnNoaV9qdW1wMDAwNy5wbmcA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
+					</data>
+					<key>Frame</key>
+					<string>{{94, 179}, {37.75, 52}}</string>
+					<key>Frame-HD</key>
+					<string>{{376, 716}, {151, 208}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>OriginalImage</key>
+					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr02_jump/zhanshi_jump0007.png</string>
+					<key>SpriteSize</key>
+					<string>{37.75, 52}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.10000000149011612</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>zhanshi_jump0007</string>
+				</dict>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
+					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
+					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
+					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
+					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CgAAAAEBAABjaHIwMl9qdW1wAAAUAAAAAQEA
+					AHpoYW5zaGlfanVtcDAwMDgucG5nMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAAzyU4AAAAAAAgAAAAEAwAAholQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAADAEAAAEC
+					AABhNDI2MzkxMGUwMjJlOTY3NGQ3MTIwZjcz
+					NmQ3ZmE3ZmIxNDMxYzc2OzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwODk4
+					NjsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAy
+					X2p1bXAvemhhbnNoaV9qdW1wMDAwOC5wbmcA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
+					</data>
+					<key>Frame</key>
+					<string>{{97, 124}, {37.75, 52}}</string>
+					<key>Frame-HD</key>
+					<string>{{388, 496}, {151, 208}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>OriginalImage</key>
+					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr02_jump/zhanshi_jump0008.png</string>
+					<key>SpriteSize</key>
+					<string>{37.75, 52}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.10000000149011612</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>zhanshi_jump0008</string>
+				</dict>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
+					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
+					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
+					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
+					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CgAAAAEBAABjaHIwMl9qdW1wAAAUAAAAAQEA
+					AHpoYW5zaGlfanVtcDAwMDkucG5nMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAAzyU4AAAAAAAgAAAAEAwAAh4lQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAADAEAAAEC
+					AAAzOTk1YTQwZmQwMmUxMGE5Zjc0MzdmNmQw
+					Y2NhNTc2ZTRjOTc2MGNhOzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwODk4
+					NzsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAy
+					X2p1bXAvemhhbnNoaV9qdW1wMDAwOS5wbmcA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
+					</data>
+					<key>Frame</key>
+					<string>{{134, 178}, {27, 53}}</string>
+					<key>Frame-HD</key>
+					<string>{{536, 712}, {108, 212}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>OriginalImage</key>
+					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr02_jump/zhanshi_jump0009.png</string>
+					<key>SpriteSize</key>
+					<string>{27, 53}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.10000000149011612</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>zhanshi_jump0009</string>
+				</dict>
+			</array>
+			<key>Loop</key>
+			<false/>
+			<key>Repetitions</key>
+			<integer>1</integer>
+			<key>RestoreOriginalFrame</key>
+			<false/>
+			<key>SheetImage</key>
+			<string>GameData_char02.png</string>
+			<key>SheetName</key>
+			<string>char02</string>
+			<key>StartAtLaunch</key>
+			<true/>
+			<key>UniqueName</key>
+			<string>char02_land</string>
+		</dict>
+		<dict>
+			<key>DelayPerUnit</key>
+			<real>0.40000000596046448</real>
+			<key>Frames</key>
+			<array>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
+					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
+					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
+					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
+					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CgAAAAEBAABjaHIwMl9qdW1wAAAUAAAAAQEA
+					AHpoYW5zaGlfanVtcDAwMDIucG5nMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAAzyU4AAAAAAAgAAAAEAwAAgIlQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAADAEAAAEC
+					AABjNWU0ZjM3MDgxNWRjOGJhYzcyM2ZmMGQx
+					ODQ3ZGU2OTg5ZmE4NTYzOzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwODk4
+					MDsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAy
+					X2p1bXAvemhhbnNoaV9qdW1wMDAwMi5wbmcA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
+					</data>
+					<key>Frame</key>
+					<string>{{52, 179}, {40.75, 52}}</string>
+					<key>Frame-HD</key>
+					<string>{{208, 716}, {163, 208}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>OriginalImage</key>
+					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr02_jump/zhanshi_jump0002.png</string>
+					<key>SpriteSize</key>
+					<string>{40.75, 52}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>zhanshi_jump0002</string>
+				</dict>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
+					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
+					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
+					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
+					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CgAAAAEBAABjaHIwMl9qdW1wAAAUAAAAAQEA
+					AHpoYW5zaGlfanVtcDAwMDMucG5nMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAAzyU4AAAAAAAgAAAAEAwAAgYlQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAADAEAAAEC
+					AABlMDBiZjIwOWUzNjQ2ZmMzODQyNjBhYWY0
+					ZjJjOTI3ZmMwNjliMWIyOzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwODk4
+					MTsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAy
+					X2p1bXAvemhhbnNoaV9qdW1wMDAwMy5wbmcA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
+					</data>
+					<key>Frame</key>
+					<string>{{50, 124}, {45, 53}}</string>
+					<key>Frame-HD</key>
+					<string>{{200, 496}, {180, 212}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>OriginalImage</key>
+					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr02_jump/zhanshi_jump0003.png</string>
+					<key>SpriteSize</key>
+					<string>{45, 53}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>zhanshi_jump0003</string>
+				</dict>
+			</array>
+			<key>Loop</key>
+			<true/>
+			<key>Repetitions</key>
+			<integer>1</integer>
+			<key>RestoreOriginalFrame</key>
+			<false/>
+			<key>SheetImage</key>
+			<string>GameData_char02.png</string>
+			<key>SheetName</key>
+			<string>char02</string>
+			<key>StartAtLaunch</key>
+			<true/>
+			<key>UniqueName</key>
+			<string>char02_holding</string>
 		</dict>
 	</array>
 	<key>SaveSettings</key>
