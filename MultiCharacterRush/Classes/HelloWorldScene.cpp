@@ -467,7 +467,7 @@ void HelloWorld::updateBG()
     sprites = mLevelHelperLoader->spritesWithTag(TAG_BG_02);
     for (int i=0; i<sprites->count(); ++i)
     {
-        ((LHSprite*)sprites->objectAtIndex(i))->getBody()->SetLinearVelocity(0.9*BGVelocity);
+        ((LHSprite*)sprites->objectAtIndex(i))->getBody()->SetLinearVelocity(1.0*BGVelocity);
     }
 }
 
