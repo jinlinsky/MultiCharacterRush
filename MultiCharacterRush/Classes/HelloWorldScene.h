@@ -69,8 +69,8 @@ public:
     void updateCamera(CCCamera* camera);
     void updateBG();
     
-    CCPoint getBG01StartPoint();
-    CCPoint getBG02StartPoint();
+    CCPoint getLastBG01Point();
+    CCPoint getLastBG02Point();
     
     CCPoint getLastEnvGroundPoint();
     
@@ -89,7 +89,6 @@ public:
     // player01
     int mPlayer01State;
     b2Vec2 mOriginalPosition;
-    b2Vec2 mPlayer01Velocity;
     int mPlayer01Jump02Count;
     
     // camera
@@ -104,9 +103,6 @@ public:
     int   mMapBlockSize;
     
     int   mScreenCount;
-    
-    int   mBG01Count;
-    int   mBG02Count;
     
     void generateNextScreenMap(float startX);
     void gnerateTriggers(float startX);

@@ -118,8 +118,6 @@ CCAffineTransform PhysicsSprite::nodeToParentTransform(void)
 HelloWorld::HelloWorld()
 : mLevelHelperLoader(NULL)
 , mScreenCount(0)
-, mBG01Count(0)
-, mBG02Count(0)
 , mLevelDifficulty(0)
 , mIsCameraMoving(false)
 , mPlayer01Jump02Count(0)
@@ -239,8 +237,6 @@ void HelloWorld::LoadLevel()
     
     // init
     mScreenCount = 0;
-    mBG01Count = 0;
-    mBG02Count = 0;
     mIsCameraMoving = false;
     mLevelDifficulty = 0;
     mPlayer01Jump02Count = 1;
@@ -301,6 +297,11 @@ void HelloWorld::update(float dt)
     }
     
     //--------------------------------------------------------------
+    // BG update
+    //--------------------------------------------------------------
+    updateBG();
+    
+    //--------------------------------------------------------------
     // player01 update
     //--------------------------------------------------------------
     updatePlayer01(dt);
@@ -309,11 +310,6 @@ void HelloWorld::update(float dt)
     // camera update
     //--------------------------------------------------------------
     updateCamera(this->getCamera());
-    
-    //--------------------------------------------------------------
-    // BG update
-    //--------------------------------------------------------------
-    updateBG();
     
     //--------------------------------------------------------------
     // map update
@@ -456,7 +452,9 @@ void HelloWorld::updateBG()
     if (!mIsCameraMoving)
         return;
     
-    b2Vec2 BGVelocity = mPlayer01Velocity;
+    LHSprite* player01 = mLevelHelperLoader->spriteWithUniqueName("player01");
+    
+    b2Vec2 BGVelocity = player01->getBody()->GetLinearVelocity();
     BGVelocity.y = 0;
     
     CCArray* sprites = mLevelHelperLoader->spritesWithTag(TAG_BG_01);
@@ -482,9 +480,9 @@ void HelloWorld::updatePlayer01(float dt)
     b2Vec2 deltaVelocity = desireVelocity - currentVelocity;
     b2Vec2 acceleration = dt * deltaVelocity;
     
-    mPlayer01Velocity = currentVelocity+2.0*acceleration;
+    b2Vec2 newVelocity = currentVelocity+2.0*acceleration;
     
-    player01->getBody()->SetLinearVelocity(mPlayer01Velocity);
+    player01->getBody()->SetLinearVelocity(newVelocity);
     
     // state
     if (mPlayer01State == PS_JUMP01 || mPlayer01State == PS_JUMP02)
@@ -569,49 +567,43 @@ void HelloWorld::generateBG(float startX)
         return;
     
     int index = 0;
-    while (true)
-    {
-        LHSprite* newSpriteBG02 = mLevelHelperLoader->createSpriteWithName("bg02", "bg01", "GameData.pshs");
-        
-        float bgX = getBG02StartPoint().x;
-        float bgY = getBG02StartPoint().y;
-        
-        newSpriteBG02->transformPosition(CCPoint(bgX,bgY));
-        newSpriteBG02->setTag(TAG_BG_02);
-        newSpriteBG02->setZOrder(-2);
-        
-        ++mBG02Count;
-        
-        if (newSpriteBG02->getPosition().x+WIN_SIZE_W/2 > TOTAL_SCREEN_WIDTH())
-        {
-            break;
-        }else
-        {
-            ++index;
-        }
-    }
     
-    index = 0;
-    while (true)
+    float lastBG01PointX = getLastBG01Point().x;
+    float lastBG01PointY = getLastBG01Point().y;
+    while (lastBG01PointX < TOTAL_SCREEN_WIDTH())
     {
         LHSprite* newSpriteBG01 = mLevelHelperLoader->createSpriteWithName("bg01", "bg01", "GameData.pshs");
         
-        float bgX = getBG01StartPoint().x;
-        float bgY = getBG01StartPoint().y;
+        /*offset 2 to avoid blank space*/
+        float bgX = lastBG01PointX + BG01_CONTENT_WIDTH - 2;
+        float bgY = lastBG01PointY;
         
         newSpriteBG01->transformPosition(CCPoint(bgX,bgY));
         newSpriteBG01->setTag(TAG_BG_01);
         newSpriteBG01->setZOrder(-1);
         
-        ++mBG01Count;
+        lastBG01PointX = newSpriteBG01->getPosition().x;
+        ++index;
+    }
+    
+    index = 0;
+    
+    float lastBG02PointX = getLastBG02Point().x;
+    float lastBG02PointY = getLastBG02Point().y;
+    while (lastBG02PointX < TOTAL_SCREEN_WIDTH())
+    {
+        LHSprite* newSpriteBG02 = mLevelHelperLoader->createSpriteWithName("bg02", "bg01", "GameData.pshs");
         
-        if (newSpriteBG01->getPosition().x+WIN_SIZE_W/2  > TOTAL_SCREEN_WIDTH())
-        {
-            break;
-        }else
-        {
-            ++index;
-        }
+        /*offset 2 to avoid blank space*/
+        float bgX = lastBG02PointX + BG02_CONTENT_WIDTH - 2;
+        float bgY = lastBG02PointY;
+        
+        newSpriteBG02->transformPosition(CCPoint(bgX,bgY));
+        newSpriteBG02->setTag(TAG_BG_02);
+        newSpriteBG02->setZOrder(-2);
+        
+        lastBG02PointX = newSpriteBG02->getPosition().x;
+        ++index;
     }
 }
 
@@ -752,7 +744,7 @@ void HelloWorld::cleanOutofScreenMap()
     }
 }
 
-CCPoint HelloWorld::getBG01StartPoint()
+CCPoint HelloWorld::getLastBG01Point()
 {
     CCPoint result;
     result.x = -WIN_SIZE_W;
@@ -768,12 +760,10 @@ CCPoint HelloWorld::getBG01StartPoint()
         }
     }
     
-    result.x += BG01_CONTENT_WIDTH;
-    
     return result;
 }
 
-CCPoint HelloWorld::getBG02StartPoint()
+CCPoint HelloWorld::getLastBG02Point()
 {
     CCPoint result;
     result.x = -WIN_SIZE_W;
@@ -788,8 +778,6 @@ CCPoint HelloWorld::getBG02StartPoint()
             result = point;
         }
     }
-    
-    result.x += BG02_CONTENT_WIDTH;
     
     return result;
 }
