@@ -64,7 +64,7 @@
 								<key>FlipY</key>
 								<false/>
 								<key>Frame</key>
-								<string>{{2, 112}, {44.75, 51.75}}</string>
+								<string>{{2, 118}, {46.5, 53.75}}</string>
 								<key>IsDrawable</key>
 								<true/>
 								<key>IsExpanded</key>
@@ -80,7 +80,7 @@
 								<key>Scale</key>
 								<string>{1, 1}</string>
 								<key>SpriteSize</key>
-								<string>{44.25, 51.25}</string>
+								<string>{46.5, 53.75}</string>
 								<key>Tag</key>
 								<integer>3</integer>
 								<key>TagName</key>

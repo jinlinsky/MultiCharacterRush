@@ -34,8 +34,8 @@ int EnvGroundLength[] =
 
 #define PTM_RATIO 32
 
-#define JUMP01_VELOCITY 30
-#define JUMP02_VELOCITY 30
+#define JUMP01_VELOCITY 26
+#define JUMP02_VELOCITY 26
 #define RUN_VELOCITY 12
 
 #define PLAY01_GRAVITY_SCALE 1
