@@ -34,8 +34,8 @@ int EnvGroundLength[] =
 
 #define PTM_RATIO 32
 
-#define JUMP01_VELOCITY 28
-#define JUMP02_VELOCITY 25
+#define JUMP01_VELOCITY 30
+#define JUMP02_VELOCITY 30
 #define RUN_VELOCITY 12
 
 #define PLAY01_GRAVITY_SCALE 1
@@ -872,7 +872,11 @@ void HelloWorld::player01Falling()
     
     player01->getBody()->SetGravityScale(PLAY01_GRAVITY_SCALE);
     
-    CCLOG("FALLING!!!!!!!!!!!!");
+//    player01->stopAnimation();
+//    player01->prepareAnimationNamed("char01_fall", "GameData.pshs");
+//    player01->playAnimation();
+    
+    CCLOG("FALL!!!!!!!!!!!!");
 }
 
 void HelloWorld::player01Land()

@@ -14,7 +14,7 @@
 			<key>AllowRotation</key>
 			<true/>
 			<key>Crop</key>
-			<true/>
+			<false/>
 			<key>DropSprites</key>
 			<false/>
 			<key>HDSuffix</key>
@@ -24,7 +24,7 @@
 			<key>MaxSheetSize</key>
 			<integer>1024</integer>
 			<key>NpotSize</key>
-			<string>{888, 1024}</string>
+			<string>{928, 912}</string>
 			<key>Padding</key>
 			<integer>8</integer>
 			<key>PixelFormat</key>
@@ -61,7 +61,7 @@
 					yE4AAAAAAAgAAAAEAwAA4shOAAAAAAAIAAAA
 					BAMAAAPJTgAAAAAACAAAAAQDAAAayU4AAAAA
 					AAgAAAAEAwAAHslOAAAAAAAIAAAABAMAACzJ
-					TgAAAAAACAAAAAQDAABUmU8AAAAAADAAAAAB
+					TgAAAAAACAAAAAQDAABAV1AAAAAAADAAAAAB
 					BgAADAEAABwBAAAsAQAAPAEAAEwBAABcAQAA
 					bAEAAHwBAACMAQAAnAEAAKwBAAC8AQAAGAAA
 					AAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAA
@@ -72,12 +72,12 @@
 					AAABAQAAMkU0Q0E4Q0YtRTMyMC0zQ0RCLUJD
 					MkYtQzQ2OTVGMzI1MzYwGAAAAAECAACBAAAA
 					AQAIAO8/AAABAAgAAAAAAAAAAAABAAAAAQEA
-					AC8AAAAEAAAAAwMAAAABAAAFAQAAAQIAADFk
-					MGI0ZTNlMDEyNDQyODUyODQ5ODgwMjdiNDIz
-					MmUyNWQ3ZWUzYjk7MDAwMDAwMDA7MDAwMDAw
+					AC8AAAAEAAAAAwMAAAABAAAFAQAAAQIAADc5
+					Y2U4ZTMyNjY1OGI3ZGE3ZWMyZDVkMTZmNzQ2
+					MTNlOTE1ZjZjYmQ7MDAwMDAwMDA7MDAwMDAw
 					MDAwMDAwMDAyMDtjb20uYXBwbGUuYXBwLXNh
 					bmRib3gucmVhZC13cml0ZTswMDAwMDAwMTsw
-					ZTAwMDAwMjswMDAwMDAwMDAwNGY5OTU0Oy91
+					ZTAwMDAwMjswMDAwMDAwMDAwNTA1NzQwOy91
 					c2Vycy9qaW5saW4vX2Rldl8vX3Byb2plY3Rf
 					L211bHRpY2hhcmFjdGVycnVzaC9tdWx0aWNo
 					YXJhY3RlcnJ1c2gvcmVzb3VyY2VzL2dhbWVk
@@ -110,7 +110,7 @@
 						<key>HandledBySH</key>
 						<true/>
 						<key>IsBullet</key>
-						<false/>
+						<true/>
 						<key>LinearDamping</key>
 						<real>0.0</real>
 						<key>LinearVelocity</key>
@@ -123,16 +123,16 @@
 								<key>Category</key>
 								<integer>1</integer>
 								<key>Density</key>
-								<real>2.2999999523162842</real>
+								<real>1.5</real>
 								<key>Fixture</key>
 								<array>
 									<array>
-										<string>{-12.815980973099272, 3.0334707117709598}</string>
-										<string>{-12.625680750304284, -22.514471764933091}</string>
-										<string>{9.0503182481066773, -22.849923619615396}</string>
-										<string>{14.133908858018742, -12.338298382369231}</string>
-										<string>{14.078881884235187, 2.4823944911041878}</string>
-										<string>{1.3362937972766247, 3.316035685715633}</string>
+										<string>{-14.491844220442417, 24.238505410483754}</string>
+										<string>{-13.94731649027122, -25.268661599062966}</string>
+										<string>{1.7492878911746459, -23.050676582351656}</string>
+										<string>{12.601214987437771, -17.646519215564695}</string>
+										<string>{13.092162190504112, 23.647873457906528}</string>
+										<string>{-2.7265558958350908, 24.364357357834095}</string>
 									</array>
 								</array>
 								<key>Friction</key>
@@ -152,7 +152,7 @@
 								<key>LHHeight</key>
 								<real>0.0</real>
 								<key>LHShapePositionOffset</key>
-								<string>{-22.125, -25.625}</string>
+								<string>{-23.25, -26.875}</string>
 								<key>LHWidth</key>
 								<real>0.0</real>
 								<key>Mask</key>
@@ -163,12 +163,12 @@
 								<real>0.20000000298023224</real>
 								<key>ShapePoints</key>
 								<array>
-									<string>{93.845175189106499, 89.235857257137468}</string>
-									<string>{144.81552753694075, 92.570422035583249}</string>
-									<string>{145.03563543207497, 151.85319352947693}</string>
-									<string>{124.70127299242671, 193.89969447846158}</string>
-									<string>{37.997276998782866, 192.55788705973237}</string>
-									<string>{37.236076107602912, 90.366117152916161}</string>
+									<string>{82.093776416659637, 10.042570568663621}</string>
+									<string>{145.36864876201645, 12.90850616837389}</string>
+									<string>{143.40485994975108, 178.08607686225878}</string>
+									<string>{99.997151564698584, 199.70270632940662}</string>
+									<string>{37.21073403891512, 208.57464639625186}</string>
+									<string>{35.032623118230333, 10.545978358064986}</string>
 								</array>
 								<key>ShapePositionOffset</key>
 								<string>{0, 0}</string>
@@ -208,9 +208,9 @@
 						<key>FlipY</key>
 						<false/>
 						<key>Frame</key>
-						<string>{{2, 112}, {44.75, 51.75}}</string>
+						<string>{{2, 118}, {46.5, 53.75}}</string>
 						<key>Frame-HD</key>
-						<string>{{8, 448}, {177, 205}}</string>
+						<string>{{8, 472}, {186, 215}}</string>
 						<key>Image</key>
 						<string>GameData_char01.png</string>
 						<key>Image-HD</key>
@@ -232,15 +232,15 @@
 						<key>OriginalImage_RelativePath</key>
 						<string>../Raw/Character/chr01_run/wizard0001.png/</string>
 						<key>OriginalRect</key>
-						<string>{{74, 83}, {177, 205}}</string>
+						<string>{{42, 26}, {186, 215}}</string>
 						<key>OriginalSize</key>
-						<string>{177, 205}</string>
+						<string>{186, 215}</string>
 						<key>Position</key>
-						<string>{8, 448}</string>
+						<string>{8, 472}</string>
 						<key>Scale</key>
 						<string>{1, 1}</string>
 						<key>SpriteSize</key>
-						<string>{44.25, 51.25}</string>
+						<string>{46.5, 53.75}</string>
 						<key>SpriteWasBreaked</key>
 						<false/>
 						<key>Tag</key>
@@ -275,7 +275,7 @@
 					yE4AAAAAAAgAAAAEAwAA4shOAAAAAAAIAAAA
 					BAMAAAPJTgAAAAAACAAAAAQDAAAayU4AAAAA
 					AAgAAAAEAwAAHslOAAAAAAAIAAAABAMAACzJ
-					TgAAAAAACAAAAAQDAABNmU8AAAAAADAAAAAB
+					TgAAAAAACAAAAAQDAABCV1AAAAAAADAAAAAB
 					BgAADAEAABwBAAAsAQAAPAEAAEwBAABcAQAA
 					bAEAAHwBAACMAQAAnAEAAKwBAAC8AQAAGAAA
 					AAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAA
@@ -286,12 +286,12 @@
 					AAABAQAAMkU0Q0E4Q0YtRTMyMC0zQ0RCLUJD
 					MkYtQzQ2OTVGMzI1MzYwGAAAAAECAACBAAAA
 					AQAIAO8/AAABAAgAAAAAAAAAAAABAAAAAQEA
-					AC8AAAAEAAAAAwMAAAABAAAFAQAAAQIAADU4
-					YTQ2ZDdmZjFlYjkyOWZmODY4N2Q2OTY3MWEw
-					OGU3MWFkMTAzZTg7MDAwMDAwMDA7MDAwMDAw
+					AC8AAAAEAAAAAwMAAAABAAAFAQAAAQIAAGM5
+					NTdkNGRiM2JmNzA3OTVlMzlhMjc3MjlhNzU5
+					NzEyOGRkNWNhZGQ7MDAwMDAwMDA7MDAwMDAw
 					MDAwMDAwMDAyMDtjb20uYXBwbGUuYXBwLXNh
 					bmRib3gucmVhZC13cml0ZTswMDAwMDAwMTsw
-					ZTAwMDAwMjswMDAwMDAwMDAwNGY5OTRkOy91
+					ZTAwMDAwMjswMDAwMDAwMDAwNTA1NzQyOy91
 					c2Vycy9qaW5saW4vX2Rldl8vX3Byb2plY3Rf
 					L211bHRpY2hhcmFjdGVycnVzaC9tdWx0aWNo
 					YXJhY3RlcnJ1c2gvcmVzb3VyY2VzL2dhbWVk
@@ -361,9 +361,9 @@
 						<key>FlipY</key>
 						<false/>
 						<key>Frame</key>
-						<string>{{2, 2}, {45.5, 53}}</string>
+						<string>{{2, 2}, {47.75, 55.75}}</string>
 						<key>Frame-HD</key>
-						<string>{{8, 8}, {182, 212}}</string>
+						<string>{{8, 8}, {191, 223}}</string>
 						<key>Image</key>
 						<string>GameData_char01.png</string>
 						<key>Image-HD</key>
@@ -385,15 +385,15 @@
 						<key>OriginalImage_RelativePath</key>
 						<string>../Raw/Character/chr01_run/wizard0002.png/</string>
 						<key>OriginalRect</key>
-						<string>{{72, 76}, {182, 212}}</string>
+						<string>{{43, 22}, {191, 223}}</string>
 						<key>OriginalSize</key>
-						<string>{182, 212}</string>
+						<string>{191, 223}</string>
 						<key>Position</key>
 						<string>{8, 8}</string>
 						<key>Scale</key>
 						<string>{1, 1}</string>
 						<key>SpriteSize</key>
-						<string>{45.5, 53}</string>
+						<string>{47.75, 55.75}</string>
 						<key>SpriteWasBreaked</key>
 						<false/>
 						<key>Tag</key>
@@ -428,7 +428,7 @@
 					yE4AAAAAAAgAAAAEAwAA4shOAAAAAAAIAAAA
 					BAMAAAPJTgAAAAAACAAAAAQDAAAayU4AAAAA
 					AAgAAAAEAwAAHslOAAAAAAAIAAAABAMAACzJ
-					TgAAAAAACAAAAAQDAABrmU8AAAAAADAAAAAB
+					TgAAAAAACAAAAAQDAABEV1AAAAAAADAAAAAB
 					BgAADAEAABwBAAAsAQAAPAEAAEwBAABcAQAA
 					bAEAAHwBAACMAQAAnAEAAKwBAAC8AQAAGAAA
 					AAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAA
@@ -439,12 +439,12 @@
 					AAABAQAAMkU0Q0E4Q0YtRTMyMC0zQ0RCLUJD
 					MkYtQzQ2OTVGMzI1MzYwGAAAAAECAACBAAAA
 					AQAIAO8/AAABAAgAAAAAAAAAAAABAAAAAQEA
-					AC8AAAAEAAAAAwMAAAABAAAFAQAAAQIAAGE4
-					NDA5ZWUxNzllYTlmNDFlMjhjNDcyODI5ZGQy
-					NjZlNDAzNDJiZjc7MDAwMDAwMDA7MDAwMDAw
+					AC8AAAAEAAAAAwMAAAABAAAFAQAAAQIAADA4
+					N2YyZjI2Mzk3YTk0YTRlOTZhYzk0ZTZmNTUx
+					NjgzOGM4NGU1NWI7MDAwMDAwMDA7MDAwMDAw
 					MDAwMDAwMDAyMDtjb20uYXBwbGUuYXBwLXNh
 					bmRib3gucmVhZC13cml0ZTswMDAwMDAwMTsw
-					ZTAwMDAwMjswMDAwMDAwMDAwNGY5OTZiOy91
+					ZTAwMDAwMjswMDAwMDAwMDAwNTA1NzQ0Oy91
 					c2Vycy9qaW5saW4vX2Rldl8vX3Byb2plY3Rf
 					L211bHRpY2hhcmFjdGVycnVzaC9tdWx0aWNo
 					YXJhY3RlcnJ1c2gvcmVzb3VyY2VzL2dhbWVk
@@ -514,9 +514,9 @@
 						<key>FlipY</key>
 						<false/>
 						<key>Frame</key>
-						<string>{{48, 165}, {44.75, 50.75}}</string>
+						<string>{{51, 173}, {46.75, 53.75}}</string>
 						<key>Frame-HD</key>
-						<string>{{192, 660}, {177, 203}}</string>
+						<string>{{204, 692}, {185, 213}}</string>
 						<key>Image</key>
 						<string>GameData_char01.png</string>
 						<key>Image-HD</key>
@@ -538,15 +538,15 @@
 						<key>OriginalImage_RelativePath</key>
 						<string>../Raw/Character/chr01_run/wizard0003.png/</string>
 						<key>OriginalRect</key>
-						<string>{{72, 85}, {177, 203}}</string>
+						<string>{{48, 31}, {185, 213}}</string>
 						<key>OriginalSize</key>
-						<string>{177, 203}</string>
+						<string>{185, 213}</string>
 						<key>Position</key>
-						<string>{192, 660}</string>
+						<string>{204, 692}</string>
 						<key>Scale</key>
 						<string>{1, 1}</string>
 						<key>SpriteSize</key>
-						<string>{44.25, 50.75}</string>
+						<string>{46.25, 53.25}</string>
 						<key>SpriteWasBreaked</key>
 						<false/>
 						<key>Tag</key>
@@ -581,7 +581,7 @@
 					yE4AAAAAAAgAAAAEAwAA4shOAAAAAAAIAAAA
 					BAMAAAPJTgAAAAAACAAAAAQDAAAayU4AAAAA
 					AAgAAAAEAwAAHslOAAAAAAAIAAAABAMAACzJ
-					TgAAAAAACAAAAAQDAABnmU8AAAAAADAAAAAB
+					TgAAAAAACAAAAAQDAABGV1AAAAAAADAAAAAB
 					BgAADAEAABwBAAAsAQAAPAEAAEwBAABcAQAA
 					bAEAAHwBAACMAQAAnAEAAKwBAAC8AQAAGAAA
 					AAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAA
@@ -592,12 +592,12 @@
 					AAABAQAAMkU0Q0E4Q0YtRTMyMC0zQ0RCLUJD
 					MkYtQzQ2OTVGMzI1MzYwGAAAAAECAACBAAAA
 					AQAIAO8/AAABAAgAAAAAAAAAAAABAAAAAQEA
-					AC8AAAAEAAAAAwMAAAABAAAFAQAAAQIAAGU4
-					ZWZlMGVjNGMzMGMwNDVlOTA0MzNjMzc4MmQx
-					MzM5Nzg1N2M3MzU7MDAwMDAwMDA7MDAwMDAw
+					AC8AAAAEAAAAAwMAAAABAAAFAQAAAQIAADE3
+					MGRjNGZjOTQ2YTFmM2U5MGNhZWMwYjZiNzNh
+					NTI5NDgxYWM3ZTE7MDAwMDAwMDA7MDAwMDAw
 					MDAwMDAwMDAyMDtjb20uYXBwbGUuYXBwLXNh
 					bmRib3gucmVhZC13cml0ZTswMDAwMDAwMTsw
-					ZTAwMDAwMjswMDAwMDAwMDAwNGY5OTY3Oy91
+					ZTAwMDAwMjswMDAwMDAwMDAwNTA1NzQ2Oy91
 					c2Vycy9qaW5saW4vX2Rldl8vX3Byb2plY3Rf
 					L211bHRpY2hhcmFjdGVycnVzaC9tdWx0aWNo
 					YXJhY3RlcnJ1c2gvcmVzb3VyY2VzL2dhbWVk
@@ -667,9 +667,9 @@
 						<key>FlipY</key>
 						<false/>
 						<key>Frame</key>
-						<string>{{49, 112}, {43.5, 51.75}}</string>
+						<string>{{51, 117}, {45.75, 53.75}}</string>
 						<key>Frame-HD</key>
-						<string>{{196, 448}, {174, 205}}</string>
+						<string>{{204, 468}, {183, 215}}</string>
 						<key>Image</key>
 						<string>GameData_char01.png</string>
 						<key>Image-HD</key>
@@ -691,15 +691,15 @@
 						<key>OriginalImage_RelativePath</key>
 						<string>../Raw/Character/chr01_run/wizard0004.png/</string>
 						<key>OriginalRect</key>
-						<string>{{78, 83}, {174, 205}}</string>
+						<string>{{45, 26}, {183, 215}}</string>
 						<key>OriginalSize</key>
-						<string>{174, 205}</string>
+						<string>{183, 215}</string>
 						<key>Position</key>
-						<string>{196, 448}</string>
+						<string>{204, 468}</string>
 						<key>Scale</key>
 						<string>{1, 1}</string>
 						<key>SpriteSize</key>
-						<string>{43.5, 51.25}</string>
+						<string>{45.75, 53.75}</string>
 						<key>SpriteWasBreaked</key>
 						<false/>
 						<key>Tag</key>
@@ -734,7 +734,7 @@
 					yE4AAAAAAAgAAAAEAwAA4shOAAAAAAAIAAAA
 					BAMAAAPJTgAAAAAACAAAAAQDAAAayU4AAAAA
 					AAgAAAAEAwAAHslOAAAAAAAIAAAABAMAACzJ
-					TgAAAAAACAAAAAQDAABfmU8AAAAAADAAAAAB
+					TgAAAAAACAAAAAQDAABIV1AAAAAAADAAAAAB
 					BgAADAEAABwBAAAsAQAAPAEAAEwBAABcAQAA
 					bAEAAHwBAACMAQAAnAEAAKwBAAC8AQAAGAAA
 					AAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAA
@@ -745,12 +745,12 @@
 					AAABAQAAMkU0Q0E4Q0YtRTMyMC0zQ0RCLUJD
 					MkYtQzQ2OTVGMzI1MzYwGAAAAAECAACBAAAA
 					AQAIAO8/AAABAAgAAAAAAAAAAAABAAAAAQEA
-					AC8AAAAEAAAAAwMAAAABAAAFAQAAAQIAADVk
-					ZmE3MmU2YTUyMzg1NDQxZjNjYjA2ZTI0YjNh
-					OGY5N2IxNmU3NjQ7MDAwMDAwMDA7MDAwMDAw
+					AC8AAAAEAAAAAwMAAAABAAAFAQAAAQIAADcz
+					MTUyMWFmMGM0NDBiYTFjY2EzNTBhZTA4Y2Zl
+					MTAwNTQzNTYzZmM7MDAwMDAwMDA7MDAwMDAw
 					MDAwMDAwMDAyMDtjb20uYXBwbGUuYXBwLXNh
 					bmRib3gucmVhZC13cml0ZTswMDAwMDAwMTsw
-					ZTAwMDAwMjswMDAwMDAwMDAwNGY5OTVmOy91
+					ZTAwMDAwMjswMDAwMDAwMDAwNTA1NzQ4Oy91
 					c2Vycy9qaW5saW4vX2Rldl8vX3Byb2plY3Rf
 					L211bHRpY2hhcmFjdGVycnVzaC9tdWx0aWNo
 					YXJhY3RlcnJ1c2gvcmVzb3VyY2VzL2dhbWVk
@@ -820,9 +820,9 @@
 						<key>FlipY</key>
 						<false/>
 						<key>Frame</key>
-						<string>{{2, 57}, {45.5, 52.75}}</string>
+						<string>{{2, 60}, {47.75, 55.75}}</string>
 						<key>Frame-HD</key>
-						<string>{{8, 228}, {182, 211}}</string>
+						<string>{{8, 240}, {191, 221}}</string>
 						<key>Image</key>
 						<string>GameData_char01.png</string>
 						<key>Image-HD</key>
@@ -844,15 +844,15 @@
 						<key>OriginalImage_RelativePath</key>
 						<string>../Raw/Character/chr01_run/wizard0005.png/</string>
 						<key>OriginalRect</key>
-						<string>{{77, 77}, {182, 211}}</string>
+						<string>{{43, 22}, {191, 221}}</string>
 						<key>OriginalSize</key>
-						<string>{182, 211}</string>
+						<string>{191, 221}</string>
 						<key>Position</key>
-						<string>{8, 228}</string>
+						<string>{8, 240}</string>
 						<key>Scale</key>
 						<string>{1, 1}</string>
 						<key>SpriteSize</key>
-						<string>{45.5, 52.75}</string>
+						<string>{47.75, 55.25}</string>
 						<key>SpriteWasBreaked</key>
 						<false/>
 						<key>Tag</key>
@@ -887,7 +887,7 @@
 					yE4AAAAAAAgAAAAEAwAA4shOAAAAAAAIAAAA
 					BAMAAAPJTgAAAAAACAAAAAQDAAAayU4AAAAA
 					AAgAAAAEAwAAHslOAAAAAAAIAAAABAMAACzJ
-					TgAAAAAACAAAAAQDAABbmU8AAAAAADAAAAAB
+					TgAAAAAACAAAAAQDAABKV1AAAAAAADAAAAAB
 					BgAADAEAABwBAAAsAQAAPAEAAEwBAABcAQAA
 					bAEAAHwBAACMAQAAnAEAAKwBAAC8AQAAGAAA
 					AAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAA
@@ -898,12 +898,12 @@
 					AAABAQAAMkU0Q0E4Q0YtRTMyMC0zQ0RCLUJD
 					MkYtQzQ2OTVGMzI1MzYwGAAAAAECAACBAAAA
 					AQAIAO8/AAABAAgAAAAAAAAAAAABAAAAAQEA
-					AC8AAAAEAAAAAwMAAAABAAAFAQAAAQIAADBh
-					MDQwM2MyNmVlZDA4ZDNlYjQ3N2Y2NjdhNjA3
-					OGIxNjY1NzkxM2U7MDAwMDAwMDA7MDAwMDAw
+					AC8AAAAEAAAAAwMAAAABAAAFAQAAAQIAADBl
+					OWQxZWE0NmE4YjBlMWY4NWY0MDcwNzYzYzJi
+					YjExMjI2NzBjOWI7MDAwMDAwMDA7MDAwMDAw
 					MDAwMDAwMDAyMDtjb20uYXBwbGUuYXBwLXNh
 					bmRib3gucmVhZC13cml0ZTswMDAwMDAwMTsw
-					ZTAwMDAwMjswMDAwMDAwMDAwNGY5OTViOy91
+					ZTAwMDAwMjswMDAwMDAwMDAwNTA1NzRhOy91
 					c2Vycy9qaW5saW4vX2Rldl8vX3Byb2plY3Rf
 					L211bHRpY2hhcmFjdGVycnVzaC9tdWx0aWNo
 					YXJhY3RlcnJ1c2gvcmVzb3VyY2VzL2dhbWVk
@@ -973,9 +973,9 @@
 						<key>FlipY</key>
 						<false/>
 						<key>Frame</key>
-						<string>{{2, 165}, {44, 51.75}}</string>
+						<string>{{2, 173}, {46.75, 53.75}}</string>
 						<key>Frame-HD</key>
-						<string>{{8, 660}, {176, 205}}</string>
+						<string>{{8, 692}, {185, 215}}</string>
 						<key>Image</key>
 						<string>GameData_char01.png</string>
 						<key>Image-HD</key>
@@ -997,15 +997,15 @@
 						<key>OriginalImage_RelativePath</key>
 						<string>../Raw/Character/chr01_run/wizard0006.png/</string>
 						<key>OriginalRect</key>
-						<string>{{94, 83}, {176, 205}}</string>
+						<string>{{48, 30}, {185, 215}}</string>
 						<key>OriginalSize</key>
-						<string>{176, 205}</string>
+						<string>{185, 215}</string>
 						<key>Position</key>
-						<string>{8, 660}</string>
+						<string>{8, 692}</string>
 						<key>Scale</key>
 						<string>{1, 1}</string>
 						<key>SpriteSize</key>
-						<string>{44, 51.25}</string>
+						<string>{46.25, 53.75}</string>
 						<key>SpriteWasBreaked</key>
 						<false/>
 						<key>Tag</key>
@@ -1040,7 +1040,7 @@
 					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
 					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
 					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
-					AAAfyU4AAAAAAAgAAAAEAwAAMJFPAAAAAAAw
+					AAAfyU4AAAAAAAgAAAAEAwAAY1dQAAAAAAAw
 					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
 					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
 					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
@@ -1052,12 +1052,12 @@
 					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
 					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
 					AAEBAAAvAAAABAAAAAMDAAAAAQAACwEAAAEC
-					AAA5NzA5M2ZiNmIyMDk4ODI5MmYzNjA5YTE2
-					OWU3NjE2OTk4YzAwYTNiOzAwMDAwMDAwOzAw
+					AABkMDNkMDE4YTBjY2FmNzA2MjljMDhmMDFk
+					YWI5OGI2OTRkMTcxYTJhOzAwMDAwMDAwOzAw
 					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
 					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
-					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDRmOTEz
-					MDsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwNTc2
+					MzsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
 					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
 					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
 					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAx
@@ -1126,9 +1126,9 @@
 						<key>FlipY</key>
 						<false/>
 						<key>Frame</key>
-						<string>{{50, 2}, {44.75, 48.5}}</string>
+						<string>{{52, 2}, {47, 50.75}}</string>
 						<key>Frame-HD</key>
-						<string>{{200, 8}, {179, 194}}</string>
+						<string>{{208, 8}, {188, 203}}</string>
 						<key>Image</key>
 						<string>GameData_char01.png</string>
 						<key>Image-HD</key>
@@ -1150,15 +1150,15 @@
 						<key>OriginalImage_RelativePath</key>
 						<string>../Raw/Character/chr01_jump/wizard_jump0001.png/</string>
 						<key>OriginalRect</key>
-						<string>{{64, 94}, {179, 194}}</string>
+						<string>{{4, 44}, {188, 203}}</string>
 						<key>OriginalSize</key>
-						<string>{179, 194}</string>
+						<string>{188, 203}</string>
 						<key>Position</key>
-						<string>{200, 8}</string>
+						<string>{208, 8}</string>
 						<key>Scale</key>
 						<string>{1, 1}</string>
 						<key>SpriteSize</key>
-						<string>{44.75, 48.5}</string>
+						<string>{47, 50.75}</string>
 						<key>SpriteWasBreaked</key>
 						<false/>
 						<key>Tag</key>
@@ -1193,7 +1193,7 @@
 					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
 					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
 					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
-					AAAfyU4AAAAAAAgAAAAEAwAALJFPAAAAAAAw
+					AAAfyU4AAAAAAAgAAAAEAwAAZFdQAAAAAAAw
 					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
 					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
 					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
@@ -1205,12 +1205,12 @@
 					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
 					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
 					AAEBAAAvAAAABAAAAAMDAAAAAQAACwEAAAEC
-					AABmMzIwMDg2ZDgyOThlOTc2NDRjYzBiNWI3
-					NzY5OGExY2RlMGFhYWU4OzAwMDAwMDAwOzAw
+					AABjMGNhMDc1YWU5YTI0MGYzNmIzOTBkMWIz
+					Yjg1M2E4ZWJmYTIyODI4OzAwMDAwMDAwOzAw
 					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
 					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
-					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDRmOTEy
-					YzsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwNTc2
+					NDsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
 					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
 					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
 					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAx
@@ -1279,9 +1279,9 @@
 						<key>FlipY</key>
 						<false/>
 						<key>Frame</key>
-						<string>{{60, 218}, {38, 54.75}}</string>
+						<string>{{99, 110}, {40, 57.75}}</string>
 						<key>Frame-HD</key>
-						<string>{{240, 872}, {152, 219}}</string>
+						<string>{{396, 440}, {160, 229}}</string>
 						<key>Image</key>
 						<string>GameData_char01.png</string>
 						<key>Image-HD</key>
@@ -1291,7 +1291,7 @@
 						<key>IsDrawable</key>
 						<true/>
 						<key>IsRotated</key>
-						<true/>
+						<false/>
 						<key>IsTrimmed</key>
 						<false/>
 						<key>Name</key>
@@ -1303,15 +1303,15 @@
 						<key>OriginalImage_RelativePath</key>
 						<string>../Raw/Character/chr01_jump/wizard_jump0002.png/</string>
 						<key>OriginalRect</key>
-						<string>{{72, 69}, {152, 219}}</string>
+						<string>{{27, 6}, {160, 229}}</string>
 						<key>OriginalSize</key>
-						<string>{152, 219}</string>
+						<string>{160, 229}</string>
 						<key>Position</key>
-						<string>{240, 872}</string>
+						<string>{396, 440}</string>
 						<key>Scale</key>
 						<string>{1, 1}</string>
 						<key>SpriteSize</key>
-						<string>{38, 54.75}</string>
+						<string>{40, 57.25}</string>
 						<key>SpriteWasBreaked</key>
 						<false/>
 						<key>Tag</key>
@@ -1346,7 +1346,7 @@
 					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
 					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
 					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
-					AAAfyU4AAAAAAAgAAAAEAwAAKJFPAAAAAAAw
+					AAAfyU4AAAAAAAgAAAAEAwAAZVdQAAAAAAAw
 					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
 					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
 					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
@@ -1358,12 +1358,12 @@
 					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
 					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
 					AAEBAAAvAAAABAAAAAMDAAAAAQAACwEAAAEC
-					AAA4Mjc4MGY2YmFhZjY2Mzc3ZjI4MTNiMTA5
-					MGU4NmNlODYwZjc0MWRiOzAwMDAwMDAwOzAw
+					AABjNzU3ZGE1MDIzNzRmZmU1NGU2YzJjMmVi
+					MGUzNzhlMmFkYmQ0NDRlOzAwMDAwMDAwOzAw
 					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
 					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
-					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDRmOTEy
-					ODsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwNTc2
+					NTsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
 					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
 					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
 					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAx
@@ -1432,9 +1432,9 @@
 						<key>FlipY</key>
 						<false/>
 						<key>Frame</key>
-						<string>{{117, 215}, {37, 53}}</string>
+						<string>{{143, 48}, {39, 55.5}}</string>
 						<key>Frame-HD</key>
-						<string>{{468, 860}, {148, 212}}</string>
+						<string>{{572, 192}, {156, 222}}</string>
 						<key>Image</key>
 						<string>GameData_char01.png</string>
 						<key>Image-HD</key>
@@ -1444,7 +1444,7 @@
 						<key>IsDrawable</key>
 						<true/>
 						<key>IsRotated</key>
-						<true/>
+						<false/>
 						<key>IsTrimmed</key>
 						<false/>
 						<key>Name</key>
@@ -1456,15 +1456,15 @@
 						<key>OriginalImage_RelativePath</key>
 						<string>../Raw/Character/chr01_jump/wizard_jump0003.png/</string>
 						<key>OriginalRect</key>
-						<string>{{72, 76}, {148, 212}}</string>
+						<string>{{17, 14}, {156, 222}}</string>
 						<key>OriginalSize</key>
-						<string>{148, 212}</string>
+						<string>{156, 222}</string>
 						<key>Position</key>
-						<string>{468, 860}</string>
+						<string>{572, 192}</string>
 						<key>Scale</key>
 						<string>{1, 1}</string>
 						<key>SpriteSize</key>
-						<string>{37, 53}</string>
+						<string>{39, 55.5}</string>
 						<key>SpriteWasBreaked</key>
 						<false/>
 						<key>Tag</key>
@@ -1499,7 +1499,7 @@
 					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
 					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
 					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
-					AAAfyU4AAAAAAAgAAAAEAwAAH5FPAAAAAAAw
+					AAAfyU4AAAAAAAgAAAAEAwAAZldQAAAAAAAw
 					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
 					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
 					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
@@ -1511,12 +1511,12 @@
 					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
 					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
 					AAEBAAAvAAAABAAAAAMDAAAAAQAACwEAAAEC
-					AABiODY5OGI0MmFhOGNiMDMwY2ViYTg3NmEz
-					Mjc1Yzc2YTE3MTEwMWNhOzAwMDAwMDAwOzAw
+					AAA5OTAyYzQ3Y2M1NWQxNjNhODM5Njc5ZDli
+					ZDA5MjI0MWJjNmI2YjJiOzAwMDAwMDAwOzAw
 					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
 					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
-					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDRmOTEx
-					ZjsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwNTc2
+					NjsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
 					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
 					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
 					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAx
@@ -1585,9 +1585,9 @@
 						<key>FlipY</key>
 						<false/>
 						<key>Frame</key>
-						<string>{{133, 105}, {37.5, 51.75}}</string>
+						<string>{{185, 44}, {39.5, 53.75}}</string>
 						<key>Frame-HD</key>
-						<string>{{532, 420}, {150, 205}}</string>
+						<string>{{740, 176}, {158, 215}}</string>
 						<key>Image</key>
 						<string>GameData_char01.png</string>
 						<key>Image-HD</key>
@@ -1609,15 +1609,15 @@
 						<key>OriginalImage_RelativePath</key>
 						<string>../Raw/Character/chr01_jump/wizard_jump0004.png/</string>
 						<key>OriginalRect</key>
-						<string>{{72, 83}, {150, 205}}</string>
+						<string>{{11, 21}, {158, 215}}</string>
 						<key>OriginalSize</key>
-						<string>{150, 205}</string>
+						<string>{158, 215}</string>
 						<key>Position</key>
-						<string>{532, 420}</string>
+						<string>{740, 176}</string>
 						<key>Scale</key>
 						<string>{1, 1}</string>
 						<key>SpriteSize</key>
-						<string>{37.5, 51.25}</string>
+						<string>{39.5, 53.75}</string>
 						<key>SpriteWasBreaked</key>
 						<false/>
 						<key>Tag</key>
@@ -1652,7 +1652,7 @@
 					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
 					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
 					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
-					AAAfyU4AAAAAAAgAAAAEAwAADpFPAAAAAAAw
+					AAAfyU4AAAAAAAgAAAAEAwAAZ1dQAAAAAAAw
 					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
 					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
 					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
@@ -1664,12 +1664,12 @@
 					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
 					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
 					AAEBAAAvAAAABAAAAAMDAAAAAQAACwEAAAEC
-					AAA4NjJjZjAxYTgzZGZmMjhkMGZkYjgyZDEw
-					ZmE4ZjA0ZGU4Zjc3YjRiOzAwMDAwMDAwOzAw
+					AAA5OGQxODYzY2QyODQyYjU0ZWI1ODI3ZWU0
+					Yzg5OTA5NDMwYjQzM2RjOzAwMDAwMDAwOzAw
 					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
 					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
-					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDRmOTEw
-					ZTsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwNTc2
+					NzsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
 					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
 					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
 					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAx
@@ -1738,9 +1738,9 @@
 						<key>FlipY</key>
 						<false/>
 						<key>Frame</key>
-						<string>{{136, 158}, {37.5, 51.75}}</string>
+						<string>{{157, 2}, {39.5, 54}}</string>
 						<key>Frame-HD</key>
-						<string>{{544, 632}, {150, 205}}</string>
+						<string>{{628, 8}, {158, 216}}</string>
 						<key>Image</key>
 						<string>GameData_char01.png</string>
 						<key>Image-HD</key>
@@ -1750,7 +1750,7 @@
 						<key>IsDrawable</key>
 						<true/>
 						<key>IsRotated</key>
-						<false/>
+						<true/>
 						<key>IsTrimmed</key>
 						<false/>
 						<key>Name</key>
@@ -1762,15 +1762,15 @@
 						<key>OriginalImage_RelativePath</key>
 						<string>../Raw/Character/chr01_jump/wizard_jump0005.png/</string>
 						<key>OriginalRect</key>
-						<string>{{69, 78}, {150, 205}}</string>
+						<string>{{11, 22}, {158, 216}}</string>
 						<key>OriginalSize</key>
-						<string>{150, 205}</string>
+						<string>{158, 216}</string>
 						<key>Position</key>
-						<string>{544, 632}</string>
+						<string>{628, 8}</string>
 						<key>Scale</key>
 						<string>{1, 1}</string>
 						<key>SpriteSize</key>
-						<string>{37.5, 51.25}</string>
+						<string>{39.5, 54}</string>
 						<key>SpriteWasBreaked</key>
 						<false/>
 						<key>Tag</key>
@@ -1805,7 +1805,7 @@
 					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
 					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
 					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
-					AAAfyU4AAAAAAAgAAAAEAwAAXZFPAAAAAAAw
+					AAAfyU4AAAAAAAgAAAAEAwAAaFdQAAAAAAAw
 					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
 					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
 					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
@@ -1817,12 +1817,12 @@
 					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
 					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
 					AAEBAAAvAAAABAAAAAMDAAAAAQAACwEAAAEC
-					AAAwYjE5ZDZkMTNmZWI4M2E5ZWI1Y2VlZjk1
-					NDJhYTU0ZWE5NjYyNzc0OzAwMDAwMDAwOzAw
+					AABkN2EzYTVlZDQ1NTdhNGI0Y2MyMjEyNzMy
+					ZWQ5NzZmOWI4ZjExZDJkOzAwMDAwMDAwOzAw
 					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
 					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
-					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDRmOTE1
-					ZDsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwNTc2
+					ODsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
 					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
 					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
 					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAx
@@ -1891,9 +1891,9 @@
 						<key>FlipY</key>
 						<false/>
 						<key>Frame</key>
-						<string>{{95, 163}, {39.75, 50.75}}</string>
+						<string>{{142, 110}, {41.5, 53.75}}</string>
 						<key>Frame-HD</key>
-						<string>{{380, 652}, {157, 203}}</string>
+						<string>{{568, 440}, {166, 213}}</string>
 						<key>Image</key>
 						<string>GameData_char01.png</string>
 						<key>Image-HD</key>
@@ -1915,15 +1915,15 @@
 						<key>OriginalImage_RelativePath</key>
 						<string>../Raw/Character/chr01_jump/wizard_jump0006.png/</string>
 						<key>OriginalRect</key>
-						<string>{{65, 79}, {157, 203}}</string>
+						<string>{{4, 22}, {166, 213}}</string>
 						<key>OriginalSize</key>
-						<string>{157, 203}</string>
+						<string>{166, 213}</string>
 						<key>Position</key>
-						<string>{380, 652}</string>
+						<string>{568, 440}</string>
 						<key>Scale</key>
 						<string>{1, 1}</string>
 						<key>SpriteSize</key>
-						<string>{39.25, 50.75}</string>
+						<string>{41.5, 53.25}</string>
 						<key>SpriteWasBreaked</key>
 						<false/>
 						<key>Tag</key>
@@ -1958,7 +1958,7 @@
 					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
 					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
 					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
-					AAAfyU4AAAAAAAgAAAAEAwAAVpFPAAAAAAAw
+					AAAfyU4AAAAAAAgAAAAEAwAAaVdQAAAAAAAw
 					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
 					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
 					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
@@ -1970,12 +1970,12 @@
 					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
 					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
 					AAEBAAAvAAAABAAAAAMDAAAAAQAACwEAAAEC
-					AAA4MDkyZjhjZWJkYjUwZGY0YmM2OWFkNWQ5
-					MThkNGVkYmYzOTQ1MTRhOzAwMDAwMDAwOzAw
+					AABhMGVjNWFjMWQ4MmUyYmE0OWU3ZDliMzAz
+					NzU4NWM0YzI0NzdlMzFjOzAwMDAwMDAwOzAw
 					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
 					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
-					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDRmOTE1
-					NjsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwNTc2
+					OTsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
 					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
 					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
 					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAx
@@ -2044,9 +2044,9 @@
 						<key>FlipY</key>
 						<false/>
 						<key>Frame</key>
-						<string>{{172, 212}, {37.5, 49.5}}</string>
+						<string>{{180, 165}, {39.75, 51.75}}</string>
 						<key>Frame-HD</key>
-						<string>{{688, 848}, {150, 198}}</string>
+						<string>{{720, 660}, {157, 207}}</string>
 						<key>Image</key>
 						<string>GameData_char01.png</string>
 						<key>Image-HD</key>
@@ -2068,15 +2068,15 @@
 						<key>OriginalImage_RelativePath</key>
 						<string>../Raw/Character/chr01_jump/wizard_jump0007.png/</string>
 						<key>OriginalRect</key>
-						<string>{{69, 90}, {150, 198}}</string>
+						<string>{{7, 26}, {157, 207}}</string>
 						<key>OriginalSize</key>
-						<string>{150, 198}</string>
+						<string>{157, 207}</string>
 						<key>Position</key>
-						<string>{688, 848}</string>
+						<string>{720, 660}</string>
 						<key>Scale</key>
 						<string>{1, 1}</string>
 						<key>SpriteSize</key>
-						<string>{37.5, 49.5}</string>
+						<string>{39.25, 51.75}</string>
 						<key>SpriteWasBreaked</key>
 						<false/>
 						<key>Tag</key>
@@ -2111,7 +2111,7 @@
 					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
 					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
 					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
-					AAAfyU4AAAAAAAgAAAAEAwAAUpFPAAAAAAAw
+					AAAfyU4AAAAAAAgAAAAEAwAAaldQAAAAAAAw
 					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
 					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
 					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
@@ -2123,12 +2123,12 @@
 					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
 					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
 					AAEBAAAvAAAABAAAAAMDAAAAAQAACwEAAAEC
-					AAA1YzU1NWU1YzZjZDM1N2Q3YjM1NWE0NTA0
-					NDc4MDVjNzI4MjZiMjZjOzAwMDAwMDAwOzAw
+					AABmMjlmOTA0MjkxMDExZDAwN2Q0MDFlMGQ2
+					MTQxZDcyNTY3NzMyOGViOzAwMDAwMDAwOzAw
 					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
 					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
-					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDRmOTE1
-					MjsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwNTc2
+					YTsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
 					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
 					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
 					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAx
@@ -2197,9 +2197,9 @@
 						<key>FlipY</key>
 						<false/>
 						<key>Frame</key>
-						<string>{{94, 105}, {36.5, 55.5}}</string>
+						<string>{{140, 169}, {38.5, 58.75}}</string>
 						<key>Frame-HD</key>
-						<string>{{376, 420}, {146, 222}}</string>
+						<string>{{560, 676}, {154, 233}}</string>
 						<key>Image</key>
 						<string>GameData_char01.png</string>
 						<key>Image-HD</key>
@@ -2221,15 +2221,15 @@
 						<key>OriginalImage_RelativePath</key>
 						<string>../Raw/Character/chr01_jump/wizard_jump0008.png/</string>
 						<key>OriginalRect</key>
-						<string>{{70, 72}, {146, 222}}</string>
+						<string>{{0, 0}, {154, 233}}</string>
 						<key>OriginalSize</key>
-						<string>{146, 222}</string>
+						<string>{154, 233}</string>
 						<key>Position</key>
-						<string>{376, 420}</string>
+						<string>{560, 676}</string>
 						<key>Scale</key>
 						<string>{1, 1}</string>
 						<key>SpriteSize</key>
-						<string>{36.5, 55.5}</string>
+						<string>{38.5, 58.25}</string>
 						<key>SpriteWasBreaked</key>
 						<false/>
 						<key>Tag</key>
@@ -2264,7 +2264,7 @@
 					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
 					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
 					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
-					AAAfyU4AAAAAAAgAAAAEAwAAKMlOAAAAAAAw
+					AAAfyU4AAAAAAAgAAAAEAwAAa1dQAAAAAAAw
 					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
 					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
 					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
@@ -2276,12 +2276,12 @@
 					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
 					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
 					AAEBAAAvAAAABAAAAAMDAAAAAQAACwEAAAEC
-					AAAyNGUwYzhhZTU0MGQwM2U4MjA4MmZkOTI1
-					ZjEzNjA0MmIxYWFmNzNiOzAwMDAwMDAwOzAw
+					AABmMjk2YTcyMGRiMTEwOGU4MzMwNDE1YjFi
+					MGZiYzBmNjQwNDFkYzc2OzAwMDAwMDAwOzAw
 					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
 					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
-					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDRlYzky
-					ODsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwNTc2
+					YjsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
 					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
 					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
 					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAx
@@ -2350,9 +2350,9 @@
 						<key>FlipY</key>
 						<false/>
 						<key>Frame</key>
-						<string>{{2, 219}, {36.75, 56}}</string>
+						<string>{{99, 169}, {38.75, 58.75}}</string>
 						<key>Frame-HD</key>
-						<string>{{8, 876}, {147, 224}}</string>
+						<string>{{396, 676}, {155, 235}}</string>
 						<key>Image</key>
 						<string>GameData_char01.png</string>
 						<key>Image-HD</key>
@@ -2362,7 +2362,7 @@
 						<key>IsDrawable</key>
 						<true/>
 						<key>IsRotated</key>
-						<true/>
+						<false/>
 						<key>IsTrimmed</key>
 						<false/>
 						<key>Name</key>
@@ -2374,15 +2374,15 @@
 						<key>OriginalImage_RelativePath</key>
 						<string>../Raw/Character/chr01_jump/wizard_jump0009.png/</string>
 						<key>OriginalRect</key>
-						<string>{{66, 72}, {147, 224}}</string>
+						<string>{{1, 8}, {155, 235}}</string>
 						<key>OriginalSize</key>
-						<string>{147, 224}</string>
+						<string>{155, 235}</string>
 						<key>Position</key>
-						<string>{8, 876}</string>
+						<string>{396, 676}</string>
 						<key>Scale</key>
 						<string>{1, 1}</string>
 						<key>SpriteSize</key>
-						<string>{36.75, 56}</string>
+						<string>{38.75, 58.75}</string>
 						<key>SpriteWasBreaked</key>
 						<false/>
 						<key>Tag</key>
@@ -2417,7 +2417,7 @@
 					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
 					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
 					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
-					AAAfyU4AAAAAAAgAAAAEAwAARZFPAAAAAAAw
+					AAAfyU4AAAAAAAgAAAAEAwAAbFdQAAAAAAAw
 					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
 					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
 					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
@@ -2429,12 +2429,12 @@
 					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
 					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
 					AAEBAAAvAAAABAAAAAMDAAAAAQAACwEAAAEC
-					AAA1YzI2Mjc2MzI4M2E0Mjc1OTIwNjhkZjJj
-					NWIwMDQwYjk1ZmRlZjA3OzAwMDAwMDAwOzAw
+					AABkYzhiOTg5N2ViMjZmMTE1YmMzYjZiZmI2
+					Y2FlYmI2MzFiNTg5ODcxOzAwMDAwMDAwOzAw
 					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
 					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
-					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDRmOTE0
-					NTsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwNTc2
+					YzsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
 					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
 					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
 					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAx
@@ -2503,9 +2503,9 @@
 						<key>FlipY</key>
 						<false/>
 						<key>Frame</key>
-						<string>{{93, 53}, {42, 50.75}}</string>
+						<string>{{97, 55}, {44, 52.5}}</string>
 						<key>Frame-HD</key>
-						<string>{{372, 212}, {168, 201}}</string>
+						<string>{{388, 220}, {176, 210}}</string>
 						<key>Image</key>
 						<string>GameData_char01.png</string>
 						<key>Image-HD</key>
@@ -2527,15 +2527,15 @@
 						<key>OriginalImage_RelativePath</key>
 						<string>../Raw/Character/chr01_jump/wizard_jump0010.png/</string>
 						<key>OriginalRect</key>
-						<string>{{66, 87}, {168, 201}}</string>
+						<string>{{3, 38}, {176, 210}}</string>
 						<key>OriginalSize</key>
-						<string>{168, 201}</string>
+						<string>{176, 210}</string>
 						<key>Position</key>
-						<string>{372, 212}</string>
+						<string>{388, 220}</string>
 						<key>Scale</key>
 						<string>{1, 1}</string>
 						<key>SpriteSize</key>
-						<string>{42, 50.25}</string>
+						<string>{44, 52.5}</string>
 						<key>SpriteWasBreaked</key>
 						<false/>
 						<key>Tag</key>
@@ -2570,7 +2570,7 @@
 					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
 					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
 					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
-					AAAfyU4AAAAAAAgAAAAEAwAAPZFPAAAAAAAw
+					AAAfyU4AAAAAAAgAAAAEAwAAbVdQAAAAAAAw
 					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
 					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
 					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
@@ -2582,11 +2582,11 @@
 					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
 					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
 					AAEBAAAvAAAABAAAAAMDAAAAAQAACwEAAAEC
-					AABjNzg1ZTkzZmY2ZDNiYzM0ZDdiMDMwZTZi
-					NTY2NTFlZGUyNGE2MTYyOzAwMDAwMDAwOzAw
+					AAAyZjY4OGM4MGI1MzE0YjM5MThhYTgwNDYz
+					Yzg4OTgxODBlOTlkZWYxOzAwMDAwMDAwOzAw
 					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
 					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
-					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDRmOTEz
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwNTc2
 					ZDsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
 					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
 					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
@@ -2656,9 +2656,9 @@
 						<key>FlipY</key>
 						<false/>
 						<key>Frame</key>
-						<string>{{97, 2}, {42, 50.75}}</string>
+						<string>{{101, 2}, {44, 52.5}}</string>
 						<key>Frame-HD</key>
-						<string>{{388, 8}, {168, 201}}</string>
+						<string>{{404, 8}, {176, 210}}</string>
 						<key>Image</key>
 						<string>GameData_char01.png</string>
 						<key>Image-HD</key>
@@ -2680,15 +2680,15 @@
 						<key>OriginalImage_RelativePath</key>
 						<string>../Raw/Character/chr01_jump/wizard_jump0011.png/</string>
 						<key>OriginalRect</key>
-						<string>{{66, 87}, {168, 201}}</string>
+						<string>{{3, 38}, {176, 210}}</string>
 						<key>OriginalSize</key>
-						<string>{168, 201}</string>
+						<string>{176, 210}</string>
 						<key>Position</key>
-						<string>{388, 8}</string>
+						<string>{404, 8}</string>
 						<key>Scale</key>
 						<string>{1, 1}</string>
 						<key>SpriteSize</key>
-						<string>{42, 50.25}</string>
+						<string>{44, 52.5}</string>
 						<key>SpriteWasBreaked</key>
 						<false/>
 						<key>Tag</key>
@@ -2723,7 +2723,7 @@
 					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
 					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
 					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
-					AAAfyU4AAAAAAAgAAAAEAwAAOJFPAAAAAAAw
+					AAAfyU4AAAAAAAgAAAAEAwAAbldQAAAAAAAw
 					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
 					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
 					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
@@ -2735,12 +2735,12 @@
 					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
 					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
 					AAEBAAAvAAAABAAAAAMDAAAAAQAACwEAAAEC
-					AAAwZWY0ODIxZWM1MjgzODg1ZmZlNGFhMGM3
-					ZjU4NzhhOTBkYzgzYTZiOzAwMDAwMDAwOzAw
+					AABmOWMwMWE0MWFmYjZkNzAzMTU0MWNjZDM5
+					ZjdiYjAzODA3ZjEwOTUwOzAwMDAwMDAwOzAw
 					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
 					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
-					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDRmOTEz
-					ODsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwNTc2
+					ZTsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
 					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
 					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
 					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAx
@@ -2809,9 +2809,9 @@
 						<key>FlipY</key>
 						<false/>
 						<key>Frame</key>
-						<string>{{50, 53}, {40.75, 53}}</string>
+						<string>{{52, 55}, {42.75, 55.5}}</string>
 						<key>Frame-HD</key>
-						<string>{{200, 212}, {163, 212}}</string>
+						<string>{{208, 220}, {171, 222}}</string>
 						<key>Image</key>
 						<string>GameData_char01.png</string>
 						<key>Image-HD</key>
@@ -2833,15 +2833,15 @@
 						<key>OriginalImage_RelativePath</key>
 						<string>../Raw/Character/chr01_jump/wizard_jump0012.png/</string>
 						<key>OriginalRect</key>
-						<string>{{71, 76}, {163, 212}}</string>
+						<string>{{28, 27}, {171, 222}}</string>
 						<key>OriginalSize</key>
-						<string>{163, 212}</string>
+						<string>{171, 222}</string>
 						<key>Position</key>
-						<string>{200, 212}</string>
+						<string>{208, 220}</string>
 						<key>Scale</key>
 						<string>{1, 1}</string>
 						<key>SpriteSize</key>
-						<string>{40.75, 53}</string>
+						<string>{42.75, 55.5}</string>
 						<key>SpriteWasBreaked</key>
 						<false/>
 						<key>Tag</key>
@@ -2926,8 +2926,8 @@
 					MzIwLTNDREItQkMyRi1DNDY5NUYzMjUzNjAY
 					AAAAAQIAAIEAAAABAAgA7z8AAAEACAAAAAAA
 					AAAAAAEAAAABAQAALwAAAAQAAAADAwAAAAEA
-					APgAAAABAgAANmZmZWI4NDMxN2QyMGEzZDJi
-					NDI4ZWVlM2UyMmI5NDAwNThkMmFhYjswMDAw
+					APgAAAABAgAAM2VkNDU3YzE3OWZjZDE1ZGI0
+					NDAzOWFmMjQ4MDMwOTI2MzcyNzk4NDswMDAw
 					MDAwMDswMDAwMDAwMDAwMDAwMDIwO2NvbS5h
 					cHBsZS5hcHAtc2FuZGJveC5yZWFkLXdyaXRl
 					OzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAwMDAw
@@ -3078,8 +3078,8 @@
 					Q0YtRTMyMC0zQ0RCLUJDMkYtQzQ2OTVGMzI1
 					MzYwGAAAAAECAACBAAAAAQAIAO8/AAABAAgA
 					AAAAAAAAAAABAAAAAQEAAC8AAAAEAAAAAwMA
-					AAABAAD8AAAAAQIAADY1MGM0MmI4MWI0ODI2
-					ZWRkNjM4Y2E2MmIwNWZlMWJkOWRhYjMyMTQ7
+					AAABAAD8AAAAAQIAADFiNzJjNGI5YzZjNzI4
+					ZWY5ZDZlZGY2NWViNTNiZjYwOGFhMzkwNWQ7
 					MDAwMDAwMDA7MDAwMDAwMDAwMDAwMDAyMDtj
 					b20uYXBwbGUuYXBwLXNhbmRib3gucmVhZC13
 					cml0ZTswMDAwMDAwMTswZTAwMDAwMjswMDAw
@@ -3166,10 +3166,10 @@
 								<real>0.20000000298023224</real>
 								<key>ShapePoints</key>
 								<array>
-									<string>{10.14931845674964, 16.250718692546229}</string>
+									<string>{10.149318456749654, 16.250718692546229}</string>
 									<string>{375, 16.250718692546229}</string>
 									<string>{375, 283}</string>
-									<string>{10.14931845674964, 283}</string>
+									<string>{10.149318456749654, 283}</string>
 								</array>
 								<key>ShapePositionOffset</key>
 								<string>{0, 0}</string>
@@ -3287,8 +3287,8 @@
 					Q0YtRTMyMC0zQ0RCLUJDMkYtQzQ2OTVGMzI1
 					MzYwGAAAAAECAACBAAAAAQAIAO8/AAABAAgA
 					AAAAAAAAAAABAAAAAQEAAC8AAAAEAAAAAwMA
-					AAABAAD8AAAAAQIAAGMzNjJjYzg3MzkzZDU1
-					ZDQ4MGJiNDdjYWJhNzI4NDE0NDk4ZTdiNWM7
+					AAABAAD8AAAAAQIAADJhMDljMjVjN2M0ZmFj
+					ZDEzZmI0ZWU1MWI3OWNkYWJiODU3NDZiYWY7
 					MDAwMDAwMDA7MDAwMDAwMDAwMDAwMDAyMDtj
 					b20uYXBwbGUuYXBwLXNhbmRib3gucmVhZC13
 					cml0ZTswMDAwMDAwMTswZTAwMDAwMjswMDAw
@@ -3496,8 +3496,8 @@
 					Q0YtRTMyMC0zQ0RCLUJDMkYtQzQ2OTVGMzI1
 					MzYwGAAAAAECAACBAAAAAQAIAO8/AAABAAgA
 					AAAAAAAAAAABAAAAAQEAAC8AAAAEAAAAAwMA
-					AAABAAD8AAAAAQIAAGVkMGE2ZDVlYjgwZWQ0
-					ZmRiNGNiYzFiOWE0MGFjZjQzNzMxOTUzYWY7
+					AAABAAD8AAAAAQIAADVhNmNmZmEyMmEzMDI4
+					OTcyMGFhNWJkMDE5ZTc1YjdlNjVlZmM1MzQ7
 					MDAwMDAwMDA7MDAwMDAwMDAwMDAwMDAyMDtj
 					b20uYXBwbGUuYXBwLXNhbmRib3gucmVhZC13
 					cml0ZTswMDAwMDAwMTswZTAwMDAwMjswMDAw
@@ -3705,8 +3705,8 @@
 					Q0YtRTMyMC0zQ0RCLUJDMkYtQzQ2OTVGMzI1
 					MzYwGAAAAAECAACBAAAAAQAIAO8/AAABAAgA
 					AAAAAAAAAAABAAAAAQEAAC8AAAAEAAAAAwMA
-					AAABAAD8AAAAAQIAAGUwMzlmOTRkMjU3NDlk
-					ODAyN2M4OGRjY2JhODIyN2Q3YzYzOGQwMTU7
+					AAABAAD8AAAAAQIAAGJlZTUzODNkMWFjY2Rl
+					NzI2NWQ0Y2RmNjBiNjA0M2NlNmYyODEzZDk7
 					MDAwMDAwMDA7MDAwMDAwMDAwMDAwMDAyMDtj
 					b20uYXBwbGUuYXBwLXNhbmRib3gucmVhZC13
 					cml0ZTswMDAwMDAwMTswZTAwMDAwMjswMDAw
@@ -3914,8 +3914,8 @@
 					Q0YtRTMyMC0zQ0RCLUJDMkYtQzQ2OTVGMzI1
 					MzYwGAAAAAECAACBAAAAAQAIAO8/AAABAAgA
 					AAAAAAAAAAABAAAAAQEAAC8AAAAEAAAAAwMA
-					AAABAAD8AAAAAQIAAGQxMGI2NmQ0YTczODcz
-					YjQzMzA2OGZkYjVlYmQ0MWQ3ZDJmM2ZhYmY7
+					AAABAAD8AAAAAQIAADBiMGQ0N2YyMTY4MGYw
+					NTA0YmZjNmZmYTFjZjRmOTE0NWM3MDEwY2M7
 					MDAwMDAwMDA7MDAwMDAwMDAwMDAwMDAyMDtj
 					b20uYXBwbGUuYXBwLXNhbmRib3gucmVhZC13
 					cml0ZTswMDAwMDAwMTswZTAwMDAwMjswMDAw
@@ -4003,9 +4003,9 @@
 								<key>ShapePoints</key>
 								<array>
 									<string>{0, 0}</string>
-									<string>{2.1431318985078682e-14, 350}</string>
+									<string>{2.8421709430404007e-14, 350}</string>
 									<string>{-127.99999999999997, 350}</string>
-									<string>{-128, 7.8377395145430605e-15}</string>
+									<string>{-128, 0}</string>
 								</array>
 								<key>ShapePositionOffset</key>
 								<string>{0, 0}</string>
@@ -4123,8 +4123,8 @@
 					Q0YtRTMyMC0zQ0RCLUJDMkYtQzQ2OTVGMzI1
 					MzYwGAAAAAECAACBAAAAAQAIAO8/AAABAAgA
 					AAAAAAAAAAABAAAAAQEAAC8AAAAEAAAAAwMA
-					AAABAAD8AAAAAQIAADE2M2RlYTdjYzg5YmQ0
-					NDNlMjBjYjc1MGE5NjU5MTQ1NmE4YjIzYzM7
+					AAABAAD8AAAAAQIAAGNmM2U2NzdlMWM5ODRl
+					OTgxMTY5MDE4NmIxYTYyZDlkMWI5OGUyNWM7
 					MDAwMDAwMDA7MDAwMDAwMDAwMDAwMDAyMDtj
 					b20uYXBwbGUuYXBwLXNhbmRib3gucmVhZC13
 					cml0ZTswMDAwMDAwMTswZTAwMDAwMjswMDAw
@@ -4212,9 +4212,9 @@
 								<key>ShapePoints</key>
 								<array>
 									<string>{0, 0}</string>
-									<string>{2.2472268764353931e-14, 367}</string>
+									<string>{2.8421709430404007e-14, 367}</string>
 									<string>{-127.99999999999997, 367}</string>
-									<string>{-128, 7.8377395145430605e-15}</string>
+									<string>{-128, 0}</string>
 								</array>
 								<key>ShapePositionOffset</key>
 								<string>{0, 0}</string>
@@ -4332,8 +4332,8 @@
 					Q0YtRTMyMC0zQ0RCLUJDMkYtQzQ2OTVGMzI1
 					MzYwGAAAAAECAACBAAAAAQAIAO8/AAABAAgA
 					AAAAAAAAAAABAAAAAQEAAC8AAAAEAAAAAwMA
-					AAABAAD8AAAAAQIAAGRkOWFlODUyZjVkYTQ5
-					MmZiMzY2NmRlMTAwZDIzYzkxZTU2NGJjOTI7
+					AAABAAD8AAAAAQIAADcxNzU4MDVjMDlhZjRh
+					YzBkMDY5Y2M0OWJkZjZkZjI5MWVjNTE3NjY7
 					MDAwMDAwMDA7MDAwMDAwMDAwMDAwMDAyMDtj
 					b20uYXBwbGUuYXBwLXNhbmRib3gucmVhZC13
 					cml0ZTswMDAwMDAwMTswZTAwMDAwMjswMDAw
@@ -4421,9 +4421,9 @@
 								<key>ShapePoints</key>
 								<array>
 									<string>{0, 0}</string>
-									<string>{2.2472268764353931e-14, 367}</string>
+									<string>{2.8421709430404007e-14, 367}</string>
 									<string>{-127.99999999999997, 367}</string>
-									<string>{-128, 7.8377395145430605e-15}</string>
+									<string>{-128, 0}</string>
 								</array>
 								<key>ShapePositionOffset</key>
 								<string>{0, 0}</string>
@@ -4541,8 +4541,8 @@
 					Q0YtRTMyMC0zQ0RCLUJDMkYtQzQ2OTVGMzI1
 					MzYwGAAAAAECAACBAAAAAQAIAO8/AAABAAgA
 					AAAAAAAAAAABAAAAAQEAAC8AAAAEAAAAAwMA
-					AAABAAD8AAAAAQIAADYwNGY2MWY1NGYzMjgz
-					ZTc2NzU1MjllNjdhNzA2ZDk0YWVhOWY0MjE7
+					AAABAAD8AAAAAQIAAGQzZTAwZDIzY2E4MTYx
+					MmYxNjJiZTg4Yzg3ZTQyNTJiYjc0ZjE2MmY7
 					MDAwMDAwMDA7MDAwMDAwMDAwMDAwMDAyMDtj
 					b20uYXBwbGUuYXBwLXNhbmRib3gucmVhZC13
 					cml0ZTswMDAwMDAwMTswZTAwMDAwMjswMDAw
@@ -4630,9 +4630,9 @@
 								<key>ShapePoints</key>
 								<array>
 									<string>{0, 0}</string>
-									<string>{2.351321854362918e-14, 384}</string>
+									<string>{2.8421709430404007e-14, 384}</string>
 									<string>{-127.99999999999997, 384}</string>
-									<string>{-128, 7.8377395145430605e-15}</string>
+									<string>{-128, 0}</string>
 								</array>
 								<key>ShapePositionOffset</key>
 								<string>{0, 0}</string>
@@ -4750,8 +4750,8 @@
 					Q0YtRTMyMC0zQ0RCLUJDMkYtQzQ2OTVGMzI1
 					MzYwGAAAAAECAACBAAAAAQAIAO8/AAABAAgA
 					AAAAAAAAAAABAAAAAQEAAC8AAAAEAAAAAwMA
-					AAABAAD8AAAAAQIAADgzZDZiMTc0MzYwYjMw
-					MzZjN2ZlZTA3NzUwZTg5OTkwMTJjYTA1NzM7
+					AAABAAD8AAAAAQIAADhlYjIyYjA3MzQ1Nzhl
+					YjIzN2M1YTM1MTgwMGEwMjdlYzMzYWJkOTQ7
 					MDAwMDAwMDA7MDAwMDAwMDAwMDAwMDAyMDtj
 					b20uYXBwbGUuYXBwLXNhbmRib3gucmVhZC13
 					cml0ZTswMDAwMDAwMTswZTAwMDAwMjswMDAw
@@ -4959,8 +4959,8 @@
 					Q0YtRTMyMC0zQ0RCLUJDMkYtQzQ2OTVGMzI1
 					MzYwGAAAAAECAACBAAAAAQAIAO8/AAABAAgA
 					AAAAAAAAAAABAAAAAQEAAC8AAAAEAAAAAwMA
-					AAABAAD8AAAAAQIAADk0YThhMTFhMmUyNDRl
-					MWY3NmQyNGQyNDJmYzVjMzUxYjYxNzc0NGQ7
+					AAABAAD8AAAAAQIAADIxNmMxNGU5OTNjZDUy
+					MWQ3NWRiMDdlNDFlN2JjOWE3NTNhNDYyMzA7
 					MDAwMDAwMDA7MDAwMDAwMDAwMDAwMDAyMDtj
 					b20uYXBwbGUuYXBwLXNhbmRib3gucmVhZC13
 					cml0ZTswMDAwMDAwMTswZTAwMDAwMjswMDAw
@@ -5047,10 +5047,10 @@
 								<real>0.20000000298023224</real>
 								<key>ShapePoints</key>
 								<array>
-									<string>{-7.4451967884164105, 4.5588682079781554e-16}</string>
-									<string>{-7.4451967884164025, 125.8762981622848}</string>
+									<string>{-7.4451967884164105, 0}</string>
+									<string>{-7.4451967884164034, 125.8762981622848}</string>
 									<string>{-65.999999999999986, 125.8762981622848}</string>
-									<string>{-66, 4.0413344371862654e-15}</string>
+									<string>{-66, 7.1054273576010019e-15}</string>
 								</array>
 								<key>ShapePositionOffset</key>
 								<string>{0, 0}</string>
@@ -5168,8 +5168,8 @@
 					Q0YtRTMyMC0zQ0RCLUJDMkYtQzQ2OTVGMzI1
 					MzYwGAAAAAECAACBAAAAAQAIAO8/AAABAAgA
 					AAAAAAAAAAABAAAAAQEAAC8AAAAEAAAAAwMA
-					AAABAAD8AAAAAQIAAGE4ZjE5MGU3OTIwMTIz
-					NWU4ZWNkMTA1NjY1MGFmY2VmMmY5ZTVkNGI7
+					AAABAAD8AAAAAQIAADVjMWFhNzk0ZWE2N2M5
+					MDQ5NmIwOTcyM2NiYjA4N2RmYmZlOTMyZjE7
 					MDAwMDAwMDA7MDAwMDAwMDAwMDAwMDAyMDtj
 					b20uYXBwbGUuYXBwLXNhbmRib3gucmVhZC13
 					cml0ZTswMDAwMDAwMTswZTAwMDAwMjswMDAw
@@ -5415,8 +5415,8 @@
 					QkMyRi1DNDY5NUYzMjUzNjAYAAAAAQIAAIEA
 					AAABAAgA7z8AAAEACAAAAAAAAAAAAAEAAAAB
 					AQAALwAAAAQAAAADAwAAAAEAAPYAAAABAgAA
-					YzI0ZTE5ZWMyNGQxNmQyYTY3ZjMwYzkwYjNh
-					Y2MwNzlkMTlmMTI1ZTswMDAwMDAwMDswMDAw
+					ZGZmMjhmYzY5MGU5NjFkMjA5ZDI4MzA5MjFl
+					NWQxN2Y3NmRiMDI0YTswMDAwMDAwMDswMDAw
 					MDAwMDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAt
 					c2FuZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAx
 					OzBlMDAwMDAyOzAwMDAwMDAwMDA0ZWM5MWM7
@@ -5622,8 +5622,8 @@
 					QkMyRi1DNDY5NUYzMjUzNjAYAAAAAQIAAIEA
 					AAABAAgA7z8AAAEACAAAAAAAAAAAAAEAAAAB
 					AQAALwAAAAQAAAADAwAAAAEAAPYAAAABAgAA
-					Njk3NTNiMDRiMmEyODIwYjAzODlkOThhMzZi
-					ODYyOTZiYjM1MDc1OTswMDAwMDAwMDswMDAw
+					MjAyNmMyOTA5ZmRmOGUzMGI5NTA2ODEwNmZh
+					NThmZWYyMWFmMzM3ZjswMDAwMDAwMDswMDAw
 					MDAwMDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAt
 					c2FuZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAx
 					OzBlMDAwMDAyOzAwMDAwMDAwMDA0ZWM5MWQ7
@@ -5868,8 +5868,8 @@
 					Ri1FMzIwLTNDREItQkMyRi1DNDY5NUYzMjUz
 					NjAYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAA
 					AAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAA
-					AAEAAAABAAABAgAAMzdlY2ZmNDQ1ZThlY2Rl
-					YjgwMzg2OGM3ZDMwZmQ1OWU1OTQ2OGNlNzsw
+					AAEAAAABAAABAgAAYzBiMTlhMDI2M2NmN2Nj
+					ZWRlMzk5MGQwMzkzMjVmM2Q5MTk4NThjODsw
 					MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2Nv
 					bS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
 					aXRlOzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAw
@@ -6076,8 +6076,8 @@
 					Ri1FMzIwLTNDREItQkMyRi1DNDY5NUYzMjUz
 					NjAYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAA
 					AAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAA
-					AAEAAAABAAABAgAAMzdlY2ZmNDQ1ZThlY2Rl
-					YjgwMzg2OGM3ZDMwZmQ1OWU1OTQ2OGNlNzsw
+					AAEAAAABAAABAgAAYzBiMTlhMDI2M2NmN2Nj
+					ZWRlMzk5MGQwMzkzMjVmM2Q5MTk4NThjODsw
 					MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2Nv
 					bS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
 					aXRlOzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAw
@@ -6227,8 +6227,8 @@
 					Ri1FMzIwLTNDREItQkMyRi1DNDY5NUYzMjUz
 					NjAYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAA
 					AAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAA
-					AAEAAAABAAABAgAAMzdlY2ZmNDQ1ZThlY2Rl
-					YjgwMzg2OGM3ZDMwZmQ1OWU1OTQ2OGNlNzsw
+					AAEAAAABAAABAgAAYzBiMTlhMDI2M2NmN2Nj
+					ZWRlMzk5MGQwMzkzMjVmM2Q5MTk4NThjODsw
 					MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2Nv
 					bS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
 					aXRlOzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAw
@@ -6378,8 +6378,8 @@
 					Ri1FMzIwLTNDREItQkMyRi1DNDY5NUYzMjUz
 					NjAYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAA
 					AAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAA
-					AAEAAAABAAABAgAAMzdlY2ZmNDQ1ZThlY2Rl
-					YjgwMzg2OGM3ZDMwZmQ1OWU1OTQ2OGNlNzsw
+					AAEAAAABAAABAgAAYzBiMTlhMDI2M2NmN2Nj
+					ZWRlMzk5MGQwMzkzMjVmM2Q5MTk4NThjODsw
 					MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2Nv
 					bS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
 					aXRlOzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAw
@@ -6529,8 +6529,8 @@
 					Ri1FMzIwLTNDREItQkMyRi1DNDY5NUYzMjUz
 					NjAYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAA
 					AAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAA
-					AAEAAAABAAABAgAAMzdlY2ZmNDQ1ZThlY2Rl
-					YjgwMzg2OGM3ZDMwZmQ1OWU1OTQ2OGNlNzsw
+					AAEAAAABAAABAgAAYzBiMTlhMDI2M2NmN2Nj
+					ZWRlMzk5MGQwMzkzMjVmM2Q5MTk4NThjODsw
 					MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2Nv
 					bS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
 					aXRlOzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAw
@@ -6680,8 +6680,8 @@
 					Ri1FMzIwLTNDREItQkMyRi1DNDY5NUYzMjUz
 					NjAYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAA
 					AAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAA
-					AAEAAAABAAABAgAAMzdlY2ZmNDQ1ZThlY2Rl
-					YjgwMzg2OGM3ZDMwZmQ1OWU1OTQ2OGNlNzsw
+					AAEAAAABAAABAgAAYzBiMTlhMDI2M2NmN2Nj
+					ZWRlMzk5MGQwMzkzMjVmM2Q5MTk4NThjODsw
 					MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2Nv
 					bS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
 					aXRlOzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAw
@@ -6831,8 +6831,8 @@
 					Ri1FMzIwLTNDREItQkMyRi1DNDY5NUYzMjUz
 					NjAYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAA
 					AAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAA
-					AAEAAAABAAABAgAAMzdlY2ZmNDQ1ZThlY2Rl
-					YjgwMzg2OGM3ZDMwZmQ1OWU1OTQ2OGNlNzsw
+					AAEAAAABAAABAgAAYzBiMTlhMDI2M2NmN2Nj
+					ZWRlMzk5MGQwMzkzMjVmM2Q5MTk4NThjODsw
 					MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2Nv
 					bS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
 					aXRlOzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAw
@@ -6982,8 +6982,8 @@
 					Ri1FMzIwLTNDREItQkMyRi1DNDY5NUYzMjUz
 					NjAYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAA
 					AAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAA
-					AAEAAAABAAABAgAAMzdlY2ZmNDQ1ZThlY2Rl
-					YjgwMzg2OGM3ZDMwZmQ1OWU1OTQ2OGNlNzsw
+					AAEAAAABAAABAgAAYzBiMTlhMDI2M2NmN2Nj
+					ZWRlMzk5MGQwMzkzMjVmM2Q5MTk4NThjODsw
 					MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2Nv
 					bS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
 					aXRlOzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAw
@@ -7133,8 +7133,8 @@
 					Ri1FMzIwLTNDREItQkMyRi1DNDY5NUYzMjUz
 					NjAYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAA
 					AAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAA
-					AAEAAAABAAABAgAAMzdlY2ZmNDQ1ZThlY2Rl
-					YjgwMzg2OGM3ZDMwZmQ1OWU1OTQ2OGNlNzsw
+					AAEAAAABAAABAgAAYzBiMTlhMDI2M2NmN2Nj
+					ZWRlMzk5MGQwMzkzMjVmM2Q5MTk4NThjODsw
 					MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2Nv
 					bS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
 					aXRlOzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAw
@@ -7284,8 +7284,8 @@
 					Ri1FMzIwLTNDREItQkMyRi1DNDY5NUYzMjUz
 					NjAYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAA
 					AAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAA
-					AAEAAAABAAABAgAAMzdlY2ZmNDQ1ZThlY2Rl
-					YjgwMzg2OGM3ZDMwZmQ1OWU1OTQ2OGNlNzsw
+					AAEAAAABAAABAgAAYzBiMTlhMDI2M2NmN2Nj
+					ZWRlMzk5MGQwMzkzMjVmM2Q5MTk4NThjODsw
 					MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2Nv
 					bS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
 					aXRlOzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAw
@@ -7435,8 +7435,8 @@
 					Ri1FMzIwLTNDREItQkMyRi1DNDY5NUYzMjUz
 					NjAYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAA
 					AAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAA
-					AAEAAAABAAABAgAAMzdlY2ZmNDQ1ZThlY2Rl
-					YjgwMzg2OGM3ZDMwZmQ1OWU1OTQ2OGNlNzsw
+					AAEAAAABAAABAgAAYzBiMTlhMDI2M2NmN2Nj
+					ZWRlMzk5MGQwMzkzMjVmM2Q5MTk4NThjODsw
 					MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2Nv
 					bS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
 					aXRlOzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAw
@@ -7586,8 +7586,8 @@
 					Ri1FMzIwLTNDREItQkMyRi1DNDY5NUYzMjUz
 					NjAYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAA
 					AAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAA
-					AAEAAAABAAABAgAAMzdlY2ZmNDQ1ZThlY2Rl
-					YjgwMzg2OGM3ZDMwZmQ1OWU1OTQ2OGNlNzsw
+					AAEAAAABAAABAgAAYzBiMTlhMDI2M2NmN2Nj
+					ZWRlMzk5MGQwMzkzMjVmM2Q5MTk4NThjODsw
 					MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2Nv
 					bS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
 					aXRlOzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAw
@@ -7737,8 +7737,8 @@
 					Ri1FMzIwLTNDREItQkMyRi1DNDY5NUYzMjUz
 					NjAYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAA
 					AAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAA
-					AAEAAAABAAABAgAAMzdlY2ZmNDQ1ZThlY2Rl
-					YjgwMzg2OGM3ZDMwZmQ1OWU1OTQ2OGNlNzsw
+					AAEAAAABAAABAgAAYzBiMTlhMDI2M2NmN2Nj
+					ZWRlMzk5MGQwMzkzMjVmM2Q5MTk4NThjODsw
 					MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2Nv
 					bS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
 					aXRlOzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAw
@@ -7888,8 +7888,8 @@
 					Ri1FMzIwLTNDREItQkMyRi1DNDY5NUYzMjUz
 					NjAYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAA
 					AAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAA
-					AAEAAAABAAABAgAAMzdlY2ZmNDQ1ZThlY2Rl
-					YjgwMzg2OGM3ZDMwZmQ1OWU1OTQ2OGNlNzsw
+					AAEAAAABAAABAgAAYzBiMTlhMDI2M2NmN2Nj
+					ZWRlMzk5MGQwMzkzMjVmM2Q5MTk4NThjODsw
 					MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2Nv
 					bS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
 					aXRlOzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAw
@@ -8021,7 +8021,7 @@
 			<key>AllowRotation</key>
 			<true/>
 			<key>Crop</key>
-			<true/>
+			<false/>
 			<key>DropSprites</key>
 			<false/>
 			<key>HDSuffix</key>
@@ -8078,8 +8078,8 @@
 					QkMyRi1DNDY5NUYzMjUzNjAYAAAAAQIAAIEA
 					AAABAAgA7z8AAAEACAAAAAAAAAAAAAEAAAAB
 					AQAALwAAAAQAAAADAwAAAAEAAPQAAAABAgAA
-					ZjBhZDAwNWIzMDEzZjAzNmRmNDk0ZjI4YjI0
-					Y2NlOWY2NzZkZTUyZjswMDAwMDAwMDswMDAw
+					MmEwZGQ1NDFiMzU3ODQ4ZDM0MTdmMjUwNWRh
+					MzA2MWY1MzM1ODhmOTswMDAwMDAwMDswMDAw
 					MDAwMDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAt
 					c2FuZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAx
 					OzBlMDAwMDAyOzAwMDAwMDAwMDA0ZWM5NDQ7
@@ -8285,8 +8285,8 @@
 					QkMyRi1DNDY5NUYzMjUzNjAYAAAAAQIAAIEA
 					AAABAAgA7z8AAAEACAAAAAAAAAAAAAEAAAAB
 					AQAALwAAAAQAAAADAwAAAAEAAPMAAAABAgAA
-					NTNhMTI5ODkzNzMyOWJiYmY3YjA2MzBlNmRh
-					YTY3OGE3ZTJlZGNjNTswMDAwMDAwMDswMDAw
+					MTg3NGM2MTIxODY4YzgwNjQzMDkzMzRhOGIx
+					OGQxODhjM2Y0NzNhNTswMDAwMDAwMDswMDAw
 					MDAwMDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAt
 					c2FuZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAx
 					OzBlMDAwMDAyOzAwMDAwMDAwMDA0ZWM5NDU7
@@ -8492,8 +8492,8 @@
 					QkMyRi1DNDY5NUYzMjUzNjAYAAAAAQIAAIEA
 					AAABAAgA7z8AAAEACAAAAAAAAAAAAAEAAAAB
 					AQAALwAAAAQAAAADAwAAAAEAAPQAAAABAgAA
-					NDU1MDYzMDQxNDY5MmUyYmE0MjhmNWQ3NmM4
-					NWJiOTE3MzdkNDUzOTswMDAwMDAwMDswMDAw
+					YTJjNGY1MjEwNDFmYjBjZWUyNTEwMGQ2NmVk
+					ZjYxZGE2NmQ1YjJmMjswMDAwMDAwMDswMDAw
 					MDAwMDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAt
 					c2FuZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAx
 					OzBlMDAwMDAyOzAwMDAwMDAwMDA0ZWM5NDY7
@@ -8704,7 +8704,7 @@
 					yE4AAAAAAAgAAAAEAwAA4shOAAAAAAAIAAAA
 					BAMAAAPJTgAAAAAACAAAAAQDAAAayU4AAAAA
 					AAgAAAAEAwAAHslOAAAAAAAIAAAABAMAACzJ
-					TgAAAAAACAAAAAQDAABUmU8AAAAAADAAAAAB
+					TgAAAAAACAAAAAQDAABAV1AAAAAAADAAAAAB
 					BgAADAEAABwBAAAsAQAAPAEAAEwBAABcAQAA
 					bAEAAHwBAACMAQAAnAEAAKwBAAC8AQAAGAAA
 					AAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAA
@@ -8715,12 +8715,12 @@
 					AAABAQAAMkU0Q0E4Q0YtRTMyMC0zQ0RCLUJD
 					MkYtQzQ2OTVGMzI1MzYwGAAAAAECAACBAAAA
 					AQAIAO8/AAABAAgAAAAAAAAAAAABAAAAAQEA
-					AC8AAAAEAAAAAwMAAAABAAAFAQAAAQIAADFk
-					MGI0ZTNlMDEyNDQyODUyODQ5ODgwMjdiNDIz
-					MmUyNWQ3ZWUzYjk7MDAwMDAwMDA7MDAwMDAw
+					AC8AAAAEAAAAAwMAAAABAAAFAQAAAQIAADc5
+					Y2U4ZTMyNjY1OGI3ZGE3ZWMyZDVkMTZmNzQ2
+					MTNlOTE1ZjZjYmQ7MDAwMDAwMDA7MDAwMDAw
 					MDAwMDAwMDAyMDtjb20uYXBwbGUuYXBwLXNh
 					bmRib3gucmVhZC13cml0ZTswMDAwMDAwMTsw
-					ZTAwMDAwMjswMDAwMDAwMDAwNGY5OTU0Oy91
+					ZTAwMDAwMjswMDAwMDAwMDAwNTA1NzQwOy91
 					c2Vycy9qaW5saW4vX2Rldl8vX3Byb2plY3Rf
 					L211bHRpY2hhcmFjdGVycnVzaC9tdWx0aWNo
 					YXJhY3RlcnJ1c2gvcmVzb3VyY2VzL2dhbWVk
@@ -8737,15 +8737,15 @@
 					gPAAAPACAAAAAAAA
 					</data>
 					<key>Frame</key>
-					<string>{{2, 112}, {44.75, 51.75}}</string>
+					<string>{{2, 118}, {46.5, 53.75}}</string>
 					<key>Frame-HD</key>
-					<string>{{8, 448}, {177, 205}}</string>
+					<string>{{8, 472}, {186, 215}}</string>
 					<key>IsRotated</key>
 					<false/>
 					<key>OriginalImage</key>
 					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr01_run/wizard0001.png</string>
 					<key>SpriteSize</key>
-					<string>{44.75, 51.75}</string>
+					<string>{46.5, 53.75}</string>
 					<key>TextureOffset</key>
 					<string>{0, 0}</string>
 					<key>delayPerUnit</key>
@@ -8778,7 +8778,7 @@
 					yE4AAAAAAAgAAAAEAwAA4shOAAAAAAAIAAAA
 					BAMAAAPJTgAAAAAACAAAAAQDAAAayU4AAAAA
 					AAgAAAAEAwAAHslOAAAAAAAIAAAABAMAACzJ
-					TgAAAAAACAAAAAQDAABNmU8AAAAAADAAAAAB
+					TgAAAAAACAAAAAQDAABCV1AAAAAAADAAAAAB
 					BgAADAEAABwBAAAsAQAAPAEAAEwBAABcAQAA
 					bAEAAHwBAACMAQAAnAEAAKwBAAC8AQAAGAAA
 					AAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAA
@@ -8789,12 +8789,12 @@
 					AAABAQAAMkU0Q0E4Q0YtRTMyMC0zQ0RCLUJD
 					MkYtQzQ2OTVGMzI1MzYwGAAAAAECAACBAAAA
 					AQAIAO8/AAABAAgAAAAAAAAAAAABAAAAAQEA
-					AC8AAAAEAAAAAwMAAAABAAAFAQAAAQIAADU4
-					YTQ2ZDdmZjFlYjkyOWZmODY4N2Q2OTY3MWEw
-					OGU3MWFkMTAzZTg7MDAwMDAwMDA7MDAwMDAw
+					AC8AAAAEAAAAAwMAAAABAAAFAQAAAQIAAGM5
+					NTdkNGRiM2JmNzA3OTVlMzlhMjc3MjlhNzU5
+					NzEyOGRkNWNhZGQ7MDAwMDAwMDA7MDAwMDAw
 					MDAwMDAwMDAyMDtjb20uYXBwbGUuYXBwLXNh
 					bmRib3gucmVhZC13cml0ZTswMDAwMDAwMTsw
-					ZTAwMDAwMjswMDAwMDAwMDAwNGY5OTRkOy91
+					ZTAwMDAwMjswMDAwMDAwMDAwNTA1NzQyOy91
 					c2Vycy9qaW5saW4vX2Rldl8vX3Byb2plY3Rf
 					L211bHRpY2hhcmFjdGVycnVzaC9tdWx0aWNo
 					YXJhY3RlcnJ1c2gvcmVzb3VyY2VzL2dhbWVk
@@ -8811,15 +8811,15 @@
 					gPAAAPACAAAAAAAA
 					</data>
 					<key>Frame</key>
-					<string>{{2, 2}, {45.5, 53}}</string>
+					<string>{{2, 2}, {47.75, 55.75}}</string>
 					<key>Frame-HD</key>
-					<string>{{8, 8}, {182, 212}}</string>
+					<string>{{8, 8}, {191, 223}}</string>
 					<key>IsRotated</key>
 					<false/>
 					<key>OriginalImage</key>
 					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr01_run/wizard0002.png</string>
 					<key>SpriteSize</key>
-					<string>{45.5, 53}</string>
+					<string>{47.75, 55.75}</string>
 					<key>TextureOffset</key>
 					<string>{0, 0}</string>
 					<key>delayPerUnit</key>
@@ -8852,7 +8852,7 @@
 					yE4AAAAAAAgAAAAEAwAA4shOAAAAAAAIAAAA
 					BAMAAAPJTgAAAAAACAAAAAQDAAAayU4AAAAA
 					AAgAAAAEAwAAHslOAAAAAAAIAAAABAMAACzJ
-					TgAAAAAACAAAAAQDAABrmU8AAAAAADAAAAAB
+					TgAAAAAACAAAAAQDAABEV1AAAAAAADAAAAAB
 					BgAADAEAABwBAAAsAQAAPAEAAEwBAABcAQAA
 					bAEAAHwBAACMAQAAnAEAAKwBAAC8AQAAGAAA
 					AAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAA
@@ -8863,12 +8863,12 @@
 					AAABAQAAMkU0Q0E4Q0YtRTMyMC0zQ0RCLUJD
 					MkYtQzQ2OTVGMzI1MzYwGAAAAAECAACBAAAA
 					AQAIAO8/AAABAAgAAAAAAAAAAAABAAAAAQEA
-					AC8AAAAEAAAAAwMAAAABAAAFAQAAAQIAAGE4
-					NDA5ZWUxNzllYTlmNDFlMjhjNDcyODI5ZGQy
-					NjZlNDAzNDJiZjc7MDAwMDAwMDA7MDAwMDAw
+					AC8AAAAEAAAAAwMAAAABAAAFAQAAAQIAADA4
+					N2YyZjI2Mzk3YTk0YTRlOTZhYzk0ZTZmNTUx
+					NjgzOGM4NGU1NWI7MDAwMDAwMDA7MDAwMDAw
 					MDAwMDAwMDAyMDtjb20uYXBwbGUuYXBwLXNh
 					bmRib3gucmVhZC13cml0ZTswMDAwMDAwMTsw
-					ZTAwMDAwMjswMDAwMDAwMDAwNGY5OTZiOy91
+					ZTAwMDAwMjswMDAwMDAwMDAwNTA1NzQ0Oy91
 					c2Vycy9qaW5saW4vX2Rldl8vX3Byb2plY3Rf
 					L211bHRpY2hhcmFjdGVycnVzaC9tdWx0aWNo
 					YXJhY3RlcnJ1c2gvcmVzb3VyY2VzL2dhbWVk
@@ -8885,15 +8885,15 @@
 					gPAAAPACAAAAAAAA
 					</data>
 					<key>Frame</key>
-					<string>{{48, 165}, {44.75, 50.75}}</string>
+					<string>{{51, 173}, {46.75, 53.75}}</string>
 					<key>Frame-HD</key>
-					<string>{{192, 660}, {177, 203}}</string>
+					<string>{{204, 692}, {185, 213}}</string>
 					<key>IsRotated</key>
 					<false/>
 					<key>OriginalImage</key>
 					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr01_run/wizard0003.png</string>
 					<key>SpriteSize</key>
-					<string>{44.75, 50.75}</string>
+					<string>{46.75, 53.75}</string>
 					<key>TextureOffset</key>
 					<string>{0, 0}</string>
 					<key>delayPerUnit</key>
@@ -8926,7 +8926,7 @@
 					yE4AAAAAAAgAAAAEAwAA4shOAAAAAAAIAAAA
 					BAMAAAPJTgAAAAAACAAAAAQDAAAayU4AAAAA
 					AAgAAAAEAwAAHslOAAAAAAAIAAAABAMAACzJ
-					TgAAAAAACAAAAAQDAABnmU8AAAAAADAAAAAB
+					TgAAAAAACAAAAAQDAABGV1AAAAAAADAAAAAB
 					BgAADAEAABwBAAAsAQAAPAEAAEwBAABcAQAA
 					bAEAAHwBAACMAQAAnAEAAKwBAAC8AQAAGAAA
 					AAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAA
@@ -8937,12 +8937,12 @@
 					AAABAQAAMkU0Q0E4Q0YtRTMyMC0zQ0RCLUJD
 					MkYtQzQ2OTVGMzI1MzYwGAAAAAECAACBAAAA
 					AQAIAO8/AAABAAgAAAAAAAAAAAABAAAAAQEA
-					AC8AAAAEAAAAAwMAAAABAAAFAQAAAQIAAGU4
-					ZWZlMGVjNGMzMGMwNDVlOTA0MzNjMzc4MmQx
-					MzM5Nzg1N2M3MzU7MDAwMDAwMDA7MDAwMDAw
+					AC8AAAAEAAAAAwMAAAABAAAFAQAAAQIAADE3
+					MGRjNGZjOTQ2YTFmM2U5MGNhZWMwYjZiNzNh
+					NTI5NDgxYWM3ZTE7MDAwMDAwMDA7MDAwMDAw
 					MDAwMDAwMDAyMDtjb20uYXBwbGUuYXBwLXNh
 					bmRib3gucmVhZC13cml0ZTswMDAwMDAwMTsw
-					ZTAwMDAwMjswMDAwMDAwMDAwNGY5OTY3Oy91
+					ZTAwMDAwMjswMDAwMDAwMDAwNTA1NzQ2Oy91
 					c2Vycy9qaW5saW4vX2Rldl8vX3Byb2plY3Rf
 					L211bHRpY2hhcmFjdGVycnVzaC9tdWx0aWNo
 					YXJhY3RlcnJ1c2gvcmVzb3VyY2VzL2dhbWVk
@@ -8959,15 +8959,15 @@
 					gPAAAPACAAAAAAAA
 					</data>
 					<key>Frame</key>
-					<string>{{49, 112}, {43.5, 51.75}}</string>
+					<string>{{51, 117}, {45.75, 53.75}}</string>
 					<key>Frame-HD</key>
-					<string>{{196, 448}, {174, 205}}</string>
+					<string>{{204, 468}, {183, 215}}</string>
 					<key>IsRotated</key>
 					<false/>
 					<key>OriginalImage</key>
 					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr01_run/wizard0004.png</string>
 					<key>SpriteSize</key>
-					<string>{43.5, 51.75}</string>
+					<string>{45.75, 53.75}</string>
 					<key>TextureOffset</key>
 					<string>{0, 0}</string>
 					<key>delayPerUnit</key>
@@ -9000,7 +9000,7 @@
 					yE4AAAAAAAgAAAAEAwAA4shOAAAAAAAIAAAA
 					BAMAAAPJTgAAAAAACAAAAAQDAAAayU4AAAAA
 					AAgAAAAEAwAAHslOAAAAAAAIAAAABAMAACzJ
-					TgAAAAAACAAAAAQDAABfmU8AAAAAADAAAAAB
+					TgAAAAAACAAAAAQDAABIV1AAAAAAADAAAAAB
 					BgAADAEAABwBAAAsAQAAPAEAAEwBAABcAQAA
 					bAEAAHwBAACMAQAAnAEAAKwBAAC8AQAAGAAA
 					AAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAA
@@ -9011,12 +9011,12 @@
 					AAABAQAAMkU0Q0E4Q0YtRTMyMC0zQ0RCLUJD
 					MkYtQzQ2OTVGMzI1MzYwGAAAAAECAACBAAAA
 					AQAIAO8/AAABAAgAAAAAAAAAAAABAAAAAQEA
-					AC8AAAAEAAAAAwMAAAABAAAFAQAAAQIAADVk
-					ZmE3MmU2YTUyMzg1NDQxZjNjYjA2ZTI0YjNh
-					OGY5N2IxNmU3NjQ7MDAwMDAwMDA7MDAwMDAw
+					AC8AAAAEAAAAAwMAAAABAAAFAQAAAQIAADcz
+					MTUyMWFmMGM0NDBiYTFjY2EzNTBhZTA4Y2Zl
+					MTAwNTQzNTYzZmM7MDAwMDAwMDA7MDAwMDAw
 					MDAwMDAwMDAyMDtjb20uYXBwbGUuYXBwLXNh
 					bmRib3gucmVhZC13cml0ZTswMDAwMDAwMTsw
-					ZTAwMDAwMjswMDAwMDAwMDAwNGY5OTVmOy91
+					ZTAwMDAwMjswMDAwMDAwMDAwNTA1NzQ4Oy91
 					c2Vycy9qaW5saW4vX2Rldl8vX3Byb2plY3Rf
 					L211bHRpY2hhcmFjdGVycnVzaC9tdWx0aWNo
 					YXJhY3RlcnJ1c2gvcmVzb3VyY2VzL2dhbWVk
@@ -9033,15 +9033,15 @@
 					gPAAAPACAAAAAAAA
 					</data>
 					<key>Frame</key>
-					<string>{{2, 57}, {45.5, 52.75}}</string>
+					<string>{{2, 60}, {47.75, 55.75}}</string>
 					<key>Frame-HD</key>
-					<string>{{8, 228}, {182, 211}}</string>
+					<string>{{8, 240}, {191, 221}}</string>
 					<key>IsRotated</key>
 					<false/>
 					<key>OriginalImage</key>
 					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr01_run/wizard0005.png</string>
 					<key>SpriteSize</key>
-					<string>{45.5, 52.75}</string>
+					<string>{47.75, 55.75}</string>
 					<key>TextureOffset</key>
 					<string>{0, 0}</string>
 					<key>delayPerUnit</key>
@@ -9074,7 +9074,7 @@
 					yE4AAAAAAAgAAAAEAwAA4shOAAAAAAAIAAAA
 					BAMAAAPJTgAAAAAACAAAAAQDAAAayU4AAAAA
 					AAgAAAAEAwAAHslOAAAAAAAIAAAABAMAACzJ
-					TgAAAAAACAAAAAQDAABbmU8AAAAAADAAAAAB
+					TgAAAAAACAAAAAQDAABKV1AAAAAAADAAAAAB
 					BgAADAEAABwBAAAsAQAAPAEAAEwBAABcAQAA
 					bAEAAHwBAACMAQAAnAEAAKwBAAC8AQAAGAAA
 					AAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAA
@@ -9085,12 +9085,12 @@
 					AAABAQAAMkU0Q0E4Q0YtRTMyMC0zQ0RCLUJD
 					MkYtQzQ2OTVGMzI1MzYwGAAAAAECAACBAAAA
 					AQAIAO8/AAABAAgAAAAAAAAAAAABAAAAAQEA
-					AC8AAAAEAAAAAwMAAAABAAAFAQAAAQIAADBh
-					MDQwM2MyNmVlZDA4ZDNlYjQ3N2Y2NjdhNjA3
-					OGIxNjY1NzkxM2U7MDAwMDAwMDA7MDAwMDAw
+					AC8AAAAEAAAAAwMAAAABAAAFAQAAAQIAADBl
+					OWQxZWE0NmE4YjBlMWY4NWY0MDcwNzYzYzJi
+					YjExMjI2NzBjOWI7MDAwMDAwMDA7MDAwMDAw
 					MDAwMDAwMDAyMDtjb20uYXBwbGUuYXBwLXNh
 					bmRib3gucmVhZC13cml0ZTswMDAwMDAwMTsw
-					ZTAwMDAwMjswMDAwMDAwMDAwNGY5OTViOy91
+					ZTAwMDAwMjswMDAwMDAwMDAwNTA1NzRhOy91
 					c2Vycy9qaW5saW4vX2Rldl8vX3Byb2plY3Rf
 					L211bHRpY2hhcmFjdGVycnVzaC9tdWx0aWNo
 					YXJhY3RlcnJ1c2gvcmVzb3VyY2VzL2dhbWVk
@@ -9107,15 +9107,15 @@
 					gPAAAPACAAAAAAAA
 					</data>
 					<key>Frame</key>
-					<string>{{2, 165}, {44, 51.75}}</string>
+					<string>{{2, 173}, {46.75, 53.75}}</string>
 					<key>Frame-HD</key>
-					<string>{{8, 660}, {176, 205}}</string>
+					<string>{{8, 692}, {185, 215}}</string>
 					<key>IsRotated</key>
 					<false/>
 					<key>OriginalImage</key>
 					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr01_run/wizard0006.png</string>
 					<key>SpriteSize</key>
-					<string>{44, 51.75}</string>
+					<string>{46.75, 53.75}</string>
 					<key>TextureOffset</key>
 					<string>{0, 0}</string>
 					<key>delayPerUnit</key>
@@ -9169,7 +9169,7 @@
 					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
 					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
 					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
-					AAAfyU4AAAAAAAgAAAAEAwAAMJFPAAAAAAAw
+					AAAfyU4AAAAAAAgAAAAEAwAAY1dQAAAAAAAw
 					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
 					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
 					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
@@ -9181,12 +9181,12 @@
 					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
 					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
 					AAEBAAAvAAAABAAAAAMDAAAAAQAACwEAAAEC
-					AAA5NzA5M2ZiNmIyMDk4ODI5MmYzNjA5YTE2
-					OWU3NjE2OTk4YzAwYTNiOzAwMDAwMDAwOzAw
+					AABkMDNkMDE4YTBjY2FmNzA2MjljMDhmMDFk
+					YWI5OGI2OTRkMTcxYTJhOzAwMDAwMDAwOzAw
 					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
 					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
-					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDRmOTEz
-					MDsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwNTc2
+					MzsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
 					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
 					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
 					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAx
@@ -9202,19 +9202,19 @@
 					6AIAAAAAAACA8AAA9AIAAAAAAAA=
 					</data>
 					<key>Frame</key>
-					<string>{{50, 2}, {44.75, 48.5}}</string>
+					<string>{{52, 2}, {47, 50.75}}</string>
 					<key>Frame-HD</key>
-					<string>{{200, 8}, {179, 194}}</string>
+					<string>{{208, 8}, {188, 203}}</string>
 					<key>IsRotated</key>
 					<false/>
 					<key>OriginalImage</key>
 					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr01_jump/wizard_jump0001.png</string>
 					<key>SpriteSize</key>
-					<string>{44.75, 48.5}</string>
+					<string>{47, 50.75}</string>
 					<key>TextureOffset</key>
 					<string>{0, 0}</string>
 					<key>delayPerUnit</key>
-					<real>0.20000000298023224</real>
+					<real>0.15000000596046448</real>
 					<key>notifications</key>
 					<dict/>
 					<key>offset</key>
@@ -9243,7 +9243,7 @@
 					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
 					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
 					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
-					AAAfyU4AAAAAAAgAAAAEAwAALJFPAAAAAAAw
+					AAAfyU4AAAAAAAgAAAAEAwAAZFdQAAAAAAAw
 					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
 					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
 					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
@@ -9255,12 +9255,12 @@
 					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
 					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
 					AAEBAAAvAAAABAAAAAMDAAAAAQAACwEAAAEC
-					AABmMzIwMDg2ZDgyOThlOTc2NDRjYzBiNWI3
-					NzY5OGExY2RlMGFhYWU4OzAwMDAwMDAwOzAw
+					AABjMGNhMDc1YWU5YTI0MGYzNmIzOTBkMWIz
+					Yjg1M2E4ZWJmYTIyODI4OzAwMDAwMDAwOzAw
 					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
 					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
-					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDRmOTEy
-					YzsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwNTc2
+					NDsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
 					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
 					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
 					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAx
@@ -9276,19 +9276,19 @@
 					6AIAAAAAAACA8AAA9AIAAAAAAAA=
 					</data>
 					<key>Frame</key>
-					<string>{{60, 218}, {38, 54.75}}</string>
+					<string>{{99, 110}, {40, 57.75}}</string>
 					<key>Frame-HD</key>
-					<string>{{240, 872}, {152, 219}}</string>
+					<string>{{396, 440}, {160, 229}}</string>
 					<key>IsRotated</key>
-					<true/>
+					<false/>
 					<key>OriginalImage</key>
 					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr01_jump/wizard_jump0002.png</string>
 					<key>SpriteSize</key>
-					<string>{38, 54.75}</string>
+					<string>{40, 57.75}</string>
 					<key>TextureOffset</key>
 					<string>{0, 0}</string>
 					<key>delayPerUnit</key>
-					<real>0.20000000298023224</real>
+					<real>0.15000000596046448</real>
 					<key>notifications</key>
 					<dict/>
 					<key>offset</key>
@@ -9317,7 +9317,7 @@
 					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
 					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
 					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
-					AAAfyU4AAAAAAAgAAAAEAwAAKJFPAAAAAAAw
+					AAAfyU4AAAAAAAgAAAAEAwAAZVdQAAAAAAAw
 					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
 					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
 					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
@@ -9329,12 +9329,12 @@
 					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
 					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
 					AAEBAAAvAAAABAAAAAMDAAAAAQAACwEAAAEC
-					AAA4Mjc4MGY2YmFhZjY2Mzc3ZjI4MTNiMTA5
-					MGU4NmNlODYwZjc0MWRiOzAwMDAwMDAwOzAw
+					AABjNzU3ZGE1MDIzNzRmZmU1NGU2YzJjMmVi
+					MGUzNzhlMmFkYmQ0NDRlOzAwMDAwMDAwOzAw
 					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
 					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
-					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDRmOTEy
-					ODsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwNTc2
+					NTsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
 					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
 					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
 					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAx
@@ -9350,19 +9350,19 @@
 					6AIAAAAAAACA8AAA9AIAAAAAAAA=
 					</data>
 					<key>Frame</key>
-					<string>{{117, 215}, {37, 53}}</string>
+					<string>{{143, 48}, {39, 55.5}}</string>
 					<key>Frame-HD</key>
-					<string>{{468, 860}, {148, 212}}</string>
+					<string>{{572, 192}, {156, 222}}</string>
 					<key>IsRotated</key>
-					<true/>
+					<false/>
 					<key>OriginalImage</key>
 					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr01_jump/wizard_jump0003.png</string>
 					<key>SpriteSize</key>
-					<string>{37, 53}</string>
+					<string>{39, 55.5}</string>
 					<key>TextureOffset</key>
 					<string>{0, 0}</string>
 					<key>delayPerUnit</key>
-					<real>0.20000000298023224</real>
+					<real>0.15000000596046448</real>
 					<key>notifications</key>
 					<dict/>
 					<key>offset</key>
@@ -9391,7 +9391,7 @@
 					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
 					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
 					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
-					AAAfyU4AAAAAAAgAAAAEAwAAH5FPAAAAAAAw
+					AAAfyU4AAAAAAAgAAAAEAwAAZldQAAAAAAAw
 					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
 					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
 					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
@@ -9403,12 +9403,12 @@
 					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
 					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
 					AAEBAAAvAAAABAAAAAMDAAAAAQAACwEAAAEC
-					AABiODY5OGI0MmFhOGNiMDMwY2ViYTg3NmEz
-					Mjc1Yzc2YTE3MTEwMWNhOzAwMDAwMDAwOzAw
+					AAA5OTAyYzQ3Y2M1NWQxNjNhODM5Njc5ZDli
+					ZDA5MjI0MWJjNmI2YjJiOzAwMDAwMDAwOzAw
 					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
 					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
-					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDRmOTEx
-					ZjsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwNTc2
+					NjsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
 					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
 					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
 					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAx
@@ -9424,19 +9424,19 @@
 					6AIAAAAAAACA8AAA9AIAAAAAAAA=
 					</data>
 					<key>Frame</key>
-					<string>{{133, 105}, {37.5, 51.75}}</string>
+					<string>{{185, 44}, {39.5, 53.75}}</string>
 					<key>Frame-HD</key>
-					<string>{{532, 420}, {150, 205}}</string>
+					<string>{{740, 176}, {158, 215}}</string>
 					<key>IsRotated</key>
 					<false/>
 					<key>OriginalImage</key>
 					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr01_jump/wizard_jump0004.png</string>
 					<key>SpriteSize</key>
-					<string>{37.5, 51.75}</string>
+					<string>{39.5, 53.75}</string>
 					<key>TextureOffset</key>
 					<string>{0, 0}</string>
 					<key>delayPerUnit</key>
-					<real>0.20000000298023224</real>
+					<real>0.15000000596046448</real>
 					<key>notifications</key>
 					<dict/>
 					<key>offset</key>
@@ -9465,7 +9465,7 @@
 					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
 					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
 					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
-					AAAfyU4AAAAAAAgAAAAEAwAADpFPAAAAAAAw
+					AAAfyU4AAAAAAAgAAAAEAwAAZ1dQAAAAAAAw
 					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
 					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
 					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
@@ -9477,12 +9477,12 @@
 					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
 					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
 					AAEBAAAvAAAABAAAAAMDAAAAAQAACwEAAAEC
-					AAA4NjJjZjAxYTgzZGZmMjhkMGZkYjgyZDEw
-					ZmE4ZjA0ZGU4Zjc3YjRiOzAwMDAwMDAwOzAw
+					AAA5OGQxODYzY2QyODQyYjU0ZWI1ODI3ZWU0
+					Yzg5OTA5NDMwYjQzM2RjOzAwMDAwMDAwOzAw
 					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
 					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
-					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDRmOTEw
-					ZTsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwNTc2
+					NzsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
 					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
 					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
 					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAx
@@ -9498,19 +9498,19 @@
 					6AIAAAAAAACA8AAA9AIAAAAAAAA=
 					</data>
 					<key>Frame</key>
-					<string>{{136, 158}, {37.5, 51.75}}</string>
+					<string>{{157, 2}, {39.5, 54}}</string>
 					<key>Frame-HD</key>
-					<string>{{544, 632}, {150, 205}}</string>
+					<string>{{628, 8}, {158, 216}}</string>
 					<key>IsRotated</key>
-					<false/>
+					<true/>
 					<key>OriginalImage</key>
 					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr01_jump/wizard_jump0005.png</string>
 					<key>SpriteSize</key>
-					<string>{37.5, 51.75}</string>
+					<string>{39.5, 54}</string>
 					<key>TextureOffset</key>
 					<string>{0, 0}</string>
 					<key>delayPerUnit</key>
-					<real>0.20000000298023224</real>
+					<real>0.15000000596046448</real>
 					<key>notifications</key>
 					<dict/>
 					<key>offset</key>
@@ -9539,7 +9539,7 @@
 					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
 					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
 					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
-					AAAfyU4AAAAAAAgAAAAEAwAAXZFPAAAAAAAw
+					AAAfyU4AAAAAAAgAAAAEAwAAaFdQAAAAAAAw
 					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
 					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
 					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
@@ -9551,12 +9551,12 @@
 					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
 					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
 					AAEBAAAvAAAABAAAAAMDAAAAAQAACwEAAAEC
-					AAAwYjE5ZDZkMTNmZWI4M2E5ZWI1Y2VlZjk1
-					NDJhYTU0ZWE5NjYyNzc0OzAwMDAwMDAwOzAw
+					AABkN2EzYTVlZDQ1NTdhNGI0Y2MyMjEyNzMy
+					ZWQ5NzZmOWI4ZjExZDJkOzAwMDAwMDAwOzAw
 					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
 					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
-					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDRmOTE1
-					ZDsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwNTc2
+					ODsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
 					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
 					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
 					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAx
@@ -9572,19 +9572,19 @@
 					6AIAAAAAAACA8AAA9AIAAAAAAAA=
 					</data>
 					<key>Frame</key>
-					<string>{{95, 163}, {39.75, 50.75}}</string>
+					<string>{{142, 110}, {41.5, 53.75}}</string>
 					<key>Frame-HD</key>
-					<string>{{380, 652}, {157, 203}}</string>
+					<string>{{568, 440}, {166, 213}}</string>
 					<key>IsRotated</key>
 					<false/>
 					<key>OriginalImage</key>
 					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr01_jump/wizard_jump0006.png</string>
 					<key>SpriteSize</key>
-					<string>{39.75, 50.75}</string>
+					<string>{41.5, 53.75}</string>
 					<key>TextureOffset</key>
 					<string>{0, 0}</string>
 					<key>delayPerUnit</key>
-					<real>0.20000000298023224</real>
+					<real>0.15000000596046448</real>
 					<key>notifications</key>
 					<dict/>
 					<key>offset</key>
@@ -9613,7 +9613,7 @@
 					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
 					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
 					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
-					AAAfyU4AAAAAAAgAAAAEAwAAVpFPAAAAAAAw
+					AAAfyU4AAAAAAAgAAAAEAwAAaVdQAAAAAAAw
 					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
 					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
 					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
@@ -9625,12 +9625,12 @@
 					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
 					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
 					AAEBAAAvAAAABAAAAAMDAAAAAQAACwEAAAEC
-					AAA4MDkyZjhjZWJkYjUwZGY0YmM2OWFkNWQ5
-					MThkNGVkYmYzOTQ1MTRhOzAwMDAwMDAwOzAw
+					AABhMGVjNWFjMWQ4MmUyYmE0OWU3ZDliMzAz
+					NzU4NWM0YzI0NzdlMzFjOzAwMDAwMDAwOzAw
 					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
 					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
-					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDRmOTE1
-					NjsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwNTc2
+					OTsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
 					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
 					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
 					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAx
@@ -9646,19 +9646,19 @@
 					6AIAAAAAAACA8AAA9AIAAAAAAAA=
 					</data>
 					<key>Frame</key>
-					<string>{{172, 212}, {37.5, 49.5}}</string>
+					<string>{{180, 165}, {39.75, 51.75}}</string>
 					<key>Frame-HD</key>
-					<string>{{688, 848}, {150, 198}}</string>
+					<string>{{720, 660}, {157, 207}}</string>
 					<key>IsRotated</key>
 					<true/>
 					<key>OriginalImage</key>
 					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr01_jump/wizard_jump0007.png</string>
 					<key>SpriteSize</key>
-					<string>{37.5, 49.5}</string>
+					<string>{39.75, 51.75}</string>
 					<key>TextureOffset</key>
 					<string>{0, 0}</string>
 					<key>delayPerUnit</key>
-					<real>0.20000000298023224</real>
+					<real>0.15000000596046448</real>
 					<key>notifications</key>
 					<dict/>
 					<key>offset</key>
@@ -9687,7 +9687,7 @@
 					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
 					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
 					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
-					AAAfyU4AAAAAAAgAAAAEAwAAUpFPAAAAAAAw
+					AAAfyU4AAAAAAAgAAAAEAwAAaldQAAAAAAAw
 					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
 					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
 					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
@@ -9699,12 +9699,12 @@
 					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
 					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
 					AAEBAAAvAAAABAAAAAMDAAAAAQAACwEAAAEC
-					AAA1YzU1NWU1YzZjZDM1N2Q3YjM1NWE0NTA0
-					NDc4MDVjNzI4MjZiMjZjOzAwMDAwMDAwOzAw
+					AABmMjlmOTA0MjkxMDExZDAwN2Q0MDFlMGQ2
+					MTQxZDcyNTY3NzMyOGViOzAwMDAwMDAwOzAw
 					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
 					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
-					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDRmOTE1
-					MjsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwNTc2
+					YTsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
 					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
 					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
 					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAx
@@ -9720,19 +9720,19 @@
 					6AIAAAAAAACA8AAA9AIAAAAAAAA=
 					</data>
 					<key>Frame</key>
-					<string>{{94, 105}, {36.5, 55.5}}</string>
+					<string>{{140, 169}, {38.5, 58.75}}</string>
 					<key>Frame-HD</key>
-					<string>{{376, 420}, {146, 222}}</string>
+					<string>{{560, 676}, {154, 233}}</string>
 					<key>IsRotated</key>
 					<false/>
 					<key>OriginalImage</key>
 					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr01_jump/wizard_jump0008.png</string>
 					<key>SpriteSize</key>
-					<string>{36.5, 55.5}</string>
+					<string>{38.5, 58.75}</string>
 					<key>TextureOffset</key>
 					<string>{0, 0}</string>
 					<key>delayPerUnit</key>
-					<real>0.20000000298023224</real>
+					<real>0.15000000596046448</real>
 					<key>notifications</key>
 					<dict/>
 					<key>offset</key>
@@ -9761,7 +9761,7 @@
 					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
 					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
 					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
-					AAAfyU4AAAAAAAgAAAAEAwAAKMlOAAAAAAAw
+					AAAfyU4AAAAAAAgAAAAEAwAAa1dQAAAAAAAw
 					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
 					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
 					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
@@ -9773,12 +9773,12 @@
 					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
 					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
 					AAEBAAAvAAAABAAAAAMDAAAAAQAACwEAAAEC
-					AAAyNGUwYzhhZTU0MGQwM2U4MjA4MmZkOTI1
-					ZjEzNjA0MmIxYWFmNzNiOzAwMDAwMDAwOzAw
+					AABmMjk2YTcyMGRiMTEwOGU4MzMwNDE1YjFi
+					MGZiYzBmNjQwNDFkYzc2OzAwMDAwMDAwOzAw
 					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
 					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
-					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDRlYzky
-					ODsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwNTc2
+					YjsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
 					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
 					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
 					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAx
@@ -9794,19 +9794,19 @@
 					6AIAAAAAAACA8AAA9AIAAAAAAAA=
 					</data>
 					<key>Frame</key>
-					<string>{{2, 219}, {36.75, 56}}</string>
+					<string>{{99, 169}, {38.75, 58.75}}</string>
 					<key>Frame-HD</key>
-					<string>{{8, 876}, {147, 224}}</string>
+					<string>{{396, 676}, {155, 235}}</string>
 					<key>IsRotated</key>
-					<true/>
+					<false/>
 					<key>OriginalImage</key>
 					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr01_jump/wizard_jump0009.png</string>
 					<key>SpriteSize</key>
-					<string>{36.75, 56}</string>
+					<string>{38.75, 58.75}</string>
 					<key>TextureOffset</key>
 					<string>{0, 0}</string>
 					<key>delayPerUnit</key>
-					<real>0.20000000298023224</real>
+					<real>0.15000000596046448</real>
 					<key>notifications</key>
 					<dict/>
 					<key>offset</key>
@@ -9838,831 +9838,626 @@
 				<dict>
 					<key>DocumentSecurityImageBookmark</key>
 					<data>
-					Ym9va+wEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
-					AAAAAAAAAAAAAAAAAAAAAAAAAAAA0AMAAAUA
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
 					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
 					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
 					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
 					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
-					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQYAAAAB
-					AQAAQ29va2VkAAAGAAAAAQEAAGlwYWRoZAAA
-					EwAAAAEBAABHYW1lRGF0YV9jaGFyMDIucG5n
-					ACwAAAABBgAABAAAABQAAAAkAAAANAAAAEgA
-					AABIAAAAZAAAAHgAAACIAAAAmAAAAKgAAAAI
-					AAAABAMAAGVYBwAAAAAACAAAAAQDAABoWAcA
-					AAAAAAgAAAAEAwAAilgHAAAAAAAIAAAABAMA
-					AIxYBwAAAAAACAAAAAQDAACWyE4AAAAAAAgA
-					AAAEAwAA28hOAAAAAAAIAAAABAMAAOLITgAA
-					AAAACAAAAAQDAAADyU4AAAAAAAgAAAAEAwAA
-					BMlOAAAAAAAIAAAABAMAAA7JTgAAAAAACAAA
-					AAQDAAARyU4AAAAAACwAAAABBgAA+AAAAAgB
-					AAAYAQAAKAEAADgBAABIAQAAWAEAAGgBAAB4
-					AQAAiAEAAJgBAAAYAAAAAQIAAAEAAAAAAAAA
-					DwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAA
-					AAMDAAABAAAABAAAAAMDAAACAAAACAAAAAQD
-					AAAJAAAAAAAAAAQAAAADAwAA9gEAAAIAAAAB
-					AQAAb3MAAAgAAAAEAwAAAMA/XHQAAAAIAAAA
-					AAQAAEG3J4nSAAAAJAAAAAEBAAAyRTRDQThD
-					Ri1FMzIwLTNDREItQkMyRi1DNDY5NUYzMjUz
-					NjAYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAA
-					AAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAA
-					AAEAAAABAAABAgAAMzdlY2ZmNDQ1ZThlY2Rl
-					YjgwMzg2OGM3ZDMwZmQ1OWU1OTQ2OGNlNzsw
-					MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2Nv
-					bS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
-					aXRlOzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAw
-					MDAwMDA0ZWM5MTE7L3VzZXJzL2ppbmxpbi9f
-					ZGV2Xy9fcHJvamVjdF8vbXVsdGljaGFyYWN0
-					ZXJydXNoL211bHRpY2hhcmFjdGVycnVzaC9y
-					ZXNvdXJjZXMvZ2FtZWRhdGEvY29va2VkL2lw
-					YWRoZC9nYW1lZGF0YV9jaGFyMDIucG5nAOQA
-					AAD+////AQAAAAAAAAASAAAABBAAAMQAAAAA
-					AAAABRAAAKgBAAAAAAAAEBAAANwBAAAAAAAA
-					VBAAAAQCAAAAAAAAVRAAABACAAAAAAAAVhAA
-					APwBAAAAAAAAAiAAALACAAAAAAAAECAAADgC
-					AAAAAAAAESAAAGQCAAAAAAAAEiAAAEQCAAAA
-					AAAAEyAAAFQCAAAAAAAAICAAAJACAAAAAAAA
-					MCAAAPwBAAAAAAAAAcAAABwCAAAAAAAAEcAA
-					ABQAAAAAAAAAEsAAACwCAAAAAAAAENAAALwC
-					AAAAAAAAgPAAAMgCAAAAAAAA
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CgAAAAEBAABjaHIwMV9qdW1wAAATAAAAAQEA
+					AHdpemFyZF9qdW1wMDAwNi5wbmcAMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAAfyU4AAAAAAAgAAAAEAwAAaFdQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAACwEAAAEC
+					AABkN2EzYTVlZDQ1NTdhNGI0Y2MyMjEyNzMy
+					ZWQ5NzZmOWI4ZjExZDJkOzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwNTc2
+					ODsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAx
+					X2p1bXAvd2l6YXJkX2p1bXAwMDA2LnBuZwAA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
 					</data>
 					<key>Frame</key>
-					<string>{{48, 2}, {44.5, 55.75}}</string>
+					<string>{{142, 110}, {41.5, 53.75}}</string>
 					<key>Frame-HD</key>
-					<string>{{192, 8}, {178, 221}}</string>
+					<string>{{568, 440}, {166, 213}}</string>
 					<key>IsRotated</key>
 					<false/>
 					<key>OriginalImage</key>
-					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Cooked/ipadhd/GameData_char02.png</string>
+					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr01_jump/wizard_jump0006.png</string>
 					<key>SpriteSize</key>
-					<string>{44.5, 55.75}</string>
+					<string>{41.5, 53.75}</string>
 					<key>TextureOffset</key>
-					<string>{-57.75, 98.125}</string>
+					<string>{0, 0}</string>
 					<key>delayPerUnit</key>
-					<real>0.30000001192092896</real>
+					<real>0.15000000596046448</real>
 					<key>notifications</key>
 					<dict/>
 					<key>offset</key>
 					<string>{0, 0}</string>
 					<key>spriteframe</key>
-					<string>zhanshi0001_1</string>
+					<string>wizard_jump0006</string>
 				</dict>
 				<dict>
 					<key>DocumentSecurityImageBookmark</key>
 					<data>
-					Ym9va+wEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
-					AAAAAAAAAAAAAAAAAAAAAAAAAAAA0AMAAAUA
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
 					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
 					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
 					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
 					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
-					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQYAAAAB
-					AQAAQ29va2VkAAAGAAAAAQEAAGlwYWRoZAAA
-					EwAAAAEBAABHYW1lRGF0YV9jaGFyMDIucG5n
-					ACwAAAABBgAABAAAABQAAAAkAAAANAAAAEgA
-					AABIAAAAZAAAAHgAAACIAAAAmAAAAKgAAAAI
-					AAAABAMAAGVYBwAAAAAACAAAAAQDAABoWAcA
-					AAAAAAgAAAAEAwAAilgHAAAAAAAIAAAABAMA
-					AIxYBwAAAAAACAAAAAQDAACWyE4AAAAAAAgA
-					AAAEAwAA28hOAAAAAAAIAAAABAMAAOLITgAA
-					AAAACAAAAAQDAAADyU4AAAAAAAgAAAAEAwAA
-					BMlOAAAAAAAIAAAABAMAAA7JTgAAAAAACAAA
-					AAQDAAARyU4AAAAAACwAAAABBgAA+AAAAAgB
-					AAAYAQAAKAEAADgBAABIAQAAWAEAAGgBAAB4
-					AQAAiAEAAJgBAAAYAAAAAQIAAAEAAAAAAAAA
-					DwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAA
-					AAMDAAABAAAABAAAAAMDAAACAAAACAAAAAQD
-					AAAJAAAAAAAAAAQAAAADAwAA9gEAAAIAAAAB
-					AQAAb3MAAAgAAAAEAwAAAMA/XHQAAAAIAAAA
-					AAQAAEG3J4nSAAAAJAAAAAEBAAAyRTRDQThD
-					Ri1FMzIwLTNDREItQkMyRi1DNDY5NUYzMjUz
-					NjAYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAA
-					AAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAA
-					AAEAAAABAAABAgAAMzdlY2ZmNDQ1ZThlY2Rl
-					YjgwMzg2OGM3ZDMwZmQ1OWU1OTQ2OGNlNzsw
-					MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2Nv
-					bS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
-					aXRlOzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAw
-					MDAwMDA0ZWM5MTE7L3VzZXJzL2ppbmxpbi9f
-					ZGV2Xy9fcHJvamVjdF8vbXVsdGljaGFyYWN0
-					ZXJydXNoL211bHRpY2hhcmFjdGVycnVzaC9y
-					ZXNvdXJjZXMvZ2FtZWRhdGEvY29va2VkL2lw
-					YWRoZC9nYW1lZGF0YV9jaGFyMDIucG5nAOQA
-					AAD+////AQAAAAAAAAASAAAABBAAAMQAAAAA
-					AAAABRAAAKgBAAAAAAAAEBAAANwBAAAAAAAA
-					VBAAAAQCAAAAAAAAVRAAABACAAAAAAAAVhAA
-					APwBAAAAAAAAAiAAALACAAAAAAAAECAAADgC
-					AAAAAAAAESAAAGQCAAAAAAAAEiAAAEQCAAAA
-					AAAAEyAAAFQCAAAAAAAAICAAAJACAAAAAAAA
-					MCAAAPwBAAAAAAAAAcAAABwCAAAAAAAAEcAA
-					ABQAAAAAAAAAEsAAACwCAAAAAAAAENAAALwC
-					AAAAAAAAgPAAAMgCAAAAAAAA
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CgAAAAEBAABjaHIwMV9qdW1wAAATAAAAAQEA
+					AHdpemFyZF9qdW1wMDAwNS5wbmcAMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAAfyU4AAAAAAAgAAAAEAwAAZ1dQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAACwEAAAEC
+					AAA5OGQxODYzY2QyODQyYjU0ZWI1ODI3ZWU0
+					Yzg5OTA5NDMwYjQzM2RjOzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwNTc2
+					NzsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAx
+					X2p1bXAvd2l6YXJkX2p1bXAwMDA1LnBuZwAA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
 					</data>
 					<key>Frame</key>
-					<string>{{2, 62}, {44, 55.5}}</string>
+					<string>{{157, 2}, {39.5, 54}}</string>
 					<key>Frame-HD</key>
-					<string>{{8, 248}, {176, 222}}</string>
+					<string>{{628, 8}, {158, 216}}</string>
 					<key>IsRotated</key>
-					<false/>
+					<true/>
 					<key>OriginalImage</key>
-					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Cooked/ipadhd/GameData_char02.png</string>
+					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr01_jump/wizard_jump0005.png</string>
 					<key>SpriteSize</key>
-					<string>{44, 55.5}</string>
+					<string>{39.5, 54}</string>
 					<key>TextureOffset</key>
-					<string>{-104, 38.25}</string>
+					<string>{0, 0}</string>
 					<key>delayPerUnit</key>
-					<real>0.30000001192092896</real>
+					<real>0.15000000596046448</real>
 					<key>notifications</key>
 					<dict/>
 					<key>offset</key>
 					<string>{0, 0}</string>
 					<key>spriteframe</key>
-					<string>zhanshi0002_1</string>
+					<string>wizard_jump0005</string>
 				</dict>
 				<dict>
 					<key>DocumentSecurityImageBookmark</key>
 					<data>
-					Ym9va+wEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
-					AAAAAAAAAAAAAAAAAAAAAAAAAAAA0AMAAAUA
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
 					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
 					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
 					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
 					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
-					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQYAAAAB
-					AQAAQ29va2VkAAAGAAAAAQEAAGlwYWRoZAAA
-					EwAAAAEBAABHYW1lRGF0YV9jaGFyMDIucG5n
-					ACwAAAABBgAABAAAABQAAAAkAAAANAAAAEgA
-					AABIAAAAZAAAAHgAAACIAAAAmAAAAKgAAAAI
-					AAAABAMAAGVYBwAAAAAACAAAAAQDAABoWAcA
-					AAAAAAgAAAAEAwAAilgHAAAAAAAIAAAABAMA
-					AIxYBwAAAAAACAAAAAQDAACWyE4AAAAAAAgA
-					AAAEAwAA28hOAAAAAAAIAAAABAMAAOLITgAA
-					AAAACAAAAAQDAAADyU4AAAAAAAgAAAAEAwAA
-					BMlOAAAAAAAIAAAABAMAAA7JTgAAAAAACAAA
-					AAQDAAARyU4AAAAAACwAAAABBgAA+AAAAAgB
-					AAAYAQAAKAEAADgBAABIAQAAWAEAAGgBAAB4
-					AQAAiAEAAJgBAAAYAAAAAQIAAAEAAAAAAAAA
-					DwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAA
-					AAMDAAABAAAABAAAAAMDAAACAAAACAAAAAQD
-					AAAJAAAAAAAAAAQAAAADAwAA9gEAAAIAAAAB
-					AQAAb3MAAAgAAAAEAwAAAMA/XHQAAAAIAAAA
-					AAQAAEG3J4nSAAAAJAAAAAEBAAAyRTRDQThD
-					Ri1FMzIwLTNDREItQkMyRi1DNDY5NUYzMjUz
-					NjAYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAA
-					AAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAA
-					AAEAAAABAAABAgAAMzdlY2ZmNDQ1ZThlY2Rl
-					YjgwMzg2OGM3ZDMwZmQ1OWU1OTQ2OGNlNzsw
-					MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2Nv
-					bS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
-					aXRlOzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAw
-					MDAwMDA0ZWM5MTE7L3VzZXJzL2ppbmxpbi9f
-					ZGV2Xy9fcHJvamVjdF8vbXVsdGljaGFyYWN0
-					ZXJydXNoL211bHRpY2hhcmFjdGVycnVzaC9y
-					ZXNvdXJjZXMvZ2FtZWRhdGEvY29va2VkL2lw
-					YWRoZC9nYW1lZGF0YV9jaGFyMDIucG5nAOQA
-					AAD+////AQAAAAAAAAASAAAABBAAAMQAAAAA
-					AAAABRAAAKgBAAAAAAAAEBAAANwBAAAAAAAA
-					VBAAAAQCAAAAAAAAVRAAABACAAAAAAAAVhAA
-					APwBAAAAAAAAAiAAALACAAAAAAAAECAAADgC
-					AAAAAAAAESAAAGQCAAAAAAAAEiAAAEQCAAAA
-					AAAAEyAAAFQCAAAAAAAAICAAAJACAAAAAAAA
-					MCAAAPwBAAAAAAAAAcAAABwCAAAAAAAAEcAA
-					ABQAAAAAAAAAEsAAACwCAAAAAAAAENAAALwC
-					AAAAAAAAgPAAAMgCAAAAAAAA
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CgAAAAEBAABjaHIwMV9qdW1wAAATAAAAAQEA
+					AHdpemFyZF9qdW1wMDAwNC5wbmcAMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAAfyU4AAAAAAAgAAAAEAwAAZldQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAACwEAAAEC
+					AAA5OTAyYzQ3Y2M1NWQxNjNhODM5Njc5ZDli
+					ZDA5MjI0MWJjNmI2YjJiOzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwNTc2
+					NjsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAx
+					X2p1bXAvd2l6YXJkX2p1bXAwMDA0LnBuZwAA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
 					</data>
 					<key>Frame</key>
-					<string>{{2, 2}, {44, 57.75}}</string>
+					<string>{{185, 44}, {39.5, 53.75}}</string>
 					<key>Frame-HD</key>
-					<string>{{8, 8}, {176, 231}}</string>
+					<string>{{740, 176}, {158, 215}}</string>
 					<key>IsRotated</key>
 					<false/>
 					<key>OriginalImage</key>
-					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Cooked/ipadhd/GameData_char02.png</string>
+					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr01_jump/wizard_jump0004.png</string>
 					<key>SpriteSize</key>
-					<string>{44, 57.75}</string>
+					<string>{39.5, 53.75}</string>
 					<key>TextureOffset</key>
-					<string>{-104, 97.125}</string>
+					<string>{0, 0}</string>
 					<key>delayPerUnit</key>
-					<real>0.30000001192092896</real>
+					<real>0.15000000596046448</real>
 					<key>notifications</key>
 					<dict/>
 					<key>offset</key>
 					<string>{0, 0}</string>
 					<key>spriteframe</key>
-					<string>zhanshi0003_1</string>
+					<string>wizard_jump0004</string>
 				</dict>
 				<dict>
 					<key>DocumentSecurityImageBookmark</key>
 					<data>
-					Ym9va+wEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
-					AAAAAAAAAAAAAAAAAAAAAAAAAAAA0AMAAAUA
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
 					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
 					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
 					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
 					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
-					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQYAAAAB
-					AQAAQ29va2VkAAAGAAAAAQEAAGlwYWRoZAAA
-					EwAAAAEBAABHYW1lRGF0YV9jaGFyMDIucG5n
-					ACwAAAABBgAABAAAABQAAAAkAAAANAAAAEgA
-					AABIAAAAZAAAAHgAAACIAAAAmAAAAKgAAAAI
-					AAAABAMAAGVYBwAAAAAACAAAAAQDAABoWAcA
-					AAAAAAgAAAAEAwAAilgHAAAAAAAIAAAABAMA
-					AIxYBwAAAAAACAAAAAQDAACWyE4AAAAAAAgA
-					AAAEAwAA28hOAAAAAAAIAAAABAMAAOLITgAA
-					AAAACAAAAAQDAAADyU4AAAAAAAgAAAAEAwAA
-					BMlOAAAAAAAIAAAABAMAAA7JTgAAAAAACAAA
-					AAQDAAARyU4AAAAAACwAAAABBgAA+AAAAAgB
-					AAAYAQAAKAEAADgBAABIAQAAWAEAAGgBAAB4
-					AQAAiAEAAJgBAAAYAAAAAQIAAAEAAAAAAAAA
-					DwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAA
-					AAMDAAABAAAABAAAAAMDAAACAAAACAAAAAQD
-					AAAJAAAAAAAAAAQAAAADAwAA9gEAAAIAAAAB
-					AQAAb3MAAAgAAAAEAwAAAMA/XHQAAAAIAAAA
-					AAQAAEG3J4nSAAAAJAAAAAEBAAAyRTRDQThD
-					Ri1FMzIwLTNDREItQkMyRi1DNDY5NUYzMjUz
-					NjAYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAA
-					AAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAA
-					AAEAAAABAAABAgAAMzdlY2ZmNDQ1ZThlY2Rl
-					YjgwMzg2OGM3ZDMwZmQ1OWU1OTQ2OGNlNzsw
-					MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2Nv
-					bS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
-					aXRlOzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAw
-					MDAwMDA0ZWM5MTE7L3VzZXJzL2ppbmxpbi9f
-					ZGV2Xy9fcHJvamVjdF8vbXVsdGljaGFyYWN0
-					ZXJydXNoL211bHRpY2hhcmFjdGVycnVzaC9y
-					ZXNvdXJjZXMvZ2FtZWRhdGEvY29va2VkL2lw
-					YWRoZC9nYW1lZGF0YV9jaGFyMDIucG5nAOQA
-					AAD+////AQAAAAAAAAASAAAABBAAAMQAAAAA
-					AAAABRAAAKgBAAAAAAAAEBAAANwBAAAAAAAA
-					VBAAAAQCAAAAAAAAVRAAABACAAAAAAAAVhAA
-					APwBAAAAAAAAAiAAALACAAAAAAAAECAAADgC
-					AAAAAAAAESAAAGQCAAAAAAAAEiAAAEQCAAAA
-					AAAAEyAAAFQCAAAAAAAAICAAAJACAAAAAAAA
-					MCAAAPwBAAAAAAAAAcAAABwCAAAAAAAAEcAA
-					ABQAAAAAAAAAEsAAACwCAAAAAAAAENAAALwC
-					AAAAAAAAgPAAAMgCAAAAAAAA
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CgAAAAEBAABjaHIwMV9qdW1wAAATAAAAAQEA
+					AHdpemFyZF9qdW1wMDAwNS5wbmcAMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAAfyU4AAAAAAAgAAAAEAwAAZ1dQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAACwEAAAEC
+					AAA5OGQxODYzY2QyODQyYjU0ZWI1ODI3ZWU0
+					Yzg5OTA5NDMwYjQzM2RjOzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwNTc2
+					NzsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAx
+					X2p1bXAvd2l6YXJkX2p1bXAwMDA1LnBuZwAA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
 					</data>
 					<key>Frame</key>
-					<string>{{48, 60}, {44, 55.5}}</string>
+					<string>{{157, 2}, {39.5, 54}}</string>
 					<key>Frame-HD</key>
-					<string>{{192, 240}, {176, 222}}</string>
+					<string>{{628, 8}, {158, 216}}</string>
 					<key>IsRotated</key>
-					<false/>
+					<true/>
 					<key>OriginalImage</key>
-					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Cooked/ipadhd/GameData_char02.png</string>
+					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr01_jump/wizard_jump0005.png</string>
 					<key>SpriteSize</key>
-					<string>{44, 55.5}</string>
+					<string>{39.5, 54}</string>
 					<key>TextureOffset</key>
-					<string>{-58, 40.25}</string>
+					<string>{0, 0}</string>
 					<key>delayPerUnit</key>
-					<real>0.30000001192092896</real>
+					<real>0.15000000596046448</real>
 					<key>notifications</key>
 					<dict/>
 					<key>offset</key>
 					<string>{0, 0}</string>
 					<key>spriteframe</key>
-					<string>zhanshi0004_1</string>
+					<string>wizard_jump0005</string>
+				</dict>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
+					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
+					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
+					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
+					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CgAAAAEBAABjaHIwMV9qdW1wAAATAAAAAQEA
+					AHdpemFyZF9qdW1wMDAwNi5wbmcAMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAAfyU4AAAAAAAgAAAAEAwAAaFdQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAACwEAAAEC
+					AABkN2EzYTVlZDQ1NTdhNGI0Y2MyMjEyNzMy
+					ZWQ5NzZmOWI4ZjExZDJkOzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwNTc2
+					ODsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAx
+					X2p1bXAvd2l6YXJkX2p1bXAwMDA2LnBuZwAA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
+					</data>
+					<key>Frame</key>
+					<string>{{142, 110}, {41.5, 53.75}}</string>
+					<key>Frame-HD</key>
+					<string>{{568, 440}, {166, 213}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>OriginalImage</key>
+					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr01_jump/wizard_jump0006.png</string>
+					<key>SpriteSize</key>
+					<string>{41.5, 53.75}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.15000000596046448</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>wizard_jump0006</string>
+				</dict>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
+					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
+					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
+					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
+					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CgAAAAEBAABjaHIwMV9qdW1wAAATAAAAAQEA
+					AHdpemFyZF9qdW1wMDAwNy5wbmcAMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAAfyU4AAAAAAAgAAAAEAwAAaVdQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAACwEAAAEC
+					AABhMGVjNWFjMWQ4MmUyYmE0OWU3ZDliMzAz
+					NzU4NWM0YzI0NzdlMzFjOzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwNTc2
+					OTsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAx
+					X2p1bXAvd2l6YXJkX2p1bXAwMDA3LnBuZwAA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
+					</data>
+					<key>Frame</key>
+					<string>{{180, 165}, {39.75, 51.75}}</string>
+					<key>Frame-HD</key>
+					<string>{{720, 660}, {157, 207}}</string>
+					<key>IsRotated</key>
+					<true/>
+					<key>OriginalImage</key>
+					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr01_jump/wizard_jump0007.png</string>
+					<key>SpriteSize</key>
+					<string>{39.75, 51.75}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.15000000596046448</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>wizard_jump0007</string>
+				</dict>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
+					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
+					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
+					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
+					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CgAAAAEBAABjaHIwMV9qdW1wAAATAAAAAQEA
+					AHdpemFyZF9qdW1wMDAwOC5wbmcAMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAAfyU4AAAAAAAgAAAAEAwAAaldQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAACwEAAAEC
+					AABmMjlmOTA0MjkxMDExZDAwN2Q0MDFlMGQ2
+					MTQxZDcyNTY3NzMyOGViOzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwNTc2
+					YTsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAx
+					X2p1bXAvd2l6YXJkX2p1bXAwMDA4LnBuZwAA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
+					</data>
+					<key>Frame</key>
+					<string>{{140, 169}, {38.5, 58.75}}</string>
+					<key>Frame-HD</key>
+					<string>{{560, 676}, {154, 233}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>OriginalImage</key>
+					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr01_jump/wizard_jump0008.png</string>
+					<key>SpriteSize</key>
+					<string>{38.5, 58.75}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.15000000596046448</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>wizard_jump0008</string>
+				</dict>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
+					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
+					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
+					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
+					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
+					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
+					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
+					CgAAAAEBAABjaHIwMV9qdW1wAAATAAAAAQEA
+					AHdpemFyZF9qdW1wMDAwOS5wbmcAMAAAAAEG
+					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
+					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
+					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
+					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
+					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
+					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
+					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
+					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
+					AAAfyU4AAAAAAAgAAAAEAwAAa1dQAAAAAAAw
+					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
+					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
+					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
+					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
+					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
+					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
+					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
+					AAEBAAAvAAAABAAAAAMDAAAAAQAACwEAAAEC
+					AABmMjk2YTcyMGRiMTEwOGU4MzMwNDE1YjFi
+					MGZiYzBmNjQwNDFkYzc2OzAwMDAwMDAwOzAw
+					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
+					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwNTc2
+					YjsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
+					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
+					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAx
+					X2p1bXAvd2l6YXJkX2p1bXAwMDA5LnBuZwAA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
+					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
+					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
+					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
+					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
+					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
+					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
+					6AIAAAAAAACA8AAA9AIAAAAAAAA=
+					</data>
+					<key>Frame</key>
+					<string>{{99, 169}, {38.75, 58.75}}</string>
+					<key>Frame-HD</key>
+					<string>{{396, 676}, {155, 235}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>OriginalImage</key>
+					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr01_jump/wizard_jump0009.png</string>
+					<key>SpriteSize</key>
+					<string>{38.75, 58.75}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.15000000596046448</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>wizard_jump0009</string>
 				</dict>
 			</array>
 			<key>Loop</key>
-			<true/>
+			<false/>
 			<key>Repetitions</key>
 			<integer>1</integer>
 			<key>RestoreOriginalFrame</key>
 			<false/>
 			<key>SheetImage</key>
-			<string>GameData_char02.png</string>
+			<string>GameData_char01.png</string>
 			<key>SheetName</key>
-			<string>char02</string>
+			<string>char01</string>
 			<key>StartAtLaunch</key>
 			<true/>
 			<key>UniqueName</key>
-			<string>char02_run</string>
+			<string>char01_jump02</string>
 		</dict>
 		<dict>
 			<key>DelayPerUnit</key>
 			<real>0.40000000596046448</real>
 			<key>Frames</key>
-			<array>
-				<dict>
-					<key>DocumentSecurityImageBookmark</key>
-					<data>
-					Ym9va+wEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
-					AAAAAAAAAAAAAAAAAAAAAAAAAAAA0AMAAAUA
-					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
-					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
-					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
-					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
-					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQYAAAAB
-					AQAAQ29va2VkAAAGAAAAAQEAAGlwYWRoZAAA
-					EwAAAAEBAABHYW1lRGF0YV9jaGFyMDIucG5n
-					ACwAAAABBgAABAAAABQAAAAkAAAANAAAAEgA
-					AABIAAAAZAAAAHgAAACIAAAAmAAAAKgAAAAI
-					AAAABAMAAGVYBwAAAAAACAAAAAQDAABoWAcA
-					AAAAAAgAAAAEAwAAilgHAAAAAAAIAAAABAMA
-					AIxYBwAAAAAACAAAAAQDAACWyE4AAAAAAAgA
-					AAAEAwAA28hOAAAAAAAIAAAABAMAAOLITgAA
-					AAAACAAAAAQDAAADyU4AAAAAAAgAAAAEAwAA
-					BMlOAAAAAAAIAAAABAMAAA7JTgAAAAAACAAA
-					AAQDAAARyU4AAAAAACwAAAABBgAA+AAAAAgB
-					AAAYAQAAKAEAADgBAABIAQAAWAEAAGgBAAB4
-					AQAAiAEAAJgBAAAYAAAAAQIAAAEAAAAAAAAA
-					DwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAA
-					AAMDAAABAAAABAAAAAMDAAACAAAACAAAAAQD
-					AAAJAAAAAAAAAAQAAAADAwAA9gEAAAIAAAAB
-					AQAAb3MAAAgAAAAEAwAAAMA/XHQAAAAIAAAA
-					AAQAAEG3J4nSAAAAJAAAAAEBAAAyRTRDQThD
-					Ri1FMzIwLTNDREItQkMyRi1DNDY5NUYzMjUz
-					NjAYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAA
-					AAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAA
-					AAEAAAABAAABAgAAMzdlY2ZmNDQ1ZThlY2Rl
-					YjgwMzg2OGM3ZDMwZmQ1OWU1OTQ2OGNlNzsw
-					MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2Nv
-					bS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
-					aXRlOzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAw
-					MDAwMDA0ZWM5MTE7L3VzZXJzL2ppbmxpbi9f
-					ZGV2Xy9fcHJvamVjdF8vbXVsdGljaGFyYWN0
-					ZXJydXNoL211bHRpY2hhcmFjdGVycnVzaC9y
-					ZXNvdXJjZXMvZ2FtZWRhdGEvY29va2VkL2lw
-					YWRoZC9nYW1lZGF0YV9jaGFyMDIucG5nAOQA
-					AAD+////AQAAAAAAAAASAAAABBAAAMQAAAAA
-					AAAABRAAAKgBAAAAAAAAEBAAANwBAAAAAAAA
-					VBAAAAQCAAAAAAAAVRAAABACAAAAAAAAVhAA
-					APwBAAAAAAAAAiAAALACAAAAAAAAECAAADgC
-					AAAAAAAAESAAAGQCAAAAAAAAEiAAAEQCAAAA
-					AAAAEyAAAFQCAAAAAAAAICAAAJACAAAAAAAA
-					MCAAAPwBAAAAAAAAAcAAABwCAAAAAAAAEcAA
-					ABQAAAAAAAAAEsAAACwCAAAAAAAAENAAALwC
-					AAAAAAAAgPAAAMgCAAAAAAAA
-					</data>
-					<key>Frame</key>
-					<string>{{2, 173}, {42.75, 50.5}}</string>
-					<key>Frame-HD</key>
-					<string>{{8, 692}, {169, 202}}</string>
-					<key>IsRotated</key>
-					<false/>
-					<key>OriginalImage</key>
-					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Cooked/ipadhd/GameData_char02.png</string>
-					<key>SpriteSize</key>
-					<string>{42.75, 50.5}</string>
-					<key>TextureOffset</key>
-					<string>{-104.625, -70.25}</string>
-					<key>delayPerUnit</key>
-					<real>0.20000000298023224</real>
-					<key>notifications</key>
-					<dict/>
-					<key>offset</key>
-					<string>{0, 0}</string>
-					<key>spriteframe</key>
-					<string>zhanshi0001</string>
-				</dict>
-				<dict>
-					<key>DocumentSecurityImageBookmark</key>
-					<data>
-					Ym9va+wEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
-					AAAAAAAAAAAAAAAAAAAAAAAAAAAA0AMAAAUA
-					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
-					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
-					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
-					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
-					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQYAAAAB
-					AQAAQ29va2VkAAAGAAAAAQEAAGlwYWRoZAAA
-					EwAAAAEBAABHYW1lRGF0YV9jaGFyMDIucG5n
-					ACwAAAABBgAABAAAABQAAAAkAAAANAAAAEgA
-					AABIAAAAZAAAAHgAAACIAAAAmAAAAKgAAAAI
-					AAAABAMAAGVYBwAAAAAACAAAAAQDAABoWAcA
-					AAAAAAgAAAAEAwAAilgHAAAAAAAIAAAABAMA
-					AIxYBwAAAAAACAAAAAQDAACWyE4AAAAAAAgA
-					AAAEAwAA28hOAAAAAAAIAAAABAMAAOLITgAA
-					AAAACAAAAAQDAAADyU4AAAAAAAgAAAAEAwAA
-					BMlOAAAAAAAIAAAABAMAAA7JTgAAAAAACAAA
-					AAQDAAARyU4AAAAAACwAAAABBgAA+AAAAAgB
-					AAAYAQAAKAEAADgBAABIAQAAWAEAAGgBAAB4
-					AQAAiAEAAJgBAAAYAAAAAQIAAAEAAAAAAAAA
-					DwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAA
-					AAMDAAABAAAABAAAAAMDAAACAAAACAAAAAQD
-					AAAJAAAAAAAAAAQAAAADAwAA9gEAAAIAAAAB
-					AQAAb3MAAAgAAAAEAwAAAMA/XHQAAAAIAAAA
-					AAQAAEG3J4nSAAAAJAAAAAEBAAAyRTRDQThD
-					Ri1FMzIwLTNDREItQkMyRi1DNDY5NUYzMjUz
-					NjAYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAA
-					AAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAA
-					AAEAAAABAAABAgAAMzdlY2ZmNDQ1ZThlY2Rl
-					YjgwMzg2OGM3ZDMwZmQ1OWU1OTQ2OGNlNzsw
-					MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2Nv
-					bS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
-					aXRlOzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAw
-					MDAwMDA0ZWM5MTE7L3VzZXJzL2ppbmxpbi9f
-					ZGV2Xy9fcHJvamVjdF8vbXVsdGljaGFyYWN0
-					ZXJydXNoL211bHRpY2hhcmFjdGVycnVzaC9y
-					ZXNvdXJjZXMvZ2FtZWRhdGEvY29va2VkL2lw
-					YWRoZC9nYW1lZGF0YV9jaGFyMDIucG5nAOQA
-					AAD+////AQAAAAAAAAASAAAABBAAAMQAAAAA
-					AAAABRAAAKgBAAAAAAAAEBAAANwBAAAAAAAA
-					VBAAAAQCAAAAAAAAVRAAABACAAAAAAAAVhAA
-					APwBAAAAAAAAAiAAALACAAAAAAAAECAAADgC
-					AAAAAAAAESAAAGQCAAAAAAAAEiAAAEQCAAAA
-					AAAAEyAAAFQCAAAAAAAAICAAAJACAAAAAAAA
-					MCAAAPwBAAAAAAAAAcAAABwCAAAAAAAAEcAA
-					ABQAAAAAAAAAEsAAACwCAAAAAAAAENAAALwC
-					AAAAAAAAgPAAAMgCAAAAAAAA
-					</data>
-					<key>Frame</key>
-					<string>{{142, 2}, {39, 50}}</string>
-					<key>Frame-HD</key>
-					<string>{{568, 8}, {156, 200}}</string>
-					<key>IsRotated</key>
-					<false/>
-					<key>OriginalImage</key>
-					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Cooked/ipadhd/GameData_char02.png</string>
-					<key>SpriteSize</key>
-					<string>{39, 50}</string>
-					<key>TextureOffset</key>
-					<string>{33.5, 101}</string>
-					<key>delayPerUnit</key>
-					<real>0.20000000298023224</real>
-					<key>notifications</key>
-					<dict/>
-					<key>offset</key>
-					<string>{0, 0}</string>
-					<key>spriteframe</key>
-					<string>zhanshi0002</string>
-				</dict>
-				<dict>
-					<key>DocumentSecurityImageBookmark</key>
-					<data>
-					Ym9va+wEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
-					AAAAAAAAAAAAAAAAAAAAAAAAAAAA0AMAAAUA
-					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
-					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
-					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
-					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
-					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQYAAAAB
-					AQAAQ29va2VkAAAGAAAAAQEAAGlwYWRoZAAA
-					EwAAAAEBAABHYW1lRGF0YV9jaGFyMDIucG5n
-					ACwAAAABBgAABAAAABQAAAAkAAAANAAAAEgA
-					AABIAAAAZAAAAHgAAACIAAAAmAAAAKgAAAAI
-					AAAABAMAAGVYBwAAAAAACAAAAAQDAABoWAcA
-					AAAAAAgAAAAEAwAAilgHAAAAAAAIAAAABAMA
-					AIxYBwAAAAAACAAAAAQDAACWyE4AAAAAAAgA
-					AAAEAwAA28hOAAAAAAAIAAAABAMAAOLITgAA
-					AAAACAAAAAQDAAADyU4AAAAAAAgAAAAEAwAA
-					BMlOAAAAAAAIAAAABAMAAA7JTgAAAAAACAAA
-					AAQDAAARyU4AAAAAACwAAAABBgAA+AAAAAgB
-					AAAYAQAAKAEAADgBAABIAQAAWAEAAGgBAAB4
-					AQAAiAEAAJgBAAAYAAAAAQIAAAEAAAAAAAAA
-					DwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAA
-					AAMDAAABAAAABAAAAAMDAAACAAAACAAAAAQD
-					AAAJAAAAAAAAAAQAAAADAwAA9gEAAAIAAAAB
-					AQAAb3MAAAgAAAAEAwAAAMA/XHQAAAAIAAAA
-					AAQAAEG3J4nSAAAAJAAAAAEBAAAyRTRDQThD
-					Ri1FMzIwLTNDREItQkMyRi1DNDY5NUYzMjUz
-					NjAYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAA
-					AAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAA
-					AAEAAAABAAABAgAAMzdlY2ZmNDQ1ZThlY2Rl
-					YjgwMzg2OGM3ZDMwZmQ1OWU1OTQ2OGNlNzsw
-					MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2Nv
-					bS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
-					aXRlOzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAw
-					MDAwMDA0ZWM5MTE7L3VzZXJzL2ppbmxpbi9f
-					ZGV2Xy9fcHJvamVjdF8vbXVsdGljaGFyYWN0
-					ZXJydXNoL211bHRpY2hhcmFjdGVycnVzaC9y
-					ZXNvdXJjZXMvZ2FtZWRhdGEvY29va2VkL2lw
-					YWRoZC9nYW1lZGF0YV9jaGFyMDIucG5nAOQA
-					AAD+////AQAAAAAAAAASAAAABBAAAMQAAAAA
-					AAAABRAAAKgBAAAAAAAAEBAAANwBAAAAAAAA
-					VBAAAAQCAAAAAAAAVRAAABACAAAAAAAAVhAA
-					APwBAAAAAAAAAiAAALACAAAAAAAAECAAADgC
-					AAAAAAAAESAAAGQCAAAAAAAAEiAAAEQCAAAA
-					AAAAEyAAAFQCAAAAAAAAICAAAJACAAAAAAAA
-					MCAAAPwBAAAAAAAAAcAAABwCAAAAAAAAEcAA
-					ABQAAAAAAAAAEsAAACwCAAAAAAAAENAAALwC
-					AAAAAAAAgPAAAMgCAAAAAAAA
-					</data>
-					<key>Frame</key>
-					<string>{{183, 2}, {39, 50}}</string>
-					<key>Frame-HD</key>
-					<string>{{732, 8}, {156, 200}}</string>
-					<key>IsRotated</key>
-					<false/>
-					<key>OriginalImage</key>
-					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Cooked/ipadhd/GameData_char02.png</string>
-					<key>SpriteSize</key>
-					<string>{39, 50}</string>
-					<key>TextureOffset</key>
-					<string>{74.5, 101}</string>
-					<key>delayPerUnit</key>
-					<real>0.20000000298023224</real>
-					<key>notifications</key>
-					<dict/>
-					<key>offset</key>
-					<string>{0, 0}</string>
-					<key>spriteframe</key>
-					<string>zhanshi0003</string>
-				</dict>
-				<dict>
-					<key>DocumentSecurityImageBookmark</key>
-					<data>
-					Ym9va+wEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
-					AAAAAAAAAAAAAAAAAAAAAAAAAAAA0AMAAAUA
-					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
-					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
-					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
-					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
-					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQYAAAAB
-					AQAAQ29va2VkAAAGAAAAAQEAAGlwYWRoZAAA
-					EwAAAAEBAABHYW1lRGF0YV9jaGFyMDIucG5n
-					ACwAAAABBgAABAAAABQAAAAkAAAANAAAAEgA
-					AABIAAAAZAAAAHgAAACIAAAAmAAAAKgAAAAI
-					AAAABAMAAGVYBwAAAAAACAAAAAQDAABoWAcA
-					AAAAAAgAAAAEAwAAilgHAAAAAAAIAAAABAMA
-					AIxYBwAAAAAACAAAAAQDAACWyE4AAAAAAAgA
-					AAAEAwAA28hOAAAAAAAIAAAABAMAAOLITgAA
-					AAAACAAAAAQDAAADyU4AAAAAAAgAAAAEAwAA
-					BMlOAAAAAAAIAAAABAMAAA7JTgAAAAAACAAA
-					AAQDAAARyU4AAAAAACwAAAABBgAA+AAAAAgB
-					AAAYAQAAKAEAADgBAABIAQAAWAEAAGgBAAB4
-					AQAAiAEAAJgBAAAYAAAAAQIAAAEAAAAAAAAA
-					DwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAA
-					AAMDAAABAAAABAAAAAMDAAACAAAACAAAAAQD
-					AAAJAAAAAAAAAAQAAAADAwAA9gEAAAIAAAAB
-					AQAAb3MAAAgAAAAEAwAAAMA/XHQAAAAIAAAA
-					AAQAAEG3J4nSAAAAJAAAAAEBAAAyRTRDQThD
-					Ri1FMzIwLTNDREItQkMyRi1DNDY5NUYzMjUz
-					NjAYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAA
-					AAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAA
-					AAEAAAABAAABAgAAMzdlY2ZmNDQ1ZThlY2Rl
-					YjgwMzg2OGM3ZDMwZmQ1OWU1OTQ2OGNlNzsw
-					MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2Nv
-					bS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
-					aXRlOzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAw
-					MDAwMDA0ZWM5MTE7L3VzZXJzL2ppbmxpbi9f
-					ZGV2Xy9fcHJvamVjdF8vbXVsdGljaGFyYWN0
-					ZXJydXNoL211bHRpY2hhcmFjdGVycnVzaC9y
-					ZXNvdXJjZXMvZ2FtZWRhdGEvY29va2VkL2lw
-					YWRoZC9nYW1lZGF0YV9jaGFyMDIucG5nAOQA
-					AAD+////AQAAAAAAAAASAAAABBAAAMQAAAAA
-					AAAABRAAAKgBAAAAAAAAEBAAANwBAAAAAAAA
-					VBAAAAQCAAAAAAAAVRAAABACAAAAAAAAVhAA
-					APwBAAAAAAAAAiAAALACAAAAAAAAECAAADgC
-					AAAAAAAAESAAAGQCAAAAAAAAEiAAAEQCAAAA
-					AAAAEyAAAFQCAAAAAAAAICAAAJACAAAAAAAA
-					MCAAAPwBAAAAAAAAAcAAABwCAAAAAAAAEcAA
-					ABQAAAAAAAAAEsAAACwCAAAAAAAAENAAALwC
-					AAAAAAAAgPAAAMgCAAAAAAAA
-					</data>
-					<key>Frame</key>
-					<string>{{2, 120}, {43, 51}}</string>
-					<key>Frame-HD</key>
-					<string>{{8, 480}, {172, 204}}</string>
-					<key>IsRotated</key>
-					<false/>
-					<key>OriginalImage</key>
-					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Cooked/ipadhd/GameData_char02.png</string>
-					<key>SpriteSize</key>
-					<string>{43, 51}</string>
-					<key>TextureOffset</key>
-					<string>{-104.5, -17.5}</string>
-					<key>delayPerUnit</key>
-					<real>0.20000000298023224</real>
-					<key>notifications</key>
-					<dict/>
-					<key>offset</key>
-					<string>{0, 0}</string>
-					<key>spriteframe</key>
-					<string>zhanshi0004</string>
-				</dict>
-				<dict>
-					<key>DocumentSecurityImageBookmark</key>
-					<data>
-					Ym9va+wEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
-					AAAAAAAAAAAAAAAAAAAAAAAAAAAA0AMAAAUA
-					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
-					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
-					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
-					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
-					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQYAAAAB
-					AQAAQ29va2VkAAAGAAAAAQEAAGlwYWRoZAAA
-					EwAAAAEBAABHYW1lRGF0YV9jaGFyMDIucG5n
-					ACwAAAABBgAABAAAABQAAAAkAAAANAAAAEgA
-					AABIAAAAZAAAAHgAAACIAAAAmAAAAKgAAAAI
-					AAAABAMAAGVYBwAAAAAACAAAAAQDAABoWAcA
-					AAAAAAgAAAAEAwAAilgHAAAAAAAIAAAABAMA
-					AIxYBwAAAAAACAAAAAQDAACWyE4AAAAAAAgA
-					AAAEAwAA28hOAAAAAAAIAAAABAMAAOLITgAA
-					AAAACAAAAAQDAAADyU4AAAAAAAgAAAAEAwAA
-					BMlOAAAAAAAIAAAABAMAAA7JTgAAAAAACAAA
-					AAQDAAARyU4AAAAAACwAAAABBgAA+AAAAAgB
-					AAAYAQAAKAEAADgBAABIAQAAWAEAAGgBAAB4
-					AQAAiAEAAJgBAAAYAAAAAQIAAAEAAAAAAAAA
-					DwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAA
-					AAMDAAABAAAABAAAAAMDAAACAAAACAAAAAQD
-					AAAJAAAAAAAAAAQAAAADAwAA9gEAAAIAAAAB
-					AQAAb3MAAAgAAAAEAwAAAMA/XHQAAAAIAAAA
-					AAQAAEG3J4nSAAAAJAAAAAEBAAAyRTRDQThD
-					Ri1FMzIwLTNDREItQkMyRi1DNDY5NUYzMjUz
-					NjAYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAA
-					AAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAA
-					AAEAAAABAAABAgAAMzdlY2ZmNDQ1ZThlY2Rl
-					YjgwMzg2OGM3ZDMwZmQ1OWU1OTQ2OGNlNzsw
-					MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2Nv
-					bS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
-					aXRlOzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAw
-					MDAwMDA0ZWM5MTE7L3VzZXJzL2ppbmxpbi9f
-					ZGV2Xy9fcHJvamVjdF8vbXVsdGljaGFyYWN0
-					ZXJydXNoL211bHRpY2hhcmFjdGVycnVzaC9y
-					ZXNvdXJjZXMvZ2FtZWRhdGEvY29va2VkL2lw
-					YWRoZC9nYW1lZGF0YV9jaGFyMDIucG5nAOQA
-					AAD+////AQAAAAAAAAASAAAABBAAAMQAAAAA
-					AAAABRAAAKgBAAAAAAAAEBAAANwBAAAAAAAA
-					VBAAAAQCAAAAAAAAVRAAABACAAAAAAAAVhAA
-					APwBAAAAAAAAAiAAALACAAAAAAAAECAAADgC
-					AAAAAAAAESAAAGQCAAAAAAAAEiAAAEQCAAAA
-					AAAAEyAAAFQCAAAAAAAAICAAAJACAAAAAAAA
-					MCAAAPwBAAAAAAAAAcAAABwCAAAAAAAAEcAA
-					ABQAAAAAAAAAEsAAACwCAAAAAAAAENAAALwC
-					AAAAAAAAgPAAAMgCAAAAAAAA
-					</data>
-					<key>Frame</key>
-					<string>{{95, 2}, {45.75, 50}}</string>
-					<key>Frame-HD</key>
-					<string>{{380, 8}, {181, 200}}</string>
-					<key>IsRotated</key>
-					<false/>
-					<key>OriginalImage</key>
-					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Cooked/ipadhd/GameData_char02.png</string>
-					<key>SpriteSize</key>
-					<string>{45.75, 50}</string>
-					<key>TextureOffset</key>
-					<string>{-10.125, 101}</string>
-					<key>delayPerUnit</key>
-					<real>0.20000000298023224</real>
-					<key>notifications</key>
-					<dict/>
-					<key>offset</key>
-					<string>{0, 0}</string>
-					<key>spriteframe</key>
-					<string>zhanshi0005</string>
-				</dict>
-				<dict>
-					<key>DocumentSecurityImageBookmark</key>
-					<data>
-					Ym9va+wEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
-					AAAAAAAAAAAAAAAAAAAAAAAAAAAA0AMAAAUA
-					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
-					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
-					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
-					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
-					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQYAAAAB
-					AQAAQ29va2VkAAAGAAAAAQEAAGlwYWRoZAAA
-					EwAAAAEBAABHYW1lRGF0YV9jaGFyMDIucG5n
-					ACwAAAABBgAABAAAABQAAAAkAAAANAAAAEgA
-					AABIAAAAZAAAAHgAAACIAAAAmAAAAKgAAAAI
-					AAAABAMAAGVYBwAAAAAACAAAAAQDAABoWAcA
-					AAAAAAgAAAAEAwAAilgHAAAAAAAIAAAABAMA
-					AIxYBwAAAAAACAAAAAQDAACWyE4AAAAAAAgA
-					AAAEAwAA28hOAAAAAAAIAAAABAMAAOLITgAA
-					AAAACAAAAAQDAAADyU4AAAAAAAgAAAAEAwAA
-					BMlOAAAAAAAIAAAABAMAAA7JTgAAAAAACAAA
-					AAQDAAARyU4AAAAAACwAAAABBgAA+AAAAAgB
-					AAAYAQAAKAEAADgBAABIAQAAWAEAAGgBAAB4
-					AQAAiAEAAJgBAAAYAAAAAQIAAAEAAAAAAAAA
-					DwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAA
-					AAMDAAABAAAABAAAAAMDAAACAAAACAAAAAQD
-					AAAJAAAAAAAAAAQAAAADAwAA9gEAAAIAAAAB
-					AQAAb3MAAAgAAAAEAwAAAMA/XHQAAAAIAAAA
-					AAQAAEG3J4nSAAAAJAAAAAEBAAAyRTRDQThD
-					Ri1FMzIwLTNDREItQkMyRi1DNDY5NUYzMjUz
-					NjAYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAA
-					AAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAA
-					AAEAAAABAAABAgAAMzdlY2ZmNDQ1ZThlY2Rl
-					YjgwMzg2OGM3ZDMwZmQ1OWU1OTQ2OGNlNzsw
-					MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2Nv
-					bS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
-					aXRlOzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAw
-					MDAwMDA0ZWM5MTE7L3VzZXJzL2ppbmxpbi9f
-					ZGV2Xy9fcHJvamVjdF8vbXVsdGljaGFyYWN0
-					ZXJydXNoL211bHRpY2hhcmFjdGVycnVzaC9y
-					ZXNvdXJjZXMvZ2FtZWRhdGEvY29va2VkL2lw
-					YWRoZC9nYW1lZGF0YV9jaGFyMDIucG5nAOQA
-					AAD+////AQAAAAAAAAASAAAABBAAAMQAAAAA
-					AAAABRAAAKgBAAAAAAAAEBAAANwBAAAAAAAA
-					VBAAAAQCAAAAAAAAVRAAABACAAAAAAAAVhAA
-					APwBAAAAAAAAAiAAALACAAAAAAAAECAAADgC
-					AAAAAAAAESAAAGQCAAAAAAAAEiAAAEQCAAAA
-					AAAAEyAAAFQCAAAAAAAAICAAAJACAAAAAAAA
-					MCAAAPwBAAAAAAAAAcAAABwCAAAAAAAAEcAA
-					ABQAAAAAAAAAEsAAACwCAAAAAAAAENAAALwC
-					AAAAAAAAgPAAAMgCAAAAAAAA
-					</data>
-					<key>Frame</key>
-					<string>{{94, 60}, {34.75, 57}}</string>
-					<key>Frame-HD</key>
-					<string>{{376, 240}, {139, 228}}</string>
-					<key>IsRotated</key>
-					<false/>
-					<key>OriginalImage</key>
-					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Cooked/ipadhd/GameData_char02.png</string>
-					<key>SpriteSize</key>
-					<string>{34.75, 57}</string>
-					<key>TextureOffset</key>
-					<string>{-16.625, 39.5}</string>
-					<key>delayPerUnit</key>
-					<real>0.20000000298023224</real>
-					<key>notifications</key>
-					<dict/>
-					<key>offset</key>
-					<string>{0, 0}</string>
-					<key>spriteframe</key>
-					<string>zhanshi0006</string>
-				</dict>
-				<dict>
-					<key>DocumentSecurityImageBookmark</key>
-					<data>
-					Ym9va+wEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
-					AAAAAAAAAAAAAAAAAAAAAAAAAAAA0AMAAAUA
-					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
-					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
-					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
-					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
-					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQYAAAAB
-					AQAAQ29va2VkAAAGAAAAAQEAAGlwYWRoZAAA
-					EwAAAAEBAABHYW1lRGF0YV9jaGFyMDIucG5n
-					ACwAAAABBgAABAAAABQAAAAkAAAANAAAAEgA
-					AABIAAAAZAAAAHgAAACIAAAAmAAAAKgAAAAI
-					AAAABAMAAGVYBwAAAAAACAAAAAQDAABoWAcA
-					AAAAAAgAAAAEAwAAilgHAAAAAAAIAAAABAMA
-					AIxYBwAAAAAACAAAAAQDAACWyE4AAAAAAAgA
-					AAAEAwAA28hOAAAAAAAIAAAABAMAAOLITgAA
-					AAAACAAAAAQDAAADyU4AAAAAAAgAAAAEAwAA
-					BMlOAAAAAAAIAAAABAMAAA7JTgAAAAAACAAA
-					AAQDAAARyU4AAAAAACwAAAABBgAA+AAAAAgB
-					AAAYAQAAKAEAADgBAABIAQAAWAEAAGgBAAB4
-					AQAAiAEAAJgBAAAYAAAAAQIAAAEAAAAAAAAA
-					DwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAA
-					AAMDAAABAAAABAAAAAMDAAACAAAACAAAAAQD
-					AAAJAAAAAAAAAAQAAAADAwAA9gEAAAIAAAAB
-					AQAAb3MAAAgAAAAEAwAAAMA/XHQAAAAIAAAA
-					AAQAAEG3J4nSAAAAJAAAAAEBAAAyRTRDQThD
-					Ri1FMzIwLTNDREItQkMyRi1DNDY5NUYzMjUz
-					NjAYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAA
-					AAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAA
-					AAEAAAABAAABAgAAMzdlY2ZmNDQ1ZThlY2Rl
-					YjgwMzg2OGM3ZDMwZmQ1OWU1OTQ2OGNlNzsw
-					MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2Nv
-					bS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
-					aXRlOzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAw
-					MDAwMDA0ZWM5MTE7L3VzZXJzL2ppbmxpbi9f
-					ZGV2Xy9fcHJvamVjdF8vbXVsdGljaGFyYWN0
-					ZXJydXNoL211bHRpY2hhcmFjdGVycnVzaC9y
-					ZXNvdXJjZXMvZ2FtZWRhdGEvY29va2VkL2lw
-					YWRoZC9nYW1lZGF0YV9jaGFyMDIucG5nAOQA
-					AAD+////AQAAAAAAAAASAAAABBAAAMQAAAAA
-					AAAABRAAAKgBAAAAAAAAEBAAANwBAAAAAAAA
-					VBAAAAQCAAAAAAAAVRAAABACAAAAAAAAVhAA
-					APwBAAAAAAAAAiAAALACAAAAAAAAECAAADgC
-					AAAAAAAAESAAAGQCAAAAAAAAEiAAAEQCAAAA
-					AAAAEyAAAFQCAAAAAAAAICAAAJACAAAAAAAA
-					MCAAAPwBAAAAAAAAAcAAABwCAAAAAAAAEcAA
-					ABQAAAAAAAAAEsAAACwCAAAAAAAAENAAALwC
-					AAAAAAAAgPAAAMgCAAAAAAAA
-					</data>
-					<key>Frame</key>
-					<string>{{131, 54}, {34.75, 57}}</string>
-					<key>Frame-HD</key>
-					<string>{{524, 216}, {139, 228}}</string>
-					<key>IsRotated</key>
-					<false/>
-					<key>OriginalImage</key>
-					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Cooked/ipadhd/GameData_char02.png</string>
-					<key>SpriteSize</key>
-					<string>{34.75, 57}</string>
-					<key>TextureOffset</key>
-					<string>{20.375, 45.5}</string>
-					<key>delayPerUnit</key>
-					<real>0.20000000298023224</real>
-					<key>notifications</key>
-					<dict/>
-					<key>offset</key>
-					<string>{0, 0}</string>
-					<key>spriteframe</key>
-					<string>zhanshi0007</string>
-				</dict>
-			</array>
+			<array/>
 			<key>Loop</key>
 			<false/>
 			<key>Repetitions</key>
 			<integer>1</integer>
 			<key>RestoreOriginalFrame</key>
 			<false/>
-			<key>SheetImage</key>
-			<string>GameData_char02.png</string>
-			<key>SheetName</key>
-			<string>char02</string>
 			<key>StartAtLaunch</key>
 			<true/>
 			<key>UniqueName</key>
-			<string>char02_jump01</string>
+			<string>char01_fall</string>
 		</dict>
 		<dict>
 			<key>DelayPerUnit</key>
@@ -10690,7 +10485,7 @@
 					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
 					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
 					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
-					AAAfyU4AAAAAAAgAAAAEAwAARZFPAAAAAAAw
+					AAAfyU4AAAAAAAgAAAAEAwAAbFdQAAAAAAAw
 					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
 					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
 					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
@@ -10702,12 +10497,12 @@
 					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
 					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
 					AAEBAAAvAAAABAAAAAMDAAAAAQAACwEAAAEC
-					AAA1YzI2Mjc2MzI4M2E0Mjc1OTIwNjhkZjJj
-					NWIwMDQwYjk1ZmRlZjA3OzAwMDAwMDAwOzAw
+					AABkYzhiOTg5N2ViMjZmMTE1YmMzYjZiZmI2
+					Y2FlYmI2MzFiNTg5ODcxOzAwMDAwMDAwOzAw
 					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
 					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
-					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDRmOTE0
-					NTsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwNTc2
+					YzsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
 					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
 					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
 					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAx
@@ -10723,15 +10518,15 @@
 					6AIAAAAAAACA8AAA9AIAAAAAAAA=
 					</data>
 					<key>Frame</key>
-					<string>{{93, 53}, {42, 50.75}}</string>
+					<string>{{97, 55}, {44, 52.5}}</string>
 					<key>Frame-HD</key>
-					<string>{{372, 212}, {168, 201}}</string>
+					<string>{{388, 220}, {176, 210}}</string>
 					<key>IsRotated</key>
 					<false/>
 					<key>OriginalImage</key>
 					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr01_jump/wizard_jump0010.png</string>
 					<key>SpriteSize</key>
-					<string>{42, 50.75}</string>
+					<string>{44, 52.5}</string>
 					<key>TextureOffset</key>
 					<string>{0, 0}</string>
 					<key>delayPerUnit</key>
@@ -10764,7 +10559,7 @@
 					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
 					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
 					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
-					AAAfyU4AAAAAAAgAAAAEAwAAPZFPAAAAAAAw
+					AAAfyU4AAAAAAAgAAAAEAwAAbVdQAAAAAAAw
 					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
 					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
 					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
@@ -10776,11 +10571,11 @@
 					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
 					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
 					AAEBAAAvAAAABAAAAAMDAAAAAQAACwEAAAEC
-					AABjNzg1ZTkzZmY2ZDNiYzM0ZDdiMDMwZTZi
-					NTY2NTFlZGUyNGE2MTYyOzAwMDAwMDAwOzAw
+					AAAyZjY4OGM4MGI1MzE0YjM5MThhYTgwNDYz
+					Yzg4OTgxODBlOTlkZWYxOzAwMDAwMDAwOzAw
 					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
 					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
-					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDRmOTEz
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwNTc2
 					ZDsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
 					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
 					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
@@ -10797,15 +10592,15 @@
 					6AIAAAAAAACA8AAA9AIAAAAAAAA=
 					</data>
 					<key>Frame</key>
-					<string>{{97, 2}, {42, 50.75}}</string>
+					<string>{{101, 2}, {44, 52.5}}</string>
 					<key>Frame-HD</key>
-					<string>{{388, 8}, {168, 201}}</string>
+					<string>{{404, 8}, {176, 210}}</string>
 					<key>IsRotated</key>
 					<true/>
 					<key>OriginalImage</key>
 					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr01_jump/wizard_jump0011.png</string>
 					<key>SpriteSize</key>
-					<string>{42, 50.75}</string>
+					<string>{44, 52.5}</string>
 					<key>TextureOffset</key>
 					<string>{0, 0}</string>
 					<key>delayPerUnit</key>
@@ -10838,7 +10633,7 @@
 					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
 					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
 					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
-					AAAfyU4AAAAAAAgAAAAEAwAAOJFPAAAAAAAw
+					AAAfyU4AAAAAAAgAAAAEAwAAbldQAAAAAAAw
 					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
 					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
 					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
@@ -10850,12 +10645,12 @@
 					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
 					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
 					AAEBAAAvAAAABAAAAAMDAAAAAQAACwEAAAEC
-					AAAwZWY0ODIxZWM1MjgzODg1ZmZlNGFhMGM3
-					ZjU4NzhhOTBkYzgzYTZiOzAwMDAwMDAwOzAw
+					AABmOWMwMWE0MWFmYjZkNzAzMTU0MWNjZDM5
+					ZjdiYjAzODA3ZjEwOTUwOzAwMDAwMDAwOzAw
 					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
 					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
-					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDRmOTEz
-					ODsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwNTc2
+					ZTsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
 					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
 					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
 					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAx
@@ -10871,15 +10666,15 @@
 					6AIAAAAAAACA8AAA9AIAAAAAAAA=
 					</data>
 					<key>Frame</key>
-					<string>{{50, 53}, {40.75, 53}}</string>
+					<string>{{52, 55}, {42.75, 55.5}}</string>
 					<key>Frame-HD</key>
-					<string>{{200, 212}, {163, 212}}</string>
+					<string>{{208, 220}, {171, 222}}</string>
 					<key>IsRotated</key>
 					<false/>
 					<key>OriginalImage</key>
 					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr01_jump/wizard_jump0012.png</string>
 					<key>SpriteSize</key>
-					<string>{40.75, 53}</string>
+					<string>{42.75, 55.5}</string>
 					<key>TextureOffset</key>
 					<string>{0, 0}</string>
 					<key>delayPerUnit</key>
@@ -10915,539 +10710,6 @@
 				<dict>
 					<key>DocumentSecurityImageBookmark</key>
 					<data>
-					Ym9va+wEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
-					AAAAAAAAAAAAAAAAAAAAAAAAAAAA0AMAAAUA
-					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
-					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
-					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
-					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
-					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQYAAAAB
-					AQAAQ29va2VkAAAGAAAAAQEAAGlwYWRoZAAA
-					EwAAAAEBAABHYW1lRGF0YV9jaGFyMDIucG5n
-					ACwAAAABBgAABAAAABQAAAAkAAAANAAAAEgA
-					AABIAAAAZAAAAHgAAACIAAAAmAAAAKgAAAAI
-					AAAABAMAAGVYBwAAAAAACAAAAAQDAABoWAcA
-					AAAAAAgAAAAEAwAAilgHAAAAAAAIAAAABAMA
-					AIxYBwAAAAAACAAAAAQDAACWyE4AAAAAAAgA
-					AAAEAwAA28hOAAAAAAAIAAAABAMAAOLITgAA
-					AAAACAAAAAQDAAADyU4AAAAAAAgAAAAEAwAA
-					BMlOAAAAAAAIAAAABAMAAA7JTgAAAAAACAAA
-					AAQDAAARyU4AAAAAACwAAAABBgAA+AAAAAgB
-					AAAYAQAAKAEAADgBAABIAQAAWAEAAGgBAAB4
-					AQAAiAEAAJgBAAAYAAAAAQIAAAEAAAAAAAAA
-					DwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAA
-					AAMDAAABAAAABAAAAAMDAAACAAAACAAAAAQD
-					AAAJAAAAAAAAAAQAAAADAwAA9gEAAAIAAAAB
-					AQAAb3MAAAgAAAAEAwAAAMA/XHQAAAAIAAAA
-					AAQAAEG3J4nSAAAAJAAAAAEBAAAyRTRDQThD
-					Ri1FMzIwLTNDREItQkMyRi1DNDY5NUYzMjUz
-					NjAYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAA
-					AAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAA
-					AAEAAAABAAABAgAAMzdlY2ZmNDQ1ZThlY2Rl
-					YjgwMzg2OGM3ZDMwZmQ1OWU1OTQ2OGNlNzsw
-					MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2Nv
-					bS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
-					aXRlOzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAw
-					MDAwMDA0ZWM5MTE7L3VzZXJzL2ppbmxpbi9f
-					ZGV2Xy9fcHJvamVjdF8vbXVsdGljaGFyYWN0
-					ZXJydXNoL211bHRpY2hhcmFjdGVycnVzaC9y
-					ZXNvdXJjZXMvZ2FtZWRhdGEvY29va2VkL2lw
-					YWRoZC9nYW1lZGF0YV9jaGFyMDIucG5nAOQA
-					AAD+////AQAAAAAAAAASAAAABBAAAMQAAAAA
-					AAAABRAAAKgBAAAAAAAAEBAAANwBAAAAAAAA
-					VBAAAAQCAAAAAAAAVRAAABACAAAAAAAAVhAA
-					APwBAAAAAAAAAiAAALACAAAAAAAAECAAADgC
-					AAAAAAAAESAAAGQCAAAAAAAAEiAAAEQCAAAA
-					AAAAEyAAAFQCAAAAAAAAICAAAJACAAAAAAAA
-					MCAAAPwBAAAAAAAAAcAAABwCAAAAAAAAEcAA
-					ABQAAAAAAAAAEsAAACwCAAAAAAAAENAAALwC
-					AAAAAAAAgPAAAMgCAAAAAAAA
-					</data>
-					<key>Frame</key>
-					<string>{{168, 54}, {36.75, 49.75}}</string>
-					<key>Frame-HD</key>
-					<string>{{672, 216}, {145, 199}}</string>
-					<key>IsRotated</key>
-					<false/>
-					<key>OriginalImage</key>
-					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Cooked/ipadhd/GameData_char02.png</string>
-					<key>SpriteSize</key>
-					<string>{36.75, 49.75}</string>
-					<key>TextureOffset</key>
-					<string>{58.375, 49.125}</string>
-					<key>delayPerUnit</key>
-					<real>0.20000000298023224</real>
-					<key>notifications</key>
-					<dict/>
-					<key>offset</key>
-					<string>{0, 0}</string>
-					<key>spriteframe</key>
-					<string>zhanshi0008</string>
-				</dict>
-				<dict>
-					<key>DocumentSecurityImageBookmark</key>
-					<data>
-					Ym9va+wEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
-					AAAAAAAAAAAAAAAAAAAAAAAAAAAA0AMAAAUA
-					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
-					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
-					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
-					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
-					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQYAAAAB
-					AQAAQ29va2VkAAAGAAAAAQEAAGlwYWRoZAAA
-					EwAAAAEBAABHYW1lRGF0YV9jaGFyMDIucG5n
-					ACwAAAABBgAABAAAABQAAAAkAAAANAAAAEgA
-					AABIAAAAZAAAAHgAAACIAAAAmAAAAKgAAAAI
-					AAAABAMAAGVYBwAAAAAACAAAAAQDAABoWAcA
-					AAAAAAgAAAAEAwAAilgHAAAAAAAIAAAABAMA
-					AIxYBwAAAAAACAAAAAQDAACWyE4AAAAAAAgA
-					AAAEAwAA28hOAAAAAAAIAAAABAMAAOLITgAA
-					AAAACAAAAAQDAAADyU4AAAAAAAgAAAAEAwAA
-					BMlOAAAAAAAIAAAABAMAAA7JTgAAAAAACAAA
-					AAQDAAARyU4AAAAAACwAAAABBgAA+AAAAAgB
-					AAAYAQAAKAEAADgBAABIAQAAWAEAAGgBAAB4
-					AQAAiAEAAJgBAAAYAAAAAQIAAAEAAAAAAAAA
-					DwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAA
-					AAMDAAABAAAABAAAAAMDAAACAAAACAAAAAQD
-					AAAJAAAAAAAAAAQAAAADAwAA9gEAAAIAAAAB
-					AQAAb3MAAAgAAAAEAwAAAMA/XHQAAAAIAAAA
-					AAQAAEG3J4nSAAAAJAAAAAEBAAAyRTRDQThD
-					Ri1FMzIwLTNDREItQkMyRi1DNDY5NUYzMjUz
-					NjAYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAA
-					AAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAA
-					AAEAAAABAAABAgAAMzdlY2ZmNDQ1ZThlY2Rl
-					YjgwMzg2OGM3ZDMwZmQ1OWU1OTQ2OGNlNzsw
-					MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2Nv
-					bS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
-					aXRlOzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAw
-					MDAwMDA0ZWM5MTE7L3VzZXJzL2ppbmxpbi9f
-					ZGV2Xy9fcHJvamVjdF8vbXVsdGljaGFyYWN0
-					ZXJydXNoL211bHRpY2hhcmFjdGVycnVzaC9y
-					ZXNvdXJjZXMvZ2FtZWRhdGEvY29va2VkL2lw
-					YWRoZC9nYW1lZGF0YV9jaGFyMDIucG5nAOQA
-					AAD+////AQAAAAAAAAASAAAABBAAAMQAAAAA
-					AAAABRAAAKgBAAAAAAAAEBAAANwBAAAAAAAA
-					VBAAAAQCAAAAAAAAVRAAABACAAAAAAAAVhAA
-					APwBAAAAAAAAAiAAALACAAAAAAAAECAAADgC
-					AAAAAAAAESAAAGQCAAAAAAAAEiAAAEQCAAAA
-					AAAAEyAAAFQCAAAAAAAAICAAAJACAAAAAAAA
-					MCAAAPwBAAAAAAAAAcAAABwCAAAAAAAAEcAA
-					ABQAAAAAAAAAEsAAACwCAAAAAAAAENAAALwC
-					AAAAAAAAgPAAAMgCAAAAAAAA
-					</data>
-					<key>Frame</key>
-					<string>{{206, 54}, {36.75, 49.75}}</string>
-					<key>Frame-HD</key>
-					<string>{{824, 216}, {145, 199}}</string>
-					<key>IsRotated</key>
-					<false/>
-					<key>OriginalImage</key>
-					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Cooked/ipadhd/GameData_char02.png</string>
-					<key>SpriteSize</key>
-					<string>{36.75, 49.75}</string>
-					<key>TextureOffset</key>
-					<string>{96.375, 49.125}</string>
-					<key>delayPerUnit</key>
-					<real>0.20000000298023224</real>
-					<key>notifications</key>
-					<dict/>
-					<key>offset</key>
-					<string>{0, 0}</string>
-					<key>spriteframe</key>
-					<string>zhanshi0009</string>
-				</dict>
-				<dict>
-					<key>DocumentSecurityImageBookmark</key>
-					<data>
-					Ym9va+wEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
-					AAAAAAAAAAAAAAAAAAAAAAAAAAAA0AMAAAUA
-					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
-					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
-					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
-					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
-					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQYAAAAB
-					AQAAQ29va2VkAAAGAAAAAQEAAGlwYWRoZAAA
-					EwAAAAEBAABHYW1lRGF0YV9jaGFyMDIucG5n
-					ACwAAAABBgAABAAAABQAAAAkAAAANAAAAEgA
-					AABIAAAAZAAAAHgAAACIAAAAmAAAAKgAAAAI
-					AAAABAMAAGVYBwAAAAAACAAAAAQDAABoWAcA
-					AAAAAAgAAAAEAwAAilgHAAAAAAAIAAAABAMA
-					AIxYBwAAAAAACAAAAAQDAACWyE4AAAAAAAgA
-					AAAEAwAA28hOAAAAAAAIAAAABAMAAOLITgAA
-					AAAACAAAAAQDAAADyU4AAAAAAAgAAAAEAwAA
-					BMlOAAAAAAAIAAAABAMAAA7JTgAAAAAACAAA
-					AAQDAAARyU4AAAAAACwAAAABBgAA+AAAAAgB
-					AAAYAQAAKAEAADgBAABIAQAAWAEAAGgBAAB4
-					AQAAiAEAAJgBAAAYAAAAAQIAAAEAAAAAAAAA
-					DwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAA
-					AAMDAAABAAAABAAAAAMDAAACAAAACAAAAAQD
-					AAAJAAAAAAAAAAQAAAADAwAA9gEAAAIAAAAB
-					AQAAb3MAAAgAAAAEAwAAAMA/XHQAAAAIAAAA
-					AAQAAEG3J4nSAAAAJAAAAAEBAAAyRTRDQThD
-					Ri1FMzIwLTNDREItQkMyRi1DNDY5NUYzMjUz
-					NjAYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAA
-					AAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAA
-					AAEAAAABAAABAgAAMzdlY2ZmNDQ1ZThlY2Rl
-					YjgwMzg2OGM3ZDMwZmQ1OWU1OTQ2OGNlNzsw
-					MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2Nv
-					bS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdy
-					aXRlOzAwMDAwMDAxOzBlMDAwMDAyOzAwMDAw
-					MDAwMDA0ZWM5MTE7L3VzZXJzL2ppbmxpbi9f
-					ZGV2Xy9fcHJvamVjdF8vbXVsdGljaGFyYWN0
-					ZXJydXNoL211bHRpY2hhcmFjdGVycnVzaC9y
-					ZXNvdXJjZXMvZ2FtZWRhdGEvY29va2VkL2lw
-					YWRoZC9nYW1lZGF0YV9jaGFyMDIucG5nAOQA
-					AAD+////AQAAAAAAAAASAAAABBAAAMQAAAAA
-					AAAABRAAAKgBAAAAAAAAEBAAANwBAAAAAAAA
-					VBAAAAQCAAAAAAAAVRAAABACAAAAAAAAVhAA
-					APwBAAAAAAAAAiAAALACAAAAAAAAECAAADgC
-					AAAAAAAAESAAAGQCAAAAAAAAEiAAAEQCAAAA
-					AAAAEyAAAFQCAAAAAAAAICAAAJACAAAAAAAA
-					MCAAAPwBAAAAAAAAAcAAABwCAAAAAAAAEcAA
-					ABQAAAAAAAAAEsAAACwCAAAAAAAAENAAALwC
-					AAAAAAAAgPAAAMgCAAAAAAAA
-					</data>
-					<key>Frame</key>
-					<string>{{2, 225}, {51, 25.75}}</string>
-					<key>Frame-HD</key>
-					<string>{{8, 900}, {204, 103}}</string>
-					<key>IsRotated</key>
-					<false/>
-					<key>OriginalImage</key>
-					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Cooked/ipadhd/GameData_char02.png</string>
-					<key>SpriteSize</key>
-					<string>{51, 25.75}</string>
-					<key>TextureOffset</key>
-					<string>{-100.5, -109.875}</string>
-					<key>delayPerUnit</key>
-					<real>0.20000000298023224</real>
-					<key>notifications</key>
-					<dict/>
-					<key>offset</key>
-					<string>{0, 0}</string>
-					<key>spriteframe</key>
-					<string>zhanshi0010</string>
-				</dict>
-			</array>
-			<key>Loop</key>
-			<false/>
-			<key>Repetitions</key>
-			<integer>1</integer>
-			<key>RestoreOriginalFrame</key>
-			<false/>
-			<key>SheetImage</key>
-			<string>GameData_char02.png</string>
-			<key>SheetName</key>
-			<string>char02</string>
-			<key>StartAtLaunch</key>
-			<true/>
-			<key>UniqueName</key>
-			<string>char02_land</string>
-		</dict>
-		<dict>
-			<key>DelayPerUnit</key>
-			<real>0.40000000596046448</real>
-			<key>Frames</key>
-			<array>
-				<dict>
-					<key>DocumentSecurityImageBookmark</key>
-					<data>
-					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
-					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
-					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
-					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
-					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
-					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
-					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
-					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
-					CgAAAAEBAABjaHIwMV9qdW1wAAATAAAAAQEA
-					AHdpemFyZF9qdW1wMDAwMi5wbmcAMAAAAAEG
-					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
-					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
-					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
-					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
-					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
-					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
-					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
-					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
-					AAAfyU4AAAAAAAgAAAAEAwAALJFPAAAAAAAw
-					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
-					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
-					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
-					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
-					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
-					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
-					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
-					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
-					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
-					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
-					AAEBAAAvAAAABAAAAAMDAAAAAQAACwEAAAEC
-					AABmMzIwMDg2ZDgyOThlOTc2NDRjYzBiNWI3
-					NzY5OGExY2RlMGFhYWU4OzAwMDAwMDAwOzAw
-					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
-					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
-					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDRmOTEy
-					YzsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
-					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
-					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
-					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAx
-					X2p1bXAvd2l6YXJkX2p1bXAwMDAyLnBuZwAA
-					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
-					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
-					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
-					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
-					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
-					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
-					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
-					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
-					6AIAAAAAAACA8AAA9AIAAAAAAAA=
-					</data>
-					<key>Frame</key>
-					<string>{{60, 218}, {38, 54.75}}</string>
-					<key>Frame-HD</key>
-					<string>{{240, 872}, {152, 219}}</string>
-					<key>IsRotated</key>
-					<true/>
-					<key>OriginalImage</key>
-					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr01_jump/wizard_jump0002.png</string>
-					<key>SpriteSize</key>
-					<string>{38, 54.75}</string>
-					<key>TextureOffset</key>
-					<string>{0, 0}</string>
-					<key>delayPerUnit</key>
-					<real>0.20000000298023224</real>
-					<key>notifications</key>
-					<dict/>
-					<key>offset</key>
-					<string>{0, 0}</string>
-					<key>spriteframe</key>
-					<string>wizard_jump0002</string>
-				</dict>
-				<dict>
-					<key>DocumentSecurityImageBookmark</key>
-					<data>
-					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
-					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
-					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
-					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
-					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
-					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
-					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
-					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
-					CgAAAAEBAABjaHIwMV9qdW1wAAATAAAAAQEA
-					AHdpemFyZF9qdW1wMDAwMy5wbmcAMAAAAAEG
-					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
-					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
-					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
-					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
-					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
-					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
-					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
-					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
-					AAAfyU4AAAAAAAgAAAAEAwAAKJFPAAAAAAAw
-					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
-					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
-					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
-					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
-					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
-					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
-					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
-					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
-					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
-					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
-					AAEBAAAvAAAABAAAAAMDAAAAAQAACwEAAAEC
-					AAA4Mjc4MGY2YmFhZjY2Mzc3ZjI4MTNiMTA5
-					MGU4NmNlODYwZjc0MWRiOzAwMDAwMDAwOzAw
-					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
-					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
-					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDRmOTEy
-					ODsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
-					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
-					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
-					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAx
-					X2p1bXAvd2l6YXJkX2p1bXAwMDAzLnBuZwAA
-					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
-					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
-					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
-					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
-					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
-					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
-					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
-					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
-					6AIAAAAAAACA8AAA9AIAAAAAAAA=
-					</data>
-					<key>Frame</key>
-					<string>{{117, 215}, {37, 53}}</string>
-					<key>Frame-HD</key>
-					<string>{{468, 860}, {148, 212}}</string>
-					<key>IsRotated</key>
-					<true/>
-					<key>OriginalImage</key>
-					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr01_jump/wizard_jump0003.png</string>
-					<key>SpriteSize</key>
-					<string>{37, 53}</string>
-					<key>TextureOffset</key>
-					<string>{0, 0}</string>
-					<key>delayPerUnit</key>
-					<real>0.20000000298023224</real>
-					<key>notifications</key>
-					<dict/>
-					<key>offset</key>
-					<string>{0, 0}</string>
-					<key>spriteframe</key>
-					<string>wizard_jump0003</string>
-				</dict>
-				<dict>
-					<key>DocumentSecurityImageBookmark</key>
-					<data>
-					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
-					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
-					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
-					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
-					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
-					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
-					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
-					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
-					CgAAAAEBAABjaHIwMV9qdW1wAAATAAAAAQEA
-					AHdpemFyZF9qdW1wMDAwNC5wbmcAMAAAAAEG
-					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
-					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
-					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
-					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
-					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
-					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
-					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
-					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
-					AAAfyU4AAAAAAAgAAAAEAwAAH5FPAAAAAAAw
-					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
-					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
-					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
-					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
-					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
-					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
-					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
-					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
-					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
-					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
-					AAEBAAAvAAAABAAAAAMDAAAAAQAACwEAAAEC
-					AABiODY5OGI0MmFhOGNiMDMwY2ViYTg3NmEz
-					Mjc1Yzc2YTE3MTEwMWNhOzAwMDAwMDAwOzAw
-					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
-					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
-					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDRmOTEx
-					ZjsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
-					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
-					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
-					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAx
-					X2p1bXAvd2l6YXJkX2p1bXAwMDA0LnBuZwAA
-					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
-					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
-					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
-					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
-					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
-					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
-					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
-					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
-					6AIAAAAAAACA8AAA9AIAAAAAAAA=
-					</data>
-					<key>Frame</key>
-					<string>{{133, 105}, {37.5, 51.75}}</string>
-					<key>Frame-HD</key>
-					<string>{{532, 420}, {150, 205}}</string>
-					<key>IsRotated</key>
-					<false/>
-					<key>OriginalImage</key>
-					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr01_jump/wizard_jump0004.png</string>
-					<key>SpriteSize</key>
-					<string>{37.5, 51.75}</string>
-					<key>TextureOffset</key>
-					<string>{0, 0}</string>
-					<key>delayPerUnit</key>
-					<real>0.20000000298023224</real>
-					<key>notifications</key>
-					<dict/>
-					<key>offset</key>
-					<string>{0, 0}</string>
-					<key>spriteframe</key>
-					<string>wizard_jump0004</string>
-				</dict>
-				<dict>
-					<key>DocumentSecurityImageBookmark</key>
-					<data>
-					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
-					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
-					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
-					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
-					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
-					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
-					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
-					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
-					CgAAAAEBAABjaHIwMV9qdW1wAAATAAAAAQEA
-					AHdpemFyZF9qdW1wMDAwNS5wbmcAMAAAAAEG
-					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
-					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
-					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
-					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
-					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
-					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
-					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
-					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
-					AAAfyU4AAAAAAAgAAAAEAwAADpFPAAAAAAAw
-					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
-					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
-					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
-					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
-					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
-					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
-					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
-					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
-					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
-					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
-					AAEBAAAvAAAABAAAAAMDAAAAAQAACwEAAAEC
-					AAA4NjJjZjAxYTgzZGZmMjhkMGZkYjgyZDEw
-					ZmE4ZjA0ZGU4Zjc3YjRiOzAwMDAwMDAwOzAw
-					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
-					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
-					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDRmOTEw
-					ZTsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
-					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
-					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
-					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAx
-					X2p1bXAvd2l6YXJkX2p1bXAwMDA1LnBuZwAA
-					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
-					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
-					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
-					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
-					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
-					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
-					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
-					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
-					6AIAAAAAAACA8AAA9AIAAAAAAAA=
-					</data>
-					<key>Frame</key>
-					<string>{{136, 158}, {37.5, 51.75}}</string>
-					<key>Frame-HD</key>
-					<string>{{544, 632}, {150, 205}}</string>
-					<key>IsRotated</key>
-					<false/>
-					<key>OriginalImage</key>
-					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr01_jump/wizard_jump0005.png</string>
-					<key>SpriteSize</key>
-					<string>{37.5, 51.75}</string>
-					<key>TextureOffset</key>
-					<string>{0, 0}</string>
-					<key>delayPerUnit</key>
-					<real>0.20000000298023224</real>
-					<key>notifications</key>
-					<dict/>
-					<key>offset</key>
-					<string>{0, 0}</string>
-					<key>spriteframe</key>
-					<string>wizard_jump0005</string>
-				</dict>
-				<dict>
-					<key>DocumentSecurityImageBookmark</key>
-					<data>
 					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
 					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
 					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
@@ -11466,7 +10728,7 @@
 					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
 					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
 					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
-					AAAfyU4AAAAAAAgAAAAEAwAAXZFPAAAAAAAw
+					AAAfyU4AAAAAAAgAAAAEAwAAaFdQAAAAAAAw
 					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
 					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
 					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
@@ -11478,332 +10740,15 @@
 					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
 					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
 					AAEBAAAvAAAABAAAAAMDAAAAAQAACwEAAAEC
-					AAAwYjE5ZDZkMTNmZWI4M2E5ZWI1Y2VlZjk1
-					NDJhYTU0ZWE5NjYyNzc0OzAwMDAwMDAwOzAw
+					AABkN2EzYTVlZDQ1NTdhNGI0Y2MyMjEyNzMy
+					ZWQ5NzZmOWI4ZjExZDJkOzAwMDAwMDAwOzAw
 					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
 					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
-					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDRmOTE1
-					ZDsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
-					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
-					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
-					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAx
-					X2p1bXAvd2l6YXJkX2p1bXAwMDA2LnBuZwAA
-					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
-					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
-					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
-					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
-					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
-					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
-					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
-					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
-					6AIAAAAAAACA8AAA9AIAAAAAAAA=
-					</data>
-					<key>Frame</key>
-					<string>{{95, 163}, {39.75, 50.75}}</string>
-					<key>Frame-HD</key>
-					<string>{{380, 652}, {157, 203}}</string>
-					<key>IsRotated</key>
-					<false/>
-					<key>OriginalImage</key>
-					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr01_jump/wizard_jump0006.png</string>
-					<key>SpriteSize</key>
-					<string>{39.75, 50.75}</string>
-					<key>TextureOffset</key>
-					<string>{0, 0}</string>
-					<key>delayPerUnit</key>
-					<real>0.20000000298023224</real>
-					<key>notifications</key>
-					<dict/>
-					<key>offset</key>
-					<string>{0, 0}</string>
-					<key>spriteframe</key>
-					<string>wizard_jump0006</string>
-				</dict>
-				<dict>
-					<key>DocumentSecurityImageBookmark</key>
-					<data>
-					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
-					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
-					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
-					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
-					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
-					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
-					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
-					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
-					CgAAAAEBAABjaHIwMV9qdW1wAAATAAAAAQEA
-					AHdpemFyZF9qdW1wMDAwNy5wbmcAMAAAAAEG
-					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
-					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
-					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
-					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
-					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
-					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
-					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
-					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
-					AAAfyU4AAAAAAAgAAAAEAwAAVpFPAAAAAAAw
-					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
-					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
-					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
-					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
-					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
-					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
-					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
-					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
-					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
-					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
-					AAEBAAAvAAAABAAAAAMDAAAAAQAACwEAAAEC
-					AAA4MDkyZjhjZWJkYjUwZGY0YmM2OWFkNWQ5
-					MThkNGVkYmYzOTQ1MTRhOzAwMDAwMDAwOzAw
-					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
-					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
-					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDRmOTE1
-					NjsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
-					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
-					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
-					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAx
-					X2p1bXAvd2l6YXJkX2p1bXAwMDA3LnBuZwAA
-					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
-					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
-					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
-					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
-					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
-					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
-					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
-					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
-					6AIAAAAAAACA8AAA9AIAAAAAAAA=
-					</data>
-					<key>Frame</key>
-					<string>{{172, 212}, {37.5, 49.5}}</string>
-					<key>Frame-HD</key>
-					<string>{{688, 848}, {150, 198}}</string>
-					<key>IsRotated</key>
-					<true/>
-					<key>OriginalImage</key>
-					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr01_jump/wizard_jump0007.png</string>
-					<key>SpriteSize</key>
-					<string>{37.5, 49.5}</string>
-					<key>TextureOffset</key>
-					<string>{0, 0}</string>
-					<key>delayPerUnit</key>
-					<real>0.20000000298023224</real>
-					<key>notifications</key>
-					<dict/>
-					<key>offset</key>
-					<string>{0, 0}</string>
-					<key>spriteframe</key>
-					<string>wizard_jump0007</string>
-				</dict>
-				<dict>
-					<key>DocumentSecurityImageBookmark</key>
-					<data>
-					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
-					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
-					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
-					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
-					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
-					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
-					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
-					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
-					CgAAAAEBAABjaHIwMV9qdW1wAAATAAAAAQEA
-					AHdpemFyZF9qdW1wMDAwOC5wbmcAMAAAAAEG
-					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
-					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
-					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
-					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
-					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
-					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
-					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
-					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
-					AAAfyU4AAAAAAAgAAAAEAwAAUpFPAAAAAAAw
-					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
-					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
-					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
-					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
-					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
-					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
-					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
-					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
-					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
-					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
-					AAEBAAAvAAAABAAAAAMDAAAAAQAACwEAAAEC
-					AAA1YzU1NWU1YzZjZDM1N2Q3YjM1NWE0NTA0
-					NDc4MDVjNzI4MjZiMjZjOzAwMDAwMDAwOzAw
-					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
-					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
-					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDRmOTE1
-					MjsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
-					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
-					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
-					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAx
-					X2p1bXAvd2l6YXJkX2p1bXAwMDA4LnBuZwAA
-					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
-					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
-					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
-					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
-					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
-					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
-					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
-					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
-					6AIAAAAAAACA8AAA9AIAAAAAAAA=
-					</data>
-					<key>Frame</key>
-					<string>{{94, 105}, {36.5, 55.5}}</string>
-					<key>Frame-HD</key>
-					<string>{{376, 420}, {146, 222}}</string>
-					<key>IsRotated</key>
-					<false/>
-					<key>OriginalImage</key>
-					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr01_jump/wizard_jump0008.png</string>
-					<key>SpriteSize</key>
-					<string>{36.5, 55.5}</string>
-					<key>TextureOffset</key>
-					<string>{0, 0}</string>
-					<key>delayPerUnit</key>
-					<real>0.20000000298023224</real>
-					<key>notifications</key>
-					<dict/>
-					<key>offset</key>
-					<string>{0, 0}</string>
-					<key>spriteframe</key>
-					<string>wizard_jump0008</string>
-				</dict>
-				<dict>
-					<key>DocumentSecurityImageBookmark</key>
-					<data>
-					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
-					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
-					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
-					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
-					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
-					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
-					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
-					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
-					CgAAAAEBAABjaHIwMV9qdW1wAAATAAAAAQEA
-					AHdpemFyZF9qdW1wMDAwOS5wbmcAMAAAAAEG
-					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
-					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
-					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
-					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
-					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
-					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
-					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
-					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
-					AAAfyU4AAAAAAAgAAAAEAwAAKMlOAAAAAAAw
-					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
-					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
-					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
-					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
-					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
-					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
-					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
-					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
-					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
-					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
-					AAEBAAAvAAAABAAAAAMDAAAAAQAACwEAAAEC
-					AAAyNGUwYzhhZTU0MGQwM2U4MjA4MmZkOTI1
-					ZjEzNjA0MmIxYWFmNzNiOzAwMDAwMDAwOzAw
-					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
-					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
-					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDRlYzky
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwNTc2
 					ODsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
 					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
 					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
 					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAx
-					X2p1bXAvd2l6YXJkX2p1bXAwMDA5LnBuZwAA
-					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
-					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
-					AABUEAAAMAIAAAAAAABVEAAAPAIAAAAAAABW
-					EAAAKAIAAAAAAAACIAAA3AIAAAAAAAAQIAAA
-					ZAIAAAAAAAARIAAAkAIAAAAAAAASIAAAcAIA
-					AAAAAAATIAAAgAIAAAAAAAAgIAAAvAIAAAAA
-					AAAwIAAAKAIAAAAAAAABwAAASAIAAAAAAAAR
-					wAAAFAAAAAAAAAASwAAAWAIAAAAAAAAQ0AAA
-					6AIAAAAAAACA8AAA9AIAAAAAAAA=
-					</data>
-					<key>Frame</key>
-					<string>{{2, 219}, {36.75, 56}}</string>
-					<key>Frame-HD</key>
-					<string>{{8, 876}, {147, 224}}</string>
-					<key>IsRotated</key>
-					<true/>
-					<key>OriginalImage</key>
-					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr01_jump/wizard_jump0009.png</string>
-					<key>SpriteSize</key>
-					<string>{36.75, 56}</string>
-					<key>TextureOffset</key>
-					<string>{0, 0}</string>
-					<key>delayPerUnit</key>
-					<real>0.20000000298023224</real>
-					<key>notifications</key>
-					<dict/>
-					<key>offset</key>
-					<string>{0, 0}</string>
-					<key>spriteframe</key>
-					<string>wizard_jump0009</string>
-				</dict>
-			</array>
-			<key>Loop</key>
-			<false/>
-			<key>Repetitions</key>
-			<integer>1</integer>
-			<key>RestoreOriginalFrame</key>
-			<false/>
-			<key>SheetImage</key>
-			<string>GameData_char01.png</string>
-			<key>SheetName</key>
-			<string>char01</string>
-			<key>StartAtLaunch</key>
-			<true/>
-			<key>UniqueName</key>
-			<string>char01_jump02</string>
-		</dict>
-		<dict>
-			<key>DelayPerUnit</key>
-			<real>0.40000000596046448</real>
-			<key>Frames</key>
-			<array>
-				<dict>
-					<key>DocumentSecurityImageBookmark</key>
-					<data>
-					Ym9vayQFAAAAAAQQMAAAAAAAAAAAAAAAAAAA
-					AAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAUA
-					AAABAQAAVXNlcnMAAAAGAAAAAQEAAGppbmxp
-					bgAABQAAAAEBAABfRGV2XwAAAAkAAAABAQAA
-					X1Byb2plY3RfAAAAEgAAAAEBAABNdWx0aUNo
-					YXJhY3RlclJ1c2gAAAkAAAABAQAAUmVzb3Vy
-					Y2VzAAAACAAAAAEBAABHYW1lRGF0YQMAAAAB
-					AQAAUmF3AAkAAAABAQAAQ2hhcmFjdGVyAAAA
-					CgAAAAEBAABjaHIwMV9qdW1wAAATAAAAAQEA
-					AHdpemFyZF9qdW1wMDAwNi5wbmcAMAAAAAEG
-					AAAEAAAAFAAAACQAAAA0AAAASAAAAEgAAABk
-					AAAAeAAAAIgAAACUAAAAqAAAALwAAAAIAAAA
-					BAMAAGVYBwAAAAAACAAAAAQDAABoWAcAAAAA
-					AAgAAAAEAwAAilgHAAAAAAAIAAAABAMAAIxY
-					BwAAAAAACAAAAAQDAACWyE4AAAAAAAgAAAAE
-					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
-					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
-					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
-					AAAfyU4AAAAAAAgAAAAEAwAAXZFPAAAAAAAw
-					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
-					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
-					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
-					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAIAAAAE
-					AAAAAwMAAAQAAAAIAAAABAMAAAoAAAAAAAAA
-					BAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAA
-					AAQDAAAAwD9cdAAAAAgAAAAABAAAQbcnidIA
-					AAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
-					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
-					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
-					AAEBAAAvAAAABAAAAAMDAAAAAQAACwEAAAEC
-					AAAwYjE5ZDZkMTNmZWI4M2E5ZWI1Y2VlZjk1
-					NDJhYTU0ZWE5NjYyNzc0OzAwMDAwMDAwOzAw
-					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
-					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
-					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDRmOTE1
-					ZDsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
-					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
-					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
-					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAx
 					X2p1bXAvd2l6YXJkX2p1bXAwMDA2LnBuZwAA
 					5AAAAP7///8BAAAAAAAAABIAAAAEEAAA2AAA
 					AAAAAAAFEAAA0AEAAAAAAAAQEAAACAIAAAAA
@@ -11816,15 +10761,15 @@
 					6AIAAAAAAACA8AAA9AIAAAAAAAA=
 					</data>
 					<key>Frame</key>
-					<string>{{95, 163}, {39.75, 50.75}}</string>
+					<string>{{142, 110}, {41.5, 53.75}}</string>
 					<key>Frame-HD</key>
-					<string>{{380, 652}, {157, 203}}</string>
+					<string>{{568, 440}, {166, 213}}</string>
 					<key>IsRotated</key>
 					<false/>
 					<key>OriginalImage</key>
 					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr01_jump/wizard_jump0006.png</string>
 					<key>SpriteSize</key>
-					<string>{39.75, 50.75}</string>
+					<string>{41.5, 53.75}</string>
 					<key>TextureOffset</key>
 					<string>{0, 0}</string>
 					<key>delayPerUnit</key>
@@ -11857,7 +10802,7 @@
 					AwAA28hOAAAAAAAIAAAABAMAAOLITgAAAAAA
 					CAAAAAQDAAADyU4AAAAAAAgAAAAEAwAAGslO
 					AAAAAAAIAAAABAMAAB7JTgAAAAAACAAAAAQD
-					AAAfyU4AAAAAAAgAAAAEAwAAVpFPAAAAAAAw
+					AAAfyU4AAAAAAAgAAAAEAwAAaVdQAAAAAAAw
 					AAAAAQYAABABAAAgAQAAMAEAAEABAABQAQAA
 					YAEAAHABAACAAQAAkAEAAKABAACwAQAAwAEA
 					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
@@ -11869,12 +10814,12 @@
 					Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAA
 					gQAAAAEACADvPwAAAQAIAAAAAAAAAAAAAQAA
 					AAEBAAAvAAAABAAAAAMDAAAAAQAACwEAAAEC
-					AAA4MDkyZjhjZWJkYjUwZGY0YmM2OWFkNWQ5
-					MThkNGVkYmYzOTQ1MTRhOzAwMDAwMDAwOzAw
+					AABhMGVjNWFjMWQ4MmUyYmE0OWU3ZDliMzAz
+					NzU4NWM0YzI0NzdlMzFjOzAwMDAwMDAwOzAw
 					MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFw
 					cC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
-					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDRmOTE1
-					NjsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
+					MDE7MGUwMDAwMDI7MDAwMDAwMDAwMDUwNTc2
+					OTsvdXNlcnMvamlubGluL19kZXZfL19wcm9q
 					ZWN0Xy9tdWx0aWNoYXJhY3RlcnJ1c2gvbXVs
 					dGljaGFyYWN0ZXJydXNoL3Jlc291cmNlcy9n
 					YW1lZGF0YS9yYXcvY2hhcmFjdGVyL2NocjAx
@@ -11890,15 +10835,15 @@
 					6AIAAAAAAACA8AAA9AIAAAAAAAA=
 					</data>
 					<key>Frame</key>
-					<string>{{172, 212}, {37.5, 49.5}}</string>
+					<string>{{180, 165}, {39.75, 51.75}}</string>
 					<key>Frame-HD</key>
-					<string>{{688, 848}, {150, 198}}</string>
+					<string>{{720, 660}, {157, 207}}</string>
 					<key>IsRotated</key>
 					<true/>
 					<key>OriginalImage</key>
 					<string>/Users/jinlin/_Dev_/_Project_/MultiCharacterRush/MultiCharacterRush/Resources/GameData/Raw/Character/chr01_jump/wizard_jump0007.png</string>
 					<key>SpriteSize</key>
-					<string>{37.5, 49.5}</string>
+					<string>{39.75, 51.75}</string>
 					<key>TextureOffset</key>
 					<string>{0, 0}</string>
 					<key>delayPerUnit</key>
@@ -11966,8 +10911,8 @@
 	AAAAAAAIAAAABAMAAAcAAAAAAAAABAAAAAMDAAD2AQAAAgAAAAEBAABvcwAACAAAAAQD
 	AAAAwD9cdAAAAAgAAAAABAAAQbcnidIAAAAkAAAAAQEAADJFNENBOENGLUUzMjAtM0NE
 	Qi1CQzJGLUM0Njk1RjMyNTM2MBgAAAABAgAAgQAAAAEACADvPwAAAQAIAAAAAAAAAAAA
-	AQAAAAEBAAAvAAAAAAAAAAEFAAAEAAAAAwMAAAABAADlAAAAAQIAADQ5YzhkMDg1YWJi
-	NjMzNzYwNzk5MjIxYjM4ODkzM2Q4YjNkYTk1Y2M7MDAwMDAwMDA7MDAwMDAwMDAwMDAw
+	AQAAAAEBAAAvAAAAAAAAAAEFAAAEAAAAAwMAAAABAADlAAAAAQIAAGM5NjY1ODk1YjYw
+	MjFiZWIxZTJjYzA2MzQ3NjgyYWQ5N2ZkYjVlZWI7MDAwMDAwMDA7MDAwMDAwMDAwMDAw
 	MDAyMDtjb20uYXBwbGUuYXBwLXNhbmRib3gucmVhZC13cml0ZTswMDAwMDAwMTswZTAw
 	MDAwMjswMDAwMDAwMDAwNGVjOTA0Oy91c2Vycy9qaW5saW4vX2Rldl8vX3Byb2plY3Rf
 	L211bHRpY2hhcmFjdGVycnVzaC9tdWx0aWNoYXJhY3RlcnJ1c2gvcmVzb3VyY2VzL2dh
